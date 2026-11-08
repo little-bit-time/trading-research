@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "coins": 657,
+  "zones": 42426,
+  "synthetic": [
+    "quiet",
+    "single-minute burst",
+    "full 5m availability",
+    "prefix",
+    "downward rejection",
+    "gap",
+    "slow series",
+    "future perturbation"
+  ],
+  "prefix_checks": 44,
+  "outcome_checks": 6876,
+  "stats": {
+    "fast": {
+      "total": 37253,
+      "short": 36567,
+      "day": 45,
+      "closed": 37245,
+      "up20": 1061,
+      "flat": 11265,
+      "down20": 717,
+      "missing24": 415
+    },
+    "long": {
+      "total": 5173,
+      "short": 3,
+      "day": 3078,
+      "closed": 4994,
+      "up20": 100,
+      "flat": 1729,
+      "down20": 51,
+      "missing24": 70
+    }
+  },
+  "protocol_sha256": "074066507d8c8c9e45495fbce901da215f00b621a702884a3a026aa5ca103053",
+  "source_sha256": "d7ac0a1331efbef0cc5e9ecadc6e362be133a930a41180248b03118fdfb3bad9"
+}
