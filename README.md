@@ -5,6 +5,8 @@
 историей Git. Главный репозиторий AbnormalTrading и его история не публикуются.
 
 - `index.html` — оглавление исследований.
+- `minute-replay/index.html` — полный последовательный проход по всем минутам
+  657 инструментов, все попытки и повторные выбросы, включая затухание.
 - `awakening-aria-evaa/dormant.html` — первые выбросы после затишья.
 - `awakening-aria-evaa/index.html` — атлас ARIA/EVAA и реальных баллов модели.
 - `research-publication.json` — список публикуемых файлов и SHA-256.

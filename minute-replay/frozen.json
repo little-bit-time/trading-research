@@ -1,0 +1,7 @@
+{
+  "protocol.json": "9e8d5a12f22a983a211208eceb34e39af2639c4ca5fa03350e3a6916269087d7",
+  "starts-before-outcomes.json.gz": "90a20eaea887d73dd79212f0792dc8412198aee3751b21af520e0337d67b78fa",
+  "all-spikes.json.gz": "f048ed158787c7dccff2fcafaf1066c6063a7e5767e4064c5b6ce201624e7703",
+  "lifecycle.json.gz": "d640cc29b95e09fceca86c4eb3a0455f0e398d717a9a0b9de24be56ea123962b",
+  "coverage.json": "848252bdfdcbefa5e4a6e8b773d8dbf52be716d7326bd1566e65986b3cdaf165"
+}

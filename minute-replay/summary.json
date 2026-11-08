@@ -1,0 +1,4083 @@
+{
+  "coins": [
+    "0G",
+    "1INCH",
+    "1MBABYDOGE",
+    "2U2",
+    "2Z",
+    "4",
+    "4STOCK",
+    "??",
+    "???",
+    "????",
+    "?????",
+    "A",
+    "AAVE",
+    "ACE",
+    "ACH",
+    "ACNX",
+    "ACT",
+    "ACU",
+    "ADA",
+    "AEON",
+    "AERO",
+    "AEVO",
+    "AGENCY",
+    "AGI",
+    "AGLD",
+    "AGT",
+    "AIA",
+    "AIGENSYN",
+    "AIN",
+    "AINVDA",
+    "AIO",
+    "AIOT",
+    "AIOZ",
+    "AIXBT",
+    "AKE",
+    "AKT",
+    "ALCH",
+    "ALGO",
+    "ALICE",
+    "ALLO",
+    "ALPINE",
+    "ALT",
+    "ANIME",
+    "ANKR",
+    "ANSEM",
+    "APE",
+    "APEX",
+    "API3",
+    "APR",
+    "APT",
+    "AR",
+    "ARB",
+    "ARC",
+    "ARCSOL",
+    "ARGUS",
+    "ARIA",
+    "ARK",
+    "ARKM",
+    "ARPA",
+    "ARX",
+    "ASR",
+    "ASTER",
+    "ASTR",
+    "AT",
+    "ATH",
+    "ATOM",
+    "AUCTION",
+    "AUDIO",
+    "AURORA",
+    "AVA",
+    "AVAAI",
+    "AVAX",
+    "AVNT",
+    "AWE",
+    "AXL",
+    "AXS",
+    "AZTEC",
+    "B",
+    "B2",
+    "B3",
+    "BABY",
+    "BABYDOGE",
+    "BAN",
+    "BANANA",
+    "BANANAS31",
+    "BAND",
+    "BANK",
+    "BARD",
+    "BAS",
+    "BASECAT",
+    "BASED",
+    "BAT",
+    "BATON",
+    "BB",
+    "BCH",
+    "BDX",
+    "BEAM",
+    "BEAMX",
+    "BEAT",
+    "BEL",
+    "BEN",
+    "BERA",
+    "BGSC",
+    "BICO",
+    "BIGTIME",
+    "BILL",
+    "BIO",
+    "BIRB",
+    "BLEND",
+    "BLESS",
+    "BLUAI",
+    "BLUR",
+    "BMT",
+    "BNB",
+    "BNT",
+    "BOBA",
+    "BOME",
+    "BONER",
+    "BONK",
+    "BP",
+    "BR",
+    "BRETT",
+    "BREV",
+    "BREW",
+    "BRL",
+    "BROCCOLI",
+    "BROCCOLI714",
+    "BROCCOLIF3B",
+    "BSB",
+    "BSV",
+    "BTC",
+    "BTR",
+    "BTT",
+    "BTW",
+    "BULLA",
+    "C",
+    "C98",
+    "CAKE",
+    "CAP",
+    "CARDS",
+    "CARV",
+    "CASHCAT",
+    "CAT",
+    "CATE",
+    "CATI",
+    "CC",
+    "CELO",
+    "CELR",
+    "CENT",
+    "CETUS",
+    "CFG",
+    "CFX",
+    "CGPT",
+    "CHEEMS",
+    "CHILLGUY",
+    "CHIP",
+    "CHR",
+    "CHZ",
+    "CKB",
+    "CLANKER",
+    "CLAUDIA",
+    "CLAUS",
+    "CLO",
+    "CNPY",
+    "COAI",
+    "COLLECT",
+    "COMP",
+    "COOKIE",
+    "COOL",
+    "CORE",
+    "COTI",
+    "COW",
+    "CP",
+    "CRO",
+    "CROSS",
+    "CRV",
+    "CT",
+    "CTC",
+    "CTK",
+    "CTR",
+    "CTSI",
+    "CVC",
+    "CVX",
+    "CYBER",
+    "CYS",
+    "DARK",
+    "DASH",
+    "DATA",
+    "DBR",
+    "DEEP",
+    "DELTA",
+    "DEXE",
+    "DFDVX",
+    "DGAI",
+    "DIA",
+    "DNA",
+    "DODO",
+    "DOGE",
+    "DOGS",
+    "DOLO",
+    "DOOD",
+    "DOPE",
+    "DOS",
+    "DOT",
+    "DRIFT",
+    "DRV",
+    "DUSK",
+    "DYDX",
+    "DYM",
+    "EACC",
+    "EDEN",
+    "EDGE",
+    "EDGEX",
+    "EDU",
+    "EGLD",
+    "EIGEN",
+    "ELSA",
+    "EMBER",
+    "ENA",
+    "ENJ",
+    "ENS",
+    "ENSO",
+    "EPIC",
+    "ERA",
+    "ESE",
+    "ESP",
+    "ESPORTS",
+    "ETC",
+    "ETH",
+    "ETHFI",
+    "ETHW",
+    "EUL",
+    "EUR",
+    "EVAA",
+    "F",
+    "FARTCOIN",
+    "FATCOIN",
+    "FET",
+    "FF",
+    "FHE",
+    "FIDA",
+    "FIGHT",
+    "FIL",
+    "FLOCK",
+    "FLOKI",
+    "FLORK",
+    "FLOW",
+    "FLR",
+    "FLUID",
+    "FLUX",
+    "FLYBRAIN",
+    "FOGO",
+    "FOLKS",
+    "FONE",
+    "FORM",
+    "FRAX",
+    "FRONG",
+    "FUTUON",
+    "G",
+    "GAIB",
+    "GALA",
+    "GAS",
+    "GENIUS",
+    "GIGGLE",
+    "GLM",
+    "GMT",
+    "GMX",
+    "GOAT",
+    "GP",
+    "GPS",
+    "GRAM",
+    "GRASS",
+    "GRIFFAIN",
+    "GRT",
+    "GRVT",
+    "GSTOCKBSC",
+    "GT",
+    "GTC",
+    "GUA",
+    "GUN",
+    "GWEI",
+    "H",
+    "HAEDAL",
+    "HANA",
+    "HBAR",
+    "HEI",
+    "HEMI",
+    "HIVE",
+    "HMSTR",
+    "HNT",
+    "HOLO",
+    "HOME",
+    "HOOKED",
+    "HOOKR",
+    "HOT",
+    "HUMA",
+    "HYPE",
+    "HYPER",
+    "ICNT",
+    "ICP",
+    "ID",
+    "IDOL",
+    "ILV",
+    "IMX",
+    "IN",
+    "INDEX",
+    "INIT",
+    "INJ",
+    "INX",
+    "IO",
+    "IOST",
+    "IOTA",
+    "IOTX",
+    "IRYS",
+    "JASMY",
+    "JCT",
+    "JEANPHIL",
+    "JELLYJELLY",
+    "JOE",
+    "JST",
+    "JTO",
+    "JUGGERNAUT",
+    "JUP",
+    "KAIA",
+    "KAITO",
+    "KAS",
+    "KAT",
+    "KAVA",
+    "KCS",
+    "KERNEL",
+    "KGEN",
+    "KII",
+    "KITE",
+    "KMNO",
+    "KNC",
+    "KOMA",
+    "KSM",
+    "LA",
+    "LAB",
+    "LAPTOP",
+    "LAYER",
+    "LDO",
+    "LIGHT",
+    "LINEA",
+    "LINK",
+    "LISTA",
+    "LIT",
+    "LPT",
+    "LQTY",
+    "LRC",
+    "LSK",
+    "LTC",
+    "LUMIA",
+    "LUNA",
+    "LUNC",
+    "LYN",
+    "M",
+    "MAGIC",
+    "MAGMA",
+    "MANA",
+    "MANTA",
+    "MANTRA",
+    "MARSCOIN",
+    "MASK",
+    "MAV",
+    "MAVIA",
+    "ME",
+    "MEGA",
+    "MELANIA",
+    "MEME",
+    "MEMEROBINHOOD",
+    "MERL",
+    "MET",
+    "METIS",
+    "MEW",
+    "MICRODUCK",
+    "MINA",
+    "MIRA",
+    "MITO",
+    "MMT",
+    "MNT",
+    "MOCA",
+    "MOG",
+    "MON",
+    "MOO",
+    "MOODENG",
+    "MORPHO",
+    "MOVE",
+    "MOVR",
+    "MTL",
+    "MUBARAK",
+    "MUSEBOOK",
+    "MYX",
+    "NAORIS",
+    "NEAR",
+    "NEIRO",
+    "NEIROCTO",
+    "NEO",
+    "NES",
+    "NEWT",
+    "NEX",
+    "NIGHT",
+    "NIL",
+    "NMR",
+    "NOM",
+    "NOT",
+    "NPC",
+    "NXPC",
+    "O",
+    "OFC",
+    "OG",
+    "OGN",
+    "OKB",
+    "OL",
+    "ON",
+    "ONDO",
+    "ONE",
+    "ONG",
+    "ONT",
+    "OP",
+    "OPEN",
+    "OPG",
+    "OPN",
+    "ORBIO",
+    "ORBS",
+    "ORCA",
+    "ORDER",
+    "ORDI",
+    "OTC",
+    "PAID",
+    "PAIR",
+    "PARTI",
+    "PAXG",
+    "PEAQ",
+    "PENDLE",
+    "PENGU",
+    "PEOPLE",
+    "PEPE",
+    "PHA",
+    "PI",
+    "PIEVERSE",
+    "PIPPIN",
+    "PIXEL",
+    "PLAY",
+    "PLUME",
+    "PNUT",
+    "POL",
+    "POLYX",
+    "PONS",
+    "POPCAT",
+    "PORTAL",
+    "POWER",
+    "POWR",
+    "PRL",
+    "PROM",
+    "PROMPT",
+    "PROS",
+    "PROVE",
+    "PTB",
+    "PUFFER",
+    "PUMP",
+    "PUNDIX",
+    "PYBOBO",
+    "PYTH",
+    "Q",
+    "QNT",
+    "QTUM",
+    "RARE",
+    "RATS",
+    "RAVE",
+    "RAY",
+    "RE",
+    "READY",
+    "RECALL",
+    "RED",
+    "REDSTONE",
+    "REKT",
+    "RENDER",
+    "RESOLV",
+    "REZ",
+    "RHEA",
+    "RIF",
+    "RIVER",
+    "RLC",
+    "RLS",
+    "RLUSD",
+    "ROBO",
+    "RON",
+    "RONIN",
+    "ROSE",
+    "RPL",
+    "RSR",
+    "RUNE",
+    "RVN",
+    "S",
+    "SAFE",
+    "SAGA",
+    "SAHARA",
+    "SAND",
+    "SANTOS",
+    "SAPIEN",
+    "SATS",
+    "SCR",
+    "SCRT",
+    "SEI",
+    "SENT",
+    "SFP",
+    "SHELL",
+    "SHIB",
+    "SHROOM",
+    "SI",
+    "SIGN",
+    "SKL",
+    "SKR",
+    "SKY",
+    "SKYAI",
+    "SLP",
+    "SLX",
+    "SNT",
+    "SNX",
+    "SOL",
+    "SOLV",
+    "SOMI",
+    "SONIC",
+    "SOON",
+    "SOPH",
+    "SOSO",
+    "SPACE",
+    "SPCX",
+    "SPELL",
+    "SPK",
+    "SPX",
+    "SQD",
+    "SSV",
+    "STABLE",
+    "STAMP",
+    "STAR",
+    "STBL",
+    "STEEM",
+    "STO",
+    "STOCKER",
+    "STONK",
+    "STONKS",
+    "STORJ",
+    "STRK",
+    "STX",
+    "SUE",
+    "SUI",
+    "SUN",
+    "SUPER",
+    "SUSHI",
+    "SWARMS",
+    "SXT",
+    "SYN",
+    "SYRUP",
+    "T",
+    "TA",
+    "TAC",
+    "TAG",
+    "TAIKO",
+    "TAKE",
+    "TAO",
+    "THE",
+    "THETA",
+    "TIA",
+    "TLM",
+    "TMX",
+    "TNSR",
+    "TOLLY",
+    "TOSHI",
+    "TOWNS",
+    "TQQQX",
+    "TRADOOR",
+    "TRB",
+    "TREAD",
+    "TREE",
+    "TRIA",
+    "TRUMP",
+    "TRUST",
+    "TRUTH",
+    "TRX",
+    "TST",
+    "TSTBSC",
+    "TURBO",
+    "TURTLE",
+    "TUT",
+    "TWT",
+    "UAI",
+    "UB",
+    "UMA",
+    "UNI",
+    "UP",
+    "US",
+    "USD1",
+    "USDC",
+    "USDE",
+    "USDG",
+    "USELESS",
+    "USTC",
+    "USUAL",
+    "VANA",
+    "VELO",
+    "VELODROME",
+    "VELVET",
+    "VET",
+    "VIRTUAL",
+    "VTHO",
+    "VVV",
+    "W",
+    "WAL",
+    "WAVES",
+    "WAXP",
+    "WCT",
+    "WET",
+    "WHUF",
+    "WIF",
+    "WLD",
+    "WLFI",
+    "WOO",
+    "XAI",
+    "XAN",
+    "XAUT",
+    "XCN",
+    "XDC",
+    "XDP",
+    "XEC",
+    "XLM",
+    "XMR",
+    "XNO",
+    "XNY",
+    "XPIN",
+    "XPL",
+    "XRP",
+    "XTZ",
+    "XVG",
+    "XVS",
+    "YB",
+    "YFI",
+    "YGG",
+    "ZAMA",
+    "ZBCN",
+    "ZBT",
+    "ZC",
+    "ZCAT",
+    "ZEC",
+    "ZEN",
+    "ZEREBRO",
+    "ZEST",
+    "ZETA",
+    "ZIL",
+    "ZK",
+    "ZKC",
+    "ZKP",
+    "ZORA",
+    "ZRO",
+    "ZRX",
+    "ZZZ"
+  ],
+  "first": 1788500520,
+  "last": 1793684460,
+  "minutes": 86400,
+  "days": [
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-12",
+    "2026-09-13",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-19",
+    "2026-09-20",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-26",
+    "2026-09-27",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-03",
+    "2026-10-04",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-10",
+    "2026-10-11",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-17",
+    "2026-10-18",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21",
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-24",
+    "2026-10-25",
+    "2026-10-26",
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30",
+    "2026-10-31",
+    "2026-11-01",
+    "2026-11-02",
+    "2026-11-03"
+  ],
+  "starts": 320470,
+  "spikes": 2043927,
+  "coin_summaries": [
+    {
+      "coin": "0G",
+      "starts": 692,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "1INCH",
+      "starts": 771,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "1MBABYDOGE",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "2U2",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "2Z",
+      "starts": 658,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "4",
+      "starts": 583,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "4STOCK",
+      "starts": 614,
+      "valid_candles": 80638
+    },
+    {
+      "coin": "??",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "???",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "????",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "?????",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "A",
+      "starts": 549,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AAVE",
+      "starts": 452,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ACE",
+      "starts": 574,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ACH",
+      "starts": 693,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ACNX",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "ACT",
+      "starts": 465,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ACU",
+      "starts": 657,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ADA",
+      "starts": 390,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AEON",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "AERO",
+      "starts": 528,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AEVO",
+      "starts": 716,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AGENCY",
+      "starts": 146,
+      "valid_candles": 43097
+    },
+    {
+      "coin": "AGI",
+      "starts": 494,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AGLD",
+      "starts": 622,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AGT",
+      "starts": 442,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AIA",
+      "starts": 543,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AIGENSYN",
+      "starts": 751,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AIN",
+      "starts": 258,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AINVDA",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "AIO",
+      "starts": 693,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AIOT",
+      "starts": 600,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AIOZ",
+      "starts": 523,
+      "valid_candles": 73519
+    },
+    {
+      "coin": "AIXBT",
+      "starts": 709,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AKE",
+      "starts": 354,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AKT",
+      "starts": 723,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ALCH",
+      "starts": 421,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ALGO",
+      "starts": 562,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ALICE",
+      "starts": 647,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ALLO",
+      "starts": 652,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ALPINE",
+      "starts": 441,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ALT",
+      "starts": 726,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ANIME",
+      "starts": 535,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ANKR",
+      "starts": 594,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ANSEM",
+      "starts": 725,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "APE",
+      "starts": 647,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "APEX",
+      "starts": 600,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "API3",
+      "starts": 688,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "APR",
+      "starts": 448,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "APT",
+      "starts": 467,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AR",
+      "starts": 690,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ARB",
+      "starts": 469,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ARC",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "ARCSOL",
+      "starts": 430,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ARGUS",
+      "starts": 97,
+      "valid_candles": 49164
+    },
+    {
+      "coin": "ARIA",
+      "starts": 260,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ARK",
+      "starts": 612,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ARKM",
+      "starts": 696,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ARPA",
+      "starts": 615,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ARX",
+      "starts": 664,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ASR",
+      "starts": 323,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ASTER",
+      "starts": 477,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ASTR",
+      "starts": 468,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AT",
+      "starts": 701,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ATH",
+      "starts": 730,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ATOM",
+      "starts": 538,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AUCTION",
+      "starts": 679,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AUDIO",
+      "starts": 57,
+      "valid_candles": 72083
+    },
+    {
+      "coin": "AURORA",
+      "starts": 208,
+      "valid_candles": 44684
+    },
+    {
+      "coin": "AVA",
+      "starts": 562,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AVAAI",
+      "starts": 577,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AVAX",
+      "starts": 413,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AVNT",
+      "starts": 770,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AWE",
+      "starts": 418,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AXL",
+      "starts": 633,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AXS",
+      "starts": 703,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "AZTEC",
+      "starts": 687,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "B",
+      "starts": 694,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "B2",
+      "starts": 432,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "B3",
+      "starts": 343,
+      "valid_candles": 72083
+    },
+    {
+      "coin": "BABY",
+      "starts": 640,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BABYDOGE",
+      "starts": 644,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BAN",
+      "starts": 452,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BANANA",
+      "starts": 588,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BANANAS31",
+      "starts": 545,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BAND",
+      "starts": 638,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BANK",
+      "starts": 704,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BARD",
+      "starts": 568,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BAS",
+      "starts": 531,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BASECAT",
+      "starts": 539,
+      "valid_candles": 73519
+    },
+    {
+      "coin": "BASED",
+      "starts": 708,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BAT",
+      "starts": 515,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BATON",
+      "starts": 343,
+      "valid_candles": 70502
+    },
+    {
+      "coin": "BB",
+      "starts": 720,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BCH",
+      "starts": 578,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BDX",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "BEAM",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "BEAMX",
+      "starts": 625,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BEAT",
+      "starts": 478,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BEL",
+      "starts": 458,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BEN",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "BERA",
+      "starts": 727,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BGSC",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "BICO",
+      "starts": 655,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BIGTIME",
+      "starts": 714,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BILL",
+      "starts": 715,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BIO",
+      "starts": 762,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BIRB",
+      "starts": 380,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BLEND",
+      "starts": 249,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BLESS",
+      "starts": 554,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BLUAI",
+      "starts": 605,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BLUR",
+      "starts": 451,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BMT",
+      "starts": 595,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BNB",
+      "starts": 552,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BNT",
+      "starts": 324,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BOBA",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "BOME",
+      "starts": 450,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BONER",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "BONK",
+      "starts": 540,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BP",
+      "starts": 489,
+      "valid_candles": 73519
+    },
+    {
+      "coin": "BR",
+      "starts": 407,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BRETT",
+      "starts": 691,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BREV",
+      "starts": 549,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BREW",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "BRL",
+      "starts": 365,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BROCCOLI",
+      "starts": 615,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BROCCOLI714",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "BROCCOLIF3B",
+      "starts": 363,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BSB",
+      "starts": 752,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BSV",
+      "starts": 687,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BTC",
+      "starts": 339,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BTR",
+      "starts": 688,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BTT",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "BTW",
+      "starts": 414,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "BULLA",
+      "starts": 538,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "C",
+      "starts": 554,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "C98",
+      "starts": 602,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CAKE",
+      "starts": 659,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CAP",
+      "starts": 580,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CARDS",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "CARV",
+      "starts": 274,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CASHCAT",
+      "starts": 663,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CAT",
+      "starts": 521,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CATE",
+      "starts": 681,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CATI",
+      "starts": 671,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CC",
+      "starts": 643,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CELO",
+      "starts": 659,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CELR",
+      "starts": 450,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CENT",
+      "starts": 149,
+      "valid_candles": 31471
+    },
+    {
+      "coin": "CETUS",
+      "starts": 648,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CFG",
+      "starts": 466,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CFX",
+      "starts": 676,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CGPT",
+      "starts": 748,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CHEEMS",
+      "starts": 296,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CHILLGUY",
+      "starts": 608,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CHIP",
+      "starts": 538,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CHR",
+      "starts": 684,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CHZ",
+      "starts": 674,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CKB",
+      "starts": 685,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CLANKER",
+      "starts": 646,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CLAUDIA",
+      "starts": 224,
+      "valid_candles": 31632
+    },
+    {
+      "coin": "CLAUS",
+      "starts": 188,
+      "valid_candles": 37458
+    },
+    {
+      "coin": "CLO",
+      "starts": 685,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CNPY",
+      "starts": 617,
+      "valid_candles": 81692
+    },
+    {
+      "coin": "COAI",
+      "starts": 694,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "COLLECT",
+      "starts": 11,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "COMP",
+      "starts": 707,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "COOKIE",
+      "starts": 567,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "COOL",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "CORE",
+      "starts": 756,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "COTI",
+      "starts": 518,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "COW",
+      "starts": 646,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CP",
+      "starts": 611,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CRO",
+      "starts": 711,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CROSS",
+      "starts": 604,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CRV",
+      "starts": 584,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CT",
+      "starts": 282,
+      "valid_candles": 43200
+    },
+    {
+      "coin": "CTC",
+      "starts": 216,
+      "valid_candles": 72083
+    },
+    {
+      "coin": "CTK",
+      "starts": 320,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CTR",
+      "starts": 499,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CTSI",
+      "starts": 504,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CVC",
+      "starts": 588,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CVX",
+      "starts": 724,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CYBER",
+      "starts": 107,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "CYS",
+      "starts": 629,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DARK",
+      "starts": 163,
+      "valid_candles": 37468
+    },
+    {
+      "coin": "DASH",
+      "starts": 423,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DATA",
+      "starts": 130,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DBR",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "DEEP",
+      "starts": 691,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DELTA",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "DEXE",
+      "starts": 745,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DFDVX",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "DGAI",
+      "starts": 704,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DIA",
+      "starts": 499,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DNA",
+      "starts": 174,
+      "valid_candles": 25768
+    },
+    {
+      "coin": "DODO",
+      "starts": 698,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DOGE",
+      "starts": 438,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DOGS",
+      "starts": 611,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DOLO",
+      "starts": 410,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DOOD",
+      "starts": 562,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DOPE",
+      "starts": 120,
+      "valid_candles": 25658
+    },
+    {
+      "coin": "DOS",
+      "starts": 675,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DOT",
+      "starts": 503,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DRIFT",
+      "starts": 336,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DRV",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "DUSK",
+      "starts": 714,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DYDX",
+      "starts": 737,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "DYM",
+      "starts": 710,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "EACC",
+      "starts": 72,
+      "valid_candles": 34201
+    },
+    {
+      "coin": "EDEN",
+      "starts": 699,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "EDGE",
+      "starts": 652,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "EDGEX",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "EDU",
+      "starts": 651,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "EGLD",
+      "starts": 672,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "EIGEN",
+      "starts": 498,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ELSA",
+      "starts": 552,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "EMBER",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "ENA",
+      "starts": 454,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ENJ",
+      "starts": 721,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ENS",
+      "starts": 714,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ENSO",
+      "starts": 603,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "EPIC",
+      "starts": 451,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ERA",
+      "starts": 575,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ESE",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "ESP",
+      "starts": 577,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ESPORTS",
+      "starts": 612,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ETC",
+      "starts": 619,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ETH",
+      "starts": 391,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ETHFI",
+      "starts": 458,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ETHW",
+      "starts": 602,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "EUL",
+      "starts": 647,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "EUR",
+      "starts": 605,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "EVAA",
+      "starts": 549,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "F",
+      "starts": 388,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FARTCOIN",
+      "starts": 519,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FATCOIN",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "FET",
+      "starts": 457,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FF",
+      "starts": 669,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FHE",
+      "starts": 681,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FIDA",
+      "starts": 650,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FIGHT",
+      "starts": 559,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FIL",
+      "starts": 499,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FLOCK",
+      "starts": 649,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FLOKI",
+      "starts": 550,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FLORK",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "FLOW",
+      "starts": 706,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FLR",
+      "starts": 583,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FLUID",
+      "starts": 547,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FLUX",
+      "starts": 584,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FLYBRAIN",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "FOGO",
+      "starts": 697,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FOLKS",
+      "starts": 647,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FONE",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "FORM",
+      "starts": 708,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FRAX",
+      "starts": 564,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "FRONG",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "FUTUON",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "G",
+      "starts": 611,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GAIB",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "GALA",
+      "starts": 545,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GAS",
+      "starts": 498,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GENIUS",
+      "starts": 666,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GIGGLE",
+      "starts": 630,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GLM",
+      "starts": 612,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GMT",
+      "starts": 766,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GMX",
+      "starts": 679,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GOAT",
+      "starts": 641,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GP",
+      "starts": 169,
+      "valid_candles": 44792
+    },
+    {
+      "coin": "GPS",
+      "starts": 693,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GRAM",
+      "starts": 640,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GRASS",
+      "starts": 486,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GRIFFAIN",
+      "starts": 560,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GRT",
+      "starts": 602,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GRVT",
+      "starts": 650,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GSTOCKBSC",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "GT",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "GTC",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "GUA",
+      "starts": 408,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GUN",
+      "starts": 565,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "GWEI",
+      "starts": 520,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "H",
+      "starts": 718,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HAEDAL",
+      "starts": 587,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HANA",
+      "starts": 329,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HBAR",
+      "starts": 443,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HEI",
+      "starts": 678,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HEMI",
+      "starts": 657,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HIVE",
+      "starts": 515,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HMSTR",
+      "starts": 671,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HNT",
+      "starts": 703,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HOLO",
+      "starts": 648,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HOME",
+      "starts": 739,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HOOKED",
+      "starts": 219,
+      "valid_candles": 43095
+    },
+    {
+      "coin": "HOOKR",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "HOT",
+      "starts": 516,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HUMA",
+      "starts": 695,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HYPE",
+      "starts": 447,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "HYPER",
+      "starts": 611,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ICNT",
+      "starts": 538,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ICP",
+      "starts": 530,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ID",
+      "starts": 770,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "IDOL",
+      "starts": 334,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ILV",
+      "starts": 646,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "IMX",
+      "starts": 729,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "IN",
+      "starts": 587,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "INDEX",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "INIT",
+      "starts": 643,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "INJ",
+      "starts": 443,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "INX",
+      "starts": 648,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "IO",
+      "starts": 675,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "IOST",
+      "starts": 565,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "IOTA",
+      "starts": 714,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "IOTX",
+      "starts": 715,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "IRYS",
+      "starts": 450,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "JASMY",
+      "starts": 551,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "JCT",
+      "starts": 568,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "JEANPHIL",
+      "starts": 139,
+      "valid_candles": 35593
+    },
+    {
+      "coin": "JELLYJELLY",
+      "starts": 645,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "JOE",
+      "starts": 447,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "JST",
+      "starts": 791,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "JTO",
+      "starts": 451,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "JUGGERNAUT",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "JUP",
+      "starts": 496,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KAIA",
+      "starts": 631,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KAITO",
+      "starts": 621,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KAS",
+      "starts": 560,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KAT",
+      "starts": 601,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KAVA",
+      "starts": 721,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KCS",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "KERNEL",
+      "starts": 498,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KGEN",
+      "starts": 651,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KII",
+      "starts": 185,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KITE",
+      "starts": 772,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KMNO",
+      "starts": 714,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KNC",
+      "starts": 563,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KOMA",
+      "starts": 474,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "KSM",
+      "starts": 717,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LA",
+      "starts": 596,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LAB",
+      "starts": 494,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LAPTOP",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "LAYER",
+      "starts": 519,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LDO",
+      "starts": 516,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LIGHT",
+      "starts": 698,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LINEA",
+      "starts": 696,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LINK",
+      "starts": 380,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LISTA",
+      "starts": 557,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LIT",
+      "starts": 480,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LPT",
+      "starts": 760,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LQTY",
+      "starts": 511,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LRC",
+      "starts": 461,
+      "valid_candles": 72083
+    },
+    {
+      "coin": "LSK",
+      "starts": 393,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LTC",
+      "starts": 507,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LUMIA",
+      "starts": 556,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LUNA",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "LUNC",
+      "starts": 721,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "LYN",
+      "starts": 635,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "M",
+      "starts": 631,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MAGIC",
+      "starts": 561,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MAGMA",
+      "starts": 534,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MANA",
+      "starts": 736,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MANTA",
+      "starts": 713,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MANTRA",
+      "starts": 716,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MARSCOIN",
+      "starts": 513,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MASK",
+      "starts": 744,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MAV",
+      "starts": 457,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MAVIA",
+      "starts": 494,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ME",
+      "starts": 730,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MEGA",
+      "starts": 710,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MELANIA",
+      "starts": 690,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MEME",
+      "starts": 753,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MEMEROBINHOOD",
+      "starts": 484,
+      "valid_candles": 73310
+    },
+    {
+      "coin": "MERL",
+      "starts": 745,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MET",
+      "starts": 666,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "METIS",
+      "starts": 639,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MEW",
+      "starts": 603,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MICRODUCK",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "MINA",
+      "starts": 508,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MIRA",
+      "starts": 529,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MITO",
+      "starts": 545,
+      "valid_candles": 80781
+    },
+    {
+      "coin": "MMT",
+      "starts": 636,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MNT",
+      "starts": 770,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MOCA",
+      "starts": 272,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MOG",
+      "starts": 563,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MON",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "MOO",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "MOODENG",
+      "starts": 709,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MORPHO",
+      "starts": 711,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MOVE",
+      "starts": 714,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MOVR",
+      "starts": 557,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MTL",
+      "starts": 450,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MUBARAK",
+      "starts": 400,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "MUSEBOOK",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "MYX",
+      "starts": 711,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NAORIS",
+      "starts": 620,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NEAR",
+      "starts": 182,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NEIRO",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "NEIROCTO",
+      "starts": 731,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NEO",
+      "starts": 781,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NES",
+      "starts": 343,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NEWT",
+      "starts": 536,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NEX",
+      "starts": 387,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NIGHT",
+      "starts": 597,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NIL",
+      "starts": 511,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NMR",
+      "starts": 641,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NOM",
+      "starts": 650,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NOT",
+      "starts": 722,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "NPC",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "NXPC",
+      "starts": 444,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "O",
+      "starts": 499,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "OFC",
+      "starts": 233,
+      "valid_candles": 83962
+    },
+    {
+      "coin": "OG",
+      "starts": 634,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "OGN",
+      "starts": 674,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "OKB",
+      "starts": 749,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "OL",
+      "starts": 317,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ON",
+      "starts": 668,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ONDO",
+      "starts": 503,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ONE",
+      "starts": 522,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ONG",
+      "starts": 611,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ONT",
+      "starts": 768,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "OP",
+      "starts": 461,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "OPEN",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "OPG",
+      "starts": 716,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "OPN",
+      "starts": 769,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ORBIO",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "ORBS",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "ORCA",
+      "starts": 685,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ORDER",
+      "starts": 355,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ORDI",
+      "starts": 533,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "OTC",
+      "starts": 151,
+      "valid_candles": 38920
+    },
+    {
+      "coin": "PAID",
+      "starts": 359,
+      "valid_candles": 49145
+    },
+    {
+      "coin": "PAIR",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "PARTI",
+      "starts": 726,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PAXG",
+      "starts": 762,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PEAQ",
+      "starts": 685,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PENDLE",
+      "starts": 596,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PENGU",
+      "starts": 544,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PEOPLE",
+      "starts": 712,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PEPE",
+      "starts": 465,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PHA",
+      "starts": 531,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PI",
+      "starts": 513,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PIEVERSE",
+      "starts": 725,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PIPPIN",
+      "starts": 677,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PIXEL",
+      "starts": 690,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PLAY",
+      "starts": 678,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PLUME",
+      "starts": 608,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PNUT",
+      "starts": 742,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "POL",
+      "starts": 630,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "POLYX",
+      "starts": 696,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PONS",
+      "starts": 516,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "POPCAT",
+      "starts": 651,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PORTAL",
+      "starts": 640,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "POWER",
+      "starts": 620,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "POWR",
+      "starts": 425,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PRL",
+      "starts": 605,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PROM",
+      "starts": 682,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PROMPT",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "PROS",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "PROVE",
+      "starts": 630,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PTB",
+      "starts": 405,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PUFFER",
+      "starts": 450,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PUMP",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "PUNDIX",
+      "starts": 301,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "PYBOBO",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "PYTH",
+      "starts": 589,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "Q",
+      "starts": 175,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "QNT",
+      "starts": 244,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "QTUM",
+      "starts": 689,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RARE",
+      "starts": 629,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RATS",
+      "starts": 662,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RAVE",
+      "starts": 677,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RAY",
+      "starts": 450,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RE",
+      "starts": 715,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "READY",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "RECALL",
+      "starts": 582,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RED",
+      "starts": 747,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "REDSTONE",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "REKT",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "RENDER",
+      "starts": 515,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RESOLV",
+      "starts": 576,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "REZ",
+      "starts": 590,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RHEA",
+      "starts": 72,
+      "valid_candles": 46121
+    },
+    {
+      "coin": "RIF",
+      "starts": 581,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RIVER",
+      "starts": 511,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RLC",
+      "starts": 541,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RLS",
+      "starts": 383,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RLUSD",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "ROBO",
+      "starts": 746,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RON",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "RONIN",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "ROSE",
+      "starts": 660,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RPL",
+      "starts": 553,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RSR",
+      "starts": 726,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RUNE",
+      "starts": 643,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "RVN",
+      "starts": 707,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "S",
+      "starts": 556,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SAFE",
+      "starts": 561,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SAGA",
+      "starts": 566,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SAHARA",
+      "starts": 700,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SAND",
+      "starts": 472,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SANTOS",
+      "starts": 416,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SAPIEN",
+      "starts": 445,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SATS",
+      "starts": 647,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SCR",
+      "starts": 601,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SCRT",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "SEI",
+      "starts": 546,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SENT",
+      "starts": 758,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SFP",
+      "starts": 442,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SHELL",
+      "starts": 493,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SHIB",
+      "starts": 529,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SHROOM",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "SI",
+      "starts": 362,
+      "valid_candles": 54281
+    },
+    {
+      "coin": "SIGN",
+      "starts": 496,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SKL",
+      "starts": 631,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SKR",
+      "starts": 688,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SKY",
+      "starts": 674,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SKYAI",
+      "starts": 598,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SLP",
+      "starts": 468,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SLX",
+      "starts": 705,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SNT",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "SNX",
+      "starts": 777,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SOL",
+      "starts": 463,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SOLV",
+      "starts": 624,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SOMI",
+      "starts": 649,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SONIC",
+      "starts": 500,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SOON",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "SOPH",
+      "starts": 624,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SOSO",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "SPACE",
+      "starts": 621,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SPCX",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "SPELL",
+      "starts": 575,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SPK",
+      "starts": 550,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SPX",
+      "starts": 583,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SQD",
+      "starts": 658,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SSV",
+      "starts": 693,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "STABLE",
+      "starts": 701,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "STAMP",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "STAR",
+      "starts": 519,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "STBL",
+      "starts": 669,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "STEEM",
+      "starts": 499,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "STO",
+      "starts": 486,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "STOCKER",
+      "starts": 43,
+      "valid_candles": 23120
+    },
+    {
+      "coin": "STONK",
+      "starts": 613,
+      "valid_candles": 82918
+    },
+    {
+      "coin": "STONKS",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "STORJ",
+      "starts": 480,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "STRK",
+      "starts": 367,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "STX",
+      "starts": 597,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SUE",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "SUI",
+      "starts": 473,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SUN",
+      "starts": 430,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SUPER",
+      "starts": 737,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SUSHI",
+      "starts": 674,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SWARMS",
+      "starts": 452,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SXT",
+      "starts": 523,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SYN",
+      "starts": 624,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "SYRUP",
+      "starts": 751,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "T",
+      "starts": 560,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TA",
+      "starts": 427,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TAC",
+      "starts": 642,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TAG",
+      "starts": 615,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TAIKO",
+      "starts": 379,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TAKE",
+      "starts": 613,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TAO",
+      "starts": 489,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "THE",
+      "starts": 540,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "THETA",
+      "starts": 712,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TIA",
+      "starts": 465,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TLM",
+      "starts": 638,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TMX",
+      "starts": 497,
+      "valid_candles": 73519
+    },
+    {
+      "coin": "TNSR",
+      "starts": 632,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TOLLY",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "TOSHI",
+      "starts": 763,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TOWNS",
+      "starts": 648,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TQQQX",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "TRADOOR",
+      "starts": 580,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TRB",
+      "starts": 666,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TREAD",
+      "starts": 103,
+      "valid_candles": 53410
+    },
+    {
+      "coin": "TREE",
+      "starts": 101,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TRIA",
+      "starts": 663,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TRUMP",
+      "starts": 675,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TRUST",
+      "starts": 375,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TRUTH",
+      "starts": 541,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TRX",
+      "starts": 715,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TST",
+      "starts": 601,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TSTBSC",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "TURBO",
+      "starts": 724,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TURTLE",
+      "starts": 381,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TUT",
+      "starts": 557,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "TWT",
+      "starts": 703,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "UAI",
+      "starts": 491,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "UB",
+      "starts": 675,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "UMA",
+      "starts": 533,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "UNI",
+      "starts": 534,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "UP",
+      "starts": 615,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "US",
+      "starts": 419,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "USD1",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "USDC",
+      "starts": 550,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "USDE",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "USDG",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "USELESS",
+      "starts": 423,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "USTC",
+      "starts": 665,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "USUAL",
+      "starts": 611,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "VANA",
+      "starts": 474,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "VELO",
+      "starts": 755,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "VELODROME",
+      "starts": 460,
+      "valid_candles": 77840
+    },
+    {
+      "coin": "VELVET",
+      "starts": 480,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "VET",
+      "starts": 668,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "VIRTUAL",
+      "starts": 497,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "VTHO",
+      "starts": 607,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "VVV",
+      "starts": 411,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "W",
+      "starts": 583,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "WAL",
+      "starts": 672,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "WAVES",
+      "starts": 489,
+      "valid_candles": 72083
+    },
+    {
+      "coin": "WAXP",
+      "starts": 322,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "WCT",
+      "starts": 695,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "WET",
+      "starts": 323,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "WHUF",
+      "starts": 71,
+      "valid_candles": 36850
+    },
+    {
+      "coin": "WIF",
+      "starts": 582,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "WLD",
+      "starts": 481,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "WLFI",
+      "starts": 595,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "WOO",
+      "starts": 739,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XAI",
+      "starts": 712,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XAN",
+      "starts": 586,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XAUT",
+      "starts": 314,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XCN",
+      "starts": 591,
+      "valid_candles": 72083
+    },
+    {
+      "coin": "XDC",
+      "starts": 633,
+      "valid_candles": 73519
+    },
+    {
+      "coin": "XDP",
+      "starts": 341,
+      "valid_candles": 43200
+    },
+    {
+      "coin": "XEC",
+      "starts": 400,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XLM",
+      "starts": 500,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XMR",
+      "starts": 437,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XNO",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "XNY",
+      "starts": 564,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XPIN",
+      "starts": 684,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XPL",
+      "starts": 531,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XRP",
+      "starts": 230,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XTZ",
+      "starts": 727,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XVG",
+      "starts": 684,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "XVS",
+      "starts": 426,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "YB",
+      "starts": 634,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "YFI",
+      "starts": 752,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "YGG",
+      "starts": 754,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZAMA",
+      "starts": 569,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZBCN",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "ZBT",
+      "starts": 590,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZC",
+      "starts": 47,
+      "valid_candles": 30680
+    },
+    {
+      "coin": "ZCAT",
+      "starts": 507,
+      "valid_candles": 81866
+    },
+    {
+      "coin": "ZEC",
+      "starts": 150,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZEN",
+      "starts": 462,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZEREBRO",
+      "starts": 579,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZEST",
+      "starts": 432,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZETA",
+      "starts": 700,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZIL",
+      "starts": 711,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZK",
+      "starts": 0,
+      "valid_candles": 0
+    },
+    {
+      "coin": "ZKC",
+      "starts": 737,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZKP",
+      "starts": 547,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZORA",
+      "starts": 735,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZRO",
+      "starts": 467,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZRX",
+      "starts": 625,
+      "valid_candles": 86400
+    },
+    {
+      "coin": "ZZZ",
+      "starts": 0,
+      "valid_candles": 0
+    }
+  ],
+  "states": {
+    "watch_cooled": 254167,
+    "active_cooled": 66064,
+    "active_open": 58,
+    "watch_open": 175,
+    "watch_gap": 5,
+    "active_gap": 1
+  },
+  "eligible": 48088370,
+  "evaluated": 56764800,
+  "outcomes": {
+    "60": {
+      "complete": 320277,
+      "negative": 160046,
+      "median_close": 0.0
+    },
+    "360": {
+      "complete": 319247,
+      "negative": 163286,
+      "median_close": -0.05853087503657761
+    },
+    "1440": {
+      "complete": 315458,
+      "negative": 164958,
+      "median_close": -0.20449897750511314
+    }
+  },
+  "columns": [
+    "coin_index",
+    "minute_index",
+    "end_index",
+    "status_0cooled_1gap_2open",
+    "active_index",
+    "volume",
+    "median6h",
+    "mean6h",
+    "return5",
+    "quiet_hour_percentile",
+    "close60",
+    "high60",
+    "low60",
+    "close360",
+    "high360",
+    "low360",
+    "close1440",
+    "high1440",
+    "low1440"
+  ],
+  "chart_columns": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "open_market",
+    "close_market",
+    "amount_usdt",
+    "count"
+  ],
+  "precision": "Графики float32; расчёты детектора и исходов float64. Время = first + minute_index×60.",
+  "frozen": {
+    "protocol.json": "9e8d5a12f22a983a211208eceb34e39af2639c4ca5fa03350e3a6916269087d7",
+    "starts-before-outcomes.json.gz": "90a20eaea887d73dd79212f0792dc8412198aee3751b21af520e0337d67b78fa",
+    "all-spikes.json.gz": "f048ed158787c7dccff2fcafaf1066c6063a7e5767e4064c5b6ce201624e7703",
+    "lifecycle.json.gz": "d640cc29b95e09fceca86c4eb3a0455f0e398d717a9a0b9de24be56ea123962b",
+    "coverage.json": "848252bdfdcbefa5e4a6e8b773d8dbf52be716d7326bd1566e65986b3cdaf165"
+  }
+}

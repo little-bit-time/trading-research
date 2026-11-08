@@ -1,0 +1,3944 @@
+[
+  {
+    "coin": "0G",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3771
+  },
+  {
+    "coin": "1INCH",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2653
+  },
+  {
+    "coin": "1MBABYDOGE",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "2U2",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "2Z",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3269
+  },
+  {
+    "coin": "4",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5357
+  },
+  {
+    "coin": "4STOCK",
+    "minutes": 86400,
+    "eligible": 80278,
+    "hits": 3614
+  },
+  {
+    "coin": "??",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "???",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "????",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "?????",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "A",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2309
+  },
+  {
+    "coin": "AAVE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5753
+  },
+  {
+    "coin": "ACE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6782
+  },
+  {
+    "coin": "ACH",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3760
+  },
+  {
+    "coin": "ACNX",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "ACT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1139
+  },
+  {
+    "coin": "ACU",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2650
+  },
+  {
+    "coin": "ADA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7284
+  },
+  {
+    "coin": "AEON",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "AERO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7250
+  },
+  {
+    "coin": "AEVO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2164
+  },
+  {
+    "coin": "AGENCY",
+    "minutes": 86400,
+    "eligible": 42737,
+    "hits": 610
+  },
+  {
+    "coin": "AGI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1569
+  },
+  {
+    "coin": "AGLD",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1826
+  },
+  {
+    "coin": "AGT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3730
+  },
+  {
+    "coin": "AIA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2360
+  },
+  {
+    "coin": "AIGENSYN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2954
+  },
+  {
+    "coin": "AIN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4363
+  },
+  {
+    "coin": "AINVDA",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "AIO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2672
+  },
+  {
+    "coin": "AIOT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2860
+  },
+  {
+    "coin": "AIOZ",
+    "minutes": 86400,
+    "eligible": 73159,
+    "hits": 2147
+  },
+  {
+    "coin": "AIXBT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3372
+  },
+  {
+    "coin": "AKE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7016
+  },
+  {
+    "coin": "AKT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4520
+  },
+  {
+    "coin": "ALCH",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1690
+  },
+  {
+    "coin": "ALGO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7020
+  },
+  {
+    "coin": "ALICE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3318
+  },
+  {
+    "coin": "ALLO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5896
+  },
+  {
+    "coin": "ALPINE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 939
+  },
+  {
+    "coin": "ALT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4794
+  },
+  {
+    "coin": "ANIME",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1504
+  },
+  {
+    "coin": "ANKR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1733
+  },
+  {
+    "coin": "ANSEM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4567
+  },
+  {
+    "coin": "APE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5787
+  },
+  {
+    "coin": "APEX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2363
+  },
+  {
+    "coin": "API3",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4448
+  },
+  {
+    "coin": "APR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5334
+  },
+  {
+    "coin": "APT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7517
+  },
+  {
+    "coin": "AR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5484
+  },
+  {
+    "coin": "ARB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6106
+  },
+  {
+    "coin": "ARC",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "ARCSOL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2320
+  },
+  {
+    "coin": "ARGUS",
+    "minutes": 86400,
+    "eligible": 48804,
+    "hits": 234
+  },
+  {
+    "coin": "ARIA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1790
+  },
+  {
+    "coin": "ARK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4191
+  },
+  {
+    "coin": "ARKM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4091
+  },
+  {
+    "coin": "ARPA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2443
+  },
+  {
+    "coin": "ARX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4128
+  },
+  {
+    "coin": "ASR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 537
+  },
+  {
+    "coin": "ASTER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7020
+  },
+  {
+    "coin": "ASTR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1342
+  },
+  {
+    "coin": "AT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2349
+  },
+  {
+    "coin": "ATH",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3598
+  },
+  {
+    "coin": "ATOM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6114
+  },
+  {
+    "coin": "AUCTION",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1781
+  },
+  {
+    "coin": "AUDIO",
+    "minutes": 86400,
+    "eligible": 71723,
+    "hits": 286
+  },
+  {
+    "coin": "AURORA",
+    "minutes": 86400,
+    "eligible": 44324,
+    "hits": 735
+  },
+  {
+    "coin": "AVA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3943
+  },
+  {
+    "coin": "AVAAI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2078
+  },
+  {
+    "coin": "AVAX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5551
+  },
+  {
+    "coin": "AVNT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3644
+  },
+  {
+    "coin": "AWE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1029
+  },
+  {
+    "coin": "AXL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2427
+  },
+  {
+    "coin": "AXS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5278
+  },
+  {
+    "coin": "AZTEC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2634
+  },
+  {
+    "coin": "B",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4681
+  },
+  {
+    "coin": "B2",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1671
+  },
+  {
+    "coin": "B3",
+    "minutes": 86400,
+    "eligible": 71723,
+    "hits": 1747
+  },
+  {
+    "coin": "BABY",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2162
+  },
+  {
+    "coin": "BABYDOGE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1854
+  },
+  {
+    "coin": "BAN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1071
+  },
+  {
+    "coin": "BANANA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1520
+  },
+  {
+    "coin": "BANANAS31",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1492
+  },
+  {
+    "coin": "BAND",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2110
+  },
+  {
+    "coin": "BANK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4430
+  },
+  {
+    "coin": "BARD",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1156
+  },
+  {
+    "coin": "BAS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1333
+  },
+  {
+    "coin": "BASECAT",
+    "minutes": 86400,
+    "eligible": 73159,
+    "hits": 3419
+  },
+  {
+    "coin": "BASED",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4272
+  },
+  {
+    "coin": "BAT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5112
+  },
+  {
+    "coin": "BATON",
+    "minutes": 86400,
+    "eligible": 70142,
+    "hits": 4809
+  },
+  {
+    "coin": "BB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5322
+  },
+  {
+    "coin": "BCH",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6845
+  },
+  {
+    "coin": "BDX",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "BEAM",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "BEAMX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3443
+  },
+  {
+    "coin": "BEAT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7167
+  },
+  {
+    "coin": "BEL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 991
+  },
+  {
+    "coin": "BEN",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "BERA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5069
+  },
+  {
+    "coin": "BGSC",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "BICO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3932
+  },
+  {
+    "coin": "BIGTIME",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3438
+  },
+  {
+    "coin": "BILL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4421
+  },
+  {
+    "coin": "BIO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3365
+  },
+  {
+    "coin": "BIRB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2494
+  },
+  {
+    "coin": "BLEND",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 606
+  },
+  {
+    "coin": "BLESS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6972
+  },
+  {
+    "coin": "BLUAI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2172
+  },
+  {
+    "coin": "BLUR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3114
+  },
+  {
+    "coin": "BMT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2912
+  },
+  {
+    "coin": "BNB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6674
+  },
+  {
+    "coin": "BNT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 549
+  },
+  {
+    "coin": "BOBA",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "BOME",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 8046
+  },
+  {
+    "coin": "BONER",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "BONK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6806
+  },
+  {
+    "coin": "BP",
+    "minutes": 86400,
+    "eligible": 73159,
+    "hits": 3106
+  },
+  {
+    "coin": "BR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6677
+  },
+  {
+    "coin": "BRETT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4042
+  },
+  {
+    "coin": "BREV",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1567
+  },
+  {
+    "coin": "BREW",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "BRL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1123
+  },
+  {
+    "coin": "BROCCOLI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2430
+  },
+  {
+    "coin": "BROCCOLI714",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "BROCCOLIF3B",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 704
+  },
+  {
+    "coin": "BSB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3413
+  },
+  {
+    "coin": "BSV",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3334
+  },
+  {
+    "coin": "BTC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3396
+  },
+  {
+    "coin": "BTR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4532
+  },
+  {
+    "coin": "BTT",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "BTW",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4867
+  },
+  {
+    "coin": "BULLA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5498
+  },
+  {
+    "coin": "C",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1742
+  },
+  {
+    "coin": "C98",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2733
+  },
+  {
+    "coin": "CAKE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5951
+  },
+  {
+    "coin": "CAP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6476
+  },
+  {
+    "coin": "CARDS",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "CARV",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 789
+  },
+  {
+    "coin": "CASHCAT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5928
+  },
+  {
+    "coin": "CAT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1915
+  },
+  {
+    "coin": "CATE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5001
+  },
+  {
+    "coin": "CATI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2578
+  },
+  {
+    "coin": "CC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5969
+  },
+  {
+    "coin": "CELO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2493
+  },
+  {
+    "coin": "CELR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1581
+  },
+  {
+    "coin": "CENT",
+    "minutes": 86400,
+    "eligible": 31111,
+    "hits": 617
+  },
+  {
+    "coin": "CETUS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2531
+  },
+  {
+    "coin": "CFG",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 793
+  },
+  {
+    "coin": "CFX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4881
+  },
+  {
+    "coin": "CGPT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2697
+  },
+  {
+    "coin": "CHEEMS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 540
+  },
+  {
+    "coin": "CHILLGUY",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2198
+  },
+  {
+    "coin": "CHIP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6595
+  },
+  {
+    "coin": "CHR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3058
+  },
+  {
+    "coin": "CHZ",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5253
+  },
+  {
+    "coin": "CKB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3149
+  },
+  {
+    "coin": "CLANKER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2688
+  },
+  {
+    "coin": "CLAUDIA",
+    "minutes": 86400,
+    "eligible": 31272,
+    "hits": 2205
+  },
+  {
+    "coin": "CLAUS",
+    "minutes": 86400,
+    "eligible": 37098,
+    "hits": 1115
+  },
+  {
+    "coin": "CLO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3268
+  },
+  {
+    "coin": "CNPY",
+    "minutes": 86400,
+    "eligible": 81332,
+    "hits": 3572
+  },
+  {
+    "coin": "COAI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4539
+  },
+  {
+    "coin": "COLLECT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3183
+  },
+  {
+    "coin": "COMP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4570
+  },
+  {
+    "coin": "COOKIE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1786
+  },
+  {
+    "coin": "COOL",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "CORE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3283
+  },
+  {
+    "coin": "COTI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7171
+  },
+  {
+    "coin": "COW",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2323
+  },
+  {
+    "coin": "CP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2978
+  },
+  {
+    "coin": "CRO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5571
+  },
+  {
+    "coin": "CROSS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2701
+  },
+  {
+    "coin": "CRV",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6418
+  },
+  {
+    "coin": "CT",
+    "minutes": 86400,
+    "eligible": 42840,
+    "hits": 3389
+  },
+  {
+    "coin": "CTC",
+    "minutes": 86400,
+    "eligible": 71723,
+    "hits": 806
+  },
+  {
+    "coin": "CTK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 763
+  },
+  {
+    "coin": "CTR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1879
+  },
+  {
+    "coin": "CTSI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2081
+  },
+  {
+    "coin": "CVC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2520
+  },
+  {
+    "coin": "CVX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3700
+  },
+  {
+    "coin": "CYBER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 345
+  },
+  {
+    "coin": "CYS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5397
+  },
+  {
+    "coin": "DARK",
+    "minutes": 86400,
+    "eligible": 37108,
+    "hits": 729
+  },
+  {
+    "coin": "DASH",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 8020
+  },
+  {
+    "coin": "DATA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 175
+  },
+  {
+    "coin": "DBR",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "DEEP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3531
+  },
+  {
+    "coin": "DELTA",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "DEXE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4125
+  },
+  {
+    "coin": "DFDVX",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "DGAI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3116
+  },
+  {
+    "coin": "DIA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1532
+  },
+  {
+    "coin": "DNA",
+    "minutes": 86400,
+    "eligible": 25408,
+    "hits": 1744
+  },
+  {
+    "coin": "DODO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4444
+  },
+  {
+    "coin": "DOGE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6710
+  },
+  {
+    "coin": "DOGS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2915
+  },
+  {
+    "coin": "DOLO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 892
+  },
+  {
+    "coin": "DOOD",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3168
+  },
+  {
+    "coin": "DOPE",
+    "minutes": 86400,
+    "eligible": 25298,
+    "hits": 440
+  },
+  {
+    "coin": "DOS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4601
+  },
+  {
+    "coin": "DOT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6776
+  },
+  {
+    "coin": "DRIFT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1195
+  },
+  {
+    "coin": "DRV",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "DUSK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4442
+  },
+  {
+    "coin": "DYDX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4496
+  },
+  {
+    "coin": "DYM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4253
+  },
+  {
+    "coin": "EACC",
+    "minutes": 86400,
+    "eligible": 33841,
+    "hits": 530
+  },
+  {
+    "coin": "EDEN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3913
+  },
+  {
+    "coin": "EDGE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5598
+  },
+  {
+    "coin": "EDGEX",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "EDU",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3510
+  },
+  {
+    "coin": "EGLD",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6244
+  },
+  {
+    "coin": "EIGEN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7856
+  },
+  {
+    "coin": "ELSA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2626
+  },
+  {
+    "coin": "EMBER",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "ENA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6302
+  },
+  {
+    "coin": "ENJ",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4554
+  },
+  {
+    "coin": "ENS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4355
+  },
+  {
+    "coin": "ENSO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2157
+  },
+  {
+    "coin": "EPIC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3911
+  },
+  {
+    "coin": "ERA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2885
+  },
+  {
+    "coin": "ESE",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "ESP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1872
+  },
+  {
+    "coin": "ESPORTS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3423
+  },
+  {
+    "coin": "ETC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6125
+  },
+  {
+    "coin": "ETH",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4132
+  },
+  {
+    "coin": "ETHFI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7617
+  },
+  {
+    "coin": "ETHW",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1915
+  },
+  {
+    "coin": "EUL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1827
+  },
+  {
+    "coin": "EUR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2160
+  },
+  {
+    "coin": "EVAA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4200
+  },
+  {
+    "coin": "F",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1216
+  },
+  {
+    "coin": "FARTCOIN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7013
+  },
+  {
+    "coin": "FATCOIN",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "FET",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7643
+  },
+  {
+    "coin": "FF",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3614
+  },
+  {
+    "coin": "FHE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2898
+  },
+  {
+    "coin": "FIDA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1920
+  },
+  {
+    "coin": "FIGHT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1954
+  },
+  {
+    "coin": "FIL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1251
+  },
+  {
+    "coin": "FLOCK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4197
+  },
+  {
+    "coin": "FLOKI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7025
+  },
+  {
+    "coin": "FLORK",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "FLOW",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5360
+  },
+  {
+    "coin": "FLR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1434
+  },
+  {
+    "coin": "FLUID",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1949
+  },
+  {
+    "coin": "FLUX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2223
+  },
+  {
+    "coin": "FLYBRAIN",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "FOGO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2343
+  },
+  {
+    "coin": "FOLKS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3349
+  },
+  {
+    "coin": "FONE",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "FORM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3960
+  },
+  {
+    "coin": "FRAX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1715
+  },
+  {
+    "coin": "FRONG",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "FUTUON",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "G",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2692
+  },
+  {
+    "coin": "GAIB",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "GALA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7019
+  },
+  {
+    "coin": "GAS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1193
+  },
+  {
+    "coin": "GENIUS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2962
+  },
+  {
+    "coin": "GIGGLE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6217
+  },
+  {
+    "coin": "GLM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1766
+  },
+  {
+    "coin": "GMT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2909
+  },
+  {
+    "coin": "GMX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2659
+  },
+  {
+    "coin": "GOAT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2103
+  },
+  {
+    "coin": "GP",
+    "minutes": 86400,
+    "eligible": 44432,
+    "hits": 728
+  },
+  {
+    "coin": "GPS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2619
+  },
+  {
+    "coin": "GRAM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5735
+  },
+  {
+    "coin": "GRASS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7571
+  },
+  {
+    "coin": "GRIFFAIN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2590
+  },
+  {
+    "coin": "GRT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6124
+  },
+  {
+    "coin": "GRVT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3180
+  },
+  {
+    "coin": "GSTOCKBSC",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "GT",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "GTC",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "GUA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 959
+  },
+  {
+    "coin": "GUN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1718
+  },
+  {
+    "coin": "GWEI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1699
+  },
+  {
+    "coin": "H",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4915
+  },
+  {
+    "coin": "HAEDAL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2234
+  },
+  {
+    "coin": "HANA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 700
+  },
+  {
+    "coin": "HBAR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7257
+  },
+  {
+    "coin": "HEI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3635
+  },
+  {
+    "coin": "HEMI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4569
+  },
+  {
+    "coin": "HIVE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1438
+  },
+  {
+    "coin": "HMSTR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2019
+  },
+  {
+    "coin": "HNT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5520
+  },
+  {
+    "coin": "HOLO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2065
+  },
+  {
+    "coin": "HOME",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2323
+  },
+  {
+    "coin": "HOOKED",
+    "minutes": 86400,
+    "eligible": 42735,
+    "hits": 1160
+  },
+  {
+    "coin": "HOOKR",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "HOT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1608
+  },
+  {
+    "coin": "HUMA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4101
+  },
+  {
+    "coin": "HYPE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6050
+  },
+  {
+    "coin": "HYPER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1648
+  },
+  {
+    "coin": "ICNT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3425
+  },
+  {
+    "coin": "ICP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7216
+  },
+  {
+    "coin": "ID",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3507
+  },
+  {
+    "coin": "IDOL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1304
+  },
+  {
+    "coin": "ILV",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2449
+  },
+  {
+    "coin": "IMX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3995
+  },
+  {
+    "coin": "IN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1654
+  },
+  {
+    "coin": "INDEX",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "INIT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4183
+  },
+  {
+    "coin": "INJ",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6827
+  },
+  {
+    "coin": "INX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2411
+  },
+  {
+    "coin": "IO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5206
+  },
+  {
+    "coin": "IOST",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4731
+  },
+  {
+    "coin": "IOTA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4771
+  },
+  {
+    "coin": "IOTX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3473
+  },
+  {
+    "coin": "IRYS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2607
+  },
+  {
+    "coin": "JASMY",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7057
+  },
+  {
+    "coin": "JCT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4692
+  },
+  {
+    "coin": "JEANPHIL",
+    "minutes": 86400,
+    "eligible": 35233,
+    "hits": 353
+  },
+  {
+    "coin": "JELLYJELLY",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2051
+  },
+  {
+    "coin": "JOE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1308
+  },
+  {
+    "coin": "JST",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3329
+  },
+  {
+    "coin": "JTO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 8084
+  },
+  {
+    "coin": "JUGGERNAUT",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "JUP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7639
+  },
+  {
+    "coin": "KAIA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3730
+  },
+  {
+    "coin": "KAITO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6133
+  },
+  {
+    "coin": "KAS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6866
+  },
+  {
+    "coin": "KAT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2385
+  },
+  {
+    "coin": "KAVA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3072
+  },
+  {
+    "coin": "KCS",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "KERNEL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1552
+  },
+  {
+    "coin": "KGEN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2298
+  },
+  {
+    "coin": "KII",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 598
+  },
+  {
+    "coin": "KITE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3963
+  },
+  {
+    "coin": "KMNO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3417
+  },
+  {
+    "coin": "KNC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1582
+  },
+  {
+    "coin": "KOMA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2412
+  },
+  {
+    "coin": "KSM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2956
+  },
+  {
+    "coin": "LA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3038
+  },
+  {
+    "coin": "LAB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7285
+  },
+  {
+    "coin": "LAPTOP",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "LAYER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1329
+  },
+  {
+    "coin": "LDO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7171
+  },
+  {
+    "coin": "LIGHT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3934
+  },
+  {
+    "coin": "LINEA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4305
+  },
+  {
+    "coin": "LINK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4553
+  },
+  {
+    "coin": "LISTA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1933
+  },
+  {
+    "coin": "LIT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 8031
+  },
+  {
+    "coin": "LPT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2147
+  },
+  {
+    "coin": "LQTY",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1459
+  },
+  {
+    "coin": "LRC",
+    "minutes": 86400,
+    "eligible": 71723,
+    "hits": 1658
+  },
+  {
+    "coin": "LSK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6142
+  },
+  {
+    "coin": "LTC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6821
+  },
+  {
+    "coin": "LUMIA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2675
+  },
+  {
+    "coin": "LUNA",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "LUNC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5890
+  },
+  {
+    "coin": "LYN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4756
+  },
+  {
+    "coin": "M",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2696
+  },
+  {
+    "coin": "MAGIC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4665
+  },
+  {
+    "coin": "MAGMA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6303
+  },
+  {
+    "coin": "MANA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4556
+  },
+  {
+    "coin": "MANTA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3431
+  },
+  {
+    "coin": "MANTRA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2830
+  },
+  {
+    "coin": "MARSCOIN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6720
+  },
+  {
+    "coin": "MASK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2709
+  },
+  {
+    "coin": "MAV",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1079
+  },
+  {
+    "coin": "MAVIA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1248
+  },
+  {
+    "coin": "ME",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1895
+  },
+  {
+    "coin": "MEGA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4878
+  },
+  {
+    "coin": "MELANIA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2622
+  },
+  {
+    "coin": "MEME",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4380
+  },
+  {
+    "coin": "MEMEROBINHOOD",
+    "minutes": 86400,
+    "eligible": 72950,
+    "hits": 3758
+  },
+  {
+    "coin": "MERL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3153
+  },
+  {
+    "coin": "MET",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5382
+  },
+  {
+    "coin": "METIS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4160
+  },
+  {
+    "coin": "MEW",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2209
+  },
+  {
+    "coin": "MICRODUCK",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "MINA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6962
+  },
+  {
+    "coin": "MIRA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1613
+  },
+  {
+    "coin": "MITO",
+    "minutes": 86400,
+    "eligible": 80421,
+    "hits": 2328
+  },
+  {
+    "coin": "MMT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2238
+  },
+  {
+    "coin": "MNT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4335
+  },
+  {
+    "coin": "MOCA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 563
+  },
+  {
+    "coin": "MOG",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1514
+  },
+  {
+    "coin": "MON",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "MOO",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "MOODENG",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4833
+  },
+  {
+    "coin": "MORPHO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5295
+  },
+  {
+    "coin": "MOVE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2718
+  },
+  {
+    "coin": "MOVR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6141
+  },
+  {
+    "coin": "MTL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1612
+  },
+  {
+    "coin": "MUBARAK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7364
+  },
+  {
+    "coin": "MUSEBOOK",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "MYX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5185
+  },
+  {
+    "coin": "NAORIS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2874
+  },
+  {
+    "coin": "NEAR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5994
+  },
+  {
+    "coin": "NEIRO",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "NEIROCTO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4921
+  },
+  {
+    "coin": "NEO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4131
+  },
+  {
+    "coin": "NES",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 997
+  },
+  {
+    "coin": "NEWT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1390
+  },
+  {
+    "coin": "NEX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1100
+  },
+  {
+    "coin": "NIGHT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6330
+  },
+  {
+    "coin": "NIL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7100
+  },
+  {
+    "coin": "NMR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4424
+  },
+  {
+    "coin": "NOM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4077
+  },
+  {
+    "coin": "NOT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3995
+  },
+  {
+    "coin": "NPC",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "NXPC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1261
+  },
+  {
+    "coin": "O",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1207
+  },
+  {
+    "coin": "OFC",
+    "minutes": 86400,
+    "eligible": 83602,
+    "hits": 841
+  },
+  {
+    "coin": "OG",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2237
+  },
+  {
+    "coin": "OGN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2933
+  },
+  {
+    "coin": "OKB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2666
+  },
+  {
+    "coin": "OL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1434
+  },
+  {
+    "coin": "ON",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4863
+  },
+  {
+    "coin": "ONDO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6598
+  },
+  {
+    "coin": "ONE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5169
+  },
+  {
+    "coin": "ONG",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2421
+  },
+  {
+    "coin": "ONT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3222
+  },
+  {
+    "coin": "OP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7262
+  },
+  {
+    "coin": "OPEN",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "OPG",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2747
+  },
+  {
+    "coin": "OPN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3293
+  },
+  {
+    "coin": "ORBIO",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "ORBS",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "ORCA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4844
+  },
+  {
+    "coin": "ORDER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1683
+  },
+  {
+    "coin": "ORDI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7414
+  },
+  {
+    "coin": "OTC",
+    "minutes": 86400,
+    "eligible": 38560,
+    "hits": 629
+  },
+  {
+    "coin": "PAID",
+    "minutes": 86400,
+    "eligible": 48785,
+    "hits": 2418
+  },
+  {
+    "coin": "PAIR",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "PARTI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4472
+  },
+  {
+    "coin": "PAXG",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4641
+  },
+  {
+    "coin": "PEAQ",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4381
+  },
+  {
+    "coin": "PENDLE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6903
+  },
+  {
+    "coin": "PENGU",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6757
+  },
+  {
+    "coin": "PEOPLE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4602
+  },
+  {
+    "coin": "PEPE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4145
+  },
+  {
+    "coin": "PHA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6801
+  },
+  {
+    "coin": "PI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7773
+  },
+  {
+    "coin": "PIEVERSE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3356
+  },
+  {
+    "coin": "PIPPIN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5125
+  },
+  {
+    "coin": "PIXEL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3012
+  },
+  {
+    "coin": "PLAY",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3174
+  },
+  {
+    "coin": "PLUME",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6363
+  },
+  {
+    "coin": "PNUT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5129
+  },
+  {
+    "coin": "POL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6230
+  },
+  {
+    "coin": "POLYX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2207
+  },
+  {
+    "coin": "PONS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5969
+  },
+  {
+    "coin": "POPCAT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5793
+  },
+  {
+    "coin": "PORTAL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3679
+  },
+  {
+    "coin": "POWER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4367
+  },
+  {
+    "coin": "POWR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1548
+  },
+  {
+    "coin": "PRL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2025
+  },
+  {
+    "coin": "PROM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5141
+  },
+  {
+    "coin": "PROMPT",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "PROS",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "PROVE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1957
+  },
+  {
+    "coin": "PTB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2341
+  },
+  {
+    "coin": "PUFFER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1969
+  },
+  {
+    "coin": "PUMP",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "PUNDIX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1154
+  },
+  {
+    "coin": "PYBOBO",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "PYTH",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6349
+  },
+  {
+    "coin": "Q",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2674
+  },
+  {
+    "coin": "QNT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3732
+  },
+  {
+    "coin": "QTUM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2339
+  },
+  {
+    "coin": "RARE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2607
+  },
+  {
+    "coin": "RATS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4383
+  },
+  {
+    "coin": "RAVE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5172
+  },
+  {
+    "coin": "RAY",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7731
+  },
+  {
+    "coin": "RE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4597
+  },
+  {
+    "coin": "READY",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "RECALL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2046
+  },
+  {
+    "coin": "RED",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2757
+  },
+  {
+    "coin": "REDSTONE",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "REKT",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "RENDER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7074
+  },
+  {
+    "coin": "RESOLV",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2119
+  },
+  {
+    "coin": "REZ",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5512
+  },
+  {
+    "coin": "RHEA",
+    "minutes": 86400,
+    "eligible": 45761,
+    "hits": 311
+  },
+  {
+    "coin": "RIF",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1559
+  },
+  {
+    "coin": "RIVER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7147
+  },
+  {
+    "coin": "RLC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4623
+  },
+  {
+    "coin": "RLS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1256
+  },
+  {
+    "coin": "RLUSD",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "ROBO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3716
+  },
+  {
+    "coin": "RON",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "RONIN",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "ROSE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5834
+  },
+  {
+    "coin": "RPL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1453
+  },
+  {
+    "coin": "RSR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4307
+  },
+  {
+    "coin": "RUNE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5705
+  },
+  {
+    "coin": "RVN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4189
+  },
+  {
+    "coin": "S",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7171
+  },
+  {
+    "coin": "SAFE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1838
+  },
+  {
+    "coin": "SAGA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6293
+  },
+  {
+    "coin": "SAHARA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2443
+  },
+  {
+    "coin": "SAND",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6507
+  },
+  {
+    "coin": "SANTOS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 798
+  },
+  {
+    "coin": "SAPIEN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 889
+  },
+  {
+    "coin": "SATS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1948
+  },
+  {
+    "coin": "SCR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2341
+  },
+  {
+    "coin": "SCRT",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "SEI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6441
+  },
+  {
+    "coin": "SENT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3753
+  },
+  {
+    "coin": "SFP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1183
+  },
+  {
+    "coin": "SHELL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1379
+  },
+  {
+    "coin": "SHIB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7040
+  },
+  {
+    "coin": "SHROOM",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "SI",
+    "minutes": 86400,
+    "eligible": 53921,
+    "hits": 3805
+  },
+  {
+    "coin": "SIGN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1352
+  },
+  {
+    "coin": "SKL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2596
+  },
+  {
+    "coin": "SKR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3016
+  },
+  {
+    "coin": "SKY",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5112
+  },
+  {
+    "coin": "SKYAI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6182
+  },
+  {
+    "coin": "SLP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1134
+  },
+  {
+    "coin": "SLX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2005
+  },
+  {
+    "coin": "SNT",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "SNX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4387
+  },
+  {
+    "coin": "SOL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5250
+  },
+  {
+    "coin": "SOLV",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3801
+  },
+  {
+    "coin": "SOMI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2523
+  },
+  {
+    "coin": "SONIC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1279
+  },
+  {
+    "coin": "SOON",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "SOPH",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4102
+  },
+  {
+    "coin": "SOSO",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "SPACE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1502
+  },
+  {
+    "coin": "SPCX",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "SPELL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1690
+  },
+  {
+    "coin": "SPK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2047
+  },
+  {
+    "coin": "SPX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6611
+  },
+  {
+    "coin": "SQD",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2029
+  },
+  {
+    "coin": "SSV",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1616
+  },
+  {
+    "coin": "STABLE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2195
+  },
+  {
+    "coin": "STAMP",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "STAR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1750
+  },
+  {
+    "coin": "STBL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4096
+  },
+  {
+    "coin": "STEEM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1739
+  },
+  {
+    "coin": "STO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1186
+  },
+  {
+    "coin": "STOCKER",
+    "minutes": 86400,
+    "eligible": 22760,
+    "hits": 185
+  },
+  {
+    "coin": "STONK",
+    "minutes": 86400,
+    "eligible": 82558,
+    "hits": 4262
+  },
+  {
+    "coin": "STONKS",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "STORJ",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2248
+  },
+  {
+    "coin": "STRK",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6726
+  },
+  {
+    "coin": "STX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5746
+  },
+  {
+    "coin": "SUE",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "SUI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5472
+  },
+  {
+    "coin": "SUN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 858
+  },
+  {
+    "coin": "SUPER",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4226
+  },
+  {
+    "coin": "SUSHI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4406
+  },
+  {
+    "coin": "SWARMS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 902
+  },
+  {
+    "coin": "SXT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1472
+  },
+  {
+    "coin": "SYN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5726
+  },
+  {
+    "coin": "SYRUP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4178
+  },
+  {
+    "coin": "T",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2386
+  },
+  {
+    "coin": "TA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1292
+  },
+  {
+    "coin": "TAC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2576
+  },
+  {
+    "coin": "TAG",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2858
+  },
+  {
+    "coin": "TAIKO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 978
+  },
+  {
+    "coin": "TAKE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3403
+  },
+  {
+    "coin": "TAO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5890
+  },
+  {
+    "coin": "THE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1526
+  },
+  {
+    "coin": "THETA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4616
+  },
+  {
+    "coin": "TIA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6420
+  },
+  {
+    "coin": "TLM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2488
+  },
+  {
+    "coin": "TMX",
+    "minutes": 86400,
+    "eligible": 73159,
+    "hits": 3754
+  },
+  {
+    "coin": "TNSR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2265
+  },
+  {
+    "coin": "TOLLY",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "TOSHI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3100
+  },
+  {
+    "coin": "TOWNS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2412
+  },
+  {
+    "coin": "TQQQX",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "TRADOOR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2154
+  },
+  {
+    "coin": "TRB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6437
+  },
+  {
+    "coin": "TREAD",
+    "minutes": 86400,
+    "eligible": 53050,
+    "hits": 269
+  },
+  {
+    "coin": "TREE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 157
+  },
+  {
+    "coin": "TRIA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3079
+  },
+  {
+    "coin": "TRUMP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1712
+  },
+  {
+    "coin": "TRUST",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 998
+  },
+  {
+    "coin": "TRUTH",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2644
+  },
+  {
+    "coin": "TRX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5376
+  },
+  {
+    "coin": "TST",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3249
+  },
+  {
+    "coin": "TSTBSC",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "TURBO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4370
+  },
+  {
+    "coin": "TURTLE",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 893
+  },
+  {
+    "coin": "TUT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6609
+  },
+  {
+    "coin": "TWT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3145
+  },
+  {
+    "coin": "UAI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7001
+  },
+  {
+    "coin": "UB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3286
+  },
+  {
+    "coin": "UMA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2049
+  },
+  {
+    "coin": "UNI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7015
+  },
+  {
+    "coin": "UP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2985
+  },
+  {
+    "coin": "US",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5845
+  },
+  {
+    "coin": "USD1",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "USDC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1418
+  },
+  {
+    "coin": "USDE",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "USDG",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "USELESS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7412
+  },
+  {
+    "coin": "USTC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2139
+  },
+  {
+    "coin": "USUAL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2021
+  },
+  {
+    "coin": "VANA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1045
+  },
+  {
+    "coin": "VELO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4329
+  },
+  {
+    "coin": "VELODROME",
+    "minutes": 86400,
+    "eligible": 77480,
+    "hits": 1657
+  },
+  {
+    "coin": "VELVET",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7099
+  },
+  {
+    "coin": "VET",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5025
+  },
+  {
+    "coin": "VIRTUAL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7450
+  },
+  {
+    "coin": "VTHO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3470
+  },
+  {
+    "coin": "VVV",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 8197
+  },
+  {
+    "coin": "W",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5840
+  },
+  {
+    "coin": "WAL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3443
+  },
+  {
+    "coin": "WAVES",
+    "minutes": 86400,
+    "eligible": 71723,
+    "hits": 1669
+  },
+  {
+    "coin": "WAXP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 778
+  },
+  {
+    "coin": "WCT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1659
+  },
+  {
+    "coin": "WET",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 961
+  },
+  {
+    "coin": "WHUF",
+    "minutes": 86400,
+    "eligible": 36490,
+    "hits": 217
+  },
+  {
+    "coin": "WIF",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6505
+  },
+  {
+    "coin": "WLD",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6043
+  },
+  {
+    "coin": "WLFI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6559
+  },
+  {
+    "coin": "WOO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2912
+  },
+  {
+    "coin": "XAI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4207
+  },
+  {
+    "coin": "XAN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2612
+  },
+  {
+    "coin": "XAUT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6957
+  },
+  {
+    "coin": "XCN",
+    "minutes": 86400,
+    "eligible": 71723,
+    "hits": 2282
+  },
+  {
+    "coin": "XDC",
+    "minutes": 86400,
+    "eligible": 73159,
+    "hits": 3282
+  },
+  {
+    "coin": "XDP",
+    "minutes": 86400,
+    "eligible": 42840,
+    "hits": 2005
+  },
+  {
+    "coin": "XEC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 934
+  },
+  {
+    "coin": "XLM",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 5671
+  },
+  {
+    "coin": "XMR",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7890
+  },
+  {
+    "coin": "XNO",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "XNY",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1977
+  },
+  {
+    "coin": "XPIN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2535
+  },
+  {
+    "coin": "XPL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7086
+  },
+  {
+    "coin": "XRP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3879
+  },
+  {
+    "coin": "XTZ",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4229
+  },
+  {
+    "coin": "XVG",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3324
+  },
+  {
+    "coin": "XVS",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 984
+  },
+  {
+    "coin": "YB",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1900
+  },
+  {
+    "coin": "YFI",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3517
+  },
+  {
+    "coin": "YGG",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2394
+  },
+  {
+    "coin": "ZAMA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 6908
+  },
+  {
+    "coin": "ZBCN",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "ZBT",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2408
+  },
+  {
+    "coin": "ZC",
+    "minutes": 86400,
+    "eligible": 30320,
+    "hits": 1103
+  },
+  {
+    "coin": "ZCAT",
+    "minutes": 86400,
+    "eligible": 81506,
+    "hits": 4581
+  },
+  {
+    "coin": "ZEC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 735
+  },
+  {
+    "coin": "ZEN",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7196
+  },
+  {
+    "coin": "ZEREBRO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2576
+  },
+  {
+    "coin": "ZEST",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1496
+  },
+  {
+    "coin": "ZETA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2946
+  },
+  {
+    "coin": "ZIL",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 4784
+  },
+  {
+    "coin": "ZK",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  },
+  {
+    "coin": "ZKC",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2695
+  },
+  {
+    "coin": "ZKP",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 1737
+  },
+  {
+    "coin": "ZORA",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 3081
+  },
+  {
+    "coin": "ZRO",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 7466
+  },
+  {
+    "coin": "ZRX",
+    "minutes": 86400,
+    "eligible": 86040,
+    "hits": 2463
+  },
+  {
+    "coin": "ZZZ",
+    "minutes": 86400,
+    "eligible": 0,
+    "hits": 0
+  }
+]
