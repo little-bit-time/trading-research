@@ -1267,8 +1267,8 @@
       "sha256": "f76c6afab94884448f0426e30d6e9d555ca7247894cd3484e477d2f87513036e"
     },
     "minute-replay/REPLAY.md": {
-      "bytes": 16425,
-      "sha256": "30117b267857385c57c9f2fb6094bae3d051d8c58cbb43f41f6aab2fbd5197dd"
+      "bytes": 19244,
+      "sha256": "ae370cd90331e72be760a829c431d34a21694fb1c234bfe688a8687bccf485e5"
     },
     "minute-replay/all-spikes.json.gz": {
       "bytes": 55489376,
@@ -6783,8 +6783,8 @@
       "sha256": "ae174994b1f84f0400702496745b05a6a97ca832a3761d8f8077e9548012fe72"
     },
     "minute-replay/index.html": {
-      "bytes": 27315,
-      "sha256": "4ffcfd7c479799ea7c97ea24b07c5de0ec3bd6800a219b273c701a7beb1beba6"
+      "bytes": 32929,
+      "sha256": "fe5496c6e7b28fcd11c70f03f7ac9c07c264f2a5ecf100ebca9025d3eb37bfee"
     },
     "minute-replay/lifecycle.json.gz": {
       "bytes": 2479227,
