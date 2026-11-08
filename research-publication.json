@@ -6814,6 +6814,10 @@
       "bytes": 348,
       "sha256": "52e95eb36971d56875d5adb8b019b298ebdd2d0099b05c1f8e4e496912bdd0e7"
     },
+    "state-zones/COMPARISON.md": {
+      "bytes": 18681,
+      "sha256": "a3a61d2a9ee1235aa176eb9f492ded48f364de58cf7da19910ebb2cbf974c88c"
+    },
     "state-zones/METHOD.md": {
       "bytes": 14040,
       "sha256": "2776633892345b0a4e10c9ad7239cbac5ffea97f1e6f202e900538177e6735db"
@@ -9454,13 +9458,17 @@
       "bytes": 6103,
       "sha256": "2d015a744b5759c31567cc6827fbda40b60d3f5f3b4aedfddfc7d535b5b3e229"
     },
+    "state-zones/comparison.html": {
+      "bytes": 2217685,
+      "sha256": "ad9d9dcae4f308360a6a0569e6fd82b9649389cd455c994104a199d97d0c2e20"
+    },
     "state-zones/frozen.json": {
       "bytes": 57151,
       "sha256": "55f7598a63cea775d2f442bff1c5a516d566666cf2438436c5144aa45b4ab3ff"
     },
     "state-zones/index.html": {
-      "bytes": 7353,
-      "sha256": "36886fd394f1655ce1498d61edfb4f76acb50e9a768aabf44b488140e3a7f5ac"
+      "bytes": 7459,
+      "sha256": "5fe83f4c1dcf6767b995721c754a021388f91f4d0cf8957dd48da21b4f79125f"
     },
     "state-zones/protocol.json": {
       "bytes": 2973,
