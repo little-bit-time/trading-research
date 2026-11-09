@@ -1,31 +1,21 @@
 {
-  "version": 1,
-  "source": "f84042bb35f5f8c586a1487a591c9a46f9af6c689d51cc56d706f946387e05de",
+  "version": 2,
+  "source": "0770006fbdfaf090701e82cd51618560e4f283af1909c8f91649518c08efc646",
   "configs": {
     "volume3": {
-      "h": null,
-      "k": 0.5
-    },
-    "cusum4": {
-      "h": 4.0,
-      "k": 0.5
-    },
-    "cusum8": {
-      "h": 8.0,
-      "k": 0.5
-    },
-    "cusum12": {
-      "h": 12.0,
-      "k": 0.5
+      "fold": 3.0,
+      "history": 2016,
+      "quiet": 6,
+      "expiry": 2016
     }
   },
-  "prefix_checks": 4,
-  "source_method": "https://www.itl.nist.gov/div898/handbook/pmc/section3/pmc323.htm",
-  "calibration": "Past7 complete days, daily. Center log median; scale=max(0.1,1.4826MAD(logvolume)). Ref freezes from first positive CUSUM excursion until reset. Both variants freeze from the first positive standardized excursion, with identical reset logic. No future labels/price filters in scan.",
-  "cusum": "S=max(0,S+clip(log(volume/base)/scale,-4,4)-0.5). Actual alarm at S>=4/8/12. No backdating to estimated change point. Sensitivities all retained; not chosen by outcomes.",
-  "confirm": "Only following closed5m candles, within60m after alarm, at least3 above frozenQ90 among last4, median>=2base. Earliest confirmation+15m. End at6 consecutive <=Q75, gap or7d expiry; then rearm. Baseline never adapts inside this episode.",
-  "coverage": "Independent original x2 zones after7d; association if new alarm in preceding7d. This loose association is not causal identification of the same pump; false counts/new signal outcomes and no20 are reported separately. Original unrecognized pumps outside zones have no independent ground truth.",
-  "outcome": "From actual early/confirmation close, full1/7d future. Drawdown peak-to-trough; adverse min from entry. Missing/rightedge censored. Change and before10/20 relative to close immediately before frozen calibration day, not retrospectively chosen trough.",
-  "current_export_source": "dea83ad89f3cf99925d6f67eac4ef9895b5393e1c81f514f203d75435b063afb",
-  "provenance_note": "source retains the completed replay version; later edits correct protocol wording and compact public export only, without changing scan() or outcomes."
+  "calibration": "Медиана и Q75/Q90/Q99 полных 7 суток закрытых 5м свечей перед дневным срезом. На каждой свече до сигнала используется последний доступный срез. Опора фиксируется только на первом объёме >=3×; накопительной статистики нет.",
+  "confirmation": "Только последующие закрытые свечи: 3 из последних 4 выше прежнего Q90, медиана >=2×; между +15 и +60 минутами. Конец: 6 последовательных свечей <=Q75, пропуск или 7 суток. До конца события повторного старта нет.",
+  "market": "Медиана кратностей остальных доступных монет на том же дневном срезе; минимум 100 остальных инструментов. Фильтры интерфейса не меняют рынок.",
+  "purpose": "Журнал объёмных событий, не сигнал пробоя полки и не рекомендация входа.",
+  "counts": {
+    "coins": 657,
+    "events": 203745,
+    "confirmations": 12634
+  }
 }

@@ -6819,8 +6819,8 @@
       "sha256": "1eb461e0ff0dec2971136807a417016cd48fba81cf21701acafd73c8505bf706"
     },
     "state-zones/AWAKENING.md": {
-      "bytes": 34774,
-      "sha256": "6ef3dc489b4ef9219877fb71957ac01d83a521ffe88200d9d9d3ca45e9614b73"
+      "bytes": 749,
+      "sha256": "3f33450957d68e8719388213d4dcfa268ba22a73e6dcbe9c6723aa2ee77aa1de"
     },
     "state-zones/COMPARISON.md": {
       "bytes": 18681,
@@ -6833,6 +6833,10 @@
     "state-zones/METHOD.md": {
       "bytes": 14040,
       "sha256": "2776633892345b0a4e10c9ad7239cbac5ffea97f1e6f202e900538177e6735db"
+    },
+    "state-zones/PRICE-SHELVES.md": {
+      "bytes": 15436,
+      "sha256": "26a5f98f0ac9c0d7f121fd7d4b244315699435eea76f65ab1f149f1c28daaeb2"
     },
     "state-zones/activity-catalog.json.gz": {
       "bytes": 1377455,
@@ -6859,2668 +6863,2660 @@
       "sha256": "d7777f92055df89f5242245cf44976eeed062125aa5f3e723ce22e8e506225b1"
     },
     "state-zones/activity.js": {
-      "bytes": 34853,
-      "sha256": "1f7ebab7160df34d186e111fe27ad9f40dfdd0e79ee399fd5ef16ce6428332c5"
+      "bytes": 36009,
+      "sha256": "fb42bd6687b8eb1dcb22cf5fdf1b969deb671f407c6d9345af517790d21b275f"
     },
     "state-zones/app.js": {
       "bytes": 17585,
       "sha256": "77fc266ddd723d6f0b722b494305d6c4bf66bc2aefe5823dd500a45fbd521344"
     },
-    "state-zones/attention-map.json.gz": {
-      "bytes": 314643,
-      "sha256": "3b47b577b1d59d43f8d50d65a2be93e31a217261b9ca869cb943c9f9d296a33e"
-    },
     "state-zones/attention-report.html": {
-      "bytes": 23542,
-      "sha256": "d96e057f28f8e3c8afccb2f1d69028a2d631134ec6304859e85538653b17baf0"
-    },
-    "state-zones/attention-results.json": {
-      "bytes": 96261,
-      "sha256": "64b181d8d19c71f4803fdebd727958c70867fb417a2b6c2fdda3275e7e8ac2fe"
+      "bytes": 723,
+      "sha256": "9e095104af619c4226e75a5f9ba52f4b217e12504767f3142e0a7e098d33cf8b"
     },
     "state-zones/awakening-protocol.json": {
-      "bytes": 2032,
-      "sha256": "46be58fb468343ea1a394180a49664ac6fdf67c27dd5abb9727c01cce0891954"
+      "bytes": 1528,
+      "sha256": "e8e464c9b7b1d62102e4639660fa554e983f6016fc296c159d8948780d17b069"
     },
     "state-zones/awakening-report.html": {
-      "bytes": 45289,
-      "sha256": "07ad9f861f1d62d1562c9fadd1767157f480893f882fb5f329adcbc58f5b04ee"
+      "bytes": 723,
+      "sha256": "9e095104af619c4226e75a5f9ba52f4b217e12504767f3142e0a7e098d33cf8b"
     },
     "state-zones/awakening-verification.json": {
-      "bytes": 320,
-      "sha256": "226c3e39c6d1ac3dc71972939b3fe111c6c86454d04e4b16adcf243a21441874"
+      "bytes": 229,
+      "sha256": "48523f88cddc92f2b5e61d8816c2d21e52129d481fd2bd8bdb07a8589ea02d0d"
     },
     "state-zones/awakening.js": {
-      "bytes": 9291,
-      "sha256": "2feba188f67ae52d5e3156ef18a649f67fdbc80128f3309e9f7017a2993cfb68"
+      "bytes": 9304,
+      "sha256": "1328a5cb1c689065a461a16467b096161e9d3063cec9c3fb5c931219b660e6c7"
     },
     "state-zones/awakenings/0.json.gz": {
-      "bytes": 7604,
-      "sha256": "af856d30f014546af277a54634cd5808568b86f2845c750cf179a2c4af3a0ada"
+      "bytes": 4300,
+      "sha256": "ba81a9bf5235c6c45b21dca17358f0080c43a77472e4fc7e242522f1718a065e"
     },
     "state-zones/awakenings/1.json.gz": {
-      "bytes": 6459,
-      "sha256": "31e52552a35f6fc4aaa8df2d50ef7d9390edf7133cd46e3ed47dd5a4481342de"
+      "bytes": 3466,
+      "sha256": "141a4cb9e537227b027ee88c5820d0401ac2179e5b8eadd61d130236c50ec30a"
     },
     "state-zones/awakenings/10.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/100.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/101.json.gz": {
-      "bytes": 8101,
-      "sha256": "b9926683770a4b65255f9fa2c4e5f7bd63617c48df05d130105aa80fee3884f4"
+      "bytes": 4544,
+      "sha256": "f923adcdd805c429345838a7674269d1763fa62180f8c10a47e204044699942b"
     },
     "state-zones/awakenings/102.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/103.json.gz": {
-      "bytes": 6410,
-      "sha256": "873d45c145bd74708e74cc3447998b71bdca99e75e010db217f36df70d269e37"
+      "bytes": 3658,
+      "sha256": "572c0d44a7caabd48af63fb4ba6a551a8587f844a2eb6ad6593e5841049d7396"
     },
     "state-zones/awakenings/104.json.gz": {
-      "bytes": 6442,
-      "sha256": "dc879260970bf40a7b9c3a48cff341de195649e3e2f8a943772ea9d65f888d4d"
+      "bytes": 3367,
+      "sha256": "8e1367886099b27c29f00a0f86af85071cb2d5dbdb75dd825dac878dc643e4a6"
     },
     "state-zones/awakenings/105.json.gz": {
-      "bytes": 6992,
-      "sha256": "5d3f07a46402d8893d85217925b74aa65118a5bff22c707295272666eee96bde"
+      "bytes": 3747,
+      "sha256": "c5ee9199e4f283daf49d0ad0a50fd2e23d4d2e2553e101bea559c76364897b2b"
     },
     "state-zones/awakenings/106.json.gz": {
-      "bytes": 6728,
-      "sha256": "34b4982a526e5b026b82856f404cb80cce2a09195be3b7970e1ed6be4eabc715"
+      "bytes": 3541,
+      "sha256": "c432cba771e4155d705643917aea0e2d9ab3d4ba15fdefa8492c82eba2d6d388"
     },
     "state-zones/awakenings/107.json.gz": {
-      "bytes": 2755,
-      "sha256": "57da443f9ee51b4233515617ff5ccd796095adbc4d59c594f699c50aaf76183f"
+      "bytes": 1676,
+      "sha256": "28a2decdb38f462baeded23f055b62f40797088048e161aae0549a365a6aecc7"
     },
     "state-zones/awakenings/108.json.gz": {
-      "bytes": 1615,
-      "sha256": "9b115b8a2ef1dc3305999c0113cd2ce506ae0f65fdc28e1abb277c27a7023fa9"
+      "bytes": 981,
+      "sha256": "f00ee279cf0573457c18103827dd65fc692702e33cdeab7fd92f1d9d851a390c"
     },
     "state-zones/awakenings/109.json.gz": {
-      "bytes": 6675,
-      "sha256": "fd20dbff7ad834c4147707a1b57a71ba95c172691aec55cc441dfe5c63f569dd"
+      "bytes": 4478,
+      "sha256": "91a8150b29b0632d38875c9ce3a364b8fb3c1e9f6b182c5959b11f9693bff9a7"
     },
     "state-zones/awakenings/11.json.gz": {
-      "bytes": 5482,
-      "sha256": "15bb6d3d938432dbd044ba4d55d8752561505de62c3e0f71cbfc83b08c3f87aa"
+      "bytes": 3049,
+      "sha256": "8d068bfa8e6225cea75c3d370b86f0320f88b52c7552a8c71b161b656642e78b"
     },
     "state-zones/awakenings/110.json.gz": {
-      "bytes": 3470,
-      "sha256": "e7f5aeb1910e9fe46627bcd88c5142b403718d784d8105fcd5af85f2b83a39f1"
+      "bytes": 1547,
+      "sha256": "96e1c3007150659d296a5cf18efc3307bd4efb302816e8ca6bf4a23fc3a64d76"
     },
     "state-zones/awakenings/111.json.gz": {
-      "bytes": 5098,
-      "sha256": "532750ad1327d54a872ad55519f5093d4500100c8e3fcbcaab6b0b19cc512df2"
+      "bytes": 2976,
+      "sha256": "6667dd2fcd10fb6426fe9937e962610a7c1aab3f5efa91f9be3fe9bf0aad404f"
     },
     "state-zones/awakenings/112.json.gz": {
-      "bytes": 3436,
-      "sha256": "5698dcd05895e66cbd8eb34e8f44deab3a18c3e74f68bcbb14fc256d1c8b1aa0"
+      "bytes": 1773,
+      "sha256": "db9c2eed2457426e826af673c253d11f0cf52637878ac78256890706790ac674"
     },
     "state-zones/awakenings/113.json.gz": {
-      "bytes": 6560,
-      "sha256": "b328581fa37cac2c1c6492784a448bddb8bbbbfe169eed2fdf2f5396e511f4a4"
+      "bytes": 4798,
+      "sha256": "0edc269b29cab926fe564d45348712b7c909458ac09386990be9c526c2fda02d"
     },
     "state-zones/awakenings/114.json.gz": {
-      "bytes": 1964,
-      "sha256": "33cff1e1dccb8490ef05c638f91a5528e34d6046f7adfa8e672ad50309648c63"
+      "bytes": 1130,
+      "sha256": "37ae2b03ae18bce26b24fb9dbca841ae57003a4f9b8df23c4c4fb08584caf572"
     },
     "state-zones/awakenings/115.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/116.json.gz": {
-      "bytes": 5656,
-      "sha256": "9dd63313ed36f46ad43de76344148d010f92b47ca16df800e8ad4f5f3e4f202c"
+      "bytes": 4071,
+      "sha256": "b4f9e1faafbbb37d4ba59056658c6653365f24390b9c67be4bb90c9226977dd4"
     },
     "state-zones/awakenings/117.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/118.json.gz": {
-      "bytes": 5729,
-      "sha256": "20a4f62cdbd732a937217c7054460cd17f39c91f39580c5f5791064db2521c63"
+      "bytes": 4107,
+      "sha256": "8de763cb29ec49d0469941a1817ef3bf5eb8269ed44a4af437fd3b9b3550a538"
     },
     "state-zones/awakenings/119.json.gz": {
-      "bytes": 3948,
-      "sha256": "5489ad3e3c1a2588865946a0e3da0195bc3b38b738968c4f9f7460667e56a115"
+      "bytes": 2373,
+      "sha256": "d7a162477dfe0d9173f986b23aa58ace40953f7f879774387233469728d40cf0"
     },
     "state-zones/awakenings/12.json.gz": {
-      "bytes": 4446,
-      "sha256": "b16310875dd4d56c6c3739c8e456bc6efa565a99cb70251aa235118f78e5eaf8"
+      "bytes": 3009,
+      "sha256": "4d21f8f43ebb16338fab826e087749e5814581337d89ddf024e3a7cbe34ae8c5"
     },
     "state-zones/awakenings/120.json.gz": {
-      "bytes": 2403,
-      "sha256": "4829cdcf67e4d3ebd25fb0450d24202825409f1a49d5aa5d716daaa5d150b0d6"
+      "bytes": 1695,
+      "sha256": "c23d2224206e07befd4e5ead8a0d7a682896766b1ab865f381a97826731d9432"
     },
     "state-zones/awakenings/121.json.gz": {
-      "bytes": 7077,
-      "sha256": "2dc0875807a543a7f4a7de69f828a23928c09309fa03bf4bf8042ffc8f8e7a65"
+      "bytes": 3655,
+      "sha256": "4913018fd49fc544e7a1147da983eaf9872b767b20a26fd0ba11013d63e71dfe"
     },
     "state-zones/awakenings/122.json.gz": {
-      "bytes": 4152,
-      "sha256": "8159081d8df588b027ac5fa584d4cd456d8ab0db7e827c93a5cb8c7238f3c2c1"
+      "bytes": 2317,
+      "sha256": "0fb37927a1a1fd446684f21d8c804d43c1b3d3a06cf0a2295f669b546ef1d6ee"
     },
     "state-zones/awakenings/123.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/124.json.gz": {
-      "bytes": 3407,
-      "sha256": "76e99ce6bf6f2c4a8895b65f5072ce1dadfe7e17b74d227b33144b96bcea9cf8"
+      "bytes": 2122,
+      "sha256": "41579c9055429cb7c7f0c9f9dabc24f8258f2859b3f88dc6f5b7f0a309a851c8"
     },
     "state-zones/awakenings/125.json.gz": {
-      "bytes": 3212,
-      "sha256": "a639063a31a8b0c4e6aeb1f0f81d15c45cc3200b82927aef1ec1739497176b97"
+      "bytes": 1320,
+      "sha256": "87c32541a5596985503f87d5559440555f74a65a0005353635eeace56220c938"
     },
     "state-zones/awakenings/126.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/127.json.gz": {
-      "bytes": 1347,
-      "sha256": "791fa19f2a48a3af49654a861bc0ca11b6355ec1b5600b012a3bbfc856899316"
+      "bytes": 558,
+      "sha256": "e6dc9141745fa8947fa44116e60e63cb8289e086572247b65aacc2536822b819"
     },
     "state-zones/awakenings/128.json.gz": {
-      "bytes": 7059,
-      "sha256": "472c0a6513db8d84dfb70e810aebbfea0fc1d03d8e12464ffaf3bdbe1e35c89a"
+      "bytes": 3494,
+      "sha256": "45797167dfc46f31fbfcbb5e9c3aa79a5d92fa99ed2140c86d9f484558fe1d8c"
     },
     "state-zones/awakenings/129.json.gz": {
-      "bytes": 7712,
-      "sha256": "b049613b56dbfeae7032c366f89ef6796a832f0dd12d0b4171ad3467e213ed3b"
+      "bytes": 4303,
+      "sha256": "577ea08865400ae9fa10aec7ae922734cf5869a8802f33b5e0fd73f3dc121abf"
     },
     "state-zones/awakenings/13.json.gz": {
-      "bytes": 7506,
-      "sha256": "80063ed742e08a93a14c09932b80c8379d475a2e5435ea71b368e87ed9f37d99"
+      "bytes": 5137,
+      "sha256": "af1032e682f610508c4f73806dba0a1393aeb62575dd99fb63da12dbb6fc4541"
     },
     "state-zones/awakenings/130.json.gz": {
-      "bytes": 3521,
-      "sha256": "d1bbc3eadd7ed7e4d632cd74529b6793e85e0cd60b271d35fdd368db74f64457"
+      "bytes": 2203,
+      "sha256": "363abd535c7a9378532624b8f4a5940eeb2d999838dd7cbe51ee8138d871865a"
     },
     "state-zones/awakenings/131.json.gz": {
-      "bytes": 6483,
-      "sha256": "2ab1d41feb413515ca501a3384ab14a45fcdc57cdc6025bcf9298402d7a9e2e1"
+      "bytes": 3740,
+      "sha256": "b5b29f2710b778f911d08374950e9a06bd102a8538ea0a7eba796526e200ec69"
     },
     "state-zones/awakenings/132.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/133.json.gz": {
-      "bytes": 3120,
-      "sha256": "8d2a0e660eca9607aab26a6745a63f7fefc03bc237395dbe290e2a8df017cc9c"
+      "bytes": 2025,
+      "sha256": "935ccceaed497c95c0be9cc7f6cb9009cb2e91c2634e17a404c8cc8768b19005"
     },
     "state-zones/awakenings/134.json.gz": {
-      "bytes": 5018,
-      "sha256": "91a0bc4f433fee0211885e5c200a14f7fa6fe3dc8969a8f450d6e40916049887"
+      "bytes": 3061,
+      "sha256": "8db474ec2f9a7f056847275931a08bc43b807a71fbae6d84fda1936f3edbfb98"
     },
     "state-zones/awakenings/135.json.gz": {
-      "bytes": 4069,
-      "sha256": "f4446baeb8f01fffce1995d57ef5278aa092fd2d7c8fe33502e133fbf5d409a3"
+      "bytes": 2407,
+      "sha256": "4ac604e332978edacde509052a5aa8d7dfbb571b1e5a01c2dec823e7a4775c55"
     },
     "state-zones/awakenings/136.json.gz": {
-      "bytes": 5000,
-      "sha256": "254a3d8d3082c994ed88d66f1d0bf65c24b54e6d541611b5eaf6ff8e668f3417"
+      "bytes": 2771,
+      "sha256": "43bd9a2018ac0e97f103124573f6fb072ed1beba77f2975c25f5f2d2963e667a"
     },
     "state-zones/awakenings/137.json.gz": {
-      "bytes": 8247,
-      "sha256": "577e7a8b36ff7521f8744eafb81e33d9fcbcddc4517564a698ad5cf9633a20e0"
+      "bytes": 5287,
+      "sha256": "66c288157025d6f911102acbc9417e7e66e4b80ebac689137e95030bbfa6553b"
     },
     "state-zones/awakenings/138.json.gz": {
-      "bytes": 5998,
-      "sha256": "54876bf84a6dffd0ad08146147c6982a2ee7129e583d48c48a334d9c09c427b6"
+      "bytes": 3710,
+      "sha256": "a91040f97ffacf972944539e8cdd5a21c16bed21eb2af69312c8721710c06c24"
     },
     "state-zones/awakenings/139.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/14.json.gz": {
-      "bytes": 7551,
-      "sha256": "df54de9bde628fdae810f3db9af5138a926fe1632374eb18d6d3d9535ca8b1de"
+      "bytes": 3976,
+      "sha256": "0d30912294a0c090b13dad23b3dda8f1bfafa1c4afaf52724f873f8b25678680"
     },
     "state-zones/awakenings/140.json.gz": {
-      "bytes": 2104,
-      "sha256": "8b3a15aea4335ce08a928e431f273c68d2f769a0aa90584273fe9b561c4d99be"
+      "bytes": 1230,
+      "sha256": "9bc693722438f07c362b3b8b6684d695f893d128937ac9dbb705156e4a13d52f"
     },
     "state-zones/awakenings/141.json.gz": {
-      "bytes": 8105,
-      "sha256": "fe8b4bf115b5952878fc90d54e1b5f7ed199198aaaa8928a7e103c8ba43145aa"
+      "bytes": 4791,
+      "sha256": "a90cb8c00886a6252312b9bd5b4062304d9c2aaf9fa5f63caddedfca6c0eccfb"
     },
     "state-zones/awakenings/142.json.gz": {
-      "bytes": 4138,
-      "sha256": "9d32e451a0db5ca608d10648a38fc965f2c86576522b80ef7922a3467df4fc6b"
+      "bytes": 2464,
+      "sha256": "02fccf8fa00a5a9584f17f1f039a3680f50cb09a861d3728102b241c5c31f230"
     },
     "state-zones/awakenings/143.json.gz": {
-      "bytes": 5740,
-      "sha256": "27e6e88f0686d2239c23c65d60ecd2115edde88a9a97640c042a425042c8a3e1"
+      "bytes": 3631,
+      "sha256": "89f645020a4b226a787385367fad8eec376cd178a72ad77640e5db2ae0288822"
     },
     "state-zones/awakenings/144.json.gz": {
-      "bytes": 5761,
-      "sha256": "7359c8fc31761f7f2160f2d2f5f6a17590c085427ee3a1d6aef8aa250a4d0770"
+      "bytes": 3461,
+      "sha256": "c362a2435e606e82f6fd5794c213d3c8ecbb02721813d1c78e65929f3c27964a"
     },
     "state-zones/awakenings/145.json.gz": {
-      "bytes": 7968,
-      "sha256": "1b1c6841f90b066f5a73282e17849164b91c50a95d0dffa4e3fad168c8e3ce32"
+      "bytes": 4618,
+      "sha256": "3d2cab05a7ebe3f34f4b7358dc1dbfa4a300a0d928186f545c517ca1e5e212e0"
     },
     "state-zones/awakenings/146.json.gz": {
-      "bytes": 6033,
-      "sha256": "e73bd7dffee6d2e3c4866af018970cdf657f9e250da57d58fb1b511f73488a9f"
+      "bytes": 3297,
+      "sha256": "ee5d90b49e952d38506f4fb093cfb81cd35e4e7490c0d65fdbd483012bca9de9"
     },
     "state-zones/awakenings/147.json.gz": {
-      "bytes": 3030,
-      "sha256": "50c060490bad4212b73047761cfc6ac6e0e2702c6866f394cb1f81e3455c8516"
+      "bytes": 1752,
+      "sha256": "415be2c78fe1297a1650e4cd41532c9b44e4bcbe264b1cf1d48b1324c0924ea3"
     },
     "state-zones/awakenings/148.json.gz": {
-      "bytes": 690,
-      "sha256": "3587154ed8c080d50c8449dac44bc8393272b05844280ff6f278bf22bf2c9af5"
+      "bytes": 451,
+      "sha256": "b43bf36bf4680e82a4fa24358f657a4608a41ed335ea85b9784dd6539c377068"
     },
     "state-zones/awakenings/149.json.gz": {
-      "bytes": 5270,
-      "sha256": "928ab57d0ceb3de45e4e7afb196c4d40be47fd8393ab991d76316510bad7d440"
+      "bytes": 2974,
+      "sha256": "67249a0089f642c7c644c5a1c1b567969dd28b979766ae150298ad2fce34657b"
     },
     "state-zones/awakenings/15.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/150.json.gz": {
-      "bytes": 4034,
-      "sha256": "b6f8a4060a30fe7dcda6e2398434d0e30808b25f946f8698b60e8f0ba14a7f08"
+      "bytes": 2561,
+      "sha256": "5b0f26f8b6c142a2fa64f5c3b34bf9039f3fa03f9f46a237ac851bf223050ab9"
     },
     "state-zones/awakenings/151.json.gz": {
-      "bytes": 7961,
-      "sha256": "20194c7c2cb3a6e70ede7fc726850306daae22c9a3d6d5072c97b49869983788"
+      "bytes": 4526,
+      "sha256": "34392cc4821755698b1f0e6720304471b9a13dbcbc24a1ed23bc2a9c73eca598"
     },
     "state-zones/awakenings/152.json.gz": {
-      "bytes": 6336,
-      "sha256": "8cb9d7c416ffe70006ce47a6665a310b552f49d2a272270b400a1d991c976564"
+      "bytes": 3442,
+      "sha256": "59f43489c15e5a3e1e72edab2a62cadf9da3ac0e85188b71fa62327276c60970"
     },
     "state-zones/awakenings/153.json.gz": {
-      "bytes": 1655,
-      "sha256": "08a0947ff8780b578c182ab7301ced418d3d4e159fa3bbbd0179acfb596f9d2a"
+      "bytes": 894,
+      "sha256": "022a26d4cb5c4b6daca5ee5d66950ebcc00e98b0d6955ea6b7bc562a7ea0c2f8"
     },
     "state-zones/awakenings/154.json.gz": {
-      "bytes": 3948,
-      "sha256": "2f2bb11858e2cf0b0ee2dba32e29ae3679e3d3822a639bca2d72beff5e8a8463"
+      "bytes": 2001,
+      "sha256": "cb222cad24cd8b00a492275a8b91b83cb90496f542cd708a21e84a736e90e2af"
     },
     "state-zones/awakenings/155.json.gz": {
-      "bytes": 5998,
-      "sha256": "63d403cae9cda3b743ed99e1f3cc992ae29f523250b5bff9667a0300cc1a4249"
+      "bytes": 4331,
+      "sha256": "9d9bb055a6b6c9c2167a6df2872b8318c2850f3f1cb9d17f4d8fd4f95c8d28c6"
     },
     "state-zones/awakenings/156.json.gz": {
-      "bytes": 5820,
-      "sha256": "2fcd12970b821520f84c0a887c55dcd9709269f6403699a7deeb24f092cf633b"
+      "bytes": 3140,
+      "sha256": "6b7315134a53f8ec4e21b5bc14016fa1d571ac4a6d0fbf140d85cefaf05ad629"
     },
     "state-zones/awakenings/157.json.gz": {
-      "bytes": 8539,
-      "sha256": "7db876d673d31ee483628dc9e3ff0868b31c7bbd4c25eb7ccd0c955e7f5a74e5"
+      "bytes": 5138,
+      "sha256": "56b792aa841c0fe8d759239ca33c92c227bd9744a107db5d2346fcdf19245af7"
     },
     "state-zones/awakenings/158.json.gz": {
-      "bytes": 6032,
-      "sha256": "3fc2910cf1c6c041719468e5a90d6d789b6f5408e0bdc514ad85f2ba40a7c4d1"
+      "bytes": 3571,
+      "sha256": "b9099e78bfed2ba40360ba0cf6df11a8106274b75f5be62cf3aa3a8550f7e353"
     },
     "state-zones/awakenings/159.json.gz": {
-      "bytes": 4533,
-      "sha256": "fc191a1dd96022bd56a6f97e016a3f4e2106514f91620bf5f30a8f2b7e178ca3"
+      "bytes": 2082,
+      "sha256": "82b8503cac95386b65885579d6e6bd58fe7d1229a9b0879d7989da5fafe43a85"
     },
     "state-zones/awakenings/16.json.gz": {
-      "bytes": 2634,
-      "sha256": "e6f6ff4b258588ac0f2b2e9f9231d2923070e57512e7dc566c882a722a454a41"
+      "bytes": 1321,
+      "sha256": "11268bc72a5d3bcd3636a9f8466513370617965f72672fcb13a4222f5ef6c153"
     },
     "state-zones/awakenings/160.json.gz": {
-      "bytes": 1629,
-      "sha256": "475e260adf0f7bc542571f16954061e09194280b7f69158a3b20d7ed31019dd8"
+      "bytes": 1145,
+      "sha256": "e71286bc2703ef84caf4d47afa0ac0f1c94ce0fbea18c124dc32ab4f92344e2d"
     },
     "state-zones/awakenings/161.json.gz": {
-      "bytes": 1488,
-      "sha256": "c287bb595db373badae5e0fbb59647f640ed479d80f83e573e2eb4a48e004d84"
+      "bytes": 827,
+      "sha256": "859f78ea9312005e9887c120a243e2fe95a74d24645d396878a7fa7d02829646"
     },
     "state-zones/awakenings/162.json.gz": {
-      "bytes": 4637,
-      "sha256": "76f7b51093bb806dab70052ee1cf328cc6c0c319818af8d5e17303e3a31223ff"
+      "bytes": 2078,
+      "sha256": "33991f1b09eaf6f55532a154b707aa51519b626f7b940f0c2e162b5c9783f0db"
     },
     "state-zones/awakenings/163.json.gz": {
-      "bytes": 4928,
-      "sha256": "843a50eea06aeb9b0342d1e82d54858264c829d4d49d45cedecfd2655ea971d7"
+      "bytes": 2940,
+      "sha256": "f847516a57be291f231843c8c9fd9a7a0386d586ea447454a11422cbe1a79064"
     },
     "state-zones/awakenings/164.json.gz": {
-      "bytes": 8115,
-      "sha256": "ca6b3f102a5cda996906f974e85ed36958c3a7b141a58a1ce3801f556551bf85"
+      "bytes": 4357,
+      "sha256": "4bdcd658cd917439f3e8d161d59918b94deb660eab4811412ec30f5e9e2d84b7"
     },
     "state-zones/awakenings/165.json.gz": {
-      "bytes": 4382,
-      "sha256": "cc7487f57f51913cb6b5bcb54f1fda842618f124bde66101ab12b537b6bf44a6"
+      "bytes": 2134,
+      "sha256": "dd8e66ab2027d1ac5e9cbeb16ba392f55f0c29e25bb93ce7c913c3150da195ab"
     },
     "state-zones/awakenings/166.json.gz": {
-      "bytes": 8381,
-      "sha256": "80af4580becc12c8a2623d886f42a013f1fedf4fa167ae4949bf63f9cc96efb5"
+      "bytes": 4553,
+      "sha256": "cd5c7f1e11c664c1eec1d274b1efdb032c7dd7961223b6bc35773bbde91b716e"
     },
     "state-zones/awakenings/167.json.gz": {
-      "bytes": 3805,
-      "sha256": "908eee745c6cb0b3219e1a8bd91255adcab7603e6e3cf3970898cca2789f7a42"
+      "bytes": 1910,
+      "sha256": "80230bad1de18fcb1a4b49c09ef126f79efc142e5215a08ffbb5bad808721f2d"
     },
     "state-zones/awakenings/168.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/169.json.gz": {
-      "bytes": 6631,
-      "sha256": "2c1abc222ac33114eeac755108ed685653ca2c159eb268ae66b29ec284b002fc"
+      "bytes": 3332,
+      "sha256": "4a20ec67593d841f9889f14c1f249b32ea6dbb95d860578a67297deded365acd"
     },
     "state-zones/awakenings/17.json.gz": {
-      "bytes": 5386,
-      "sha256": "fd2213a2b5eed277a91b67a127322eecf471f9c7a501da961df9593790cb5c9e"
+      "bytes": 2924,
+      "sha256": "06ba8140298f24147ed37c0bd7dbb917972246d1f2f20766008a7f6f153e68bb"
     },
     "state-zones/awakenings/170.json.gz": {
-      "bytes": 7626,
-      "sha256": "54f2b9df4c5faf65bba9efef6abb3c7b070a39a578336d0aa9eb5b2c5a1af0de"
+      "bytes": 4714,
+      "sha256": "e6e12a26ae5614151ec731e34b1c30b89013a41d8a474a18daa9fae973cd8fd3"
     },
     "state-zones/awakenings/171.json.gz": {
-      "bytes": 5254,
-      "sha256": "b9de68a15aa9383a1d8d42017a996ddfb9428976c2c6b137b840b4b248abebed"
+      "bytes": 3045,
+      "sha256": "b2fc119bf6502d3184a471bb102c85499fcc4d4a1eb3e427f8cd40740b48582a"
     },
     "state-zones/awakenings/172.json.gz": {
-      "bytes": 5612,
-      "sha256": "d8f197586881b94d5df35d8ea0dd382f5c19c8264232076821878f53024bf239"
+      "bytes": 3382,
+      "sha256": "0612dcd9aa0fc45c4dd3144b6be634cc5f2f235666dd1374a9838d5f3af4c216"
     },
     "state-zones/awakenings/173.json.gz": {
-      "bytes": 9346,
-      "sha256": "7adfaef316baa2bc5ba7fe7b366c68bddcd3889b30a7d188025a4bccbf163fb4"
+      "bytes": 5341,
+      "sha256": "a0bd4bdcc63b0eefa45bb1b91aa3af68b38111f3c2213cab573dafa1ea85bf6c"
     },
     "state-zones/awakenings/174.json.gz": {
-      "bytes": 4524,
-      "sha256": "24b550de14f0b21983bdf9b55fa33b62a1e8b7e855e8770d84232e104df7275b"
+      "bytes": 2496,
+      "sha256": "675cb45391a2b2f914fbcecf8ffcb6876928ba9240b4e407397b22b5c608f8a7"
     },
     "state-zones/awakenings/175.json.gz": {
-      "bytes": 6592,
-      "sha256": "ecfc318b691496611d6a9ed84bab0e4eb89768e592f7ba49a9df2b14ec5d7a81"
+      "bytes": 4865,
+      "sha256": "1d7522cdeded30a3112b5c1e4051087248d20f17ccf61bdad9f589e541059935"
     },
     "state-zones/awakenings/176.json.gz": {
-      "bytes": 2767,
-      "sha256": "95e0bd069fa2b6a66a2360e2fe52bab39ea3675a774ebddfba2d02eb242114e9"
+      "bytes": 2137,
+      "sha256": "9da0878e52c51ff38cb2841855d0c50fd302caf603ce36524bb8781f80860ca6"
     },
     "state-zones/awakenings/177.json.gz": {
-      "bytes": 1773,
-      "sha256": "0ac8a257964f76ff02e210f4ce025631603cb11930e79cea4a6ec4570777e6d2"
+      "bytes": 1135,
+      "sha256": "58bb8931f5104a3489f688a1e5d4c81ee19586db24e8b68a9f8d548da73310e2"
     },
     "state-zones/awakenings/178.json.gz": {
-      "bytes": 2140,
-      "sha256": "01eea5acb8453ff04a36045d4497fa638bdb9481f41ae07e0aaa01c16d342eb2"
+      "bytes": 1346,
+      "sha256": "40e6ff2fa1a1e7837672e59f6e4f35120a87f23ea4f8f797c0dd0d1482516d0e"
     },
     "state-zones/awakenings/179.json.gz": {
-      "bytes": 3438,
-      "sha256": "db22d50b47806535d3bb6f496118ab1aa989b3eb023f590462140b2a27db6a79"
+      "bytes": 2005,
+      "sha256": "91bc19386ad6de5be92882e9888ba5a39f0d6a7134373bc78ba3f42e79f5d9fb"
     },
     "state-zones/awakenings/18.json.gz": {
-      "bytes": 4720,
-      "sha256": "f011dc0aff8d893e258633d6d69e7f072c55ae83a810f5a59a138fd9908cdff4"
+      "bytes": 3399,
+      "sha256": "3134430306ddf0355707a54f740d16e2e4f35d95badae9916e1ad8df5d5ee6b4"
     },
     "state-zones/awakenings/180.json.gz": {
-      "bytes": 4007,
-      "sha256": "bfdf7f1d04d638ce138d4d5a715af74aeb47576e768b97df4bda8f691739aadc"
+      "bytes": 2361,
+      "sha256": "0ec4091a14a0937b24aece6ddeaf8b99bd59eed893e4b0cb46682a2fca5dd522"
     },
     "state-zones/awakenings/181.json.gz": {
-      "bytes": 4706,
-      "sha256": "931de4a830f800534c77a3de63fe2a2a945b29d5d2efe8a8f1dbcd2e9342a433"
+      "bytes": 2849,
+      "sha256": "5b180dd982bfe848c752ef91ab4eabb682d6dc15aad12deda930fb7f15219a4b"
     },
     "state-zones/awakenings/182.json.gz": {
-      "bytes": 7527,
-      "sha256": "a58ce9ea9e0628bf1182c20456d0ad744571e2708d0e8b8aa09a1b6a43d8ead6"
+      "bytes": 4206,
+      "sha256": "d314c5ddc1e84172896b29cd328a1c1a70519eba0ce9dbd18f241df3a6ae116e"
     },
     "state-zones/awakenings/183.json.gz": {
-      "bytes": 1385,
-      "sha256": "ee41aa01113156e957470114f5c76062d7a9545b0b0b4d04ed0b773f5f93c640"
+      "bytes": 715,
+      "sha256": "02848066d34dc28d29744bacf02f7b6b6dd6968489173323d3dd4d8beb383f4d"
     },
     "state-zones/awakenings/184.json.gz": {
-      "bytes": 7564,
-      "sha256": "20100e059a45193db685d3501515d6f802732746bcf093e973e5e2e0993145e2"
+      "bytes": 4436,
+      "sha256": "6fa2f0b274ab955bb4a2f42d91b34ffd6827f975ef7c24dfc2ea7d695d8f7b42"
     },
     "state-zones/awakenings/185.json.gz": {
-      "bytes": 820,
-      "sha256": "597e751a23f831503a2e8280945ff40bb37be3a8e0c23336544e438e4446ffde"
+      "bytes": 468,
+      "sha256": "c9cf02a1e95ec0633d6de1b0add8567949645d2a74d9e77512e44e7f893f76e3"
     },
     "state-zones/awakenings/186.json.gz": {
-      "bytes": 5662,
-      "sha256": "bf3c61bdbeeff69278456713e3fb4db9c16c1eca34e03f3ecbfe868c0bc13aab"
+      "bytes": 4235,
+      "sha256": "6ff489a3917afebe7ace010c828e5b24f7456d8fc66eda264be22879ea15582d"
     },
     "state-zones/awakenings/187.json.gz": {
-      "bytes": 878,
-      "sha256": "5ff9d6298e118ad3b351db0cd48c970479ac3f8854f443e525c0f33136eab867"
+      "bytes": 556,
+      "sha256": "7edaff6bff3c15c3dee9c8598504e899b3c264dbd19b1a83aabf32b9f1ad2af4"
     },
     "state-zones/awakenings/188.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/189.json.gz": {
-      "bytes": 7454,
-      "sha256": "c1db0d117525e473a17c6560a8d57be4ab9fe8280441c1d733d8383eadeb6bb0"
+      "bytes": 4006,
+      "sha256": "7836e2d13b5a5898ed5300808440aeeea3a176e87dbd7313b5898beda176e5a7"
     },
     "state-zones/awakenings/19.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/190.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/191.json.gz": {
-      "bytes": 8267,
-      "sha256": "9c46f29f5dd4b16158a25cfd314faa36a729df7b162233a08a3fd84a443e1beb"
+      "bytes": 4410,
+      "sha256": "d035d93856b3028791846cdb6bb903e3e818dfecd78325e90e3a4b949c795d99"
     },
     "state-zones/awakenings/192.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/193.json.gz": {
-      "bytes": 6885,
-      "sha256": "9aa20c9bb2e58ff83d76b3b7746a16d821addb6ac67dd83ecc49b7350ffe411b"
+      "bytes": 3868,
+      "sha256": "f2e1d2d0b3c6a408921b48d4398376b0cf1bc70416bde03811571f249b8eceeb"
     },
     "state-zones/awakenings/194.json.gz": {
-      "bytes": 3999,
-      "sha256": "4cc7100325f03fb38fa59ce86745474b3d39487b427bf034e6be3c5cc1e5f662"
+      "bytes": 2267,
+      "sha256": "afc49a2a69e91394704687094f78aa9e0e3beff3567f65888eb7fb5614d37df4"
     },
     "state-zones/awakenings/195.json.gz": {
-      "bytes": 1362,
-      "sha256": "2f465337f5c48964eddb0219b699436945bfc2c963e71faa6d3b10e2c0b70383"
+      "bytes": 1018,
+      "sha256": "9ccdfb2cb5dbaf1e6c1579a95e09d64484bc08b9598ba8e58cc28b40266c66f1"
     },
     "state-zones/awakenings/196.json.gz": {
-      "bytes": 7965,
-      "sha256": "119c4712e2751e76dfd5c5c2118db86f2eba96533bfa707629a82f5e7a52cfa8"
+      "bytes": 4191,
+      "sha256": "e4b3662c6fe986c5eb12de0ebb4be58335cb700f1439b37c5933329935095250"
     },
     "state-zones/awakenings/197.json.gz": {
-      "bytes": 4465,
-      "sha256": "5ab98eb63be1ad18fc548e89c4fda93721298af7b505cc11c2310e223790efcc"
+      "bytes": 3031,
+      "sha256": "7b350e7b0a3bc11a56366ffebba90cf89d0cb0f66385aa6cbf36784161c85f06"
     },
     "state-zones/awakenings/198.json.gz": {
-      "bytes": 5903,
-      "sha256": "398c75d776f4f35e06828dc4b4e3ffeea4408a6f906b0884837199740667b55e"
+      "bytes": 3107,
+      "sha256": "69e99354f36ad697e77f39fe4ba3ab16f6d300a464e393c24a9ae446f37b52f9"
     },
     "state-zones/awakenings/199.json.gz": {
-      "bytes": 2140,
-      "sha256": "f296bdb2bd3d56a10b784456913250f25553be7ee864d32acc35721f531283f2"
+      "bytes": 982,
+      "sha256": "399d56252a3559367e4a481e2fa41e9dff3ac445b60cd5d504cac587ae131bbd"
     },
     "state-zones/awakenings/2.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/20.json.gz": {
-      "bytes": 5989,
-      "sha256": "1fde6261a3dea0b681e8dd90df30a69c5173f5632601b3eeb86bbcd9c98437d3"
+      "bytes": 4524,
+      "sha256": "63322480fca13beb354cfa84a579638039c5fc3ffa2c136af0727e6b66702c67"
     },
     "state-zones/awakenings/200.json.gz": {
-      "bytes": 4055,
-      "sha256": "275294f12ae49147803eef6af9c88a4d9054c46bfa871b49cb676c27c827d9e1"
+      "bytes": 2369,
+      "sha256": "f33d8939250e951b1e5bd17d4e582ddf14b036f01afc1e66faaed017998eb821"
     },
     "state-zones/awakenings/201.json.gz": {
-      "bytes": 675,
-      "sha256": "f8649d9aa16d5b129d46669be62b2f9a73be2c7c297a88da7313800967180c78"
+      "bytes": 377,
+      "sha256": "ca4d43bb126f6f4f4ae7369b436cb956fb70004a0b55c602e312ac0668f5ff90"
     },
     "state-zones/awakenings/202.json.gz": {
-      "bytes": 5985,
-      "sha256": "87b0ca23e5044c460d827ff9ebd44f397fa38449dc6f392f19792b6541bb6d66"
+      "bytes": 3308,
+      "sha256": "13c7bd7ed84b3a14a1b05ec80523e14ca9e6e6a655c54f333752afac60406150"
     },
     "state-zones/awakenings/203.json.gz": {
-      "bytes": 4763,
-      "sha256": "59cbf57a1d3a7a41aab00b6d28fcf579c7e34bb8ab166509308eb1d684c770fa"
+      "bytes": 3484,
+      "sha256": "6bf3a06254b5a3f43151cdf7ffabc1d1578ee02f4d75cce4a037fabef687bfd7"
     },
     "state-zones/awakenings/204.json.gz": {
-      "bytes": 2427,
-      "sha256": "4477324ab395ff123c78938fc757e0447028ac35d4a44a373e46dea916251abc"
+      "bytes": 1236,
+      "sha256": "ccfa53542e509a6d3d6d690010113f07cb67a38aca7b36876ae42d8672af5129"
     },
     "state-zones/awakenings/205.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/206.json.gz": {
-      "bytes": 7170,
-      "sha256": "d2fd5813de99e2fe02855987f4e04bae48b25714cc0caa4669f8878d88a5a402"
+      "bytes": 3956,
+      "sha256": "306724832c70c4b29f15b2dc92bc5b9ac90f91fd3d0c97f2f191d48ff6d71458"
     },
     "state-zones/awakenings/207.json.gz": {
-      "bytes": 8670,
-      "sha256": "1e36c924433dc56892172ee8872330fd4f54b41d5031c35f082d57ccc3526af1"
+      "bytes": 4818,
+      "sha256": "627cbd8a5f7f3773d85c61fb24b30c26744d4b4b55a1b4f019801e93d0f093e9"
     },
     "state-zones/awakenings/208.json.gz": {
-      "bytes": 7240,
-      "sha256": "cfdf762394bedf28ba8b833d8e509477979c9e332820861f3e9c736c7793675b"
+      "bytes": 4025,
+      "sha256": "073557a8cbd7d917a3bc079af8f256e9c66b0fce889a60d2960adc035b32fd6c"
     },
     "state-zones/awakenings/209.json.gz": {
-      "bytes": 588,
-      "sha256": "6e49a9658e2ba18d9485c13232d5c3c40aed84c1951c1df2667cfaf5196d8b80"
+      "bytes": 318,
+      "sha256": "26e22181ccba6fcdad8524e798d105e00fa741a2203370ed528b18e429944958"
     },
     "state-zones/awakenings/21.json.gz": {
-      "bytes": 5540,
-      "sha256": "05a1fa04f64d9c697ac65e4ccca6be84eeea45dd316f5d2db34ea469c7efa216"
+      "bytes": 3090,
+      "sha256": "b103f62cd94f098ad80004c63ddaf0f87fe28dec27a2d4834d6c301a1bd1d913"
     },
     "state-zones/awakenings/210.json.gz": {
-      "bytes": 7231,
-      "sha256": "fa5548dbe92ddd10a4c346ff516537bad90db66c63e5dc7779ee07dc3d10ac9a"
+      "bytes": 3918,
+      "sha256": "f10059ec000b78be449372d16a040febd1b60717613554e177b82788afdbb741"
     },
     "state-zones/awakenings/211.json.gz": {
-      "bytes": 8913,
-      "sha256": "b1505c1592ab49cb0a62d3f73791b49b0529deb8fccc0fc072e35b37d55ff6a5"
+      "bytes": 4737,
+      "sha256": "a11b7c9990ebcb65ce49d35c8890ad9f35515e6003abf56ec0d58e5b45674b44"
     },
     "state-zones/awakenings/212.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/213.json.gz": {
-      "bytes": 6122,
-      "sha256": "e8008112eba27a3fcb35839ff5e758e243b4f61f3c15e8673a42bf448895ff69"
+      "bytes": 3284,
+      "sha256": "1803056f5422f7014adbc293b4df02a0261c3804b46d5909a0e7aad7233bf456"
     },
     "state-zones/awakenings/214.json.gz": {
-      "bytes": 8559,
-      "sha256": "366b617a61de73d2b76b4751b32153bb01e2844947f2b4256bbdcf0123507c47"
+      "bytes": 5307,
+      "sha256": "f83cebc7c4c76f9f47db42f85cf6bda7ff8ba94717f1f296f70c34787f2c37ff"
     },
     "state-zones/awakenings/215.json.gz": {
-      "bytes": 6013,
-      "sha256": "3623c9cccdbecadd0f2157d73c73c405cbf72be4f01700d61332bde097c220a5"
+      "bytes": 4634,
+      "sha256": "f25d9d4f348dfa2ef8cbca270e96cc36eb4ade90923b1fd13c521eed5f72c71b"
     },
     "state-zones/awakenings/216.json.gz": {
-      "bytes": 4033,
-      "sha256": "f16a9a0b201e4ccdd4ee034447780263d6bfe1d0c0ba1597490125793a5cba92"
+      "bytes": 2102,
+      "sha256": "0383d807716111ba635f09d12d032267b750ef4b617d430ec65a4f810cf79560"
     },
     "state-zones/awakenings/217.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/218.json.gz": {
-      "bytes": 4134,
-      "sha256": "384d6ba3d2c11116a720585314f770a2662f6fa52c0c0e659ab480a9bd8b230b"
+      "bytes": 2867,
+      "sha256": "4c1715a86e378dd8baceecedbd646db809bcb337e91247e634cd547e6c4e68e2"
     },
     "state-zones/awakenings/219.json.gz": {
-      "bytes": 7801,
-      "sha256": "93a32ae7aeaa607c19386985741699cc0a115220e0eeb184a4ee07d63ee3788e"
+      "bytes": 4294,
+      "sha256": "f1f93a5ebe69a08c368ded57495e0c3493a0c87739dc3db18b7dc459203e5855"
     },
     "state-zones/awakenings/22.json.gz": {
-      "bytes": 707,
-      "sha256": "5f0e595f4ca4cff1450777b7d67161bc746f6d909e60178768f9e41629ece5c8"
+      "bytes": 355,
+      "sha256": "7fbb5c5b9d6046896adc6e431d51ef01ce8ab0b94a5d91120cb0b1e51f719071"
     },
     "state-zones/awakenings/220.json.gz": {
-      "bytes": 9032,
-      "sha256": "7deede4c1161a52e3bb2f78b40b4b90791ab0d5a023af4a0317105e53268fc9c"
+      "bytes": 4814,
+      "sha256": "2e891ecc605225a7aa47346e9a37cd5764bb8d3d1629bb400701768f5089fe59"
     },
     "state-zones/awakenings/221.json.gz": {
-      "bytes": 4862,
-      "sha256": "ff16e63455d114765a118bdb0f0ab16ac08532ced576166efc692c000e7bb81e"
+      "bytes": 2582,
+      "sha256": "e0b27c7c790c63d82888389179c3d08b3deea74d3eb3f082827f9ed4777dd83b"
     },
     "state-zones/awakenings/222.json.gz": {
-      "bytes": 3450,
-      "sha256": "bcefeb0dd8bd4987c031c7656b5906457c7d4fcba19254558f704458d5a35d7a"
+      "bytes": 2042,
+      "sha256": "4b2e666b42157b24a1fa63c4ba4bf7f27d5b2789b4f1db058aff236a397fdb9f"
     },
     "state-zones/awakenings/223.json.gz": {
-      "bytes": 3399,
-      "sha256": "bd8211786b0a57105ff9646d821caa4a2961204d68badc82a7f6a15ea73729ec"
+      "bytes": 1885,
+      "sha256": "265e7f55e5d08e517dca47361d1589c55f947b9e4c6b52f277842c21e47e8e70"
     },
     "state-zones/awakenings/224.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/225.json.gz": {
-      "bytes": 4129,
-      "sha256": "3e1c2bd812ed025a17eea075023850b7695a4b5f91723d0022e486b0f73409ad"
+      "bytes": 2169,
+      "sha256": "607b098de63b3e7f081d4767bbb6475ba7e59beab7b489610604ec7ee17233b1"
     },
     "state-zones/awakenings/226.json.gz": {
-      "bytes": 5044,
-      "sha256": "db1d0922c83e72b3723a7ccfabb45fa7515064efc05bbd2f7b3a4e2f7dae3efe"
+      "bytes": 2522,
+      "sha256": "90e4cdc9461d1775db4e2cbd73b57cdb4d81e2907d356222d6f52028b45dc895"
     },
     "state-zones/awakenings/227.json.gz": {
-      "bytes": 7639,
-      "sha256": "45049f6dcad2a61b396304ad7e519d1b3203d9507b0849d7597aa71ea8b146a5"
+      "bytes": 5321,
+      "sha256": "92d9e962ee5f05398ee165bf8ebf35e5ca99952d1a36a419150823965f538654"
     },
     "state-zones/awakenings/228.json.gz": {
-      "bytes": 3714,
-      "sha256": "727b93185cf4df3eb9d1a36dd44fa81af6d2aa82867e3e49631ce80511a31ed2"
+      "bytes": 2361,
+      "sha256": "bef619a807b109eaca0e9b5370ba847d036d372d85eb0b0488bcce85fe8f0bf6"
     },
     "state-zones/awakenings/229.json.gz": {
-      "bytes": 5564,
-      "sha256": "454924e7e44e993b63067a33811dae0f5d909cabc80f56a876be929a74074892"
+      "bytes": 4251,
+      "sha256": "9dd2a52f950ac1481313312ed92b1cc464847efdf21329172cdebddef56bd990"
     },
     "state-zones/awakenings/23.json.gz": {
-      "bytes": 3624,
-      "sha256": "767ed9d8f07012e8d77202033e3a8a306911f3b709c6df519138d6cfd89987c4"
+      "bytes": 1929,
+      "sha256": "43c3417885d5fcaed9692ac237210bb5478db5d04f74814b2797e149d1b376f4"
     },
     "state-zones/awakenings/230.json.gz": {
-      "bytes": 4207,
-      "sha256": "44d2042892ce93570b64308d8542686dbfadb802f9df3a68649d19f53fc34387"
+      "bytes": 2303,
+      "sha256": "9db5120e136472c0d482b498880b312c048d8b05cd7d69335eca6c6f0237e9f8"
     },
     "state-zones/awakenings/231.json.gz": {
-      "bytes": 4977,
-      "sha256": "a9f0b99900cbe0ea5face686fdb889fd4c696a520e5d8f19e042a95b6e83c463"
+      "bytes": 2614,
+      "sha256": "323dc0008363f16ece897f25c559a019ebcf61b03e0328463cb3a7249ec2b820"
     },
     "state-zones/awakenings/232.json.gz": {
-      "bytes": 5235,
-      "sha256": "6e30194f8fd99db9ba8a2afe3eadd891f92394615a83cafeb3d739afb1765c32"
+      "bytes": 2883,
+      "sha256": "f165bf672653e48d2514dcee2cde84a9d3143b6a643f5bb70b6819c6094384b9"
     },
     "state-zones/awakenings/233.json.gz": {
-      "bytes": 3621,
-      "sha256": "91e8a62e8f8abe86ec1fb9c979da60f4f7a28fba7240c57eef243152e0cb5f1f"
+      "bytes": 1898,
+      "sha256": "cfe05dfc51b4891f48ed040c213ba82daaebfe5420884503862f9a93791a7b69"
     },
     "state-zones/awakenings/234.json.gz": {
-      "bytes": 2965,
-      "sha256": "0e76cebb2cdd4992c3436828962289984edc7944191ce50e361b904db4896be8"
+      "bytes": 1735,
+      "sha256": "23f8d5868e2323745bc5273922fcadd85424243065657c5b998e6d8d7162714b"
     },
     "state-zones/awakenings/235.json.gz": {
-      "bytes": 5732,
-      "sha256": "982915b7681942d8b1ac813f47319ddcc93938c7e31859f8f121c3045392ae1d"
+      "bytes": 4132,
+      "sha256": "065821cce210a9ec1cf91560d9fab24bb02d7b7435f41eec173659225643a5ce"
     },
     "state-zones/awakenings/236.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/237.json.gz": {
-      "bytes": 5127,
-      "sha256": "b0faa5db40623df8fec8632d41381d1ec157e0c19ee88cba4e506d21703319d5"
+      "bytes": 3893,
+      "sha256": "a481a37eae97e02be2fc177fa0cdc3632e4c801bc4c0af0f7d7751473566fe29"
     },
     "state-zones/awakenings/238.json.gz": {
-      "bytes": 6531,
-      "sha256": "c79487d7edc36c31e05962528b38326a39e9d25aee4a51a4d9ba775ae01699ee"
+      "bytes": 3682,
+      "sha256": "46cbb06400ee25032d4e5cd3d6df7c955d3b65f49e26b846d2516c4fb5130b12"
     },
     "state-zones/awakenings/239.json.gz": {
-      "bytes": 4871,
-      "sha256": "3a5af5b1e5e0c85bd77c373b6ecfb70af3fc0dbcea7eb7c9354e9beb94c0ea95"
+      "bytes": 2325,
+      "sha256": "37bd4278c5660fef3a6933e7e033f7d92e765dff308261fb0ca2738124d35cc6"
     },
     "state-zones/awakenings/24.json.gz": {
-      "bytes": 4928,
-      "sha256": "6ed3cd67f9bef5aee18b9a48d75331cfb57fa1c227caf4d4ef9e3bcee66554c1"
+      "bytes": 2945,
+      "sha256": "6d58a79da5c935b52d5426d00a36667d63d459f4747af9518fb550fc49ff3b5c"
     },
     "state-zones/awakenings/240.json.gz": {
-      "bytes": 5601,
-      "sha256": "cdd7e06538f465284d73184be8b5d0366815e95ade799f2d8f6053d4457409b1"
+      "bytes": 3379,
+      "sha256": "2d6d39144c58730c6a3b276024e7e0d9869e7b8c053426bea8418e9514c8db54"
     },
     "state-zones/awakenings/241.json.gz": {
-      "bytes": 3419,
-      "sha256": "caba03774834fd5220415f9576e84c2864475ec610bf91db47794a424b5fe111"
+      "bytes": 1532,
+      "sha256": "b9ad5dae05bdb23ad605d3db3068e1f0a63b7dbfaef81415871968a27181b9ad"
     },
     "state-zones/awakenings/242.json.gz": {
-      "bytes": 3779,
-      "sha256": "f0d4782b8693cc120ccd8cc746951a90ccd8ede37c09f2d57a0e64e31021c35c"
+      "bytes": 2132,
+      "sha256": "9ba502f621f3a449c88c417806c82386662ca50188bc161fe6a0aa0a15cc6305"
     },
     "state-zones/awakenings/243.json.gz": {
-      "bytes": 5766,
-      "sha256": "c1b150ab060ef2a36942bc9fbfdffa6f573db4c480cdb5908b43ce47bbc506fa"
+      "bytes": 3460,
+      "sha256": "cafcff6775a0b80cc96c32eecefa570fbde8dffe294d90c2dc7c64fe9b91c415"
     },
     "state-zones/awakenings/244.json.gz": {
-      "bytes": 6365,
-      "sha256": "1b36d051afeecde12f69f47193145af6766898f1505acf6192843444a4d96f1c"
+      "bytes": 4844,
+      "sha256": "6f52df65e47d08df50ae2f9d1b6351a2e1ec94a3ae38bc3f87404448b86247cf"
     },
     "state-zones/awakenings/245.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/246.json.gz": {
-      "bytes": 9005,
-      "sha256": "0534b4b442c697cccdeddde4e7eeda37c90a819c641d0f08bce0d24b5199138f"
+      "bytes": 5027,
+      "sha256": "9f73ac18232d0347b6b97127be67e7b7294c17cee150dd50d33a67cf6b4b8a76"
     },
     "state-zones/awakenings/247.json.gz": {
-      "bytes": 4417,
-      "sha256": "2eccfca3c6aaabbb2fdb0d305de62fc5093b331e95750f144df4972d9ec8cd0f"
+      "bytes": 2499,
+      "sha256": "0dac3815103659daa65cda4d20671612ff83ceaa5f84455786ef488b235facc7"
     },
     "state-zones/awakenings/248.json.gz": {
-      "bytes": 5277,
-      "sha256": "571dd7e97ae3789ed2cc125162f1e35ff498c1079bdf538071f1d49423e77c1e"
+      "bytes": 3041,
+      "sha256": "c74c98f879bb12789f8e7265ab01be5b0b59ec12a4166ddc07961aa721b3f80e"
     },
     "state-zones/awakenings/249.json.gz": {
-      "bytes": 4839,
-      "sha256": "63be7037acd54de61f8a357c24a1047792ca5833da960bfa897c9cda4b3cb1e2"
+      "bytes": 2607,
+      "sha256": "bcdc77b03f79ffff755ade5da3242c4fdd787ebff4d5044bdc69ee8e68577364"
     },
     "state-zones/awakenings/25.json.gz": {
-      "bytes": 3201,
-      "sha256": "70934c9c2c60ae502e6e470957bdeba97f4482566982bce4f2253c9f290b5e7c"
+      "bytes": 1663,
+      "sha256": "c2e28f565ccc0b7a6db7f5ba3751327a5f4ace22e557b352bdce2c8884c660fa"
     },
     "state-zones/awakenings/250.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/251.json.gz": {
-      "bytes": 5784,
-      "sha256": "11243fd1e0edf32f174afd1b47c2dfe0357fc71da6286131567ac807e5e66164"
+      "bytes": 2923,
+      "sha256": "5666b8de78a3a71c47348b63aaddfd32052d665b08692e2dd6a1ff2ff015a9b5"
     },
     "state-zones/awakenings/252.json.gz": {
-      "bytes": 6078,
-      "sha256": "9fe328d55fcb80da72339b06251c3d82c02eca30dd462a688d296eb3838de96d"
+      "bytes": 3390,
+      "sha256": "c0e2a4aaaf4def5ac8a8c5f5c339681be1c77931edca6c3686f14ecba8693edd"
     },
     "state-zones/awakenings/253.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/254.json.gz": {
-      "bytes": 6805,
-      "sha256": "53005c807f942525d872403d2771bae8296e3da792f1c7d09f40e381d8e7d207"
+      "bytes": 3874,
+      "sha256": "5334b0bd10221b2d81964acae9c5ae262fd7b6331180e0a3dcd170fbb1301cdd"
     },
     "state-zones/awakenings/255.json.gz": {
-      "bytes": 4906,
-      "sha256": "c991a74e96827501ea42b41313b4e16653267783ef5cd3770904c2d4c58e97b4"
+      "bytes": 2886,
+      "sha256": "bde03e4dba535c0824a9413d1aa92b06f655cf6313443ee2a229a60d2bd2b19e"
     },
     "state-zones/awakenings/256.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/257.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/258.json.gz": {
-      "bytes": 4493,
-      "sha256": "812f20275cbe7535d02d59dd62c7239ce62dc16a5f4a16044707112cd05a93be"
+      "bytes": 2623,
+      "sha256": "4871c37c55c22b544cb52a0263323097d5589d89e47c0c59be313da0d8869ad4"
     },
     "state-zones/awakenings/259.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/26.json.gz": {
-      "bytes": 3661,
-      "sha256": "815fe000b5ba9f34e8b9dafa90ce502318861880b38ac97014cd0301ce4d0c9d"
+      "bytes": 1790,
+      "sha256": "8b4c0e0e72569956d52f26baccb20b71e5b536faa604636530a1f079e154344a"
     },
     "state-zones/awakenings/260.json.gz": {
-      "bytes": 6107,
-      "sha256": "f671f9a32d090ada4cc13099fdb2675c333b6ebbf90718cd649d22016e884184"
+      "bytes": 4591,
+      "sha256": "abd02233b1f18e3464c2a260dbd09c95e427df1c1597e8f213602dfa4f8c578f"
     },
     "state-zones/awakenings/261.json.gz": {
-      "bytes": 3880,
-      "sha256": "8291452c5e770774f975772c8c48323819d9700eddfc7c03d0b24140a99bc43d"
+      "bytes": 2370,
+      "sha256": "07a4fefc99a7ef0a8b3323114dd46999800bc6e2d5d35c981416cd690f79b67b"
     },
     "state-zones/awakenings/262.json.gz": {
-      "bytes": 5619,
-      "sha256": "ff557c459d22c74254ab0b555688a4ff50aa9a72fbdbb9c9b095489d2edd97f3"
+      "bytes": 2975,
+      "sha256": "26cdcb07271e0d59c5e6b9b7444f53db888d13f481250ec08e4604124574b81e"
     },
     "state-zones/awakenings/263.json.gz": {
-      "bytes": 9622,
-      "sha256": "02e4b9c9cae5a0383055e23ccaf149b49ad98c2b0a6af34198c0282645bef631"
+      "bytes": 5346,
+      "sha256": "df0a1ecd821451f688978b99bf0aaa71edf39e3676103f596d6ab72f787440f1"
     },
     "state-zones/awakenings/264.json.gz": {
-      "bytes": 5262,
-      "sha256": "25196f901ebc6c65e0ad15834ca164495653c70109ede66f864aff5fe2e46335"
+      "bytes": 3099,
+      "sha256": "a6e44d65cd3b317ade9f1bfecf4d2aac633813a995224c3178a1b0bd0d6babe0"
     },
     "state-zones/awakenings/265.json.gz": {
-      "bytes": 6436,
-      "sha256": "e530d090727da6ea0c8b9c73e4f62adff0694da826faee01f11cfec49e108cd2"
+      "bytes": 3295,
+      "sha256": "d16374f3cbeb9a723ece64863b3f388eabb5d85d751ab66cdae60d576918596f"
     },
     "state-zones/awakenings/266.json.gz": {
-      "bytes": 6006,
-      "sha256": "b81a42f73b5312db386100772933f836be35e7298abef7d837a3bec896f5ec6b"
+      "bytes": 3235,
+      "sha256": "fde2acb57a25dd5ba1481d761e7dbcc39ad12b9ac0128b269d2a967bda1bead5"
     },
     "state-zones/awakenings/267.json.gz": {
-      "bytes": 5402,
-      "sha256": "132b598f5e46f49cfa883f7ee47cdec8889e7f6d406582a2d38ad48a7ab550c6"
+      "bytes": 2973,
+      "sha256": "53b6ece362283ee93a718ac47b3bcdcb581716fe3ad4cec3c4662b86ce5018e3"
     },
     "state-zones/awakenings/268.json.gz": {
-      "bytes": 873,
-      "sha256": "b76a63f0d9a7f42a137c17be22725103e34472092c7cc45cbca0b786216007e9"
+      "bytes": 427,
+      "sha256": "1a184d46e8de1ab633b3b6d5274349b26073258fbaf2f36e0138362fe0f6a619"
     },
     "state-zones/awakenings/269.json.gz": {
-      "bytes": 6683,
-      "sha256": "de47803c87fa30d54c5d2deef58d649005bb4238e6b8908c445e4f6d3e624b6e"
+      "bytes": 3513,
+      "sha256": "2bb7e8124900fb5266c1b1cbeb80afe10f02c979e1b6666b4559079bf44db1ef"
     },
     "state-zones/awakenings/27.json.gz": {
-      "bytes": 6948,
-      "sha256": "eaf353d051bd78ff703b9a0a842713852db4fa3f1a886fac1982c3c1b391de4b"
+      "bytes": 3528,
+      "sha256": "47de43b7e84d2e68cb8a579b76a7e28ea38d3188be19faed0f148e74eefe73c2"
     },
     "state-zones/awakenings/270.json.gz": {
-      "bytes": 7589,
-      "sha256": "73986351dbd23cbcbd342a9dd3f8ebb13025b483a3bd8832929ecd9f2197e40d"
+      "bytes": 5101,
+      "sha256": "9335dd0bbbdb8dd5c151d96cfb7acc114196149ddc7bae739f7159efd2b97010"
     },
     "state-zones/awakenings/271.json.gz": {
-      "bytes": 5249,
-      "sha256": "e424313f8cba800e356354bd3d2873cb3d69868921862d23150632c43e2718a9"
+      "bytes": 3831,
+      "sha256": "b24ade02616787ffd634496415d864b0688a0fd746bb58f4d65395447db21f12"
     },
     "state-zones/awakenings/272.json.gz": {
-      "bytes": 4372,
-      "sha256": "71dd5a106e2ecbde8250dd125dd9451dcd515475a0a439b4a71010b9b40b70e9"
+      "bytes": 2342,
+      "sha256": "91c4d6714547a11baccb280795ae08af177afed1039d466268fffef205dbd218"
     },
     "state-zones/awakenings/273.json.gz": {
-      "bytes": 6999,
-      "sha256": "f44d8404c7caaea1d3ce59c970710c5c2b06ee630e1d91314c7f6dd192195491"
+      "bytes": 4359,
+      "sha256": "130bd1e7eab0dfbba4bf029514f7d6e4ddd968c3f4830b620d69d1db5b68584d"
     },
     "state-zones/awakenings/274.json.gz": {
-      "bytes": 5792,
-      "sha256": "615521ea03cdf5f2613a3a2f402c4c30f42592ea08a568bdc1aa521efa9e199e"
+      "bytes": 3066,
+      "sha256": "dcacefaafcb67cf8252de8d3ba8d17b96160a00e913b160f5884add3831d8a2a"
     },
     "state-zones/awakenings/275.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/276.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/277.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/278.json.gz": {
-      "bytes": 2484,
-      "sha256": "3b5d06f5c2237c57889db44b72827f391328e01cbce7e62f43668b010d2e6585"
+      "bytes": 1118,
+      "sha256": "0ac8605cef3a01d6cd4a892f4873f898d5add1cf09e55b71360352934e6ae6dd"
     },
     "state-zones/awakenings/279.json.gz": {
-      "bytes": 3550,
-      "sha256": "330652829c2d6ab43b2d2249d3296842a7e01ef9bb983c3a418efd645c9512cd"
+      "bytes": 1585,
+      "sha256": "a27a60811e277db3ac66b212801f47bce61142a6178e0aef5681a29212b7e2e0"
     },
     "state-zones/awakenings/28.json.gz": {
-      "bytes": 2733,
-      "sha256": "201fe2055c956422d97fae191f42257cc89f91b63eb585416298b084e4e44da5"
+      "bytes": 1565,
+      "sha256": "e7fcb15d9739c92efa12601804d9eb45a4ba0ffe6438bc85f014a4037bd858c6"
     },
     "state-zones/awakenings/280.json.gz": {
-      "bytes": 2699,
-      "sha256": "66b2f6389ecc93bc494ef9776f3b777cd537b1150f08810a4ab1b9470f1c5ca5"
+      "bytes": 1125,
+      "sha256": "06a0cbc6f80174d3c20e2f6440fa2da8cdc65a7e767f8e4d8fe4dd2170a123b0"
     },
     "state-zones/awakenings/281.json.gz": {
-      "bytes": 7566,
-      "sha256": "3d9f6f7bcd8eefd0b601924cf9390d1d0ba22291b55b19fd4b415ac5cc6546e6"
+      "bytes": 4286,
+      "sha256": "a491ad18502b4d63fe61984fc19be2c5443f7682c30fad6caefb406478316681"
     },
     "state-zones/awakenings/282.json.gz": {
-      "bytes": 4458,
-      "sha256": "bde2a301c918212b7beed12df2b6a7c27d2057dd94e5947fcb948aedcb068b05"
+      "bytes": 2554,
+      "sha256": "110f718b2551bc8d2be1ac1f442e895bf9f8b10729e6789cd8222cc2120d7689"
     },
     "state-zones/awakenings/283.json.gz": {
-      "bytes": 2881,
-      "sha256": "4d5cad636013b8a732fbfa4aeca03021b8813b0b999782f8bb63a81dbfd29ab4"
+      "bytes": 1261,
+      "sha256": "c3856a0ecb6cd49c451251a891964bf794daa3eb0587d31a1b58285141fea663"
     },
     "state-zones/awakenings/284.json.gz": {
-      "bytes": 4638,
-      "sha256": "1facc821a7e51405a00ac1686e50b1969bec4687af18645ab332f35c1604dc03"
+      "bytes": 3384,
+      "sha256": "41e8f7590ae346b310583cf394e6aa470b23ebe1729b9fc2b6a6f80f293d0e74"
     },
     "state-zones/awakenings/285.json.gz": {
-      "bytes": 5772,
-      "sha256": "842291e15eca49f01dd445822ae4dde69d882553ac8fc61bb4a0da0068f6bf6a"
+      "bytes": 3111,
+      "sha256": "3cafdf10454499e114e070c56ff96512ea9e518e10dd23f41e7e1c252db45b6c"
     },
     "state-zones/awakenings/286.json.gz": {
-      "bytes": 6368,
-      "sha256": "c1577d12efa0d53a8e0733795d68b12ee501efeaeb7762cc28fadbc771d86e61"
+      "bytes": 3756,
+      "sha256": "08cd837dc464e38119f3ec61b2620fa834317ee35dbebe8cf8f3e858d331e9cc"
     },
     "state-zones/awakenings/287.json.gz": {
-      "bytes": 4136,
-      "sha256": "ad9f17e41f6e117e81f153849400dc357f4143105ed64ec618dbd1b671d57f95"
+      "bytes": 2711,
+      "sha256": "151611e4f63ba2f336de365c8b9ed788978bda227371d82839788b3e70ed4599"
     },
     "state-zones/awakenings/288.json.gz": {
-      "bytes": 4657,
-      "sha256": "01b8eb68e3a657c39ee3d43f2389fefe0deb429e5b4e03a94dbabe7532172232"
+      "bytes": 2131,
+      "sha256": "ed3ea818b6b7946212145a7ca936d33b820840db595bc48f0769aad1a1e6d781"
     },
     "state-zones/awakenings/289.json.gz": {
-      "bytes": 7951,
-      "sha256": "982d784caf24d5004a1fbd241b4a499dc2d4562539265291bfa364213accdcad"
+      "bytes": 4719,
+      "sha256": "17bf92f5f2c01c89ab4ce49cdb0c3c872aaf31c80c506716e7f772af4bf5761e"
     },
     "state-zones/awakenings/29.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/290.json.gz": {
-      "bytes": 5175,
-      "sha256": "554f127e78242f2d1de4e129c35014967c3f1611cdf583e857a60dfe3013299b"
+      "bytes": 2822,
+      "sha256": "a11c1e41ffda98ea060a5aa7c2ef89c62dd3463c2773189134092b12e4ed1703"
     },
     "state-zones/awakenings/291.json.gz": {
-      "bytes": 5832,
-      "sha256": "926b8b401e2a3e4cb6c37ef8f21ce5d6e959c4b2116ad5825d78c8b77566c90b"
+      "bytes": 3109,
+      "sha256": "942e58cb17e54086ddacbb7fc60c288e09bc57e3aaaa9f28c3ea173dc6c9b1cf"
     },
     "state-zones/awakenings/292.json.gz": {
-      "bytes": 1140,
-      "sha256": "e2174bb237a7101a6df8b6f401ea5de15585ba7d49d1d078be44c808a1436a52"
+      "bytes": 645,
+      "sha256": "58edc8f85544284df7c9fbb91b4f08993e7bd8545a83d782a92022cd26e6a696"
     },
     "state-zones/awakenings/293.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/294.json.gz": {
-      "bytes": 3999,
-      "sha256": "303d854869a806d8d25ce1967c987336757926f9525c5826b5bde752b6de48ec"
+      "bytes": 2159,
+      "sha256": "eec932563fb783df22ef74e7ba7425addbe1a5492d18840fd7b924298ff6f742"
     },
     "state-zones/awakenings/295.json.gz": {
-      "bytes": 7173,
-      "sha256": "08b0692e4778e08e0149ca0eb1ff29d9e07274018ad244be416a76235094aa52"
+      "bytes": 3940,
+      "sha256": "28dfe91b6090f2280f08082eb7ed339d5eb803e84927cca17e7f158aaf83a856"
     },
     "state-zones/awakenings/296.json.gz": {
-      "bytes": 4583,
-      "sha256": "d774311c8a4891c53ee7b3fe01bbb6d4c06b7c5f1b6107f0ec3cb01f4daf1449"
+      "bytes": 3232,
+      "sha256": "77d335763cf26127b93d6614c93ff3f498b56a243cfc090d7fdaf97179e25aaf"
     },
     "state-zones/awakenings/297.json.gz": {
-      "bytes": 4268,
-      "sha256": "c39806dd95c57d28cb6a224142689e3ed72e0bca441a9bdb01cd4b5f0a3d948b"
+      "bytes": 2316,
+      "sha256": "4782c7766f2311bb905540e4891c3762785aa46b90388723d659a9bc63956e7e"
     },
     "state-zones/awakenings/298.json.gz": {
-      "bytes": 3973,
-      "sha256": "c784a4faeff9d3a83f9ca79a67cabaa1a66339600662f5b4bd606a84893d0409"
+      "bytes": 2311,
+      "sha256": "7cf718b22de04778adb24fdec87b7626a8d3c4245e9870552825f62a96b3532a"
     },
     "state-zones/awakenings/299.json.gz": {
-      "bytes": 5737,
-      "sha256": "d8dfdedf80f583b4a8071da475fbfbd641f431c4946740d88caf26ca30ca8192"
+      "bytes": 4300,
+      "sha256": "9520116eddb57f7fa1b5ab78aa0b571846c98c036eeb68f4cd1eed1521416a2c"
     },
     "state-zones/awakenings/3.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/30.json.gz": {
-      "bytes": 4877,
-      "sha256": "c85b2f4f27bda68354c7eb2a813ee4c8a1c00e971384431ad50bdcfb856dc653"
+      "bytes": 2241,
+      "sha256": "29521856b6c60f69c6040db54c91ee8b8f22bafbf287c6a77604cd04e8d51bda"
     },
     "state-zones/awakenings/300.json.gz": {
-      "bytes": 7293,
-      "sha256": "2f58f9ee6396052b6945ec4bff715d0929a0a3cce2fd60b097e0667380cc12c2"
+      "bytes": 4089,
+      "sha256": "b0f0a8bc2886149f35b948701a8eb9fa4776ca32429535f7f8aa1696acd9c1bd"
     },
     "state-zones/awakenings/301.json.gz": {
-      "bytes": 1644,
-      "sha256": "516e73ae132bc4ab9321c87492a089906193742ac7cc06dfe64b09070085fb96"
+      "bytes": 699,
+      "sha256": "44f88d267bc0abde92ef7902e1605ddfa4df04612cd4edc6e55da08c48647f90"
     },
     "state-zones/awakenings/302.json.gz": {
-      "bytes": 5352,
-      "sha256": "ecfe85aa6ad3ecbe5f0674288f9c3e9528ef7835f16032d8458112dfd69628b7"
+      "bytes": 2862,
+      "sha256": "aac6eed2a6db2b20d5022a0ed52c96f616095fab82b2c0e6ae6b86259922f1da"
     },
     "state-zones/awakenings/303.json.gz": {
-      "bytes": 8176,
-      "sha256": "ee04ecb65d05ef2ff63ec32e7018c53e84a7b375e4dda6f5f1a6ad4fc23a74f8"
+      "bytes": 4470,
+      "sha256": "359919b7094b5eefcf9ad7c72345e30515e440e29c52926348c527884ae6dfeb"
     },
     "state-zones/awakenings/304.json.gz": {
-      "bytes": 3409,
-      "sha256": "47ad4fa20f5b5ee590cc0a4ebc53750648ca0b767fbd9f522413092aaed62792"
+      "bytes": 1787,
+      "sha256": "8cc8b98562097ae507616b846ba4cab029761d582c67327f4636cd2d030ff48c"
     },
     "state-zones/awakenings/305.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/306.json.gz": {
-      "bytes": 5522,
-      "sha256": "cb765aa6651a4d38d33ee58e7d8d7eafce3ff978b57c549d1cbde5cdf76a6bc5"
+      "bytes": 3083,
+      "sha256": "31c54fb4f44468b558feab2876773b47d0a3087a9d4221cfa9246faeadefce6e"
     },
     "state-zones/awakenings/307.json.gz": {
-      "bytes": 4588,
-      "sha256": "0dd89a76e9babfbca38c6e499d456316fb8cba84f576883cd14054420ee5a1e4"
+      "bytes": 3352,
+      "sha256": "f54c23f9113324deb9b8311168040daf4443f871baec14ca97b65863137ac562"
     },
     "state-zones/awakenings/308.json.gz": {
-      "bytes": 4101,
-      "sha256": "7e13a8c7d38d3a8b093de1324234c45f629e19cd715098e697b9a718e0365f28"
+      "bytes": 1962,
+      "sha256": "5bd2132dc8a2238d2dcc7829cab431baaa53e9cf194b339c5b47942ad79e4a81"
     },
     "state-zones/awakenings/309.json.gz": {
-      "bytes": 7913,
-      "sha256": "a452951cc734a9a06d5366a68d93cbf7c5c049326cc9f62de2ec2bb805932346"
+      "bytes": 4265,
+      "sha256": "1182c959be52ab46f04aaa59a31c5c16567131a8cd12f4ebd64fad1b039905cb"
     },
     "state-zones/awakenings/31.json.gz": {
-      "bytes": 5125,
-      "sha256": "7b989ccced83ad4650fb830217a9c2380792e5651565ce135970207160da77aa"
+      "bytes": 2719,
+      "sha256": "14039dbdff4eb79cee72198a6ce56d232f7f8d5c7e5e2887d9b189191e80693e"
     },
     "state-zones/awakenings/310.json.gz": {
-      "bytes": 5444,
-      "sha256": "402f321ef61e20967466912e76fe12f88c87959e50bce7c2ad25d1c6d339a9a8"
+      "bytes": 3530,
+      "sha256": "cb4f31f1141b3c538f20b787866007b20517918a640657e6d7f1cf0aae722b01"
     },
     "state-zones/awakenings/311.json.gz": {
-      "bytes": 8513,
-      "sha256": "ffde937a587a1b0aefc7ece0cb1da01884d11da476ca889dcc50c68c198dbb9e"
+      "bytes": 4598,
+      "sha256": "2b55de7f7cf5bd398ce2f2dd221485ecb662418ffc6cadaf51b8f1d0fb408ac2"
     },
     "state-zones/awakenings/312.json.gz": {
-      "bytes": 6866,
-      "sha256": "aa084a8a20ba592daf0692c90f3b88b4552cca18e649fb9ae537a939a21f01b6"
+      "bytes": 3689,
+      "sha256": "ab6e96d1f784bf80732c9e841a4c3dc8835c0860598a2754c558e4ccae028f1c"
     },
     "state-zones/awakenings/313.json.gz": {
-      "bytes": 3223,
-      "sha256": "32e66837cbe2eb15b2b5507b6619817e16d85fd94c9af6d0ccb6c58a8ac693a5"
+      "bytes": 1781,
+      "sha256": "54894a7a25bc606aeed710070ee22a4908f817f75e0fe45865b4f7c1cfebf7dc"
     },
     "state-zones/awakenings/314.json.gz": {
-      "bytes": 6122,
-      "sha256": "5f0497b19947f228fab7e7722b936ca04dc8ce85e0bedb7df037ef49e51dd8b7"
+      "bytes": 4539,
+      "sha256": "0d2d366337b15db3dbde72bc245a5624253174cb822290719541a55d77f68eb8"
     },
     "state-zones/awakenings/315.json.gz": {
-      "bytes": 4524,
-      "sha256": "28f4cc7472127b038c14a5ddf8c8f7173cf1e94746389e4d9fb73348d336f598"
+      "bytes": 2667,
+      "sha256": "061aaef6fc9b9e37feaec8585240ba89b1db1976a5ed91935b1afc2f7eab1e7f"
     },
     "state-zones/awakenings/316.json.gz": {
-      "bytes": 609,
-      "sha256": "b8e5564033e1d1f5377baee77ab00cdeb20d2af5eacc3b739c12af4a87460f78"
+      "bytes": 333,
+      "sha256": "6ab157487102d7cb6fbb48b1a80ee1b11035d78a8da398fcb3bd3a49d1c50e80"
     },
     "state-zones/awakenings/317.json.gz": {
-      "bytes": 4837,
-      "sha256": "e22bb5f43c2d2f70407194b039f758fdbb98181bf25ac33d6c677f2f766421d0"
+      "bytes": 2567,
+      "sha256": "3d31aa79934b6cc6802752539535abfabafd2d7d0765597ea7b084faed88fdd2"
     },
     "state-zones/awakenings/318.json.gz": {
-      "bytes": 3460,
-      "sha256": "c13bdabfcc7ae7660b77156bebdf3da322f009abbe65150bb9dbe17157891874"
+      "bytes": 1942,
+      "sha256": "c62f0ef0ba510536aa0fc111e8190ce33ae7506735c49c0b07b9262eb20c6284"
     },
     "state-zones/awakenings/319.json.gz": {
-      "bytes": 7234,
-      "sha256": "3fe3bbd2c78e7703f649df52de97a4703f358a2152b3f32865f22fa272eacdfe"
+      "bytes": 3776,
+      "sha256": "d03188ba24f44f98d3b091b20ead48f1a9d03383ad012cec8f4a7a52dff4e1ef"
     },
     "state-zones/awakenings/32.json.gz": {
-      "bytes": 4328,
-      "sha256": "b5a2a6c0a661996321ac619ba28bd8d688bf8d732ee959e12f2da98af87212be"
+      "bytes": 2353,
+      "sha256": "49a1f0cb721800c4642aa8c7ac9e62c852d2279538252b44f10ecc009b224538"
     },
     "state-zones/awakenings/320.json.gz": {
-      "bytes": 5317,
-      "sha256": "471b3e619064c980f306bc33e6920dc6f83e157de7133879eda98fd28d3881ed"
+      "bytes": 4097,
+      "sha256": "4e2e9d8d94b1a89927c1a159eab5d7d2578cf6ce0bcc73554981276a042c7098"
     },
     "state-zones/awakenings/321.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/322.json.gz": {
-      "bytes": 5817,
-      "sha256": "f1e26fd9262b00fd0cfdc53f6a669ef70b2e2c079f92be75a77f4b0243338920"
+      "bytes": 4465,
+      "sha256": "539c5e096d099c5c04ef561e5baeef34be527011bacd51cd2315ad2a2f2e105f"
     },
     "state-zones/awakenings/323.json.gz": {
-      "bytes": 6133,
-      "sha256": "9138ac0bb179ced6494df1194e1b4cea4d6a1d5f8ee052ddec0b296e2714865a"
+      "bytes": 3541,
+      "sha256": "727f98129f1d065508a17fb73033cc3d17ab6bf580eb8d74705c22a279387586"
     },
     "state-zones/awakenings/324.json.gz": {
-      "bytes": 7747,
-      "sha256": "2dae835f31dfb7361351b039fc03d03c17edf965d746b197a9d37a304758dd17"
+      "bytes": 4817,
+      "sha256": "47cbe38d944f3987100d6c01f66105edc7f65938188e6f7243d82bca11d30f8c"
     },
     "state-zones/awakenings/325.json.gz": {
-      "bytes": 6444,
-      "sha256": "029019111f43cb6fea1e0d5e1911223f75aae3362c3a6555d7c95aef697b59f1"
+      "bytes": 4773,
+      "sha256": "b11cf2f16551ca0e62be539eeb7c028866d2ef7714c84ae5394cbb8a7e7b8b9c"
     },
     "state-zones/awakenings/326.json.gz": {
-      "bytes": 4398,
-      "sha256": "bd1bfd921b438ce219974832eb07d955524b3983577423b696afe7fb945ab8aa"
+      "bytes": 2092,
+      "sha256": "c8429638efa0bc67dd3e8b8e9985273fc3bcfb7338ff7218ba6a081f4863abe7"
     },
     "state-zones/awakenings/327.json.gz": {
-      "bytes": 5743,
-      "sha256": "36604cc1045719f3aa5015a70ae3f5e8485c310345a929926efa540eebdef315"
+      "bytes": 3213,
+      "sha256": "c6e66215b0fd4b2f72111d22060cdf5effefdc33e0a15cad451a04d53eb082a8"
     },
     "state-zones/awakenings/328.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/329.json.gz": {
-      "bytes": 2979,
-      "sha256": "6248db63d1cefd9f60670120c7ad646a1c553cb4c8c8c09b708718ddfdd08bb9"
+      "bytes": 1515,
+      "sha256": "8014db63286d057b59681c167497424127463fb2d8cab950233663defc7879da"
     },
     "state-zones/awakenings/33.json.gz": {
-      "bytes": 6471,
-      "sha256": "7ebea43ca8efa5658683c17c801868244272147a6c45f51f607668278c48ce5f"
+      "bytes": 3313,
+      "sha256": "62744a74e74be0b10c1e4a1c7b0da550e8cd5088d9c1bd7c845b8a725bec22ba"
     },
     "state-zones/awakenings/330.json.gz": {
-      "bytes": 4698,
-      "sha256": "e0e7a66f6ed9c2023ee51c846674625b0389bca563973a9c31c5699762c93a49"
+      "bytes": 2463,
+      "sha256": "a9ced31fdd4d7626b2116f60a0c24f46e0126945fdf29d4b0deaa91c482270ac"
     },
     "state-zones/awakenings/331.json.gz": {
-      "bytes": 1787,
-      "sha256": "94ef9723a9724772a29c12879df8d4a8add2660f922a24238498d7df7f0936d8"
+      "bytes": 922,
+      "sha256": "18dc63d1530091a06dabd830e29b3904acaaa38518999da081202e06682b0723"
     },
     "state-zones/awakenings/332.json.gz": {
-      "bytes": 7737,
-      "sha256": "c5c85d4426b280304b7ed9cacb08d71b6301b4a5084abacd2574baae9db19522"
+      "bytes": 4235,
+      "sha256": "c0e2cb038c901933679aa7491b85c0a994acecb67a2640e931e73621a3b3cf27"
     },
     "state-zones/awakenings/333.json.gz": {
-      "bytes": 6736,
-      "sha256": "57db4fec1a1d9475b5ee7199644ecf848979d06ff9a45d046aad6df8bff4021b"
+      "bytes": 3528,
+      "sha256": "a6ad28d90683d419c362b2169e9f28765264f76472eef2ab9752ac7d1e1522a9"
     },
     "state-zones/awakenings/334.json.gz": {
-      "bytes": 4487,
-      "sha256": "8dc2d31cb0e009b403c67232997428b3a3e721fa0f4e1b20e5a7d237a3c75914"
+      "bytes": 2625,
+      "sha256": "a757ebee2367adb0fa682dc47000559e34b5f988501c0cbe0b8e96f4af274549"
     },
     "state-zones/awakenings/335.json.gz": {
-      "bytes": 2926,
-      "sha256": "b2614280871572b8a6fbc276d728d481cd761d53126859369a04a62048d3171f"
+      "bytes": 1495,
+      "sha256": "8f041d0ca06625e37a50319a98be724bd8e2bd742fd82861c1569ad94d182cd5"
     },
     "state-zones/awakenings/336.json.gz": {
-      "bytes": 6550,
-      "sha256": "b53517021421f22e2717cdd2d0d5b70f6e262a571ac54c6d2331597384639fbc"
+      "bytes": 3371,
+      "sha256": "bebdfb883ed60148c625b0e1bc06ec6c9b452d3e6bf9b9aa740ccb8da5ab9121"
     },
     "state-zones/awakenings/337.json.gz": {
-      "bytes": 4106,
-      "sha256": "b1cd268adc4a21e20de030178e7f6d27d0bc30ae0fa8c0b0d895d25a974b1633"
+      "bytes": 2031,
+      "sha256": "99f20fc5445deac21564cabea3908d23c3ee04a27553b045bfc2b2101c56b747"
     },
     "state-zones/awakenings/338.json.gz": {
-      "bytes": 5723,
-      "sha256": "3c7c5056a1b497e369cfd017575f666c87d2d6a18422dc728a6ceb72fb70c513"
+      "bytes": 4198,
+      "sha256": "42bc52b0b2e835ae85d35da733fbc90da8bbe80dc7e1d6267ad4afb17a2f9e66"
     },
     "state-zones/awakenings/339.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/34.json.gz": {
-      "bytes": 3513,
-      "sha256": "4da0d1429cce322f4660d8514e22922cc55c57e9ec8acd776f26b1b077071be8"
+      "bytes": 2513,
+      "sha256": "e58621b81cd8fc908113e863df1070cc63bbc0f9dd13208938ebcdd9164e4421"
     },
     "state-zones/awakenings/340.json.gz": {
-      "bytes": 3623,
-      "sha256": "b0b4d95dd95385d52be7dc0d623caccd5fd0b945284fb3f61944e39a92f6e44e"
+      "bytes": 2023,
+      "sha256": "8102dc6603df17499c8ea2224901538c64d4f40249809511dd4b3f38a9e3760c"
     },
     "state-zones/awakenings/341.json.gz": {
-      "bytes": 6239,
-      "sha256": "d46652fec495e1c50d38edfa8c209020c2fee11b488ec341ec889b2826ed50d8"
+      "bytes": 4741,
+      "sha256": "c50e38b0e535b4446229c629ed64f12d2e26f904782b5cde13074f5d47391158"
     },
     "state-zones/awakenings/342.json.gz": {
-      "bytes": 5577,
-      "sha256": "1973937c1ae47f64abd80d2edefe9e354f42a9a4a87f44557deeac68269f5954"
+      "bytes": 2695,
+      "sha256": "ddc96d88452a89fe63846a1646f440d398834f22e31b52ecb4f3116df4570185"
     },
     "state-zones/awakenings/343.json.gz": {
-      "bytes": 8197,
-      "sha256": "b16e0ad7f9d27c67add48d0089c9b61e0367ed7da9d44adfd3adbf0b1a9037a1"
+      "bytes": 4554,
+      "sha256": "d322d4413ea57d7eb06f1705d5f7b762615c27052575480d5bad0e75be6a4dd2"
     },
     "state-zones/awakenings/344.json.gz": {
-      "bytes": 3745,
-      "sha256": "1aa850414ae3e6f5a2baa0b57f5a6f1aea92eee6d27f0d8e8111271f2a26efbd"
+      "bytes": 2395,
+      "sha256": "1cefd453cf70293615ca7d0ee62f5b1c7481c61e4e084c22e8f08b7894403ccd"
     },
     "state-zones/awakenings/345.json.gz": {
-      "bytes": 4554,
-      "sha256": "db99eab1b6078118f9b6e126486d840ea05745c92689d630e1b0f1f7eeca7f7b"
+      "bytes": 2552,
+      "sha256": "2a0837789c3828f484b80c86188e531b6a48c44286f489db026e5e9093be048f"
     },
     "state-zones/awakenings/346.json.gz": {
-      "bytes": 5176,
-      "sha256": "644338c3b0a3bce37dd847bee576805ecd41c52e24235b3fea8ea519ecdb7ac1"
+      "bytes": 3732,
+      "sha256": "088f550aeebb4d8d3973e7503a4db233fcfe0add63335bc50aaefcd2db966b3c"
     },
     "state-zones/awakenings/347.json.gz": {
-      "bytes": 7336,
-      "sha256": "0d13ccf8a5f514c198edf92675a9cf2afaf97b089d580ca022eb67d374216c96"
+      "bytes": 4194,
+      "sha256": "894187315b8455f78b5df77f23b19e909735f8dd7bf78e79f6dbd93135de6de1"
     },
     "state-zones/awakenings/348.json.gz": {
-      "bytes": 3526,
-      "sha256": "3eaecd756af0904f112df6f1d4e1cd46bb83637d56bd867a948f3fab8149fe2b"
+      "bytes": 1956,
+      "sha256": "f9ee284590ca2d6d4974afd864f51b56f033499a6564405d6676bfc3f8338222"
     },
     "state-zones/awakenings/349.json.gz": {
-      "bytes": 3501,
-      "sha256": "75f85093bac49680594c0a749d8c0b043b9d13fbfd17fc687901ce2e1d910ab5"
+      "bytes": 1960,
+      "sha256": "2026e356f12e37bf8131f4053f278cd1d9944c1d41286251b98b29c0d6700813"
     },
     "state-zones/awakenings/35.json.gz": {
-      "bytes": 8440,
-      "sha256": "b379dc0a0168f090afd9bfcccfe6167fa29f7d2d496ad3b27eddebe062f8075b"
+      "bytes": 4525,
+      "sha256": "e75a79e609547742ab2ee7438ad7aa082a31954cce93417734d715491c77fef1"
     },
     "state-zones/awakenings/350.json.gz": {
-      "bytes": 4249,
-      "sha256": "3458c1984a84eb01b275c0a8a74c37e32996b8bd3e8851b38cadda8a991ae966"
+      "bytes": 3149,
+      "sha256": "6df9aa2783a82d46e39e0f7296b1dc1ed34c3513cadcb7fb00d060f67bb1d4f1"
     },
     "state-zones/awakenings/351.json.gz": {
-      "bytes": 5346,
-      "sha256": "330ccd2928edb2ebefeb38e61f917c2ec96677ed9744beda3c729bb445fa6a4c"
+      "bytes": 3896,
+      "sha256": "9d6e7f3b16fc6c1f4015744c4068a8699025a6554de09e6ed67f30095a83366b"
     },
     "state-zones/awakenings/352.json.gz": {
-      "bytes": 3717,
-      "sha256": "99e917a191bce8cfc556dc8418cb7e8dfc3ae64d66e0476d7ca7f740868651c9"
+      "bytes": 1979,
+      "sha256": "f8f166771e9299090f878293a785294b951b0a255aea706464a1d5f04b01705a"
     },
     "state-zones/awakenings/353.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/354.json.gz": {
-      "bytes": 8536,
-      "sha256": "165b310a1d9db32b75e7d6b38385de6842bae8632c151de2425f6d9e000cc82e"
+      "bytes": 5480,
+      "sha256": "5531d9d956d78b444c52fb540349b95ef0a0d2e36483c3aaee7090f83348af05"
     },
     "state-zones/awakenings/355.json.gz": {
-      "bytes": 5237,
-      "sha256": "0d94ee7d963a8ea135c36daea27870be10eeb8bac884385efa8039f998b708f4"
+      "bytes": 2787,
+      "sha256": "1e7ac5b1d73aa0f4966a677798bf5db78582eef4a9d870dfc8cea912fca822de"
     },
     "state-zones/awakenings/356.json.gz": {
-      "bytes": 3766,
-      "sha256": "cb960cae656d0451151cc04ccfec86172d82b90b41639f8fcaea7db8dc54fbbe"
+      "bytes": 1541,
+      "sha256": "9e3dcdb924fdbe2f3a71bcc9919d356a06368fb94b2074180ca253e692d34b83"
     },
     "state-zones/awakenings/357.json.gz": {
-      "bytes": 5474,
-      "sha256": "7db27fa8f4cf7c3c720c622c44fc8c67c5451d5dd5e2c92e1a9faa7bf4d5b010"
+      "bytes": 3123,
+      "sha256": "2bd828857137af14d70ddd9812a2f46bf74b7aaf76ebed4f47ed872d439de589"
     },
     "state-zones/awakenings/358.json.gz": {
-      "bytes": 5130,
-      "sha256": "98653debe0c460b5d97676c91b50f608fd20d6d54b107218f93b8020e281c204"
+      "bytes": 3172,
+      "sha256": "0b5c780d4d53d8cdc7f22e8e4b8c48806ac4ebfde884b8a76d92c0fa17b51f2c"
     },
     "state-zones/awakenings/359.json.gz": {
-      "bytes": 8333,
-      "sha256": "0cb5c1253b0878707824e3dfcf9c740d9005f34e055939b2a1952a6e947a442d"
+      "bytes": 4560,
+      "sha256": "a967e17eff8be2d0bde22c95f962b3a1994ddcb8ea9163b488c00e03d3a136d9"
     },
     "state-zones/awakenings/36.json.gz": {
-      "bytes": 3780,
-      "sha256": "0407de84c5631a764c8509cb43177716e07318f263f1161986958a77075b29ed"
+      "bytes": 2111,
+      "sha256": "749672b61ed9bfe386e6c232da525aadb77fcc1311d4bc019e6b0a866f17ed04"
     },
     "state-zones/awakenings/360.json.gz": {
-      "bytes": 6122,
-      "sha256": "8d70589d3e2370588000d017109bf524a80cfd780c2b22b1cf900ab4100f0de2"
+      "bytes": 3307,
+      "sha256": "bca9fbc44b238ba8cb6529678efa83db9006d91a7fae5999714fa8517609724d"
     },
     "state-zones/awakenings/361.json.gz": {
-      "bytes": 6291,
-      "sha256": "c10d30a238a1a223aa95d076a0a455679c7176a0f31ba431c0ecf8fde72f29d1"
+      "bytes": 3221,
+      "sha256": "99b29e73c97fba84b061de5d1d377761ea72e0e48ce56e780387df2895e2178f"
     },
     "state-zones/awakenings/362.json.gz": {
-      "bytes": 5111,
-      "sha256": "83e7406fcd547f16e597ebf49d93c849953f350d8b36ccc6d60536d3d0b0c643"
+      "bytes": 3484,
+      "sha256": "af4a243bfb3ddc4518e338bd99364c7736fa06f105d7e9768fe7df030d1fa88f"
     },
     "state-zones/awakenings/363.json.gz": {
-      "bytes": 6618,
-      "sha256": "3293bab35258b75aeff584e708b41e8270861c92d951b736f892cfd734ade65f"
+      "bytes": 3548,
+      "sha256": "eabc2c6fe8357118c6c0b66a777391889bedeef5f7aaec5f614007d007f04bbe"
     },
     "state-zones/awakenings/364.json.gz": {
-      "bytes": 2544,
-      "sha256": "da96dd8aec71966dad4835353fc64de4e1230551cfc17f5f6aa9e948804b8311"
+      "bytes": 1164,
+      "sha256": "d28a4affbe6070d25e3b99201e17a66ea19b64e686c46835eaff4e3ec83eaf47"
     },
     "state-zones/awakenings/365.json.gz": {
-      "bytes": 2900,
-      "sha256": "44b56c732422076b7cbe11fb0dd91d6e889e1866ae23ce4e639366f326bb348f"
+      "bytes": 1286,
+      "sha256": "897c3c789ed34d5e6fc7971c6431f834c8ce5c05aa87eb063ae84a443acc27bd"
     },
     "state-zones/awakenings/366.json.gz": {
-      "bytes": 5670,
-      "sha256": "ce7d023223cf8363e2f27b00d15a33291e6a2e26f673887f33211997ce319628"
+      "bytes": 3384,
+      "sha256": "bdf13bb616141430484d2e63eb00f31ca1e57ca91b342a00b4274c296248fc75"
     },
     "state-zones/awakenings/367.json.gz": {
-      "bytes": 7301,
-      "sha256": "fb3e77fe4a5862064715a554a24566cbe85d075f6a991c87630d300f383ed898"
+      "bytes": 4092,
+      "sha256": "87ba258a6b0f1043d16730b2ed9c7f91b887ddd501a499ed5bf037ef16cb8c06"
     },
     "state-zones/awakenings/368.json.gz": {
-      "bytes": 5906,
-      "sha256": "60e76d0ad13f79e3698d9d11b5bf702a360f61fd9f0c7b4913e34369316cfafc"
+      "bytes": 3058,
+      "sha256": "800cbe365fdd09d3dd37329a6fa5f219f1e82856698dc9c6677e111d8e50b27d"
     },
     "state-zones/awakenings/369.json.gz": {
-      "bytes": 8553,
-      "sha256": "ffeb29a0c6eb555a1d9d94194bfe5519750e852d9395489f18a264a343e854e2"
+      "bytes": 4675,
+      "sha256": "5b48c96a6effb2affcb3792abbcd85171c1d43f38313338c210b2de6dfa529db"
     },
     "state-zones/awakenings/37.json.gz": {
-      "bytes": 6338,
-      "sha256": "77e1648911a4af7cb20fb62b43921fa26216b7ac4b82e4590bf9f07789fc75de"
+      "bytes": 4895,
+      "sha256": "5bd909501d8c30e5971ab8d05ebb665c3010253979f0bffbf532fed401ba6f96"
     },
     "state-zones/awakenings/370.json.gz": {
-      "bytes": 4647,
-      "sha256": "7ac48841ed9ee6d9fc546bd4223abbbc704a5754062a33682d90512a91b95092"
+      "bytes": 2749,
+      "sha256": "aa0ddd0245a1a6a6e1729823de1ba2eb7fdb1c7c79db12a3f87d26d888f9b01d"
     },
     "state-zones/awakenings/371.json.gz": {
-      "bytes": 6447,
-      "sha256": "68c777fc2aa59c7bf16eb421a20b231ac417d5d64ff94dbfda534d9913cf032e"
+      "bytes": 3480,
+      "sha256": "b5251ce62362a0571a5b2b133500dc0d1389841751ff099cd33dde1641da8f8f"
     },
     "state-zones/awakenings/372.json.gz": {
-      "bytes": 7797,
-      "sha256": "86bf035755f25abfec012e825df6adc6e567d2c407785865d4fb75828b110d7b"
+      "bytes": 4628,
+      "sha256": "2f56355051207f4471eca2c58d3fd61bfac15e1ab28d334905de046a8eab8b45"
     },
     "state-zones/awakenings/373.json.gz": {
-      "bytes": 5497,
-      "sha256": "7c43c3f53b7e602c755d40d296afeb5fc57e81d552e4f526b05031a9c28654e1"
+      "bytes": 3196,
+      "sha256": "ef282f0c2e586819ea262cf2dff41bd447f4da489f942f868267f8d634b22a44"
     },
     "state-zones/awakenings/374.json.gz": {
-      "bytes": 4882,
-      "sha256": "9096b5d54de31046036526bda4fd93bc6e6a1bb233048024fa0db03e5eed2e22"
+      "bytes": 2593,
+      "sha256": "a7d16c3860bb1b0393a1552820aec02d68003681ace7502b195c59fbbc08056c"
     },
     "state-zones/awakenings/375.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/376.json.gz": {
-      "bytes": 5946,
-      "sha256": "ecfc730bfe7fa4174034c622eb4a33b92d926cb394f743675ea644a2bf1d2920"
+      "bytes": 3980,
+      "sha256": "072d054a0a6d0bcb21ba9a5e74f41d672dfa6a648148371bbfb595af2f3ab829"
     },
     "state-zones/awakenings/377.json.gz": {
-      "bytes": 3442,
-      "sha256": "a23010fb2f4e17c0fa54821f7d8c2f19aab8dad1e928e25e5b510eceb23addf1"
+      "bytes": 1901,
+      "sha256": "577336f8dec01f15d2124b930b302bd323d7f504529a8ccff550a2297accc470"
     },
     "state-zones/awakenings/378.json.gz": {
-      "bytes": 3409,
-      "sha256": "6966f5b2e41f4177205d0816749b3fe5cc0a4148e4a45039f48fcc0d23758baa"
+      "bytes": 1762,
+      "sha256": "aba8c34d92c9a2f2687e3d3f280989323a7335f48c3134abd17676c46ffd06fb"
     },
     "state-zones/awakenings/379.json.gz": {
-      "bytes": 5009,
-      "sha256": "e58b8ff06e0982fd444b41cfb31b5490e7c5bbc21b45cdc4b7492503ced35cea"
+      "bytes": 2759,
+      "sha256": "5545aed32ee03d873f166d76fac95517b549fcac67b076b3a8362ddfb0d9bcad"
     },
     "state-zones/awakenings/38.json.gz": {
-      "bytes": 5984,
-      "sha256": "c49e37dd89f41482a9361e9dccca895b6b193dfc9f6ee048fd682da0dc20bb90"
+      "bytes": 3548,
+      "sha256": "9b042f8fc2be6bf168c0b01b65e7270093c624865e8fff55675c922bf74913e2"
     },
     "state-zones/awakenings/380.json.gz": {
-      "bytes": 8617,
-      "sha256": "effce87a49854193a3d0533a14eea5b5aa6d76185f36a1355510e5a588755f02"
+      "bytes": 4694,
+      "sha256": "21bc35e434905d7a2bd2aad498b1b3dbd4fd85c004f7afe96841ee3bae4e6048"
     },
     "state-zones/awakenings/381.json.gz": {
-      "bytes": 1868,
-      "sha256": "3b88e61d87e0aa9b4544b8418d3ac4856689b06bf03c92bf884f6d24278c74c9"
+      "bytes": 1180,
+      "sha256": "fe036694553c05628a0c49955adc2197291a43b36741775a35c8b29ad7e20abf"
     },
     "state-zones/awakenings/382.json.gz": {
-      "bytes": 4243,
-      "sha256": "9c5f48974811d9bf1698862597512f1cbe15042466d9ae79b13b6b071dd97a57"
+      "bytes": 2576,
+      "sha256": "c86ffcedd382dd0b59081ccbb07e86ce794c6eee90416d4d49b6cf9326937b74"
     },
     "state-zones/awakenings/383.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/384.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/385.json.gz": {
-      "bytes": 7654,
-      "sha256": "e4e7faea139d61e48aab019763c7bc72030b82e2bc05af641328e6678038e518"
+      "bytes": 4062,
+      "sha256": "091074fce7f1baaedd5404425237c488567bce06d0218c17be0c23174d3adc00"
     },
     "state-zones/awakenings/386.json.gz": {
-      "bytes": 9184,
-      "sha256": "c164b8c02669e640f3b85d4cdec1f0529ebd3118d9deb227472b9837c1aa61b4"
+      "bytes": 5105,
+      "sha256": "778fc08e05d03cb48053de85c5b2d64f419baeda5ff7e2eeaa6f0350dc0e2d15"
     },
     "state-zones/awakenings/387.json.gz": {
-      "bytes": 5860,
-      "sha256": "63df51b7ffd97fe931c7c5c08e252da844f0fcf4519f112268468e0f9c485372"
+      "bytes": 3220,
+      "sha256": "99e0aeb039417e5f481ac8199980f08ca7fb964f89e4d03a548f568f5ead0ab3"
     },
     "state-zones/awakenings/388.json.gz": {
-      "bytes": 6071,
-      "sha256": "e8b5d0ec8d18ace3f8b310b888a2bae54699ae826dba844a6517f6c79c735dc2"
+      "bytes": 3684,
+      "sha256": "9869a19b04beedf8e74cbb7416014cfa91be39ceb6c04c017a2af6bd94d146eb"
     },
     "state-zones/awakenings/389.json.gz": {
-      "bytes": 3933,
-      "sha256": "9d9d797a7690157d35dfca804432a65776df9ef13196dc9b0fe537f47ec9f301"
+      "bytes": 2222,
+      "sha256": "9893ca1033516d33850bbdb0d0a89d908e5beb71d13ceb25f9708504c342bd04"
     },
     "state-zones/awakenings/39.json.gz": {
-      "bytes": 7669,
-      "sha256": "376f69a2597bf372b21b70076d9d424e0208a0f39ca091e64ba6407ffcac0d79"
+      "bytes": 4462,
+      "sha256": "31cc82be6b3e8b1c2221e8e7810363fb2269f067892b8d47801511754de1b5ee"
     },
     "state-zones/awakenings/390.json.gz": {
-      "bytes": 5140,
-      "sha256": "0902e4950e8979b16cde02b5926853deda26b1d9f36d915d18aa1b0400c8d2db"
+      "bytes": 3314,
+      "sha256": "8a9829d83d6ef1dacb217142b9840eaaf9f1125af8ed6a00f9d6c6276a43dacb"
     },
     "state-zones/awakenings/391.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/392.json.gz": {
-      "bytes": 6714,
-      "sha256": "64d516c2ebfcca33159b6fc894cd80b41759c4334cb77757c2fa9b928d56f050"
+      "bytes": 3774,
+      "sha256": "3a473f453386c66becdf7cac7ccb6dae48aa5653c9060add9b25d5c45bf8ca91"
     },
     "state-zones/awakenings/393.json.gz": {
-      "bytes": 5669,
-      "sha256": "76484480f038286d05b1e8640e9e0891f0d2ef98828cc7cb78a0d45e7925899f"
+      "bytes": 3080,
+      "sha256": "ff5a2b06788e364486a15109ace57c19c62b22dd9557d837a873012702f3001c"
     },
     "state-zones/awakenings/394.json.gz": {
-      "bytes": 3730,
-      "sha256": "6c8896ed582ca6f2b8bbff46f1375584e87a26352758d68e1f9c40faef19c4a4"
+      "bytes": 2567,
+      "sha256": "e20cb643c82a6096f18fa5e72537803207d438820d369b561b514d49f4185b77"
     },
     "state-zones/awakenings/395.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/396.json.gz": {
-      "bytes": 8373,
-      "sha256": "40c31d8ffcbf60913e935df15288566654e580e95d2294cea2452d5e7ea9354e"
+      "bytes": 4417,
+      "sha256": "760d04bf9cbf1eb779de3d9da978c2b034a438ea8c441b62af9b7742670618b2"
     },
     "state-zones/awakenings/397.json.gz": {
-      "bytes": 8754,
-      "sha256": "7b86097319e421841e38c97146230559f8d1f376e7152ef1da67160f91fa8fe1"
+      "bytes": 4747,
+      "sha256": "d5eb7e4e560b98d3b9d10d0754b32c001fead8ad01cc64b5e37eff839288431c"
     },
     "state-zones/awakenings/398.json.gz": {
-      "bytes": 2710,
-      "sha256": "ddb083cfdc9c47365137e1d7c85e9de57813961a4c16985294707e66e20ea6d8"
+      "bytes": 1479,
+      "sha256": "ab303221df33169033da596248bd083de402c86c18cae0843739a86b39cbe633"
     },
     "state-zones/awakenings/399.json.gz": {
-      "bytes": 3546,
-      "sha256": "e21c96449b27872e91b6de53f67b4c46350d6f2c60b48fc067414a3e83adebf4"
+      "bytes": 2266,
+      "sha256": "85ebd33aec71e8eab4e5b4f84454c1e3eb26327dbfac345c63f2d252a7a654a5"
     },
     "state-zones/awakenings/4.json.gz": {
-      "bytes": 6355,
-      "sha256": "c10fed3286942e3ccbd39144bd9b18630503a745443dc13fa5ffa5cbb911cd16"
+      "bytes": 3637,
+      "sha256": "fdd8ee012ac93d5e7d4cdb19c7853d13b643c41804d8660f2b56101fc233169e"
     },
     "state-zones/awakenings/40.json.gz": {
-      "bytes": 2473,
-      "sha256": "5a1e76997574938557a92a1f44824ced98771f39f9d3008b6c3194134ecc2d71"
+      "bytes": 1132,
+      "sha256": "156c5d02a5f187935c21f42e25efcd9e0179225bf5a5255466ed61df2361ed2e"
     },
     "state-zones/awakenings/400.json.gz": {
-      "bytes": 3162,
-      "sha256": "47d32e1af5afab4dcc92ff54d8d1c935dbe323e166eb8dcd3ab4515b46e5d6b4"
+      "bytes": 1830,
+      "sha256": "e62363c5ad918a8f8d04cb0382b32ebecde96bb74375daa73fe3de19ae05a2d1"
     },
     "state-zones/awakenings/401.json.gz": {
-      "bytes": 6032,
-      "sha256": "15463a02aad5b129e484fc2380a1e684fa8a36a4ca362182d75ba8e6ad9adf46"
+      "bytes": 3836,
+      "sha256": "d21889bdb2793d429abbba60e02db9ed02f8cf21777df5615a89acf649d93a74"
     },
     "state-zones/awakenings/402.json.gz": {
-      "bytes": 4928,
-      "sha256": "487bb65c0c305cdc4c0b4e80a1f793e334a68f1b1b53e37a5e529b86e7dac078"
+      "bytes": 3394,
+      "sha256": "daf4e494a8d43007abf0ba6bef0858f09487c6217ca2aa1877683c3cc8ee0b02"
     },
     "state-zones/awakenings/403.json.gz": {
-      "bytes": 5846,
-      "sha256": "6fb5ba3c283c198b0c06a78871bec25ca4d082ae085608898810a62db91cbbe4"
+      "bytes": 3489,
+      "sha256": "d64645993337a58402eac4d61f2781529648a67293eeeda05979346bf1fef438"
     },
     "state-zones/awakenings/404.json.gz": {
-      "bytes": 6212,
-      "sha256": "11cccbecf82427982674ecbe6176c196c00a03cc6e3bb926a637fa322aebab7d"
+      "bytes": 3530,
+      "sha256": "3a9ccbd2aceb6bebd43c5eae4d8c5c0ac71f11a3dcae14945ee805a00e380dc3"
     },
     "state-zones/awakenings/405.json.gz": {
-      "bytes": 7516,
-      "sha256": "b7dd4938b7fdd451be4d1497b70869c098adce00e9762784b372ec9453a217ad"
+      "bytes": 4084,
+      "sha256": "ebb7369e858ffcff666343484c1c8e29de0b2333c0578518e1677abbc93e14ac"
     },
     "state-zones/awakenings/406.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/407.json.gz": {
-      "bytes": 3486,
-      "sha256": "da9ad22dbe7783a34f51328e26e748bbe171304f77c83590cd9982ac345b5db5"
+      "bytes": 1789,
+      "sha256": "f132b0abcae060fe82f889f0ad0fe5eeb5dc79f807b20a79c7321da1bc7010ce"
     },
     "state-zones/awakenings/408.json.gz": {
-      "bytes": 4040,
-      "sha256": "ac89cf624c537f4cf6ae9e3b9ee3c6143c936cfaa73c21df7a469cab589d0e0b"
+      "bytes": 2176,
+      "sha256": "b7b8d53a04df9117c12fd7a053547841b64c03277a5cb5638f3b4479ec497b81"
     },
     "state-zones/awakenings/409.json.gz": {
-      "bytes": 1679,
-      "sha256": "090a2249545a0188a0c6ceaa0ee19de2b572644b69ee370530c7527488b0868f"
+      "bytes": 945,
+      "sha256": "886ac6d6d7c4320e7d1b59aa71ea90dab573e27e7a194575e3bab3efb51a48ca"
     },
     "state-zones/awakenings/41.json.gz": {
-      "bytes": 6930,
-      "sha256": "c01e6c6a74776022624b7434b7026cd290a90964c41a192687bd8652f8b9eccd"
+      "bytes": 3884,
+      "sha256": "e77a31d4fe8802b950c31fb796a38432cc9c9193578384b9bbc0a8f21ffbb4cb"
     },
     "state-zones/awakenings/410.json.gz": {
-      "bytes": 4126,
-      "sha256": "bca31a46ccc2f10432e2484f1621f4f8b66e7e8ac24e822798af47b0cc39c69f"
+      "bytes": 1944,
+      "sha256": "8d3f38ffdb02250cda1711c3935d8bd2b3fe69b6ca5f1222f0d89ed36bfdc8ea"
     },
     "state-zones/awakenings/411.json.gz": {
-      "bytes": 4862,
-      "sha256": "f74c2581e6905b1eaf17b8dc3736458ac34c2ec83c54d8dbf0dedd68a8ae343e"
+      "bytes": 2799,
+      "sha256": "7652bdcf424f720ecd2107ad98ae2d377c61b32c85ed956435d403bbdf971587"
     },
     "state-zones/awakenings/412.json.gz": {
-      "bytes": 6461,
-      "sha256": "4164c8aa81e065449608681bd0981f87fac20f455a0e4033cac85358b4cabdbd"
+      "bytes": 3965,
+      "sha256": "15fa57e96625f5256487674afea07bbd74297ac84c952ed078e125a118dbd1c7"
     },
     "state-zones/awakenings/413.json.gz": {
-      "bytes": 2437,
-      "sha256": "bc0acbcbd536d4f110ea57d74633b2a69aef285e846d0fa58e0873fa531c6713"
+      "bytes": 1134,
+      "sha256": "b37226486ef44ee7a1b147661afac59f2d34dd88e2642b30cb069a76adb9f224"
     },
     "state-zones/awakenings/414.json.gz": {
-      "bytes": 6654,
-      "sha256": "3bc8d19bf0d024527bc680939740aa05301c27cf88fccfd4b10024a6d83869c7"
+      "bytes": 3708,
+      "sha256": "68e59e5e8e4a0c6a667d2c5fdf178d1e5e0720340951b2234397aee8f0c5e073"
     },
     "state-zones/awakenings/415.json.gz": {
-      "bytes": 4508,
-      "sha256": "719c8ca8e2f18d27371e011fbc7dc8dd24f6a6a9b00011ec712b539a0867fa5a"
+      "bytes": 3186,
+      "sha256": "d1993ae6ff6d9f253abe01ec5b28ef67d3f5d6490b4e0fe39a614bedbd02c39e"
     },
     "state-zones/awakenings/416.json.gz": {
-      "bytes": 5219,
-      "sha256": "eaab54f8ea7861be714cae28d44c6e6992e99bb8ea9d15b220b2c09a89f528e8"
+      "bytes": 3486,
+      "sha256": "5650fbdf8ce94ff0c7054d1b480a7bd7622dd021c89dd59648699ab7c4b83b72"
     },
     "state-zones/awakenings/417.json.gz": {
-      "bytes": 4750,
-      "sha256": "1b24644fd355b256738261e9ea7b747ea8c8f0a0f8070b574827f3c5e07db485"
+      "bytes": 2645,
+      "sha256": "d768c61642ecf74b8b8a14510966147ce2b467681aeb46b65ba5892f8b885e79"
     },
     "state-zones/awakenings/418.json.gz": {
-      "bytes": 7037,
-      "sha256": "2a300a318f250c9a35272f743fc24ea855626153a6b2c8ac146111746b6dc8b2"
+      "bytes": 3788,
+      "sha256": "c85dd93ed6c3daded9730277742e158ff8afd1089cba394bbff922de7b62b529"
     },
     "state-zones/awakenings/419.json.gz": {
-      "bytes": 5152,
-      "sha256": "b69e5a6d94e12f48992b41c78f6089de102be23e1d2a159ca1ac95a4a3fa5d3c"
+      "bytes": 3724,
+      "sha256": "5b338259d57871de4dda766e3339ad13e4075ef8952b916fac154770acd2b66f"
     },
     "state-zones/awakenings/42.json.gz": {
-      "bytes": 3216,
-      "sha256": "b317e40c28eccc33e41e0bd3f05a3a64ffe9bc39819bf36985a4d2892413c919"
+      "bytes": 1770,
+      "sha256": "42478e1356957c01dae9cf711f73f74fdfeba6d51a97b0ceed6ff4d30e49d5aa"
     },
     "state-zones/awakenings/420.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/421.json.gz": {
-      "bytes": 6227,
-      "sha256": "a06f280fb9a418901c81563cd9d9893aec59dea185390a1a8b482eee129cda46"
+      "bytes": 3443,
+      "sha256": "fe88866db232144ad6c83af78f217fdbb99725df85856a6d549d0e56eedcb653"
     },
     "state-zones/awakenings/422.json.gz": {
-      "bytes": 7030,
-      "sha256": "a95c43fd2e6de8d9d402a45109d4921c67df4379ae50c5b33a5b7eada6881879"
+      "bytes": 3768,
+      "sha256": "70d90146d7e504031e144c2662378dc36c297340353e79cfb7c7ae72fb15533d"
     },
     "state-zones/awakenings/423.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/424.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/425.json.gz": {
-      "bytes": 6411,
-      "sha256": "c579f23dd69fcc1989ab87afa72b6b0c05c9eaa02e70a055add54f1bcf5c31a3"
+      "bytes": 3726,
+      "sha256": "f55710d4e36550730bfbd94cf78b37b897666aa828615b019a5252dcf8bdd7a9"
     },
     "state-zones/awakenings/426.json.gz": {
-      "bytes": 2211,
-      "sha256": "a993ba7910496cfaf5ff617343c65310cfae8d7f829c7e7561c1e2fcb4446dbb"
+      "bytes": 1178,
+      "sha256": "54629e280646947c6408ee1ad3d5a964dd9077cd4227d8c131f5c28b188151f2"
     },
     "state-zones/awakenings/427.json.gz": {
-      "bytes": 6207,
-      "sha256": "374c20c0a781f544050c0fb825bd69e043392618b50d83576d9f1b87dca56c5d"
+      "bytes": 4757,
+      "sha256": "4575fb0cbeca01cbd4f58272ceb86e35ed1c1592485c82b264123faed6dbfd51"
     },
     "state-zones/awakenings/428.json.gz": {
-      "bytes": 1095,
-      "sha256": "bfbef4d3361d3d3c89eea26091fec3f60769a2c5f16e50899a38106d168a0e48"
+      "bytes": 507,
+      "sha256": "a2a678fbe3a0c8237ee1fb9a43ccafa035ae8674bdb33701d05f7fb5a5fec919"
     },
     "state-zones/awakenings/429.json.gz": {
-      "bytes": 2126,
-      "sha256": "e8bd680419b3be499e3a0f1c20122963af513fe77bc9206640d8d96665f5c677"
+      "bytes": 1424,
+      "sha256": "55d6358c665802a3093cecaebef550b3677ffcc9719d5855a9b57bb4ef43dc0c"
     },
     "state-zones/awakenings/43.json.gz": {
-      "bytes": 4608,
-      "sha256": "95c8888d3a1803bba38cad5bfa71a3930369802d587a75058f372df6d3744d12"
+      "bytes": 2443,
+      "sha256": "eef256b7fed5a4695af353083a49a0f78123fdeffebaeb5b8179b882c31c977d"
     },
     "state-zones/awakenings/430.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/431.json.gz": {
-      "bytes": 7609,
-      "sha256": "2fe7eedc63d4c609abffeedcf140d95a953878b8097d6ae771d366834e5b1a96"
+      "bytes": 4176,
+      "sha256": "da73c56dd6cecaf70a6811bae7c6a8f000e133ecf87cfddfd38f26659d6eea21"
     },
     "state-zones/awakenings/432.json.gz": {
-      "bytes": 9584,
-      "sha256": "aa7666f9b7794a5908c2b7612037b331f5189cf746311b617659933f357cbf74"
+      "bytes": 5164,
+      "sha256": "9a6949409dd5c6a107235857c452aa691e79c86dee522579da5486bea55e3bef"
     },
     "state-zones/awakenings/433.json.gz": {
-      "bytes": 7348,
-      "sha256": "9aca7c27373692431c89f1d092f8c4e5dfdf6e599047154932605962fb4833e6"
+      "bytes": 3986,
+      "sha256": "f4bd682e183910c5fd9eabc9a08380ab17c4788b775d815c3245472e7b25fd68"
     },
     "state-zones/awakenings/434.json.gz": {
-      "bytes": 6760,
-      "sha256": "1e69e1219af740c291c78fa88bae7e8e9c822577d06c0fcff72cbef670dd02fd"
+      "bytes": 4998,
+      "sha256": "f67875fd0f8fa8200fccf597784f579c82cf6213c5fb213f9e2fb93501f0039f"
     },
     "state-zones/awakenings/435.json.gz": {
-      "bytes": 5971,
-      "sha256": "92252298de9fc9ea970d47a4d67f0128ba84caa17557f0330e8411dfefc61bd7"
+      "bytes": 4304,
+      "sha256": "c1a03453488cd12fb7e02feab613e62ad27854e17fe17f986fd728104cd00313"
     },
     "state-zones/awakenings/436.json.gz": {
-      "bytes": 7560,
-      "sha256": "5ef46cb5a85e2db9fea0ee8f34a92404347d500dce98f0dbe1e63a1932548336"
+      "bytes": 4061,
+      "sha256": "e85171a7282202ca7ecd5ffdf97edc517a8a394f8b20f51258f52759ae8453c9"
     },
     "state-zones/awakenings/437.json.gz": {
-      "bytes": 3862,
-      "sha256": "b1b607ca9f0e76bb93a4c111c51a9124eac0f3ee9cf7d47179b09ec9f6046d00"
+      "bytes": 2502,
+      "sha256": "1e8b24d69377d654a1c06d5af89303caa58603799729d951716e6a2f8dc78c03"
     },
     "state-zones/awakenings/438.json.gz": {
-      "bytes": 5107,
-      "sha256": "9f876ea890be8c090e7bceaad55c32f935f55b756fa893c5e5424accdc7648c9"
+      "bytes": 3577,
+      "sha256": "6730e7a7bb399c08183d776fc268217fb5f08ff74bf66da1d1725d3c7085e97f"
     },
     "state-zones/awakenings/439.json.gz": {
-      "bytes": 6596,
-      "sha256": "887bda1fbeb9a0b2aec25f20066565ec106ab374dd2f769bb39eb244a312fc34"
+      "bytes": 5095,
+      "sha256": "f8dc1107c0b1d0fc981161b664f606e0e893008bfa67a819c9f6cf7edcfc6c26"
     },
     "state-zones/awakenings/44.json.gz": {
-      "bytes": 7658,
-      "sha256": "fcb163032335e53ef8745ce4621ec300913a15ea348cca59cbe704f2bf63a24a"
+      "bytes": 4231,
+      "sha256": "435dad1d32758f66e8b952265d389c427e4c9ae523f32de5ee694aa1e696703f"
     },
     "state-zones/awakenings/440.json.gz": {
-      "bytes": 6035,
-      "sha256": "bd34cac4401a7d7fa0067143dc363bb642dd36db03049040c0d3bb3a67f45639"
+      "bytes": 3719,
+      "sha256": "3d8a1b443eace636fa1ebac9da3829daa39c550940088ff3af850b98bf815908"
     },
     "state-zones/awakenings/441.json.gz": {
-      "bytes": 6354,
-      "sha256": "bba9c6405327bbb66423fc79cba98b075aeaac14e5d99495f800b454e81dc0f0"
+      "bytes": 3522,
+      "sha256": "c90dfd574994fb3265a0f73e468b336360d83a293714daca19026d44ec6b2e39"
     },
     "state-zones/awakenings/442.json.gz": {
-      "bytes": 6131,
-      "sha256": "ef6df91624f7f429f2af5dd95aeac1ab61c02e6b0f71e91cc1b4bd414fd9021a"
+      "bytes": 3395,
+      "sha256": "b7572bd4d99a2207d0fb9efed80f972a376f279bf2ad7017efa51192510ebf10"
     },
     "state-zones/awakenings/443.json.gz": {
-      "bytes": 6495,
-      "sha256": "e1ed83938435b25a64f8e07fc7ead31dfb5311e262932a33d51bde89279babb8"
+      "bytes": 3463,
+      "sha256": "f3510ff71a31228d449787af3f5cac3bc53d9cb52ea22d891e8acf41abb6905e"
     },
     "state-zones/awakenings/444.json.gz": {
-      "bytes": 8507,
-      "sha256": "01754e004288ea37c2b10dfe56d7261578cde708cce15a33d5dea3eeaa73c0c7"
+      "bytes": 5076,
+      "sha256": "cb48cf235952c3ce84e7905811aaefdf3e1da2fa8b0058ad8b0a8fdd474e4aa3"
     },
     "state-zones/awakenings/445.json.gz": {
-      "bytes": 9705,
-      "sha256": "48db1b17b4de86afd180cb82bd46b8601f5ec9c2011d1e9a395c6c1ecf8daac0"
+      "bytes": 5190,
+      "sha256": "0d0abb377da7e9026d0d873954cfe180c5feedb86e39632cace76261439f8f3c"
     },
     "state-zones/awakenings/446.json.gz": {
-      "bytes": 7185,
-      "sha256": "c98c0894cba5d24c6a5b089b16979ea3931066ecbd936fc98320d07aec9198bc"
+      "bytes": 5209,
+      "sha256": "f1c911c4dc17b457a75946f7ab24198bb686758a892728ded0bebff160b94e70"
     },
     "state-zones/awakenings/447.json.gz": {
-      "bytes": 5351,
-      "sha256": "ec57f00e898f0082e158ff5f099bb56449a42f52c7e95f9e6fc0c69fb752819d"
+      "bytes": 3224,
+      "sha256": "627b4e5d5b802121772db5d3f9ce1b607bb6b0cf6366852897ed9227d3a64ac9"
     },
     "state-zones/awakenings/448.json.gz": {
-      "bytes": 4548,
-      "sha256": "fe3244a34c5a6445be466320b03c55d91187ad0e1c18b6dc16a2fa3dc7395a48"
+      "bytes": 3231,
+      "sha256": "a6c0cb775038763d785cae50129f907a5748d8695b33582d13e05cb357c2b6b8"
     },
     "state-zones/awakenings/449.json.gz": {
-      "bytes": 8412,
-      "sha256": "0548f41400e159a8aaccd6671bcd01f57ccf1933001037a89040b845730311d3"
+      "bytes": 4600,
+      "sha256": "0789d809c05133ad2b3eb22c30baa9a77fc49750efbdb43bab2710b8ce09e379"
     },
     "state-zones/awakenings/45.json.gz": {
-      "bytes": 8275,
-      "sha256": "0e9578ac0c747709d2059be140167c29041ea1ed5441f92d1f7b3178548cd085"
+      "bytes": 5055,
+      "sha256": "a53b2bc16dee4709f0ea9235f0e793badf09c4b78ba8aef6758d4c861892ff7b"
     },
     "state-zones/awakenings/450.json.gz": {
-      "bytes": 6670,
-      "sha256": "733ff7bf80c02d428e56e2e058782dd815f11e0e21fc42dcee07628646731122"
+      "bytes": 3758,
+      "sha256": "8cd0d5a28d374473cdb86a04b04ed7368fa07ec67c9a52f15c78aca572fbc963"
     },
     "state-zones/awakenings/451.json.gz": {
-      "bytes": 4470,
-      "sha256": "f8d007166c87cca5175c91d570db1431db9f8bd470d782a77614257dd177313b"
+      "bytes": 2649,
+      "sha256": "c3c741ac36d0f5f221658189829aef0173d0c04ac14bea91477b8283bf303ce2"
     },
     "state-zones/awakenings/452.json.gz": {
-      "bytes": 3429,
-      "sha256": "5f47717670b764b27d44d43b9fb579c4db1d11b104d7aad845673574c653e7ed"
+      "bytes": 2030,
+      "sha256": "e9936d109a0b08b8aef6448450418cf46be72aa972bea5ecb1cdc1a3616e3d60"
     },
     "state-zones/awakenings/453.json.gz": {
-      "bytes": 4179,
-      "sha256": "32b31461ff59c80d4f9799298d87e726f69624d744de90555a660a2ccfe4124a"
+      "bytes": 2245,
+      "sha256": "06a0f499b747acbae69e701e90c92ee77a13385b4f23ffb196712b421a5438b2"
     },
     "state-zones/awakenings/454.json.gz": {
-      "bytes": 6453,
-      "sha256": "54cc4b3bcd3faee1af78a8020057027ee7864f93bed1c3c9d4149ba720d0402b"
+      "bytes": 3786,
+      "sha256": "0f96ae058b73eb28abf8293226cb5e3a88101f4f51cfb9a465ff83daebf2099b"
     },
     "state-zones/awakenings/455.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/456.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/457.json.gz": {
-      "bytes": 5007,
-      "sha256": "03fef6eaf0ccf2c4c800daaea0114a07bf49cfbb3c531092183c2cd3f82ced11"
+      "bytes": 2959,
+      "sha256": "387d14e88112f6cd7f41efb65080e3a49efa1f6b3595b96e4b0a9186140324fb"
     },
     "state-zones/awakenings/458.json.gz": {
-      "bytes": 2932,
-      "sha256": "671db95848d3943f5ec719be2e1860696b693d47443670d7f54919678a91d363"
+      "bytes": 1398,
+      "sha256": "912ff58ee8d0d1f75b4b02a6dbd7fccd9c55429f6df87de302efdd29fac8d924"
     },
     "state-zones/awakenings/459.json.gz": {
-      "bytes": 2670,
-      "sha256": "1b86804adad901cda4773a2399bc645f1847f8d29fe7be11af38e980ab9ae21f"
+      "bytes": 1353,
+      "sha256": "43295116d50d5a2abf5dabaeb27760e1b0a76ac1531eec440ed984ec03993b3a"
     },
     "state-zones/awakenings/46.json.gz": {
-      "bytes": 5273,
-      "sha256": "c32694dca040a0c4276c9074c5db970ad12caac1984791a5b56618fde09d21c0"
+      "bytes": 2974,
+      "sha256": "a7b8506e5fa0a75cc1bc20b71ad7c1429383dd28d870a128530775aa842ed272"
     },
     "state-zones/awakenings/460.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/461.json.gz": {
-      "bytes": 2337,
-      "sha256": "c7c738b6827c428cf25d9d3af3bc6ec5f93de5c946c14a5e71b57320df79c2f9"
+      "bytes": 1446,
+      "sha256": "babfa9491359d4df351ce24e2536d7ee230ec8fa0bb9c99af3d2c06e880faced"
     },
     "state-zones/awakenings/462.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/463.json.gz": {
-      "bytes": 5858,
-      "sha256": "549eabf56a8dc3455ce397a50e7f744f64af627d38b1ec2bfc2cf33a362cdc34"
+      "bytes": 4239,
+      "sha256": "c27d5d5ca417a888131e4c597ddf867e2112c88889c2afe6e536c1a46d1c7ba4"
     },
     "state-zones/awakenings/464.json.gz": {
-      "bytes": 1203,
-      "sha256": "ff6bd1485348bc084942bf6770f7b4805baccde2450b3cbee58030820a5eaae7"
+      "bytes": 612,
+      "sha256": "ea5575628055bba28e236fca422d00a9b90da0abcff84d327f03a2406310cd14"
     },
     "state-zones/awakenings/465.json.gz": {
-      "bytes": 3699,
-      "sha256": "ae9c5f1857259e24c889f809792eac3d1355766883b83f57d0594e67dc65d8d1"
+      "bytes": 2147,
+      "sha256": "52a6c3ff893849c08d833bdd1f5579eb1f0381d142909dc6e0cd2c87b529ceab"
     },
     "state-zones/awakenings/466.json.gz": {
-      "bytes": 6301,
-      "sha256": "486647393db1b1203743ee1a20a69fbe515140f8a0ea8162e81f283a9b1b4744"
+      "bytes": 3347,
+      "sha256": "92ee5c30a3ef97c6c1da66e2df91b8581ce743e25c4a0a3bacd5dc2ae92806fd"
     },
     "state-zones/awakenings/467.json.gz": {
-      "bytes": 4738,
-      "sha256": "a6c7b9cfb188795a07b5d589ba8ff2580c6f39adefa6932a66f101ca44f50cfa"
+      "bytes": 2827,
+      "sha256": "0f3170f7344fe76e918d94d483652853ad5d99a3166d32c9db67722058dc8029"
     },
     "state-zones/awakenings/468.json.gz": {
-      "bytes": 7037,
-      "sha256": "d19c3149cdc974fd7f8d1244e4d20d776b1f5e2855f9cbfa125fc95dc6dbf9ad"
+      "bytes": 3842,
+      "sha256": "97409a4fb7f15226e4449407c9ada01522b8439ab729146114ef3fafe083544d"
     },
     "state-zones/awakenings/469.json.gz": {
-      "bytes": 6638,
-      "sha256": "649c19a0d634721fab5344b7f11844baee91002612b0b225f9bdc930ba13bd7a"
+      "bytes": 4064,
+      "sha256": "965e123690e9d285797d48b510090e3bf5dc164c2e2717700df48a7c9ccaaf20"
     },
     "state-zones/awakenings/47.json.gz": {
-      "bytes": 7228,
-      "sha256": "3ba8dd1a77dbf9cdd5935294560f80738698eefa3a89c4d49c27de47e21ffd63"
+      "bytes": 4159,
+      "sha256": "31dd60282a0cab693b6787e3186c2a36f56352b33d1c592583f7011e34170f21"
     },
     "state-zones/awakenings/470.json.gz": {
-      "bytes": 5289,
-      "sha256": "c0c80bf76821ba59d7691fc6c711344f037eebe022bb199fdef8cdd4720a68a0"
+      "bytes": 4056,
+      "sha256": "b57091ca14972ccf464dbdccbc435da2e0369901b1a065825c33d964199c9378"
     },
     "state-zones/awakenings/471.json.gz": {
-      "bytes": 7217,
-      "sha256": "f16c777c48a45212becd8fa6a316084d589af8084f7501ec20e195ccb37611b6"
+      "bytes": 4170,
+      "sha256": "863e0ea96561453effe827bebb55a841c97aed113ab46dc056476999c5e7ffef"
     },
     "state-zones/awakenings/472.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/473.json.gz": {
-      "bytes": 4036,
-      "sha256": "0da8a8a9ef2c1fab45d2baf275d4e292ba9a73db78e3c5629e2d8c2cbb9e4523"
+      "bytes": 1757,
+      "sha256": "3d7ac0ba4dd69f15c344dee8236115866592a10018810dfb7ab75ad9fcdbacc8"
     },
     "state-zones/awakenings/474.json.gz": {
-      "bytes": 6352,
-      "sha256": "4748aa2b70773e1ee08a48ec530cba5c79d8d4f89168f10fc86ddd9e7a3da90d"
+      "bytes": 3581,
+      "sha256": "fec23388310fdf9cf7b3b79a21fb30327c953399984150af2cf71e27284119a1"
     },
     "state-zones/awakenings/475.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/476.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/477.json.gz": {
-      "bytes": 6143,
-      "sha256": "a011a43d9a1215ae380b788b240e951be10dfc7828946351379969a0a6d8c318"
+      "bytes": 4678,
+      "sha256": "b56d762b4da54a12e756667c6dcb6fbb6493f39e4b2578e549d9c74a4f363377"
     },
     "state-zones/awakenings/478.json.gz": {
-      "bytes": 3695,
-      "sha256": "3c8190ac1b924c2f95381246645777b99bdf78ac25c00b9a58841fab8f9a9612"
+      "bytes": 1806,
+      "sha256": "6c64fc8cdf358c08217313d47e0f18630b35974ffa7347d60927e18d3746b1ef"
     },
     "state-zones/awakenings/479.json.gz": {
-      "bytes": 5177,
-      "sha256": "e2283d626f0185d34dec1500e41711fa7808742863a18904b77f1cf3f3d14a50"
+      "bytes": 3077,
+      "sha256": "913c85b5317fa9779a4bbe1157d717b6d3b5bb23286d4fe3bd9f94982e58aa3d"
     },
     "state-zones/awakenings/48.json.gz": {
-      "bytes": 5343,
-      "sha256": "7f1cb0f7ccd84e944fc027fc419448893cde3747a008b1f0485d55897b5f4dae"
+      "bytes": 3004,
+      "sha256": "5f21292d11cc512b36cd4f154caea12c46d3072959f3cdbbaeb66b1b2ee4ca29"
     },
     "state-zones/awakenings/480.json.gz": {
-      "bytes": 397,
-      "sha256": "a19ffb753ea46a715d8a9792fa0d51bfe4ad2b1c01d6ae3514edf20d8d17147e"
+      "bytes": 209,
+      "sha256": "d53147c2a42530f4f1fad26835022e13661d16abe8d9b1a87fa33075bbd3fc37"
     },
     "state-zones/awakenings/481.json.gz": {
-      "bytes": 4483,
-      "sha256": "39133a900c945ffbe57dc2f9023902745d5b042edc477b1ab969e9196d6a2383"
+      "bytes": 2643,
+      "sha256": "656d38fa292cfc8e867fe3227f22459f33e909783ef7c4c5956af0d67687c327"
     },
     "state-zones/awakenings/482.json.gz": {
-      "bytes": 6228,
-      "sha256": "0f62815a8c850a46cc7dc452d8068da9b8dff37a9492b406000cee26e15a0c7a"
+      "bytes": 4754,
+      "sha256": "e761eb29da28655c46dba706ab2648e882dfdca212365c0e6c771b1b6b3bf4e7"
     },
     "state-zones/awakenings/483.json.gz": {
-      "bytes": 4953,
-      "sha256": "13f8ba06492941f838debcc5d1c070bdb1f19611ea800f3d524fe71ad409e998"
+      "bytes": 2978,
+      "sha256": "55512e11f97d1c42df68a9b6b9823b9ad67838b66528aa7886dbf09e7aa4d45b"
     },
     "state-zones/awakenings/484.json.gz": {
-      "bytes": 2294,
-      "sha256": "5c0e65df3301d3f0a814d27407260a03d632d89b60e7334b0ca20a59727d97b7"
+      "bytes": 949,
+      "sha256": "1bc8407f20628dad8f61f824e03a613d56bd3cba957cf32f0671dc15cfdb3e3e"
     },
     "state-zones/awakenings/485.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/486.json.gz": {
-      "bytes": 7279,
-      "sha256": "37334561cd3b64a667d5200e1a81e0548678a771c2f288ad0bcb2cf44048551e"
+      "bytes": 3862,
+      "sha256": "4706636058bbcb3afe8529cc6bc5d3d34f8358f31741cc6d55147788723dcffc"
     },
     "state-zones/awakenings/487.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/488.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/489.json.gz": {
-      "bytes": 8114,
-      "sha256": "3bead32bf6521c4b2ce8a99d1d25fb3a63266c54c87edc87b440af230521f79b"
+      "bytes": 4762,
+      "sha256": "6c49c1959b6ebff5bf3b18ac6c234a62ac604bb00e89ad40b9a8fd256b9cb97b"
     },
     "state-zones/awakenings/49.json.gz": {
-      "bytes": 5283,
-      "sha256": "7bd1259294053c65fc2b5b34aa654c28939df596a25f8afbf34ee25d314da600"
+      "bytes": 4000,
+      "sha256": "24cce2b8b91cfa5270598300be43b35108044f8a1ec5fb00d3f52e2595950739"
     },
     "state-zones/awakenings/490.json.gz": {
-      "bytes": 3593,
-      "sha256": "837fbc18bc9bd8b17baf7009bf052b0e4ba8f90f4024384041b93af8b3dd310d"
+      "bytes": 1991,
+      "sha256": "bafdd446ce2d3702e009e2580e4b0ea637cc784e2b654650687243d02eefd0ef"
     },
     "state-zones/awakenings/491.json.gz": {
-      "bytes": 7893,
-      "sha256": "4049e6e79a979baa19e0b3c63645121d41516efef4d78f24d0b97cfc7f3dd176"
+      "bytes": 4370,
+      "sha256": "6b9ae43a0a047aa3fc74b41192555bc643f1dde8a3ab7cbf54e34e81bae06169"
     },
     "state-zones/awakenings/492.json.gz": {
-      "bytes": 7822,
-      "sha256": "5e1bd9948b96a8bffcf592129becd0f152d8b90216a4baf9a47850e48c3a09d7"
+      "bytes": 4654,
+      "sha256": "6788a3ea6016b26f45c081a30502555bf90cb430f56d1f9cfa20d4c42b7473c9"
     },
     "state-zones/awakenings/493.json.gz": {
-      "bytes": 7795,
-      "sha256": "277531e335fc446085f434757509866c5990451a833abb0b229f181032c40de6"
+      "bytes": 4279,
+      "sha256": "f4cab6d116004cd07c324befae1021445df497f79628a8f5fd32f26463367755"
     },
     "state-zones/awakenings/494.json.gz": {
-      "bytes": 6858,
-      "sha256": "dc409c27f4637a56e0c47d325b228f307734ed8858851042bcb28c01effd7a1e"
+      "bytes": 4602,
+      "sha256": "14acbf490519d95bbbced9c4e7ee04eef081df2a63000450ab11119490b7ec00"
     },
     "state-zones/awakenings/495.json.gz": {
-      "bytes": 4554,
-      "sha256": "d4b9be8c5d717971b7ed12eb051bbeb63c8282fd958d1ca002b8dcb0e928e0d0"
+      "bytes": 2712,
+      "sha256": "03c8c377b9b3505cb051311fe6f4af86d379c616d4950b0260522cb30a069f08"
     },
     "state-zones/awakenings/496.json.gz": {
-      "bytes": 6904,
-      "sha256": "5a5c20de11579c1753dde0e0a6442fd1b8837989beda4f8ae399896951e0d9a3"
+      "bytes": 4099,
+      "sha256": "d5c519383a94afd32db4b9f95916bce1302956eebc28bd5ae4d74bca33da9b4a"
     },
     "state-zones/awakenings/497.json.gz": {
-      "bytes": 5728,
-      "sha256": "acf3e4d7292de932c6fd243538ec035412e7e98cd916ef0d2b301af1d20dc2db"
+      "bytes": 3016,
+      "sha256": "9208fa9fd2447a09e02f8d14aa6303fa6ba5a60a7135fac58cbd685e33a496d2"
     },
     "state-zones/awakenings/498.json.gz": {
-      "bytes": 5453,
-      "sha256": "0bc21946292584e276e9692a6bb6e642d14b6a1d16f92924c817db133ef6f093"
+      "bytes": 4010,
+      "sha256": "1676944b3518df60f5dc35c62061abdf7d9beeab83cb918be1c7229f2ed01fc5"
     },
     "state-zones/awakenings/499.json.gz": {
-      "bytes": 2379,
-      "sha256": "e60388d873867ec64df6414aa9ae5c42362b91dcc676b93b662abc209f5df648"
+      "bytes": 1217,
+      "sha256": "6c958999bd276929ad1edd4163d8d899b0ba360fe15216d5480369c052b3d55a"
     },
     "state-zones/awakenings/5.json.gz": {
-      "bytes": 5522,
-      "sha256": "38d4a255365be72b2f7be2c60f57f7f4fd682130559c1e65e1a28dc28adc9d14"
+      "bytes": 3197,
+      "sha256": "8095a1d117b0a5259d01fb71c7524ef51be58efaae7df98431854181686a686c"
     },
     "state-zones/awakenings/50.json.gz": {
-      "bytes": 8396,
-      "sha256": "a3adfd4d1ad6336390e27b14318cc97c0eae4cd92b938e1ff5ed3793c6aa2c11"
+      "bytes": 5124,
+      "sha256": "cc17af3d3c5f779d1b3fe676fc4dcd92c523ee2b394e5fa40c5f8adb7494b51b"
     },
     "state-zones/awakenings/500.json.gz": {
-      "bytes": 2623,
-      "sha256": "dfc1f24cfc0fcb84254d1e03ca7d0804f6b68c5c0b0b7ee125cbb7826b170a3c"
+      "bytes": 1443,
+      "sha256": "168cb397c6f149d98d422fa6f88b4a6d044fc3006574b6157dd3acf607cc8deb"
     },
     "state-zones/awakenings/501.json.gz": {
-      "bytes": 4369,
-      "sha256": "8a09af910e397873d6e338c5fcf1f684398046936a41c0f143b5707adcafa177"
+      "bytes": 2722,
+      "sha256": "58ba31864b6c63061ccd5eb8ece5c02c025954b17c48e2c4f4ab72b16f5216df"
     },
     "state-zones/awakenings/502.json.gz": {
-      "bytes": 4099,
-      "sha256": "241c621ae3aacf6aa82ac6ce92b505b17a5a87c977c4684925a5487dd976c4b0"
+      "bytes": 1967,
+      "sha256": "6882afd0060854d59a2320734a62b698cca7ac4d30c0e46ce89a03fbdf1e4025"
     },
     "state-zones/awakenings/503.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/504.json.gz": {
-      "bytes": 5867,
-      "sha256": "de5a397bd2b4799d10cf3a60b28824efdef68d21002c194c3d6ada4e71abbdcb"
+      "bytes": 4371,
+      "sha256": "0d845c61e9d7cd312d66bdacae75ceb53ee10ff8dd88f5360fa8a92b3ef25608"
     },
     "state-zones/awakenings/505.json.gz": {
-      "bytes": 7624,
-      "sha256": "58ebb17036ff467abc4c4c44567071b7c5731a4e1a7357832edbeeef2749ed3e"
+      "bytes": 4329,
+      "sha256": "ab9c884c2d263d93d5bd957fa8d06738c09272df41910496023b90bdd1096e5b"
     },
     "state-zones/awakenings/506.json.gz": {
-      "bytes": 3276,
-      "sha256": "2c1e6ea6e6bcc90734df77f102a9acae149a9f518144ee81112cc2850a5e8350"
+      "bytes": 1860,
+      "sha256": "c071c942aa38ebdefdf4f764c36980b2765574d35c9a336d226205501bb003cf"
     },
     "state-zones/awakenings/507.json.gz": {
-      "bytes": 2954,
-      "sha256": "e4cd039438798a2b9145f1edc831d7924ab6c137c41356708efab1bbc41875f0"
+      "bytes": 1414,
+      "sha256": "a880b38101a2a45f61df4d3b1443221d52eed6139673c464341afc972abe9774"
     },
     "state-zones/awakenings/508.json.gz": {
-      "bytes": 5962,
-      "sha256": "d4997a16dc1b11d90014647a6f0e2924e4dfeea300cdc085103df805697049ca"
+      "bytes": 4381,
+      "sha256": "01d74a48f0bd2529446d2e610872006e313ded298d83f7a1112cc0ad2001a9e5"
     },
     "state-zones/awakenings/509.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/51.json.gz": {
-      "bytes": 4227,
-      "sha256": "f09c720a22948f12334141d55f2ff298788a9e82ff1e61b40cc5acfeb9e9e99b"
+      "bytes": 2932,
+      "sha256": "12ba7424c768ac2c5e1cb171f852b3e236bd48c7570b63bccaf7a5f217f72809"
     },
     "state-zones/awakenings/510.json.gz": {
-      "bytes": 2676,
-      "sha256": "dd1b97a0b503b733f62f2bbd0ddd2d56571f9be9b293df9a697aced9c792bd47"
+      "bytes": 1977,
+      "sha256": "7d716a8994395c307c38d507809c906acb896171d8c7ae948a1660d5d176f6ef"
     },
     "state-zones/awakenings/511.json.gz": {
-      "bytes": 3502,
-      "sha256": "439c8d19119867a95b10a55ad135dee226b8c3e06f4cb062e16a5c3453c4fa28"
+      "bytes": 1968,
+      "sha256": "e769d236a3df5a5d7473d8a005ceb46d62fd0efa7892b49196f38d11d83dbce0"
     },
     "state-zones/awakenings/512.json.gz": {
-      "bytes": 4869,
-      "sha256": "4284d03ce46ae8d59b39f86bb8b6db413556f568006d3eba579000c9104c9edf"
+      "bytes": 2718,
+      "sha256": "b34cf622c541f4466bb50a60635373269887626b8af5eb167939a587dbf659ba"
     },
     "state-zones/awakenings/513.json.gz": {
-      "bytes": 6382,
-      "sha256": "c860236b4f70d37e1f9342ea5297014fa2c2d59b9113a159c93fa4156f3e335f"
+      "bytes": 3596,
+      "sha256": "d0ba32924898487ff33fb675d9310e8ddef10d3021dfb582385bddbf9151b09f"
     },
     "state-zones/awakenings/514.json.gz": {
-      "bytes": 8905,
-      "sha256": "8ed1481f4b9f9eab302a17b90decbc90f7592eae7858a5f8f78f7bdc6a986349"
+      "bytes": 4807,
+      "sha256": "455ed5d915e47fb0bcd641d72b3ebb8d1883a2165001227cc634ed5e81bfa0bc"
     },
     "state-zones/awakenings/515.json.gz": {
-      "bytes": 6206,
-      "sha256": "7d626e50f0f0f7b48f18d318733eb6fc5cb5aaecc00275fae56ec17f94476244"
+      "bytes": 3791,
+      "sha256": "291489ab035f90b37ce93f4bb749a637d48dec4a088de811e519fe71d96ee62f"
     },
     "state-zones/awakenings/516.json.gz": {
-      "bytes": 3397,
-      "sha256": "b274c6607499fcc742378f99ea389bde529bd7b2622df94909792aa03dd21f02"
+      "bytes": 1722,
+      "sha256": "bb550bddb50b9746b09f1f9a191f5582360f76bdcf0809bb811081f2014d3de6"
     },
     "state-zones/awakenings/517.json.gz": {
-      "bytes": 5700,
-      "sha256": "2cdf454a1b74d14b721a3cf3c2430f4c8131cb04796d7e7141b364c14ffbf278"
+      "bytes": 3078,
+      "sha256": "970c2e9d437abb473e7a7419406db9a1b8175cc01f971254a3ad0a4c8a4570f0"
     },
     "state-zones/awakenings/518.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/519.json.gz": {
-      "bytes": 7669,
-      "sha256": "affce9c1b731514588d391507824342625b59ec265dd28f31f9a1c7fd82c14a3"
+      "bytes": 4187,
+      "sha256": "3116103b72f2976994541b1a67b14f249b0bcb8c11180950b510897922277e2e"
     },
     "state-zones/awakenings/52.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/520.json.gz": {
-      "bytes": 4782,
-      "sha256": "475941a9efee99f59198f8fd93a4e2b332ea951aea76363c4d7a074b42a06c22"
+      "bytes": 3213,
+      "sha256": "efcb775aa5956bbde92e200e2b1c643daa316481de792ef03111f494a4f20e10"
     },
     "state-zones/awakenings/521.json.gz": {
-      "bytes": 5951,
-      "sha256": "514096a36bd9bf739016e6421d353caacdfc5bbdc14f60cc6441bb6976cc04d8"
+      "bytes": 3237,
+      "sha256": "4a295bd3a9f2791df72df4a980c8b18def79169dcd71543f6ed9155033e59d27"
     },
     "state-zones/awakenings/522.json.gz": {
-      "bytes": 5447,
-      "sha256": "e6efe3fbbc61f19ac86aa75bea84bf136b5231ae79c16c08824bdce77d7edb13"
+      "bytes": 2983,
+      "sha256": "5590cb98f74c937dbe7f3842f58c6a4fb7feb3501021d85ee887e5782b68e703"
     },
     "state-zones/awakenings/523.json.gz": {
-      "bytes": 3890,
-      "sha256": "41161a912e3d9739521a61269ceda7f5dce7906b126a976784f706e80fc6969b"
+      "bytes": 2074,
+      "sha256": "afd1d7d31bd48ee8f0a0d191d0b53c5d48349437ec225615efe65a4bb11390c3"
     },
     "state-zones/awakenings/524.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/525.json.gz": {
-      "bytes": 5503,
-      "sha256": "c58baf9bc0b7c350c7f37a8a193b5df8f751e1a601c8c306f226818f915afd89"
+      "bytes": 3068,
+      "sha256": "41ae53c64185688378f4732bf42028c7c85d338402be831bb9142923ce4b19ba"
     },
     "state-zones/awakenings/526.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/527.json.gz": {
-      "bytes": 5085,
-      "sha256": "14623e99d442e4ca21d2948dba20dce1bc74ddc47a69857d28bba71143b0238d"
+      "bytes": 2902,
+      "sha256": "a0181f376f877ffe1b00424b5ef4c986d31010afdc2e02d692b8dcda83e88690"
     },
     "state-zones/awakenings/528.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/529.json.gz": {
-      "bytes": 4131,
-      "sha256": "aea22785210159e22151e7c600e16530c31c5c308ba0d0efab575572136fa897"
+      "bytes": 2397,
+      "sha256": "0ccd0598ee9956d40e07e6dddbb1c73f3fb332bec66c944121e4ec3d64ae8f9d"
     },
     "state-zones/awakenings/53.json.gz": {
-      "bytes": 2839,
-      "sha256": "93dce0ea657faac0852aee11bab90df4209499d3b57847660e48a0f5346ed823"
+      "bytes": 1269,
+      "sha256": "35d4759981f33348c9765c9567ccd9a6e1df695f76344ffd317431c38799d96c"
     },
     "state-zones/awakenings/530.json.gz": {
-      "bytes": 4474,
-      "sha256": "55df77a35e40d930de850b5471be0cdb92a7bcd888a98592e4e2fcf65b85e720"
+      "bytes": 2599,
+      "sha256": "7b28435df8f703d331c5076e0202d6ef80be0835095ffdf7bb85d099fb2158fc"
     },
     "state-zones/awakenings/531.json.gz": {
-      "bytes": 6237,
-      "sha256": "b6d69b67112dcde85b23988504f09a59ae973120f20982eda2c605a57b04dee2"
+      "bytes": 4644,
+      "sha256": "f3656d381066766e8d8239886e649eedea0e2aa138af864e7a520e98c2872231"
     },
     "state-zones/awakenings/532.json.gz": {
-      "bytes": 5128,
-      "sha256": "2f72b1c8c5660a3dd3e57891b35aff1a22b6e4de34568cf9c06ff5dd0ad037c2"
+      "bytes": 2796,
+      "sha256": "0ef00b681f24817ce40cc1aef31d49a8b7772cf04b8b6e7fc955e3c07ab0beb3"
     },
     "state-zones/awakenings/533.json.gz": {
-      "bytes": 5281,
-      "sha256": "a924c25e5975cc32b933046ffe9659669f4f5c65c6e27ef1196a694f18cedbb5"
+      "bytes": 3345,
+      "sha256": "37394cf9c751bb9c477385d7b261bcff0702cf359b38d7bb150f2353342ffd2d"
     },
     "state-zones/awakenings/534.json.gz": {
-      "bytes": 6064,
-      "sha256": "9ffe7bbc69b608e532036836dede2dba941dff4b26e8f9c15bc736a346c080a1"
+      "bytes": 3381,
+      "sha256": "3f9bb96784f42c29ac35f09619e05e3e06d60ee34ca004d9c96318a2fde62bfa"
     },
     "state-zones/awakenings/535.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/536.json.gz": {
-      "bytes": 3454,
-      "sha256": "7c216cf9fe8084b579d856ddc1a781a339100dbc96912d085aad73d68d18479a"
+      "bytes": 1649,
+      "sha256": "82c99a6fbf6cb328a82713fe4e6fdad171b1ea99d3c7e0ca934f096f7ee9b06b"
     },
     "state-zones/awakenings/537.json.gz": {
-      "bytes": 6101,
-      "sha256": "279f16b7bbeb6c0e309b5fb461de9a5a8a15f661c5a4c5c9a3f2ecfd819ca4d0"
+      "bytes": 3247,
+      "sha256": "04e89a4c684eeaeea651ee8469696f91aa4b5b773c816c16eca86efebceca8b4"
     },
     "state-zones/awakenings/538.json.gz": {
-      "bytes": 4175,
-      "sha256": "35074474a35779ad4bb02e4a0199650e9e2678f7fc7bfd5dd7b85b59d8145a3a"
+      "bytes": 2711,
+      "sha256": "2d07086e9df303323b9fb7c02a3d1521f69840e4f290fe72dfce5065675897bb"
     },
     "state-zones/awakenings/539.json.gz": {
-      "bytes": 3229,
-      "sha256": "e4f02e29eef4ea4e3c765b1640526228807acaa4bb0b397fa8f4f27ba5e908db"
+      "bytes": 1451,
+      "sha256": "b2d7f8bee15d816855ae0d26afe87410b192465915b2efdb5cfa88e108d55d1b"
     },
     "state-zones/awakenings/54.json.gz": {
-      "bytes": 602,
-      "sha256": "7355413fb59f04cbb6976f8237c4bfe6e2c2e0c75a35cb4a146271e308639064"
+      "bytes": 243,
+      "sha256": "9b077b3f0ef01dda30ab460c4a32a9adc66b57bb8da765a1054a89d10b2317e9"
     },
     "state-zones/awakenings/540.json.gz": {
-      "bytes": 342,
-      "sha256": "f6b97b5166019600bc55bf172684c1bd84e1cb6be11282b294e40ee9c1392bbf"
+      "bytes": 241,
+      "sha256": "101465b4cc101a87040ae215701e5fd8066505880f0d5a5a58bbfe19ceb376ea"
     },
     "state-zones/awakenings/541.json.gz": {
-      "bytes": 5143,
-      "sha256": "dc06b895ef78f28ab0dd2a985f4d88f602a70cf3d62c723cfae44a810498b741"
+      "bytes": 3093,
+      "sha256": "00e9271daf154d7809a0d562f7490950569ba1e675d7a097d1d9eb748f15a560"
     },
     "state-zones/awakenings/542.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/543.json.gz": {
-      "bytes": 2700,
-      "sha256": "d4d535cb27bc1354be5e88048e9ffd9bc8b965b46dc0b5a7e11158ca23ff5065"
+      "bytes": 1270,
+      "sha256": "2442e1424b9d7a77d610034e15d62cbb109c90743175b378bcc1cdcb0bfb8938"
     },
     "state-zones/awakenings/544.json.gz": {
-      "bytes": 4377,
-      "sha256": "f187c59562a7bf945f89e3e0e65d9f9d746113bcf535ff17a4fad4c0553a6ed2"
+      "bytes": 3292,
+      "sha256": "ca8bc9dfa384894b8692ff937cc226c2dd99f93bbc55da8b7e82f47c8a579429"
     },
     "state-zones/awakenings/545.json.gz": {
-      "bytes": 7111,
-      "sha256": "2eaf2d2984c914628e36d955f2fd83eccbb515666ac0bf554805533c511fe670"
+      "bytes": 4728,
+      "sha256": "bf278779ab924933bc7baa9a31f246a31e5a279b410e1ff10f1ed944ebeb12a6"
     },
     "state-zones/awakenings/546.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/547.json.gz": {
-      "bytes": 3934,
-      "sha256": "f72c39ca4e84a79fcdf48b355bc35296c082f1eb62a6c69fd895b18b8656a327"
+      "bytes": 2669,
+      "sha256": "288d8c7e7d8687af786538604c727755df5de9546113a1aa0f71a7c3d42c09df"
     },
     "state-zones/awakenings/548.json.gz": {
-      "bytes": 3026,
-      "sha256": "ca0022e126c791e8963664006e0c074ee654c5fb998f2a4a74e505219e9cc0fc"
+      "bytes": 1974,
+      "sha256": "891b90fbbdd4663c7b31d11935132404df51eae0bd0934edadfc4d758c1f87a6"
     },
     "state-zones/awakenings/549.json.gz": {
-      "bytes": 7716,
-      "sha256": "df0489703526e256aadd41bd584dd321de6f5cd9db22b83bd145840697bc790d"
+      "bytes": 4422,
+      "sha256": "c2a3606500505ed30767870343e224e99f67b52b0673e09f825caef49d0acff4"
     },
     "state-zones/awakenings/55.json.gz": {
-      "bytes": 2215,
-      "sha256": "bf01a83fa235a809e6edf1b7dd2915578298692c8a4b28a897ae85fb46adccaf"
+      "bytes": 932,
+      "sha256": "f2350e73ee5840a3c51a1f5946cbee4d8001edcd9d9d3cef1ef8ceb71601e611"
     },
     "state-zones/awakenings/550.json.gz": {
-      "bytes": 8142,
-      "sha256": "ae3e5dd9b1a817293eff75831dfcd639f88ac80a67c98a41224e0942dd7c3f18"
+      "bytes": 4342,
+      "sha256": "7d633ef39c6ab3da52668a5c93beb05fbf208d57a60b4ff24b315e833a6e79b1"
     },
     "state-zones/awakenings/551.json.gz": {
-      "bytes": 2430,
-      "sha256": "29ecd0427501818e061e94f25da4e8fdae6d228b4eea22f9508239aee8ec1729"
+      "bytes": 906,
+      "sha256": "e7ecdf0553976543458b6e249ed484e2f422c77b2fe29c0f06c2461f0fd249a2"
     },
     "state-zones/awakenings/552.json.gz": {
-      "bytes": 3070,
-      "sha256": "316cdb41f46e5487412df274ef71ce0b1ecb8843520222799ad9cbe2da3e31ba"
+      "bytes": 1436,
+      "sha256": "8fa6cd7c41da06311cb5cf60e671e8c0516430e525cf575fdbba840ead5c8a8f"
     },
     "state-zones/awakenings/553.json.gz": {
-      "bytes": 6467,
-      "sha256": "97ca1a5df8ece216214d8bcc9bfffa7baf618c27797e16fd47fa7b81d5ed1d2f"
+      "bytes": 4267,
+      "sha256": "50a5fb71f3c802301acf0df2c2d55a141bc8fe27d569ef5250d4b534cf8df1a0"
     },
     "state-zones/awakenings/554.json.gz": {
-      "bytes": 9015,
-      "sha256": "c8972685a4167a68f311c066a5ac32dd0089575ca1f437d660544bf8ed69d11e"
+      "bytes": 4948,
+      "sha256": "59c6756db0b22b4738dd6c3ac05b6df0e447151d80e2e13a9ff00e014c886ae1"
     },
     "state-zones/awakenings/555.json.gz": {
-      "bytes": 4524,
-      "sha256": "c93e23269cc3dbd65fc88a7a515351e4a10982911d5fbe369a4d6dbedb32e43a"
+      "bytes": 2704,
+      "sha256": "8fa5970210e88ca4ff22cee5d419485a43f53662af860f2634b46c8469e9e507"
     },
     "state-zones/awakenings/556.json.gz": {
-      "bytes": 2271,
-      "sha256": "c111b430c6539667ac5519dfcb2d6757d9a88bec1756f07481a24056f98c71bf"
+      "bytes": 839,
+      "sha256": "5269195702e45157e09481145959f84ce14aa69a4d4ecb119b8cf3afd2242223"
     },
     "state-zones/awakenings/557.json.gz": {
-      "bytes": 4341,
-      "sha256": "c759abcf65edfa4d9e7e8747a16435df0b24f7fe72c90d455447c6bb52b067ef"
+      "bytes": 2139,
+      "sha256": "20f3b41c8560f1eedb63adaf25c9121237e999244f82117ab8496883ec58da8e"
     },
     "state-zones/awakenings/558.json.gz": {
-      "bytes": 4543,
-      "sha256": "31e24958963c6ea83bb8d6ab49015020d4e3d7d78099595a3fa143f0f98e194c"
+      "bytes": 2631,
+      "sha256": "6f52fe5ac6bb4d3546e9b88344ed0bfb54554f21c61c7c076cf7ba5e730056e5"
     },
     "state-zones/awakenings/559.json.gz": {
-      "bytes": 2878,
-      "sha256": "164a5d6cc027aa8cecab3284337fa95545d63bd9c0da6bf9e314088a25b4d317"
+      "bytes": 1617,
+      "sha256": "e89824cb66b1d124d99b2c84857b0c31c987384be268e5a508a946e9d0acb220"
     },
     "state-zones/awakenings/56.json.gz": {
-      "bytes": 5973,
-      "sha256": "d341314aefade498f01207610f865ae338d2c710c7798476d3d6bffce93e3b27"
+      "bytes": 3641,
+      "sha256": "f31c0818c66a699d6382ccfc143fe9c9d2f617a1f6b49ff7a7d564c8df41135a"
     },
     "state-zones/awakenings/560.json.gz": {
-      "bytes": 5036,
-      "sha256": "a33afe676babed1de9f154afaa24eb09379c967b9b3cdf4c32ed60cb9d30d9ea"
+      "bytes": 2759,
+      "sha256": "7b2a77a5328dfe8687c9a1a9ba2ea22f904d649925d7b492aec6ba1a9802aad3"
     },
     "state-zones/awakenings/561.json.gz": {
-      "bytes": 4242,
-      "sha256": "1672e7731686a1a8a709855a785d7210d6d6310f9c8e9c132e984f48d86bee4b"
+      "bytes": 2927,
+      "sha256": "6a4025b2428bf371b1e840e8c0951edb4793b0c6e855736f4d38601fb6829327"
     },
     "state-zones/awakenings/562.json.gz": {
-      "bytes": 3289,
-      "sha256": "c88802747b0089ed8c002e379f155d6addf3c4effa3670b75bb38512a7782be9"
+      "bytes": 1479,
+      "sha256": "597e3a79b851376667ebc0f677aac59ebd49ccc4d2b746bc86923cdf826aa538"
     },
     "state-zones/awakenings/563.json.gz": {
-      "bytes": 8417,
-      "sha256": "43e0e2b3fc6aa8eedf148b4ad8dbbaff1a452cebd8e05a2a9d9acf5f24da1fe4"
+      "bytes": 4875,
+      "sha256": "5dbe0624820d96471ca4923f024b3642391fd5114551d334c2f8c855c11b7793"
     },
     "state-zones/awakenings/564.json.gz": {
-      "bytes": 4870,
-      "sha256": "52b8dc7b9d852f9605853ee0b8538c37be9abc6c3399067b7f55cf332a6cace7"
+      "bytes": 3481,
+      "sha256": "b6611fa7af8bf00a883d4e90353839e0c5a51ca9d0acbaa9749049130f4c1fa4"
     },
     "state-zones/awakenings/565.json.gz": {
-      "bytes": 5332,
-      "sha256": "31e9d03af38e9ec88a31861e894be54ec20a7c4c91fac8d115ac1b032bdbe59d"
+      "bytes": 2718,
+      "sha256": "cb7c86755bdf29898ba3b83990d20132f2b5fe49e62e0d0b8674806591eef73a"
     },
     "state-zones/awakenings/566.json.gz": {
-      "bytes": 5148,
-      "sha256": "b5498590ef5a492113fe6675302db96e1b2f6d8c5c9108cd8923485b92699e5a"
+      "bytes": 2859,
+      "sha256": "0620322aad8fd65114f101dbadf4b7357555ded3ffcf3783278a7665adb4f3f0"
     },
     "state-zones/awakenings/567.json.gz": {
-      "bytes": 5190,
-      "sha256": "d7ffd70243e20a1c1ccaa67fa66e531f19d5d70093c8a7d9eaac6e2295c9f6c0"
+      "bytes": 2710,
+      "sha256": "3497323dd41f711367f0dc6054d052e0c6e22ea5b9f3d8c3bb362db713b4a7d7"
     },
     "state-zones/awakenings/568.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/569.json.gz": {
-      "bytes": 6901,
-      "sha256": "6a6fbacf2be5b58401bc5c46f94c40acd66c9a1510ced8d3778cccb06cf18e54"
+      "bytes": 3798,
+      "sha256": "9adda0a8c843d98d6554ef32b14ecad273168c57f08522bae32abf6dbec45472"
     },
     "state-zones/awakenings/57.json.gz": {
-      "bytes": 7658,
-      "sha256": "16bddd933404e75ae37eeb887d94ae35d7344ab2337b55e780898efcf42cb060"
+      "bytes": 4226,
+      "sha256": "ec4b80a8e4f8036af1811b5c814dc1315f7b2dcb13328dc3a77352d211d68149"
     },
     "state-zones/awakenings/570.json.gz": {
-      "bytes": 4452,
-      "sha256": "55c177ef7c48a22736407c98329e1993775b5dd5754e01089c660ecf363e6cb9"
+      "bytes": 2138,
+      "sha256": "94c70c7cb30d0e64c14942436552cad352aa3ecd46153fbd24251617be46e334"
     },
     "state-zones/awakenings/571.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/572.json.gz": {
-      "bytes": 4064,
-      "sha256": "73b12189b7a20c97c21bf93b812ef297f32328e45e339cf4461c0dc72c779128"
+      "bytes": 1878,
+      "sha256": "9838b8e3506f7389465f5349bbfb766f5cc31208e9f84c831a25069bc4e51864"
     },
     "state-zones/awakenings/573.json.gz": {
-      "bytes": 8561,
-      "sha256": "37cf8102fed74140beaa31a7612a8679b323a5edec950cc17e36a82fe11aaaac"
+      "bytes": 5173,
+      "sha256": "2581d8061fb79af91f65608d585baf9dc28e53368fba97cb1cd55062c0da4173"
     },
     "state-zones/awakenings/574.json.gz": {
-      "bytes": 703,
-      "sha256": "9dbff484af861086547fdcf1ba4ec71a3f3d14e1e1a4257f30e6ca1b97fe3a58"
+      "bytes": 280,
+      "sha256": "3aeb08aedb7bb138f6e19803aa47311fd00d867c737a84b2ed04544b341e41bb"
     },
     "state-zones/awakenings/575.json.gz": {
-      "bytes": 774,
-      "sha256": "187b4f6b0e1c37e41d42179bfd807c45f85662d2726835c2e5745c160103f2cc"
+      "bytes": 397,
+      "sha256": "fb0cab141c8bd1e09a33a86b7e46bd78dc8b0b0104ed92de9bfdd10cd29ba9d0"
     },
     "state-zones/awakenings/576.json.gz": {
-      "bytes": 4988,
-      "sha256": "dd4fb8cba3979d0c6213372d24d35f0487024467a4738579b0d91108cb0636d8"
+      "bytes": 2617,
+      "sha256": "a765683e4314975e3f6715244f79fef22f030c2242105306acf5924cdd2cfa81"
     },
     "state-zones/awakenings/577.json.gz": {
-      "bytes": 5300,
-      "sha256": "9755a450545e1364677f966595d36bdc52f15b0bb988e89bb72ba2e472946f8c"
+      "bytes": 3321,
+      "sha256": "b408815d4b45d4ca7c2734fa7555985ad06f981a71679bce9910008a737c592c"
     },
     "state-zones/awakenings/578.json.gz": {
-      "bytes": 2065,
-      "sha256": "b5f913bdf572c59ea7e1df47ed1415399a660059a0bb700a5c3a3dc041b0a2f3"
+      "bytes": 976,
+      "sha256": "8f7c8b6437d63247f09fa16715a8e66e2cb30c764e41c9486cbd50f3b55b3f29"
     },
     "state-zones/awakenings/579.json.gz": {
-      "bytes": 4182,
-      "sha256": "479276e32667d0aa3c28643fbcf633b07973fd166eae9e5550a59a6d22849f2c"
+      "bytes": 2331,
+      "sha256": "49da59cce1940b8810fe74a1f5f59bf7ee70b36bf6779c320937f4ce800468a6"
     },
     "state-zones/awakenings/58.json.gz": {
-      "bytes": 5250,
-      "sha256": "1c37afa3ae8608c228fc8e707bdd23e0e47a972b22127cc4b583817797475a48"
+      "bytes": 2977,
+      "sha256": "e10b5365410bd239f62476c1afdba9327ff26dd07c634ba9856596b2ba3ce994"
     },
     "state-zones/awakenings/580.json.gz": {
-      "bytes": 7777,
-      "sha256": "8845942083c345730247ba8f59723f2e45fac53c79b4a0bc62b8f99fdca27bb6"
+      "bytes": 5138,
+      "sha256": "0a4992b743448f5b2ff45833301594b57bfbb7cf5af5f9373026a8bd40c7930b"
     },
     "state-zones/awakenings/581.json.gz": {
-      "bytes": 5395,
-      "sha256": "36aa1d85feee9f98a2ef35d2948ce063e2001fa3b51978d44a166f487e045e56"
+      "bytes": 3090,
+      "sha256": "80987d8054bc187074bafb4af2264fb624ccc3fb71019ed9c56ba82b5f9b3d55"
     },
     "state-zones/awakenings/582.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/583.json.gz": {
-      "bytes": 7571,
-      "sha256": "729981edd4cbaeb1e2bb91b11a944c0b302ed14918c7cc6dbb43f98a818a5e7a"
+      "bytes": 4069,
+      "sha256": "8f7c0498e74c2d76235049951aa2b8b944307e1475438eab28e32b963200d010"
     },
     "state-zones/awakenings/584.json.gz": {
-      "bytes": 3198,
-      "sha256": "e1613183c77b8e5605b33c03630e6dfaae8b9139e2aecc990e7315ef6baa3c6c"
+      "bytes": 1931,
+      "sha256": "f61b83d34be5fe220b4e7aee3cefe81038890ed723714583619e7dcbf0cedfb9"
     },
     "state-zones/awakenings/585.json.gz": {
-      "bytes": 6595,
-      "sha256": "b2c5f0c6a4e6285857f3c1f30eb217b476cd0cd1b9425fad01074400c8fdd003"
+      "bytes": 4211,
+      "sha256": "0b4c19c90ec3cc8461bfcae0ccda6e474dea172f3b734ae3add10f749b97c159"
     },
     "state-zones/awakenings/586.json.gz": {
-      "bytes": 6473,
-      "sha256": "5e9c5bb711a45567f413ac42586726061a3999fbd2e82d37f867e89f7c8b98ff"
+      "bytes": 3527,
+      "sha256": "0a4131d3759d4bcbc2b792055da1536db41f04cac3ed3e61522b5e052aad3e07"
     },
     "state-zones/awakenings/587.json.gz": {
-      "bytes": 5349,
-      "sha256": "562f6a31f19a57a37fea1c5556f6cc101e0cd3cab4911632913363ed483aa42b"
+      "bytes": 3749,
+      "sha256": "2c79da622361f30a11b51088c33d04c171c00fcffb834d2de6a58d76844b5958"
     },
     "state-zones/awakenings/588.json.gz": {
-      "bytes": 5062,
-      "sha256": "d6572adc8f978b27e8bf24c7db2d6a995fe60b9804ac08b0cd698087f60f466f"
+      "bytes": 2847,
+      "sha256": "0c0f32b50b52d969fbd22805a97c4b4a0a48422730c2f0e49bf180752c467a6b"
     },
     "state-zones/awakenings/589.json.gz": {
-      "bytes": 4316,
-      "sha256": "7e49d2ec28a4a162e961aa797c49ffa2d95e7e156c9455a42f0b10b68d8aebd3"
+      "bytes": 2391,
+      "sha256": "b704ae3ec58ee49d7c7479f72d49851eb374d641009b802896038dd11f6ae663"
     },
     "state-zones/awakenings/59.json.gz": {
-      "bytes": 5984,
-      "sha256": "360fd0ba0ea1d3827438c90ffd53be3d6772cfaff02e05d3cfeb7bd8118e946b"
+      "bytes": 3473,
+      "sha256": "720a1581d32a08046dc6b8dd4fea63eac7e8f16583d57543221672a33e969bc1"
     },
     "state-zones/awakenings/590.json.gz": {
-      "bytes": 5699,
-      "sha256": "64a3e7365bdf125effe081ebfc62a0fe4a7c43c2ea642f40c9bf6be1d7615eaf"
+      "bytes": 4077,
+      "sha256": "c55cf9b77e1444fe994e2fea98fead5b58fdff272659e6562562fedd98814dcb"
     },
     "state-zones/awakenings/591.json.gz": {
-      "bytes": 5764,
-      "sha256": "fc6be5d5593a3218adf50eb4a4ca680cd8d662a5e6e55cf77efb129a0990ae35"
+      "bytes": 2992,
+      "sha256": "05f74a72012e0d20c69853240568e8173b9f84e6c2ab4f47a7a5d32712fb2190"
     },
     "state-zones/awakenings/592.json.gz": {
-      "bytes": 4941,
-      "sha256": "4286dddc9040f047ae44531fdbb8e5ebb7829bca6a81ee9bb23f589ddbf8883d"
+      "bytes": 3032,
+      "sha256": "9cfb658f62b0668d974ba598004e663c59af9f613135022672b0c51c229dfedc"
     },
     "state-zones/awakenings/593.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/594.json.gz": {
-      "bytes": 5115,
-      "sha256": "f9ba1eee7892ac0cb11cc5a47460060d09b352c44ce1df8d00988d7cb91dcff7"
+      "bytes": 3073,
+      "sha256": "6a8f0485285e0218818075ad30abe81cfb4c929ba23464d7b77d974548cda50a"
     },
     "state-zones/awakenings/595.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/596.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/597.json.gz": {
-      "bytes": 4536,
-      "sha256": "1b87e80b830e785ddc9cce6530296df941d9c81e78357a71400784e4aa8c7071"
+      "bytes": 3333,
+      "sha256": "ee41e98f5414444ccf9481d1afbf5b32606a1a6da69fe5e818b9210bf8cb962c"
     },
     "state-zones/awakenings/598.json.gz": {
-      "bytes": 5320,
-      "sha256": "33d8e01a9168bc329368027efc2281673f2abf327c8f42fd28d9963ffad69619"
+      "bytes": 2765,
+      "sha256": "fe593bec700bff9b56969a73942a4cd8e8a3861063e75933a46025f30bfa0f99"
     },
     "state-zones/awakenings/599.json.gz": {
-      "bytes": 4754,
-      "sha256": "297e634f176c9b64d5e7e02ea0c62908be34d89a04ea1146121393f8b4c7351c"
+      "bytes": 2542,
+      "sha256": "e9525fea07fd72402f8a18057cfc9ec86b2d419d5175047c0d3e9211ee988be4"
     },
     "state-zones/awakenings/6.json.gz": {
-      "bytes": 4729,
-      "sha256": "aa99b29a156bb7af1b496312c4142b0cef6304b66508d2410ec9902a29a20f8a"
+      "bytes": 2628,
+      "sha256": "75f8cad597e604da2216f4461c3e04e1705438c2865559981df6a0ebc7bc4812"
     },
     "state-zones/awakenings/60.json.gz": {
-      "bytes": 1944,
-      "sha256": "9da8bd766d68e1145dbc3db24e08547fda96925dd57471c4740aeba12a96bca4"
+      "bytes": 998,
+      "sha256": "e98c805b65b7167a365d309363328be7c9cd7b0856d2c43695038103f8778cf0"
     },
     "state-zones/awakenings/600.json.gz": {
-      "bytes": 2668,
-      "sha256": "5784b3d78ee82373407c65abdc5e47ad31c2b57dd6d8f80e7d3d69c419979853"
+      "bytes": 1497,
+      "sha256": "49b9f1f06702dc53169e7ca309e7df7a3a34445d2ac6764d83925c1ca18ad6ea"
     },
     "state-zones/awakenings/601.json.gz": {
-      "bytes": 8113,
-      "sha256": "cb4f83609a428c17a2c4380fc00cb40dc67bdd012a90bcd25bf8a88c5ae63101"
+      "bytes": 4507,
+      "sha256": "f17f16a03ed15a543f87965f45931c79f5fe27a163a0959954f60a9a3d842eb4"
     },
     "state-zones/awakenings/602.json.gz": {
-      "bytes": 3640,
-      "sha256": "8f579b6721f708187471f8c1aae9d1fe58fd1a367352ab9a5b160966e30a3845"
+      "bytes": 2018,
+      "sha256": "3516c20394502d5d2d4845e5488c4a212c02d13fd0bf0a8e0cbe55e7234ca538"
     },
     "state-zones/awakenings/603.json.gz": {
-      "bytes": 5141,
-      "sha256": "9960b366a71bd5b5904cfdc14a258568ef54c4d634d8a723fd0816e38ce3ccb9"
+      "bytes": 3400,
+      "sha256": "fec2e237e62d07387141c5478b5b4a32e00ca376e659896598bc7b87584465c3"
     },
     "state-zones/awakenings/604.json.gz": {
-      "bytes": 8615,
-      "sha256": "084e3b4e6351b819f7b13ebae5319eafafd166d7670f8b746d3e983668fc04c3"
+      "bytes": 5279,
+      "sha256": "e51778bf568e76ef6ef2f7fd1e16b38165084a864f3bbb2cf214c1b8dc56bb76"
     },
     "state-zones/awakenings/605.json.gz": {
-      "bytes": 5792,
-      "sha256": "d69f0d26b0dc0bb0753339201aee5258058720529b17b9c6a38d0b316c5cb20f"
+      "bytes": 4302,
+      "sha256": "2369aa234226b5fcd7c6bb25acf868a50c82139f90e82299ffd7f92d1afb2588"
     },
     "state-zones/awakenings/606.json.gz": {
-      "bytes": 5564,
-      "sha256": "34a1f6316b62a97a8a9cec8b5d451c9d2ff3cc6d345d331b0e7c335b5b40139d"
+      "bytes": 3208,
+      "sha256": "565936136770d972e2129367449829f32701c10c2b33faaf99b9705f688be5a8"
     },
     "state-zones/awakenings/607.json.gz": {
-      "bytes": 5227,
-      "sha256": "163284baa3388e68b294c7e0693967991e0fed1a077c7b90a0a6745b691a780f"
+      "bytes": 3995,
+      "sha256": "123d272ebdbcce13c57a151cce6abcf3a2af0a886622d20c8e34984df3e98728"
     },
     "state-zones/awakenings/608.json.gz": {
-      "bytes": 6498,
-      "sha256": "f7bb7abf9db5ad94364a837ecb1eef88e8412ffd31c22ba0a7158812f6420389"
+      "bytes": 4109,
+      "sha256": "69129ab677069d3de5823fab5216290f3d2d3cb0a66c040879f913e7efe0e7c8"
     },
     "state-zones/awakenings/609.json.gz": {
-      "bytes": 6139,
-      "sha256": "4b59657359a9ed0054647587195331d63cf4cd86cd7611b1cdbd4e816474d2bf"
+      "bytes": 3769,
+      "sha256": "2775c47779ac153db81870330e605af72204af699004688dd0139a242257e242"
     },
     "state-zones/awakenings/61.json.gz": {
-      "bytes": 5820,
-      "sha256": "9d827dfeb857bc6d4f329968e77d60bceb53b32a196c9706b2c30ed6bc97fb7a"
+      "bytes": 4343,
+      "sha256": "9b64033354cae78b666d6cb1174788eab21ac6022bff2256ed1f054f485669b7"
     },
     "state-zones/awakenings/610.json.gz": {
-      "bytes": 4215,
-      "sha256": "0c8dae21e519dd98f0f04d7d73e8fcd2bad1d181582f628063c742b56e8dbd43"
+      "bytes": 2375,
+      "sha256": "c00c6821c151e1557536cff4d22c1a4d5baec813bcb9ad2978d9aa01c584301c"
     },
     "state-zones/awakenings/611.json.gz": {
-      "bytes": 2244,
-      "sha256": "c7f5b663d0401615b2176707cc71cb82a9745dc825edfeabefeef6f0d3f58b79"
+      "bytes": 1236,
+      "sha256": "2e88d46fc3f58f12ff697fafe83444994f5374f63ea01786d3f4d5d7bcf06a5a"
     },
     "state-zones/awakenings/612.json.gz": {
-      "bytes": 5315,
-      "sha256": "88b87260a4a1a7935f160495c1761f709aafcc9ce511f79bf1fb47adf7fd96b9"
+      "bytes": 3225,
+      "sha256": "945b39ef5ce6e16ff517be1d44efdae1f4556ff59633006571e3b3a7e34091e5"
     },
     "state-zones/awakenings/613.json.gz": {
-      "bytes": 2035,
-      "sha256": "ae2329d36c49bc0319822615f9691328ff0e41eae119ec944b941f1b997abbe0"
+      "bytes": 927,
+      "sha256": "988c932095ad719407e283b7602f7dfe8edca123f68d05b95595546980cec43f"
     },
     "state-zones/awakenings/614.json.gz": {
-      "bytes": 458,
-      "sha256": "88205fd87d0b7883cbcef635d451529e9238f0a9f7e4036f03223d0e94025eca"
+      "bytes": 237,
+      "sha256": "06aa52892c2dad042be0269b4f46295e61fbb0b4db352f151885735ecb546c0d"
     },
     "state-zones/awakenings/615.json.gz": {
-      "bytes": 6236,
-      "sha256": "e371ae4872df480d03dc5d8f2a9c816f2a908dd963ee6c15b5645b25fa4b22df"
+      "bytes": 4691,
+      "sha256": "9cf8161c8f2980f0758180c09546487a2f4edff0c34310a1b046105803bc90b6"
     },
     "state-zones/awakenings/616.json.gz": {
-      "bytes": 4448,
-      "sha256": "98c7fce96a29aaaf2239483068eacc66ce6e818b27250182edf3ede2e9855380"
+      "bytes": 3092,
+      "sha256": "6b5d235ca779def01ff9d4129aeda626f61802b9d4dd4a9cd965f57e0551124b"
     },
     "state-zones/awakenings/617.json.gz": {
-      "bytes": 6900,
-      "sha256": "3c05418bbee7d1d854de98aabf2c93be380ba820cdda4bebf1c76285cc22bb4f"
+      "bytes": 5066,
+      "sha256": "71eacf9a0febcffd597fd111366f77b3ed273ab7f0edcd16e45069894bb47a03"
     },
     "state-zones/awakenings/618.json.gz": {
-      "bytes": 6311,
-      "sha256": "776082e0538eac97231af953d501213540cf7fb59e54a943a1e94bf24abdacb6"
+      "bytes": 3275,
+      "sha256": "0b6946a5a5f688c6c1498f5f20c3aea24cdc213daf81e45afd0f25bc19bc60c3"
     },
     "state-zones/awakenings/619.json.gz": {
-      "bytes": 7779,
-      "sha256": "69de9efb3583884bc6f3ca7775ddf645029b9af3d5f28e0e585616d28971e655"
+      "bytes": 4341,
+      "sha256": "d140adaebf0217d3396c940843e6b6112a6e5ff34e640340a10bb1b54be2d0ad"
     },
     "state-zones/awakenings/62.json.gz": {
-      "bytes": 3402,
-      "sha256": "56864bb993af0971f5e94020a4ed0ab3e0f401238b7d1be372bcccc870608da1"
+      "bytes": 1886,
+      "sha256": "8f00d8caa2efd7371a2c632e8e0f9eb83c71ca85ab22fa5c7f8033c4f56f0c69"
     },
     "state-zones/awakenings/620.json.gz": {
-      "bytes": 4477,
-      "sha256": "1a53677b616e8e3c31b17e112f6e38dbe998ea143e32b1c176550024b1d25266"
+      "bytes": 2443,
+      "sha256": "b75e8f55d900e993137380fc6e3167aa8b8e2800f4ce8574ec6de8b8e90713dc"
     },
     "state-zones/awakenings/621.json.gz": {
-      "bytes": 3579,
-      "sha256": "3992b22ef72f1436595bf5cc5b71779fe201e52c7655da1012ce0cd52b0e30fe"
+      "bytes": 2746,
+      "sha256": "3c24c09ec397ef0e1f1fac2abaa59e8b6d367e31d344a8387cab2b51da188344"
     },
     "state-zones/awakenings/622.json.gz": {
-      "bytes": 5080,
-      "sha256": "6cc7f446867cc376f3f36a821e5c579513d0b87d2d500e5c9689cb1050c35099"
+      "bytes": 2870,
+      "sha256": "8cd1c91cb0ff61436bc468418c1224009376daeba7d81d71b74e6697173e5e41"
     },
     "state-zones/awakenings/623.json.gz": {
-      "bytes": 6903,
-      "sha256": "bc3456246c6292266ff19cf5416bfba220693a74461607bf981d79d3391ecb95"
+      "bytes": 3708,
+      "sha256": "1d689e324f121dd0a15990947ea09acd9ae0fe657e36e9a8718116d790054a30"
     },
     "state-zones/awakenings/624.json.gz": {
-      "bytes": 2739,
-      "sha256": "e89d315c8c4b89d0b0e61656e8f0e88ced9d498d6d79cc36d95643f3d64036eb"
+      "bytes": 1709,
+      "sha256": "863b4da2890b349a54fb1600233bec3578c90e4fa8277c0e299923379f348e8a"
     },
     "state-zones/awakenings/625.json.gz": {
-      "bytes": 3171,
-      "sha256": "b50b5239e2423243b3cfd7c18b24583f6cbfd3e4a21b6415f888c1bf8ffb3184"
+      "bytes": 1796,
+      "sha256": "ee124aea8e4221bf9477900961179e453ce6178dde9e13b4b940a1a6ec75caa8"
     },
     "state-zones/awakenings/626.json.gz": {
-      "bytes": 4263,
-      "sha256": "600b5eb65f0a32c1edc23a0be0283b0ef9764742847891a700be7bc7748f5dd2"
+      "bytes": 2920,
+      "sha256": "9f05f48eabe8cbc8c061aa6e8978e4b67db38a434d90817287fdfa24e1b2ad04"
     },
     "state-zones/awakenings/627.json.gz": {
-      "bytes": 5530,
-      "sha256": "a59c615fbc92df02cc622a57f32b4b797267012705ad7214852b4cccf6a39d6f"
+      "bytes": 4116,
+      "sha256": "9a53fe2a70f22e9d2b3fe0ca2483078110af6d8e3ed04397322cccd24daa1996"
     },
     "state-zones/awakenings/628.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/629.json.gz": {
-      "bytes": 4113,
-      "sha256": "e1d8e392f64441a8766f8a77d5c469be414f05262b2bf2b44a1f2975f857734f"
+      "bytes": 2171,
+      "sha256": "0063b72d2d9a4c8af3231973dc2cee65dfa2c7439090d6beb817196b4da0a1f2"
     },
     "state-zones/awakenings/63.json.gz": {
-      "bytes": 5445,
-      "sha256": "012a4dd31de3ac62451a97aa1051101c8ba47c94e47ffc84e6ac9cd9addf9b9b"
+      "bytes": 3017,
+      "sha256": "1c7c373b2835c7e62ebdf9a0d099120abb829551ecaf97836ec1bf98fcda147a"
     },
     "state-zones/awakenings/630.json.gz": {
-      "bytes": 5532,
-      "sha256": "a7722fd31e1a8ff5e41af628a1087b28204187dbae41e6f5ef5a48be9760fdd2"
+      "bytes": 2961,
+      "sha256": "4a53dbb4b91ed4459dae2450257b2665aee060ae6089de0e24943087e818b74b"
     },
     "state-zones/awakenings/631.json.gz": {
-      "bytes": 5935,
-      "sha256": "15955ceab070e9dc8146efdb4db457376bfec007ac03544c6c4c18120afbef2f"
+      "bytes": 4456,
+      "sha256": "aae84f7c7402de661a9e41aa93b905158571fcc136f7ae1f52cf15a1a9d30ff9"
     },
     "state-zones/awakenings/632.json.gz": {
-      "bytes": 2963,
-      "sha256": "1f424d8200ff2b2b36669433af83b5a645da0eb430a7e2bae446eea5304352a5"
+      "bytes": 1944,
+      "sha256": "e2052d2bc9496a204efdbe8c97e9d1d0dc745e68018c69a7c02492aa07fdb84e"
     },
     "state-zones/awakenings/633.json.gz": {
-      "bytes": 8518,
-      "sha256": "a302db6357ae890108eb2f26737264ff7cd945b6155708bee9aa958844c5aeb9"
+      "bytes": 4739,
+      "sha256": "99938f7a6034d818db6cdea9dcb576f3b08cd299a46a210174c75d032ca535d2"
     },
     "state-zones/awakenings/634.json.gz": {
-      "bytes": 6427,
-      "sha256": "25a15f6592fd4ccddafc0842a9d8fa9a6be628fb5b6cd810d28bf6b699925ec0"
+      "bytes": 3541,
+      "sha256": "cdd6ac321fe85f85c5f874a1eb0a314ee8e017ef1686536c6fe62b4f4ca3fc14"
     },
     "state-zones/awakenings/635.json.gz": {
-      "bytes": 3024,
-      "sha256": "21f59ec9efe6cf7b876abc2e535c35bc0a3684fbb4c1dea7bd2b45f342fa9276"
+      "bytes": 1687,
+      "sha256": "8f208f749d0a69f20ab73edefa071d5172ec5d8bdc7a38137d1506eca2e2c74e"
     },
     "state-zones/awakenings/636.json.gz": {
-      "bytes": 4836,
-      "sha256": "80db100ae19b920ab8278204e409f33e93603b2d63462190761bc65bcd54212e"
+      "bytes": 2771,
+      "sha256": "351dfe2d12a249df2f798ca5752ac2a81b38999e95558c47b3afc1b10f05a883"
     },
     "state-zones/awakenings/637.json.gz": {
-      "bytes": 7262,
-      "sha256": "80cbd642be02e53bb0256cc7ce07486382f77f6d11efed019e9e72d3920b47ec"
+      "bytes": 4027,
+      "sha256": "7ba1126df91eeec37da829a4b73336b5e850d2eeba340ac835db5c18d1631c2f"
     },
     "state-zones/awakenings/638.json.gz": {
-      "bytes": 6924,
-      "sha256": "2f859f12dc14886cffd08c534bb90918e09f4237a8d2477d003b559a36c50e3a"
+      "bytes": 3869,
+      "sha256": "3ba92c168d9be4b2cbcbc1ceea77cb59db181acb0129640f4a1250c323d77eb0"
     },
     "state-zones/awakenings/639.json.gz": {
-      "bytes": 7330,
-      "sha256": "ff3e2287143de881c7c315540a575d8f32d4d39daca65ade2a815e4dd0f95833"
+      "bytes": 4453,
+      "sha256": "754e9c2a3367b722a951dadb52501ae3cf4cb5fc0536242ae10f7ebf9ee8a4e9"
     },
     "state-zones/awakenings/64.json.gz": {
-      "bytes": 7381,
-      "sha256": "2dfc7f98fa69d147ef6342e9fcda8195c1a2b38210334b0b6ab893c67bb72ae8"
+      "bytes": 4080,
+      "sha256": "44d70a829b143d2ca3a71c13ea078358350c4ab931f424ad0373759803ef8fde"
     },
     "state-zones/awakenings/640.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/641.json.gz": {
-      "bytes": 5136,
-      "sha256": "c465d278f709308c9ce3cd09409117a683aea530c7193f5d6d91683c492b3e6b"
+      "bytes": 2830,
+      "sha256": "8ba3b5014d1ec13c3be93bfbd73f89efd6586812cb3cfe0be56f26528188a6cc"
     },
     "state-zones/awakenings/642.json.gz": {
-      "bytes": 920,
-      "sha256": "dd458733cd7d6feb8ee8565f77cbf81e8ae5707232a3e683cec25f68b74749af"
+      "bytes": 554,
+      "sha256": "652a53819d142a54050a9f6ff7c1b1b87731d2e34e3ad1194764464b20403a48"
     },
     "state-zones/awakenings/643.json.gz": {
-      "bytes": 4378,
-      "sha256": "ed9c6cc5688aef53c20866cddca1f01e04be8e0cfc3a3d1d2248b29134ac2feb"
+      "bytes": 2784,
+      "sha256": "aeab92d06e79704a500296f197e1e8fe9cab208abefc5f135b6e9c58e0c8fa26"
     },
     "state-zones/awakenings/644.json.gz": {
-      "bytes": 2386,
-      "sha256": "174db63c350df68a0d228f7545c7e8db57c8d97bec7e50510e447ae5b21369b1"
+      "bytes": 1316,
+      "sha256": "2cfce5d24932c7274a55bc28a208eb92c4f5a69c5047e0fcf7e556d4d3850f5c"
     },
     "state-zones/awakenings/645.json.gz": {
-      "bytes": 5696,
-      "sha256": "e80341b279e8153204510438a98a26ed092db2ce037c843a312676242dc4ace5"
+      "bytes": 4285,
+      "sha256": "f84ffddbad657ca1d6e0b485ba853c23a372c842fa77a560be9bec61149c5782"
     },
     "state-zones/awakenings/646.json.gz": {
-      "bytes": 3833,
-      "sha256": "f398e5e1157e7bdc33421309be2a246ea2c697a95dd0b1c9cf78d5e6d5d5d131"
+      "bytes": 2219,
+      "sha256": "7b65752623205f094f987e70c682f04b36242a16237ad3f9a9b1fedc378fc1bc"
     },
     "state-zones/awakenings/647.json.gz": {
-      "bytes": 3113,
-      "sha256": "0428f63ea9042b20f3ffd13a22fd98efd035f8042f8dbf144e34821569ecff68"
+      "bytes": 1650,
+      "sha256": "fc3cb7b932e1b1e363624f6d11bfbf1a9dcf01d4680fe0b913b0c310ae794dff"
     },
     "state-zones/awakenings/648.json.gz": {
-      "bytes": 6513,
-      "sha256": "98ed79a9cf58573c3e009b8869aa44f6f90e85da01425ea5957dbc30fd6390b8"
+      "bytes": 3816,
+      "sha256": "5a9f7971c4021817f719abd304e745b5d37931fc4de46c18b954a2346ca16c0c"
     },
     "state-zones/awakenings/649.json.gz": {
-      "bytes": 7998,
-      "sha256": "90c4843bbe6381fa5a1cda210171d483217d177c2784ecaf08ddc4b8af1338c9"
+      "bytes": 4566,
+      "sha256": "fa70a3128330d98d6b8baeb90ed99bb92fab7eef8aa3602637c5aac0d3ccb767"
     },
     "state-zones/awakenings/65.json.gz": {
-      "bytes": 5891,
-      "sha256": "b4492f273b0df7d6bc4bdf2f723eedf6c8fa78b7af4814569c73bd310eae2cc3"
+      "bytes": 4399,
+      "sha256": "aa2b72d0ed8033460adb7449a7ba8344b7afb454000b7e6bf2af23761a626a37"
     },
     "state-zones/awakenings/650.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/651.json.gz": {
-      "bytes": 6127,
-      "sha256": "d99334bde0f09f0695e3951577dfffd534bc3da2783bdb1e7069d8f53e8bd43b"
+      "bytes": 3301,
+      "sha256": "adf23bd4a1e03a14b9bee5032142a0ec6f9b00234b3d41029e483586dbbc3104"
     },
     "state-zones/awakenings/652.json.gz": {
-      "bytes": 3702,
-      "sha256": "cd761cc78a66c19e7723f1d4b959fa55392d13baa3c19811952e9094cc91c6b4"
+      "bytes": 1779,
+      "sha256": "dfd75848707e79396a6a975a7668dbff2394c74920b58bb5ed662038feaf246f"
     },
     "state-zones/awakenings/653.json.gz": {
-      "bytes": 6398,
-      "sha256": "20501ef75cc1b4bb3ede990a6b1cfd6ebb4af1be6adc463fd88b9e3ad390750a"
+      "bytes": 3469,
+      "sha256": "199beac4861d90adcb85fceea6be4f4e7a94995a971c728b5feceb2c0b962771"
     },
     "state-zones/awakenings/654.json.gz": {
-      "bytes": 5307,
-      "sha256": "154047331a1c533641171fb5978e8490a64f6954dcc6a94dfb044ad36ad7012e"
+      "bytes": 3904,
+      "sha256": "165734ef05d8d63f086dfea33edc521b69fb0507f699114aba6da4d7afa640cf"
     },
     "state-zones/awakenings/655.json.gz": {
-      "bytes": 5747,
-      "sha256": "fc97a59a73345387f47e0d18242a1920dfa6c4be1861fb95d61a2c8a505ce6e8"
+      "bytes": 3411,
+      "sha256": "30ceccbf65d5dcec8863b749bf5894d7df6ae5b8a6d1d76b942dea8b6c2a040d"
     },
     "state-zones/awakenings/656.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/66.json.gz": {
-      "bytes": 5067,
-      "sha256": "1112c57753509a08781d9e3bc411c704e20e1a2d5a8044d543f5e693348af8e0"
+      "bytes": 2523,
+      "sha256": "cfc5b3a05a83757902b3cbb5f83782455872c8e12bc4661fba48f61856c0824f"
     },
     "state-zones/awakenings/67.json.gz": {
-      "bytes": 944,
-      "sha256": "e20071fdeb73593125ff4917a9ecac16ab4a190dcb4a114030fd253fde4df1dc"
+      "bytes": 373,
+      "sha256": "cd2a33dff53610df49714a69c5c7a62f7b185b9892b4644c23cd55249f229614"
     },
     "state-zones/awakenings/68.json.gz": {
-      "bytes": 794,
-      "sha256": "53ba343115f88842905d966c792e81f6fe5631bb3a913a4818335b4e10f37251"
+      "bytes": 428,
+      "sha256": "93f14a7c1e9199227b9bf4be17cbc91b0cb8943fb60cd571f0f828b6788195ba"
     },
     "state-zones/awakenings/69.json.gz": {
-      "bytes": 3439,
-      "sha256": "1c770e598c5375819dc338057dc3c7e419ca4d6aeaa012e5ee8ab3678f23d7b5"
+      "bytes": 1936,
+      "sha256": "388ad0647be7a8bf9ee7a8a58fc442885deb058223c2f8591ce89792038e0a68"
     },
     "state-zones/awakenings/7.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/70.json.gz": {
-      "bytes": 3222,
-      "sha256": "f793755a68fc5a34e5f010149db195ab378379bd11eeb7312bb8994956650a3c"
+      "bytes": 1356,
+      "sha256": "1095e04c7f7295d83e0d1760b4d798b5915ee93c2064e4f1bb56908ade1c8b29"
     },
     "state-zones/awakenings/71.json.gz": {
-      "bytes": 3842,
-      "sha256": "a99c96b2832d4bf738116edf3eb1cd6b536dfdb16e696e41c512a8f4de4c656a"
+      "bytes": 2621,
+      "sha256": "56137c651078c2c8bf81331ac87edd9f0487a3ef40e605c9a41d2fb5521252e6"
     },
     "state-zones/awakenings/72.json.gz": {
-      "bytes": 7915,
-      "sha256": "fe5a1980df4419a0482140d02e27a2f660a84646b9c0c348f1e0dbb7a6cddd8e"
+      "bytes": 4305,
+      "sha256": "ed28ed2e44fedb26b6847cba1cda6c8d87398ff3f531d84652ed9dea45734b41"
     },
     "state-zones/awakenings/73.json.gz": {
-      "bytes": 3090,
-      "sha256": "60ff996d9a4dac2ac075241c036aeffead7a226cad56f1ac6655b4c8fa0b10c3"
+      "bytes": 1751,
+      "sha256": "681202be67bbbd924555b1399fb2e70e0fcffa43d09946df71bc6d8b68b04eef"
     },
     "state-zones/awakenings/74.json.gz": {
-      "bytes": 5656,
-      "sha256": "109705998d995a23a6162427e68916015e59ab5f4e9d2dbdbbbb151575bfda25"
+      "bytes": 3019,
+      "sha256": "0065247e1ad0d1b8d690aa8dccc17781ea2b0e537abb05d252270abf7fea6591"
     },
     "state-zones/awakenings/75.json.gz": {
-      "bytes": 8653,
-      "sha256": "0cd95e06607ee70976fb44c66d283105d3d60bde5ac9ce3f633ec58d80bee629"
+      "bytes": 5047,
+      "sha256": "4453d92ffdb61f1f706b3bfc28d7352295f34f13273c363cb477eb6050b7bb37"
     },
     "state-zones/awakenings/76.json.gz": {
-      "bytes": 5521,
-      "sha256": "e3bc787a6d409d311f615bdea87f18e60862bcdfb9e1c710dd00c6680da04a59"
+      "bytes": 3217,
+      "sha256": "4a1e2c582d20ebfa849881d9f98a4b9742b05a72a916c20a7748a254ea38556e"
     },
     "state-zones/awakenings/77.json.gz": {
-      "bytes": 7855,
-      "sha256": "b487cac5dc6a5d699e429873be11804a026bb841170a426da5ce27dd568231e9"
+      "bytes": 4356,
+      "sha256": "42b4b77324821dbe111cad8cb8786c77c970d288aff970ac8890859c03a8a2dc"
     },
     "state-zones/awakenings/78.json.gz": {
-      "bytes": 2981,
-      "sha256": "fb552404e81f6431fdb9927dbd35bc3e922753a67db19ddfd48cf17267abb4a7"
+      "bytes": 1701,
+      "sha256": "229c200dbe9661a348405868667239ed5fd6c2d3c867193d6bff56ae7b0542cd"
     },
     "state-zones/awakenings/79.json.gz": {
-      "bytes": 2569,
-      "sha256": "890cfe8a02194823ed3e7cdadc2a718c3897c5a96982668c0f96ee8315e1f678"
+      "bytes": 1512,
+      "sha256": "da627faa52be6efca0fbca0b309d550b353e885dd199f030af90d3cac96d03a6"
     },
     "state-zones/awakenings/8.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/80.json.gz": {
-      "bytes": 5397,
-      "sha256": "4367d0ab69b24b98c4c056d234273e5b670a43d703a92805e86f98d4d934f9ed"
+      "bytes": 3076,
+      "sha256": "0e1963ac4f1866fcb396066cded4963517a4228a5f0109954ddf2c60b2c3699b"
     },
     "state-zones/awakenings/81.json.gz": {
-      "bytes": 5038,
-      "sha256": "d0c5305fd4fea196a7da7c55754aab0912530eb4bd74b3082118c8d3767f2ff6"
+      "bytes": 2662,
+      "sha256": "0ff4357b9ed1d51daaf3265de1ca6f23fd704bf46b3f302972a495ee000f901f"
     },
     "state-zones/awakenings/82.json.gz": {
-      "bytes": 3246,
-      "sha256": "599d3cd0b06b419fd3f5c2d053738f254496de277f9d8e48bca7f6d83713089d"
+      "bytes": 1733,
+      "sha256": "c2d3135f109ff6265749947a53b1c7d63c4a3d167a9a189930eeaa7b29b9b583"
     },
     "state-zones/awakenings/83.json.gz": {
-      "bytes": 4483,
-      "sha256": "74ccafd51a10745a2d375dde3b224d9f3f9978ee0923fd3c2fe921152bb137e8"
+      "bytes": 2740,
+      "sha256": "c6298351bf1a0dfbeeac5bb1d23111112f26578b08424d0f2f7d2335645e92d0"
     },
     "state-zones/awakenings/84.json.gz": {
-      "bytes": 3270,
-      "sha256": "aedeceedcc7fa9c46c31b690ebdfc03e104cd7a8f7ac2c598d35593e78436b90"
+      "bytes": 1859,
+      "sha256": "b31897a7b5483ef197cd17d7e48a8e9f3cef08757e876e2dba9dcf3527a28609"
     },
     "state-zones/awakenings/85.json.gz": {
-      "bytes": 4950,
-      "sha256": "d82a7ac8a0e469c8ede9c91309c733d7d2a02d81ebc0b5a67211fe37d8ee54b4"
+      "bytes": 2594,
+      "sha256": "1f381a1c4df5c01356d6d713796122bb9407ef8c987d199ef4ac2e97344e3230"
     },
     "state-zones/awakenings/86.json.gz": {
-      "bytes": 6896,
-      "sha256": "5fa4bb2a6febe164a6774185510b67634fe168aad72cbeca2ed4636d6748b495"
+      "bytes": 3777,
+      "sha256": "39fe73dbb9a35be52bc85fff1e5ac2bdc5d7d3ed6adfa0fb86d2f2ddaf745dc8"
     },
     "state-zones/awakenings/87.json.gz": {
-      "bytes": 4345,
-      "sha256": "dde3cf9d623ed17a1cf0da71e0b8c74a6f9d8a35b6d9e5c7c29a9f6ec7614aa1"
+      "bytes": 2814,
+      "sha256": "9892e0b6395be3258c0df8eb3ce23d6aaf41e8091d5df3b13a2445f75372ec56"
     },
     "state-zones/awakenings/88.json.gz": {
-      "bytes": 4249,
-      "sha256": "c5a2f122e7e0fd69d8f0ec8898deab5d569b70f11d0d8f7913f463e771bb9e60"
+      "bytes": 2133,
+      "sha256": "31505bd0218ea13563db4ae098dcf0b7f74d95dde6954a77f85a7e472b7729fa"
     },
     "state-zones/awakenings/89.json.gz": {
-      "bytes": 4568,
-      "sha256": "eefbcc087cefb2d93eea9019555558ee0aaaa7f3569d0c1c750840688469e9eb"
+      "bytes": 2666,
+      "sha256": "a111b09a5a16098792bd62fc5ba37076f438c96ff9edc155e38e0709d269886a"
     },
     "state-zones/awakenings/9.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/90.json.gz": {
-      "bytes": 7201,
-      "sha256": "59a728691fa0b292dc5fe4eb116f53edebedd15864c50384a91a8a7a7667fc23"
+      "bytes": 3797,
+      "sha256": "969f82f736f5c944d54143d7f1a213b48a094f77513766ae1456af2c7c94308d"
     },
     "state-zones/awakenings/91.json.gz": {
-      "bytes": 5031,
-      "sha256": "f1b28cc56f4405f676d3d05bfac8f631049bc68fa524a4e2b933a471107e538c"
+      "bytes": 3065,
+      "sha256": "c094d3d246013a1468227feeced638628d9afda9bb659787c3740cb43a5b9a36"
     },
     "state-zones/awakenings/92.json.gz": {
-      "bytes": 3323,
-      "sha256": "cde02de4c400b9d6c9f7092f6699e487e73a3f95b64f3dc99a2bdfcdf3a90ba9"
+      "bytes": 2286,
+      "sha256": "787da4772006f5fc6f47ceb40bef6a23e87fe22e111d6c8b55c628f46374a451"
     },
     "state-zones/awakenings/93.json.gz": {
-      "bytes": 8537,
-      "sha256": "b27badd92c2a03829d3381d4ef0003d3dce2717e93a42feb1070de56e6b289d1"
+      "bytes": 4713,
+      "sha256": "51e8a6dbf20102f952e12f2ed1674ddb17fae672ecd6a070b4f830aa70a61e39"
     },
     "state-zones/awakenings/94.json.gz": {
-      "bytes": 6193,
-      "sha256": "b95e248650b33aea7665281aaf4936a474d981c144124ee3948be7aed586467a"
+      "bytes": 4701,
+      "sha256": "29a182981f48353d8668fd143f5839e54097ad590e1ae951c667779eaa21a144"
     },
     "state-zones/awakenings/95.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/96.json.gz": {
-      "bytes": 118,
-      "sha256": "3fa8fbc40070a1f2ab7cc4a1a8560c5c5cb48bd9f2e78c441767f2c4759bfdd7"
+      "bytes": 130,
+      "sha256": "3d8c7b17817f2dcc7df17ba288edd116ebb7f13ceb80aecb245dd840ed0089f4"
     },
     "state-zones/awakenings/97.json.gz": {
-      "bytes": 4522,
-      "sha256": "74ad688b809538a62e242dc60498541434d8f7e8504666fa66fb9c999b68a486"
+      "bytes": 2101,
+      "sha256": "e5e640d16e4648dfe17683ae23491f5453d5db0b8dd6945e87930b1b4ccb11ae"
     },
     "state-zones/awakenings/98.json.gz": {
-      "bytes": 5137,
-      "sha256": "b6599040397a7a740ba79f01a97067a2ebe19c1902325dbfeda57a247593a49f"
+      "bytes": 3851,
+      "sha256": "892c0b7fab1c75eb2c58571032cb358b5e038d868cf96ff8d130e08d2d8ac788"
     },
     "state-zones/awakenings/99.json.gz": {
-      "bytes": 2344,
-      "sha256": "8bb1475f2fcf3ea275901c1e25b54b48860d251d34b36a7f6812c5ec01ee4a1e"
+      "bytes": 1015,
+      "sha256": "869c655a82ae23b9ef3d585b937e9ef4a216a0ecac84b81dbfcc4750d84a3343"
     },
     "state-zones/catalog.json": {
       "bytes": 327687,
@@ -17427,8 +17423,8 @@
       "sha256": "31561ff1185d711f96371e6758aa91aba43d8be7fc28a439fabef403bf28e61d"
     },
     "state-zones/index.html": {
-      "bytes": 22151,
-      "sha256": "edf2ebc27245c10f6e25c63ab46e0d79df9d5364bfd99a980b0843c657568cd9"
+      "bytes": 21288,
+      "sha256": "612f6dfe32d1fbaf1b1c202fa0206c5290e480b6e8d6aa4b7ee2044d8b5e713e"
     },
     "state-zones/legacy.html": {
       "bytes": 7536,
@@ -17646,17 +17642,21 @@
       "bytes": 140467,
       "sha256": "87c5a11f58ed734adca8af0d0d1a60d7e7a45ff189b34e2fd88627fe9b0b01ac"
     },
+    "state-zones/price-shelves.html": {
+      "bytes": 18174,
+      "sha256": "cb69a373c3d8805ab06468c07008a53154a89c8e274346e171e1d4006783662f"
+    },
     "state-zones/protocol.json": {
       "bytes": 2973,
       "sha256": "074066507d8c8c9e45495fbce901da215f00b621a702884a3a026aa5ca103053"
     },
     "state-zones/signal-atlas.json.gz": {
-      "bytes": 2225509,
-      "sha256": "e773da8988811d9ea1b398272ab6c8a6239824d81299a5b938205fe4c2cb62c5"
+      "bytes": 1654109,
+      "sha256": "712531295172de5e18a8fb4c19243f0f34c434c6666126a26ed6d3473b98eb4b"
     },
     "state-zones/signal-map.js": {
-      "bytes": 16066,
-      "sha256": "c6cc06db7a0b8c81448f8fedae3db756c4dca304ae202fa153e8f3cd003be3f0"
+      "bytes": 12417,
+      "sha256": "f5dabd0a6fef0064cbc2618de228e8d76e57202f3c6033c02bdf325ce830e728"
     },
     "state-zones/style.css": {
       "bytes": 1955,

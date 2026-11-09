@@ -1,12 +1,10 @@
 {
   "passed": true,
-  "events": 486533,
-  "public_events": 285515,
-  "scalar_checks": 715,
-  "market_checks": 35,
-  "original_frozen_files": 657,
-  "evaa_both_old_profiles_identical": true,
-  "prefix_coin_checks": 4,
-  "partitions": true,
-  "source": "5bcf0d25dd3950f8bffd7d694ab5ab2670cd37d6938a9c27355c48a74c00c3c3"
+  "events": 203745,
+  "atlas": 258805,
+  "prefix_checks": 8,
+  "market_checks": 13,
+  "synthetic": true,
+  "frozen_files": 657,
+  "source": "37294619a74e1adae1fba439a83d47b451d2628ad3ff10dccf0692ff7f131c27"
 }
