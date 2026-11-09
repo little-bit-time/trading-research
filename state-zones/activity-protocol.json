@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "source": "f395ae667c800c4757c1618aa52133bb6d532f9d67ded950ea2a72c4ef1c744a",
+  "fields": [
+    "median",
+    "q10",
+    "q90",
+    "q99",
+    "tail",
+    "zero",
+    "coverage",
+    "hour_hot",
+    "bursts_day",
+    "burst_hours",
+    "quiet_hours",
+    "longest_quiet",
+    "active_days",
+    "minute_median",
+    "nonzero",
+    "low_share"
+  ],
+  "windows": [
+    7,
+    14,
+    30
+  ],
+  "classification_window": 14,
+  "cadence": "00:00 UTC; only fully closed preceding candles, last snapshot <= observation; no future labels, no fitted whole-sample thresholds.",
+  "factor": "At each anchor, median across coins of Q90/Q50 of past 14d five-minute turnover. Hour is active when its median 5m turnover exceeds own Q50 × this factor.",
+  "eligibility": "Full 14d OHLC and nonnegative amount required; positive volume baseline; >=100 eligible peers for quartiles. Missing is not zero.",
+  "dormant": "Median turnover <= market cross-sectional median; tail Q90/Q50 and active-hour share each <= cross-sectional Q25; trailing uninterrupted quiet hours >=168. Quiet hour: all 12 valid 5m bars and hourly median <= own baseline × factor.",
+  "active": "Not dormant and either volume median or tail ratio or active-hour share >= cross-sectional Q75; moderate otherwise. These are relative exploratory quartile categories, not validated natural clusters.",
+  "count": "quote-count count is quote updates, NOT trades; not used. Nonzero amount is only a proxy for continuity, not count of trades.",
+  "limitations": "Known 60d sample, late universe, no true trades/orderbook liquidity. Dormant means sustained relative quiet in this source, not proven absence of trading. 7d provisional/30d context; no insufficient-history imputation.",
+  "sensitivity": "Predefined quiet durations 3/7/14d, calm quantile Q25/Q50; all reported, no outcome-optimized threshold selection."
+}

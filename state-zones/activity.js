@@ -1,0 +1,129 @@
+'use strict';
+const $=id=>document.getElementById(id),CATS=['Неопределённая','Затухшая','Умеренно активная','Активная / шумная'],KEY='state-zones-review-v1';
+let catalog,oldcat,results,ci=null,states,zones=[],classes={},data,selected=null,anchor=-1,asof=0,request=0,chart,series,volume,ownSeries,marketSeries,plot=[],activity=[],market=null,customRange=null;
+let marketCache=new Map(),notes={};try{notes=JSON.parse(localStorage.getItem(KEY)||'{}')}catch{}
+const fmt=(x,n=1)=>x==null||!Number.isFinite(x)?'—':x.toLocaleString('ru-RU',{maximumFractionDigits:n});
+const utc=t=>new Date(t*1000).toISOString().slice(0,16).replace('T',' '),date=t=>utc(t).slice(0,10),stamp=i=>catalog.first+i*60;
+const duration=n=>n==null?'—':n>=24?fmt(n/24)+' сут':fmt(n)+' ч';
+const badge=c=>`<span class="badge cat${c}">${CATS[c]}</span>`;
+const median=a=>{const b=a.filter(Number.isFinite).sort((x,y)=>x-y),n=b.length;return n?(b[(n-1)>>1]+b[n>>1])/2:null};
+const quant=(a,q)=>{const b=a.filter(Number.isFinite).sort((x,y)=>x-y);if(!b.length)return null;const p=(b.length-1)*q,l=Math.floor(p);return b[l]+(b[Math.ceil(p)]-b[l])*(p-l)};
+const fail=e=>{$('error').textContent=String(e);console.error(e)};
+async function gz(url,binary=false){const r=await fetch(url);if(!r.ok)throw Error(url+': '+r.status);const response=new Response(r.body.pipeThrough(new DecompressionStream('gzip')));return binary?new Float32Array(await response.arrayBuffer()):response.json()}
+function field(window,key,ai=anchor){const w=states?.states[ai]?.windows[String(window)];if(!w||(key!=='coverage'&&w[catalog.fields.indexOf('coverage')]!==1))return null;return w[catalog.fields.indexOf(key)]??null}
+function currentCategory(ai=anchor){return states?.states[ai]?.category??0}
+function findAnchor(t){let i=catalog.snapshots.findIndex(s=>s.time>t);return (i<0?catalog.snapshots.length:i)-1}
+function visibleZones(){return zones.filter(z=>($('mode').value==='both'||z.profile===$('mode').value)&&($('zoneCategory').value==='all'||($('zoneCategory').value==='calm'?[1,2].includes(classes[z.id]?.category):String(classes[z.id]?.category??0)===$('zoneCategory').value)))}
+function updateHash(){const p=new URLSearchParams({coin:ci,date:date(catalog.snapshots[asof].time)});if(selected)p.set('zone',selected.id);history.replaceState(null,'','#'+p)}
+function drawCatalog(){
+ const cat=$('category').value,q=$('search').value.trim().toUpperCase(),future=$('outcomes').checked;
+ let rows=catalog.coins.map((coin,i)=>({coin,ci:i,category:catalog.states[asof][i],volume:catalog.medians[asof][i],quiet:catalog.states[asof][i]?catalog.quiet[asof][i]:null,bursts:catalog.states[asof][i]?catalog.bursts[asof][i]:null})).filter(r=>r.coin.includes(q)&&(cat==='all'||(cat==='calm'?[1,2].includes(r.category):String(r.category)===cat)));
+ const big=i=>Object.values(results.percoin[i]).reduce((s,r)=>s+(r.x2||0),0);
+ const sort=$('sort').value;rows.sort((a,b)=>sort==='quiet'?(b.quiet??-1)-(a.quiet??-1):sort==='volume'?(a.volume??Infinity)-(b.volume??Infinity):sort==='bursts'?(a.bursts??Infinity)-(b.bursts??Infinity):sort==='big'&&future?big(b.ci)-big(a.ci):a.coin.localeCompare(b.coin));
+ $('catalogCount').textContent=`${rows.length} / 657`;$('outcomeHead').hidden=!future;
+ $('sort').querySelector('[value="big"]').disabled=!future;
+ $('catalogNote').textContent=`Срез ${date(catalog.snapshots[asof].time)} 00:00 UTC. Обычный оборот и серии — предыдущие 14 суток. Категория монеты здесь относится к этой дате; у каждой зоны сохраняется её собственная предыстория. Количество зон — за весь экспорт.${future?' Исходы ниже — все полные исторические зоны, fast и long могут пересекаться.':''}`;
+ $('coinRows').innerHTML=rows.map(r=>{const n=oldcat.items[r.ci].counts,cc=results.percoin[r.ci],out=['x2','small','failure'].map(g=>(cc.long[g]||0)+(cc.fast[g]||0));return `<tr class="${r.ci===ci?'selected':''}"><td><a href="#coin=${r.ci}" data-coin="${r.ci}">${r.coin}</a></td><td>${badge(r.category)}</td><td>$${fmt(r.volume,0)}</td><td>${(r.quiet>=336?'≥':'')+duration(r.quiet)}</td><td>${fmt(r.bursts,2)}</td><td>$${fmt(catalog.current?.[asof]?.[r.ci],0)} · ${fmt(catalog.relative?.[asof]?.[r.ci],2)}×</td><td>${n.fast} / ${n.long}</td>${future?'<td>'+out.join(' / ')+'</td>':''}</tr>`}).join('');
+ $('coinRows').querySelectorAll('a').forEach(a=>a.onclick=e=>{e.preventDefault();$('zoneCategory').value=$('category').value;loadCoin(Number(a.dataset.coin),null,true)});
+}
+async function loadCoin(next,wanted=null,collapse=false){
+ const token=++request;$('error').textContent='';$('instrument').hidden=false;$('coinTitle').textContent=catalog.coins[next]+' · загрузка…';
+ try{const loaded=await Promise.all([gz(`history/${next}.json.gz`),gz(`coins/${next}.json.gz`),gz(`classifications/${next}.json.gz`),gz(`../minute-replay/coins/${next}.f32.gz`,true)]);if(token!==request)return;
+ [states,zones]=loaded;classes=Object.fromEntries(loaded[2].map(z=>[z.id,z]));data=loaded[3];ci=next;
+ if(wanted?.includes('-fast-'))$('mode').value='fast';
+ let z=zones.find(z=>z.id===wanted);if(z)$('zoneCategory').value='all';
+ // Catalogue links open the state on the chosen date. Explicit zone links preserve that zone.
+ await choose(z||null);drawCatalog();if(collapse){$('catalogPanel').open=false;$('instrument').scrollIntoView({behavior:'smooth',block:'start'})}
+ }catch(e){fail(e)}
+}
+function drawZoneSelect(){const zz=visibleZones();$('zone').innerHTML='<option value="">Состояние на выбранную дату · без зоны</option>'+zz.map(z=>`<option value="${z.id}">${utc(stamp(z.start))} · ${z.profile==='long'?'длительная':'быстрая'} · ${CATS[classes[z.id]?.category??0]}</option>`).join('');$('zone').value=selected?.id||'';$('previous').disabled=$('next').disabled=!zz.length}
+async function choose(z){
+ const token=++request,previous=selected;selected=z;customRange=null;if(!z){$('before').value='10080';$('after').value='0'}else if(!previous){$('before').value=z.profile==='fast'?'360':'1440';$('after').value=z.profile==='fast'?'60':'1440'}anchor=z?classes[z.id]?.anchor??findAnchor(stamp(z.start)):asof;market=null;
+ drawZoneSelect();updateHash();$('coinTitle').textContent=catalog.coins[ci];$('legacy').href='legacy.html#coin='+ci+(z?'&zone='+z.id:'');drawFacts();drawTimeline();drawHistory();drawFuture();drawReview();
+ if(anchor>=0&&catalog.snapshots[anchor].eligible>=100){
+  try{let m=marketCache.get(anchor);if(!m){m=await gz(`market/${anchor}.json.gz`);marketCache.set(anchor,m);if(marketCache.size>3)marketCache.delete(marketCache.keys().next().value)}if(token!==request)return;market=m}catch(e){if(token===request)fail(e)}
+ }
+ if(token===request)drawChart();
+}
+function drawTimeline(){
+ $('stateTimeline').innerHTML=states.states.map((s,k)=>`<button class="cat${s.category} ${k===anchor?'chosen':''}" data-index="${k}" aria-label="${date(catalog.snapshots[k].time)}: ${CATS[s.category]}" title="${date(catalog.snapshots[k].time)}: ${CATS[s.category]}"></button>`).join('');
+ $('stateTimeline').querySelectorAll('button').forEach(b=>b.onclick=()=>{asof=Number(b.dataset.index);$('asof').value=date(catalog.snapshots[asof].time);drawCatalog();choose(null)});
+ $('timelineHint').textContent=`${date(catalog.snapshots[0].time)} → ${date(catalog.last)} · серый: неопределённая; зелёный: затухшая; голубой: умеренная; янтарный: активная/шумная. Нажмите день. Состояния правее выбранной даты — последующие исторические срезы.`;
+}
+function drawFacts(){
+ const cat=currentCategory(),base=field(14,'median'),q=field(14,'quiet_hours');
+ $('stateDescription').innerHTML=`${badge(cat)} <span class="muted">на ${anchor>=0?date(catalog.snapshots[anchor].time)+' 00:00 UTC':'начале доступной истории'}${selected?' · перед выбранной зоной':''}</span>`;
+ const fields=[['Обычно / 5 минут',base==null?'—':'$'+fmt(base,0),'Медиана предыдущих 14 суток'],['Текущий / 5 минут','…','Последние 6 полных пятиминуток'],['Относительно рынка','…','Кратность монеты ÷ кратность рынка'],['Тишина перед срезом',duration(q),'Непрерывные спокойные часы'],['Активные часы',fmt(field(14,'hour_hot')===null?null:100*field(14,'hour_hot'))+'%','Доля в предыдущих 14 сутках']];
+ $('facts').innerHTML=fields.map((f,i)=>`<div class="fact"><small>${f[0]}</small><strong id="fact${i}">${f[1]}</strong><small id="factHint${i}">${f[2]}</small></div>`).join('');
+}
+function drawHistory(){
+ const names={median:'Обычный оборот / 5м, USDT',q10:'Q10 оборота / 5м',q90:'Q90 оборота / 5м',q99:'Q99 оборота / 5м',tail:'Q90 / медиана',coverage:'Полные пятиминутки, %',zero:'Нулевой оборот, %',nonzero:'Минуты с положительным оборотом, %',hour_hot:'Повышенная активность часов, %',bursts_day:'Начал активных серий / сутки',burst_hours:'Средняя длительность серии, ч',quiet_hours:'Тихие часы подряд перед срезом',longest_quiet:'Самый длинный тихий участок, ч',active_days:'Дни хотя бы с одним активным часом, %'};
+ $('historyDetails').innerHTML='<table><thead><tr><th>Признак</th><th>7 суток</th><th>14 суток</th><th>30 суток</th></tr></thead><tbody>'+Object.entries(names).map(([k,v])=>`<tr><td>${v}</td>${[7,14,30].map(d=>{const x=field(d,k);return '<td>'+fmt(x==null?null:x*(v.includes('%')?100:1),2)+'</td>'}).join('')}</tr>`).join('')+'</tbody></table>';
+ const s=catalog.snapshots[anchor];$('anchorDetails').textContent=s?`База заморожена на ${utc(s.time)} UTC. Порог активного часа: ${fmt(s.factor,2)}× собственной медианы (типичное Q90/Q50 по рынку). Классификация: 14 полных суток. Тихий режим ≥7 дней; оборот ≤ рыночной медианы $${fmt(s.cuts?.median.q50,0)}; хвост Q90/Q50 ≤ ${fmt(s.cuts?.tail.q25,2)}; доля активных часов ≤ ${fmt(100*(s.cuts?.hour_hot.q25??NaN),2)}%. Активная/шумная: любой из трёх признаков в верхней четверти. Это описательные относительные границы, не обученный прогноз.`:'На эту дату нет достаточной истории.';
+}
+function raw(c,i){return data[c*oldcat.minutes+i]}
+function aggregate(lo,hi,step){
+ const off=Math.floor(catalog.first/60),out=[];let i=Math.max(0,Math.ceil((lo+off)/step)*step-off);
+ for(;i+step-1<=hi;i+=step){let high=-Infinity,low=Infinity,v=0,valid=true;for(let k=i;k<i+step;k++){valid&&=[0,1,2,3,7].every(c=>Number.isFinite(raw(c,k)))&&[0,1,2,3].every(c=>raw(c,k)>0)&&raw(7,k)>=0;high=Math.max(high,raw(1,k));low=Math.min(low,raw(2,k));v+=raw(7,k)}out.push({time:stamp(i+step-1),start:i,end:i+step-1,valid,open:raw(0,i),high,low,close:raw(3,i+step-1),volume:v})}return out;
+}
+function bounds(){const s=selected?.start??catalog.snapshots[asof].minute;if(customRange)return customRange;return [Math.max(0,$('before').value==='all'?0:s-Number($('before').value)),Math.min(oldcat.minutes-1,$('after').value==='all'?oldcat.minutes-1:s+Number($('after').value))]}
+function peerMedian(m,x,ownIncluded){
+ if(!m||m[3]<100)return null;const [lo,mid,hi,n]=m;if(!ownIncluded)return n%2?mid:(mid+hi)/2;
+ if(n-1<100)return null;if(n%2===0)return x<=mid?hi:mid;return x<mid?(mid+hi)/2:x>mid?(lo+mid)/2:(lo+hi)/2;
+}
+function drawChart(){
+ if(!data)return;const [lo,hi]=bounds();let step=Number($('interval').value);if((hi-lo)/step>25000){step=5;$('interval').value='5'}plot=aggregate(lo,hi,step);const five=aggregate(lo,hi,5),base=field(14,'median'),eligible=field(14,'coverage')===1&&base>0;
+ activity=five.map(b=>{const x=eligible&&b.valid?b.volume/base:null,mi=market?Math.round((b.time-market.start)/300):-1,m=peerMedian(market?.values[mi],x,x!==null&&eligible);return {...b,own:x,market:m,relative:x!==null&&m>0?x/m:null}});
+ if(chart)chart.remove();chart=LightweightCharts.createChart($('chart'),{autoSize:true,layout:{background:{color:'#ffffff'},textColor:'#526c79',panes:{separatorColor:'#cfdcde'}},grid:{vertLines:{color:'#f1f5f5'},horzLines:{color:'#f1f5f5'}},timeScale:{timeVisible:true,minBarSpacing:.01},rightPriceScale:{minimumWidth:90},crosshair:{mode:0},localization:{locale:'ru-RU'}});
+ const min=plot.find(b=>b.valid)?.close||1,precision=Math.min(10,Math.max(2,Math.ceil(-Math.log10(min))+4));
+ series=chart.addSeries(LightweightCharts.CandlestickSeries,{upColor:'#008772',downColor:'#bd9fa8',wickUpColor:'#008772',wickDownColor:'#bd9fa8',borderVisible:false,priceLineVisible:false,priceFormat:{type:'price',precision,minMove:10**-precision}},0);
+ series.setData(plot.map(b=>b.valid?{time:b.time,open:b.open,high:b.high,low:b.low,close:b.close}:{time:b.time}));
+ volume=chart.addSeries(LightweightCharts.HistogramSeries,{priceLineVisible:false,priceFormat:{type:'volume'},title:'USDT / свеча'},1);
+ volume.setData(plot.map(b=>b.valid?{time:b.time,value:b.volume,color:b.close>=b.open?'#249e8a':'#c9b8be'}:{time:b.time}));volume.priceScale().applyOptions({mode:$('logVolume').checked?1:0});
+ if(base>0&&step===5)volume.createPriceLine({price:base,color:'#597a77',lineWidth:1,lineStyle:2,axisLabelVisible:true,title:'Обычно 14д'});
+ ownSeries=chart.addSeries(LightweightCharts.LineSeries,{color:'#7952b3',lineWidth:1,priceLineVisible:false,title:'Монета ×',priceFormat:{type:'custom',formatter:p=>fmt(p,1)+'×'}},2);
+ marketSeries=chart.addSeries(LightweightCharts.LineSeries,{color:'#8396a4',lineWidth:2,priceLineVisible:false,title:'Рынок ×'},2);
+ ownSeries.setData(activity.map(b=>b.own!==null?{time:b.time,value:b.own}:{time:b.time}));marketSeries.setData(activity.map(b=>b.market!==null?{time:b.time,value:b.market}:{time:b.time}));ownSeries.priceScale().applyOptions({mode:1});ownSeries.createPriceLine({price:1,color:'#97a9ad',lineWidth:1,lineStyle:2,axisLabelVisible:true,title:'Обычный уровень'});
+ chart.panes().forEach((p,i)=>p.setStretchFactor([3.2,1.35,1.7][i]));chart.timeScale().fitContent();
+ $('rangeStart').value=utc(stamp(lo)).replace(' ','T');$('rangeEnd').value=utc(stamp(hi)).replace(' ','T');
+ $('chartCaption').textContent=`${utc(stamp(lo))} → ${utc(stamp(hi))} UTC · цена / оборот: ${step} мин · активность: исходные полные 5м, без сглаживания. Серый фон — до обнаружения; цветные полосы — исходные зоны.`;
+ $('activityNote').textContent=eligible?`Активность = оборот отдельной пятиминутки ÷ её 14-дневная база. Рынок — медиана таких же отношений остальных доступных монет, с той же замороженной датой; собственная монета исключена. Шкала логарифмическая. Показатели сверху описывают конец выбранного участка, а не будущий пик.`:'Недостаточно полной 14-дневной истории: относительная активность не вычисляется. Цена и оборот доступны. Нельзя автоматически считать эту монету затухшей.';
+ const map=new Map(plot.map(b=>[b.time,b]));chart.subscribeCrosshairMove(p=>{const b=map.get(p.time),a=activity.find(a=>a.time===p.time);if(!b&&!a)return;const r=b||a;$('hover').textContent=`${utc(p.time)} UTC · ${b?'C '+fmt(b.close,precision)+' · размах '+fmt(100*(b.high-b.low)/b.open,2)+'% · $'+fmt(b.volume,0)+' / '+step+'м · ':''}${a?'5м: '+fmt(a.own,2)+'× базы · рынок '+fmt(a.market,2)+'× · опережение '+fmt(a.relative,2)+'×':''}`});
+ chart.timeScale().subscribeVisibleTimeRangeChange(()=>requestAnimationFrame(drawOverlay));chart.timeScale().subscribeSizeChange(()=>requestAnimationFrame(drawOverlay));summarizeWindow(lo,hi);requestAnimationFrame(()=>requestAnimationFrame(drawOverlay));
+}
+function summarizeWindow(lo,hi){
+ const a=activity.filter(b=>b.valid),last=a.slice(-6),full=last.length===6&&last[5].end-last[0].end===25,base=field(14,'median');
+ const curr=full?median(last.map(b=>b.volume)):null,own=curr!==null&&base>0?curr/base:null,mi=full&&market?Math.round((last[5].time-market.start)/300):-1,m=peerMedian(market?.window?.[mi],own,own!==null&&field(14,'coverage')===1);
+ $('fact1').textContent=curr===null?'—':'$'+fmt(curr,0);$('factHint1').textContent=`${fmt(own,2)}× базы · последние 30м окна`;$('fact2').textContent=own!==null&&m>0?fmt(own/m,2)+'×':'—';$('factHint2').textContent=`Рынок ${fmt(m,2)}× · медианы последних 30м каждого инструмента`;
+ const s=selected?.start??catalog.snapshots[asof].minute,post=a.filter(b=>b.end>=s),factor=catalog.snapshots[anchor]?.factor||Infinity;
+ const prior=a.filter(b=>b.end<s&&b.end>=s-360&&b.own>factor),onset=prior[0]||post.find(b=>b.own>factor),peak=post.reduce((best,b)=>!best||b.volume>best.volume?b:best,null);
+ let fade=null;if(peak)for(let i=0;i+5<post.length;i++){const w=post.slice(i,i+6);if(w[0].end>peak.end&&w[5].end-w[0].end===25&&w.every(b=>b.own!==null&&b.own<=factor)){fade=w[5];break}}
+ const marker=(bar,text,color,shape)=>{const b=bar&&plot.find(p=>p.end>=bar.end);return b?{time:b.time,position:'aboveBar',color,shape,text}:null};
+ const markers=[marker(onset,'Рост оборота','#c58a25','arrowUp'),marker(peak,'Пик объёма','#7952b3','circle'),marker(fade,'Затихание','#607d8b','arrowDown')].filter(Boolean).sort((a,b)=>a.time-b.time);LightweightCharts.createSeriesMarkers(series,markers);
+ const eligible=post.filter(b=>b.own!==null),hot=eligible.filter(b=>b.own>factor).length,returns=eligible.filter((b,i)=>i&&eligible[i-1].end===b.end-5&&eligible[i-1].own>factor&&b.own<=factor).length;
+ $('milestones').innerHTML=[['Обнаружение',selected?utc(stamp(s)):'Выбрана дата, без зоны'],['Первое превышение в окне',onset?utc(onset.time):'Не наблюдается'],['Максимум оборота после старта',peak?utc(peak.time)+' · $'+fmt(peak.volume,0):'Нет наблюдений'],['30м затишья после максимума',fade?utc(fade.time):'Не наблюдается'],['Повышенная активность',eligible.length?duration(hot*5/60)+' суммарно · возвратов '+returns:'Нет полной базы']].map(([k,v])=>`<div><b>${k}</b>${v}</div>`).join('');
+ $('milestones').insertAdjacentHTML('beforeend','<p class="muted">Максимум и затухание относятся только к показанному участку, известны постфактум и не используются при обнаружении. «Первое превышение» ищется не раньше 6ч перед обнаружением. Возврат — пересечение вниз границы активности; это не обязательно возврат цены.</p>');
+}
+function drawOverlay(){
+ if(!chart||!plot.length)return;const canvas=$('overlay'),width=$('chart').clientWidth,height=chart.panes()[0].getHeight(),dpr=window.devicePixelRatio||1;canvas.width=width*dpr;canvas.height=height*dpr;canvas.style.width=width+'px';canvas.style.height=height+'px';const ctx=canvas.getContext('2d');ctx.scale(dpr,dpr);
+ const ts=chart.timeScale(),step=Number($('interval').value),start=plot[0].time;const x=i=>{const logical=(stamp(i)-start)/(step*60),k=Math.floor(logical),a=ts.logicalToCoordinate(k),b=ts.logicalToCoordinate(k+1);return a===null||b===null?null:a+(b-a)*(logical-k)};
+ const bound=Math.max(0,width-90),at=selected?.start??catalog.snapshots[asof].minute,xx=x(at);if(xx!==null){ctx.fillStyle='rgba(117,135,146,.07)';ctx.fillRect(0,0,Math.min(bound,Math.max(0,xx)),height);if(xx>=0&&xx<=bound){ctx.strokeStyle='#c58a25';ctx.setLineDash([5,4]);ctx.beginPath();ctx.moveTo(xx,0);ctx.lineTo(xx,height);ctx.stroke();ctx.setLineDash([]);ctx.fillStyle='#9a6314';ctx.fillText(selected?'Обнаружение':'Дата среза',Math.min(xx+5,bound-90),18)}}
+ for(const z of visibleZones()){if(z.end<plot[0].start||z.start>plot.at(-1).end)continue;const a=x(z.start),b=x(Math.min(z.end,plot.at(-1).end));if(a===null||b===null)continue;const left=Math.max(0,a),right=Math.min(bound,b);if(right<=left)continue;ctx.fillStyle=z.id===selected?.id?'rgba(0,129,110,.18)':'rgba(0,129,110,.06)';ctx.fillRect(left,30,right-left,height-30);ctx.fillStyle=z.profile==='long'?'#00816e':'#7952b3';ctx.fillRect(left,z.profile==='long'?22:27,Math.max(2,right-left),3)}
+}
+function drawFuture(){const f=selected?classes[selected.id]:null;$('futurePanel').hidden=!$('outcomes').checked;$('futureFacts').textContent=f?.group?`Полный горизонт ${selected.profile==='long'?'7 суток':'24 часа'}: максимум минутного close ${fmt(f.peak)}%, конечный close ${fmt(f.terminal)}%. Группа: ${f.group}. Эти исходы не использовались для категории. ${f.early?'Раннее подтверждение объёмом через '+f.early.elapsed+'м, цена '+fmt(f.early.price)+'% (до первого +20%).':'Раннего подтверждения по исследовательскому правилу не было.'}`:'Нет выбранной зоны с полным горизонтом исхода.'}
+function drawReview(){$('note').value=selected?notes[selected.id]?.note||'':'';$('note').disabled=!selected;document.querySelectorAll('[data-verdict]').forEach(b=>b.disabled=!selected)}
+function saveReview(verdict){if(!selected)return;notes[selected.id]={ci,coin:catalog.coins[ci],profile:selected.profile,start:selected.start,verdict:verdict??notes[selected.id]?.verdict??'',note:$('note').value,updated:new Date().toISOString()};try{localStorage.setItem(KEY,JSON.stringify(notes));$('saved').textContent='Сохранено: '+(notes[selected.id].verdict||'без оценки')}catch(e){fail(e)}}
+function bind(){
+ $('asof').onchange=()=>{const t=Date.parse($('asof').value+'T00:00:00Z')/1000;if(!Number.isFinite(t))return;asof=Math.max(0,findAnchor(t));$('asof').value=date(catalog.snapshots[asof].time);drawCatalog();if(ci!==null)choose(null)};
+ for(const id of ['category','sort'])$(id).onchange=drawCatalog;$('search').oninput=drawCatalog;$('outcomes').onchange=()=>{if(!$('outcomes').checked&&$('sort').value==='big')$('sort').value='name';drawCatalog();drawFuture()};
+ $('catalogBack').onclick=()=>{$('catalogPanel').open=true;$('catalogPanel').scrollIntoView({behavior:'smooth'})};
+ for(const id of ['mode','zoneCategory'])$(id).onchange=()=>{if(selected&&!visibleZones().some(z=>z.id===selected.id))choose(null);else{drawZoneSelect();drawOverlay()}};
+ $('zone').onchange=()=>choose(zones.find(z=>z.id===$('zone').value)||null);$('dateView').onclick=()=>choose(null);
+ for(const [id,delta] of [['previous',-1],['next',1]])$(id).onclick=()=>{const zz=visibleZones(),i=zz.findIndex(z=>z.id===selected?.id);if(zz.length)choose(zz[(i+delta+zz.length)%zz.length])};
+ for(const id of ['before','after','interval'])$(id).onchange=()=>{customRange=null;drawChart()};$('logVolume').onchange=()=>volume?.priceScale().applyOptions({mode:$('logVolume').checked?1:0});$('resetZoom').onclick=()=>chart?.timeScale().fitContent();
+ $('applyRange').onclick=()=>{const a=Date.parse($('rangeStart').value+'Z')/1000,b=Date.parse($('rangeEnd').value+'Z')/1000;if(!Number.isFinite(a)||!Number.isFinite(b)||a>=b){fail('Укажите начало раньше конца участка');return}const lo=Math.max(0,Math.ceil((a-catalog.first)/60)),hi=Math.min(oldcat.minutes-1,Math.floor((b-catalog.first)/60));if(lo>=hi){fail('Участок вне доступной истории');return}$('error').textContent='';customRange=[lo,hi];drawChart()};
+ $('note').oninput=()=>saveReview();document.querySelectorAll('[data-verdict]').forEach(b=>b.onclick=()=>saveReview(b.dataset.verdict));$('exportNotes').onclick=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify({format:KEY,protocol:oldcat.protocol_sha256,notes},null,2)],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='state-zones-reviews.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+}
+(async()=>{try{[catalog,oldcat,results]=await Promise.all([gz('activity-catalog.json.gz'),fetch('catalog.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}),gz('activity-results.json.gz')]);
+ const hash=new URLSearchParams(location.hash.slice(1)),t=Date.parse((hash.get('date')||date(catalog.last))+'T00:00:00Z')/1000;asof=Math.max(0,findAnchor(Number.isFinite(t)?t:catalog.last));$('asof').min=date(catalog.snapshots[0].time);$('asof').max=date(catalog.last);$('asof').value=date(catalog.snapshots[asof].time);$('coverage').textContent=date(catalog.first)+' — '+date(catalog.last);bind();drawCatalog();const id=Number(hash.get('coin'));if(hash.has('coin')&&Number.isInteger(id)&&id>=0&&id<657)await loadCoin(id,hash.get('zone'),true);else await loadCoin(catalog.coins.indexOf('JTO'));
+ }catch(e){fail(e)}})();
