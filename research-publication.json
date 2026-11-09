@@ -6859,8 +6859,8 @@
       "sha256": "c48b047a40e7ffb9e9d6172e5ef333dd0b5fc3d33da7985b599a6bfd8fb76950"
     },
     "state-zones/activity.js": {
-      "bytes": 34412,
-      "sha256": "de8a69bae81a09d7473b9b5d1ffa639c40d73cf541ebb2c226b7a7b045ca5f58"
+      "bytes": 34436,
+      "sha256": "aa8b47c3d2b28db6f980a2564978c321589f0cda4cf6401a14a536805fec0e24"
     },
     "state-zones/app.js": {
       "bytes": 17585,
@@ -17643,8 +17643,8 @@
       "sha256": "e773da8988811d9ea1b398272ab6c8a6239824d81299a5b938205fe4c2cb62c5"
     },
     "state-zones/signal-map.js": {
-      "bytes": 11501,
-      "sha256": "f5ba1a1d4d8a9c0fcfc35dc8b0bf4ccceaa0ef0666a854393ab155a94b6c18ab"
+      "bytes": 11524,
+      "sha256": "b7049a1d4e1a96810cf6efb14ab90d8e691ca5e1a7b01c0c806b05e22b4e8bb1"
     },
     "state-zones/style.css": {
       "bytes": 1955,
