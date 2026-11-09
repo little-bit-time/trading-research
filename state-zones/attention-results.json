@@ -1,0 +1,3976 @@
+{
+  "counts": {
+    "raw": 81796,
+    "episodes": 19598,
+    "key": 5417
+  },
+  "prefix_checks": 10,
+  "outcomes": {
+    "raw": {
+      "all": {
+        "1": {
+          "signals": 81796,
+          "coins": 574,
+          "complete": 80318,
+          "censored": 1478,
+          "groups": {
+            "other": 38341,
+            "failure": 41296,
+            "small": 598,
+            "x2": 83
+          },
+          "no20": 78380,
+          "medians": {
+            "peak": 2.7486301294120663,
+            "time_peak": 606.0,
+            "adverse": -2.823681116029353,
+            "drawdown": -5.038049151336876
+          }
+        },
+        "7": {
+          "signals": 81796,
+          "coins": 574,
+          "complete": 71651,
+          "censored": 10145,
+          "groups": {
+            "other": 32830,
+            "small": 4319,
+            "failure": 33559,
+            "x2": 943
+          },
+          "no20": 57287,
+          "medians": {
+            "peak": 8.109339407744876,
+            "time_peak": 4029.0,
+            "adverse": -8.474818091025826,
+            "drawdown": -14.525608732157846
+          }
+        }
+      },
+      "early": {
+        "1": {
+          "signals": 36778,
+          "coins": 557,
+          "complete": 36778,
+          "censored": 0,
+          "groups": {
+            "other": 20539,
+            "failure": 15890,
+            "small": 319,
+            "x2": 30
+          },
+          "no20": 35796,
+          "medians": {
+            "peak": 3.340637239843336,
+            "time_peak": 746.0,
+            "adverse": -2.3773862000606325,
+            "drawdown": -4.749894913829333
+          }
+        },
+        "7": {
+          "signals": 28073,
+          "coins": 554,
+          "complete": 28073,
+          "censored": 0,
+          "groups": {
+            "other": 18430,
+            "small": 2749,
+            "failure": 6444,
+            "x2": 450
+          },
+          "no20": 19167,
+          "medians": {
+            "peak": 13.611281422440214,
+            "time_peak": 6530.0,
+            "adverse": -5.25842696629214,
+            "drawdown": -12.33552631578948
+          }
+        }
+      },
+      "later": {
+        "1": {
+          "signals": 43733,
+          "coins": 574,
+          "complete": 42255,
+          "censored": 1478,
+          "groups": {
+            "failure": 24835,
+            "other": 17093,
+            "small": 275,
+            "x2": 52
+          },
+          "no20": 41335,
+          "medians": {
+            "peak": 2.3054755043227626,
+            "time_peak": 490.0,
+            "adverse": -3.3264645275242755,
+            "drawdown": -5.373525557011805
+          }
+        },
+        "7": {
+          "signals": 43733,
+          "coins": 574,
+          "complete": 33588,
+          "censored": 10145,
+          "groups": {
+            "failure": 21831,
+            "other": 10178,
+            "small": 1152,
+            "x2": 427
+          },
+          "no20": 29477,
+          "medians": {
+            "peak": 5.095273347944918,
+            "time_peak": 2372.0,
+            "adverse": -11.502441389731505,
+            "drawdown": -16.389877421905886
+          }
+        }
+      }
+    },
+    "episodes": {
+      "all": {
+        "1": {
+          "signals": 19598,
+          "coins": 574,
+          "complete": 19218,
+          "censored": 380,
+          "groups": {
+            "other": 9037,
+            "failure": 9980,
+            "small": 175,
+            "x2": 26
+          },
+          "no20": 18676,
+          "medians": {
+            "peak": 2.5974025974025983,
+            "time_peak": 577.0,
+            "adverse": -2.803176849360034,
+            "drawdown": -4.908791198984231
+          }
+        },
+        "7": {
+          "signals": 19598,
+          "coins": 574,
+          "complete": 16982,
+          "censored": 2616,
+          "groups": {
+            "other": 7332,
+            "small": 1038,
+            "failure": 8367,
+            "x2": 245
+          },
+          "no20": 13646,
+          "medians": {
+            "peak": 7.384742412098633,
+            "time_peak": 3716.0,
+            "adverse": -8.799335949290672,
+            "drawdown": -14.677804295942721
+          }
+        }
+      },
+      "early": {
+        "1": {
+          "signals": 7996,
+          "coins": 557,
+          "complete": 7996,
+          "censored": 0,
+          "groups": {
+            "other": 4424,
+            "failure": 3481,
+            "small": 82,
+            "x2": 9
+          },
+          "no20": 7735,
+          "medians": {
+            "peak": 3.196329629509531,
+            "time_peak": 712.5,
+            "adverse": -2.3605555516431673,
+            "drawdown": -4.641292756631043
+          }
+        },
+        "7": {
+          "signals": 5633,
+          "coins": 554,
+          "complete": 5633,
+          "censored": 0,
+          "groups": {
+            "other": 3641,
+            "small": 589,
+            "failure": 1294,
+            "x2": 109
+          },
+          "no20": 3761,
+          "medians": {
+            "peak": 13.491722210277368,
+            "time_peak": 6599.0,
+            "adverse": -5.518987341772153,
+            "drawdown": -12.442111762889784
+          }
+        }
+      },
+      "later": {
+        "1": {
+          "signals": 11178,
+          "coins": 574,
+          "complete": 10798,
+          "censored": 380,
+          "groups": {
+            "failure": 6319,
+            "other": 4373,
+            "small": 90,
+            "x2": 16
+          },
+          "no20": 10525,
+          "medians": {
+            "peak": 2.233946067756476,
+            "time_peak": 473.0,
+            "adverse": -3.2339276799591197,
+            "drawdown": -5.192207844077007
+          }
+        },
+        "7": {
+          "signals": 11178,
+          "coins": 574,
+          "complete": 8562,
+          "censored": 2616,
+          "groups": {
+            "failure": 5510,
+            "other": 2602,
+            "small": 340,
+            "x2": 110
+          },
+          "no20": 7454,
+          "medians": {
+            "peak": 5.094314382182253,
+            "time_peak": 2499.0,
+            "adverse": -11.120619831410261,
+            "drawdown": -16.047465685146847
+          }
+        }
+      }
+    },
+    "key": {
+      "all": {
+        "1": {
+          "signals": 5417,
+          "coins": 573,
+          "complete": 5362,
+          "censored": 55,
+          "groups": {
+            "failure": 2853,
+            "other": 2293,
+            "small": 166,
+            "x2": 50
+          },
+          "no20": 4806,
+          "medians": {
+            "peak": 3.746283203831835,
+            "time_peak": 381.0,
+            "adverse": -4.491547877470209,
+            "drawdown": -7.946098759281845
+          }
+        },
+        "7": {
+          "signals": 5417,
+          "coins": 573,
+          "complete": 4806,
+          "censored": 611,
+          "groups": {
+            "other": 2164,
+            "small": 392,
+            "failure": 2077,
+            "x2": 173
+          },
+          "no20": 3456,
+          "medians": {
+            "peak": 10.078436878876607,
+            "time_peak": 2745.5,
+            "adverse": -10.68275242039839,
+            "drawdown": -17.560236569660674
+          }
+        }
+      },
+      "early": {
+        "1": {
+          "signals": 2696,
+          "coins": 548,
+          "complete": 2696,
+          "censored": 0,
+          "groups": {
+            "failure": 1249,
+            "other": 1345,
+            "small": 86,
+            "x2": 16
+          },
+          "no20": 2414,
+          "medians": {
+            "peak": 4.323669869807101,
+            "time_peak": 548.5,
+            "adverse": -3.804071126530756,
+            "drawdown": -7.480778232326152
+          }
+        },
+        "7": {
+          "signals": 2199,
+          "coins": 542,
+          "complete": 2199,
+          "censored": 0,
+          "groups": {
+            "other": 1279,
+            "small": 246,
+            "failure": 588,
+            "x2": 86
+          },
+          "no20": 1389,
+          "medians": {
+            "peak": 14.353838817358145,
+            "time_peak": 4958.0,
+            "adverse": -7.375537799631227,
+            "drawdown": -15.239154616240269
+          }
+        }
+      },
+      "later": {
+        "1": {
+          "signals": 2613,
+          "coins": 561,
+          "complete": 2558,
+          "censored": 55,
+          "groups": {
+            "failure": 1542,
+            "other": 906,
+            "x2": 32,
+            "small": 78
+          },
+          "no20": 2290,
+          "medians": {
+            "peak": 3.07411635517576,
+            "time_peak": 261.5,
+            "adverse": -5.261070816220087,
+            "drawdown": -8.725182397190762
+          }
+        },
+        "7": {
+          "signals": 2613,
+          "coins": 561,
+          "complete": 2002,
+          "censored": 611,
+          "groups": {
+            "failure": 1138,
+            "other": 681,
+            "small": 108,
+            "x2": 75
+          },
+          "no20": 1569,
+          "medians": {
+            "peak": 6.736481404547511,
+            "time_peak": 1463.0,
+            "adverse": -13.90277383055356,
+            "drawdown": -19.709620442825823
+          }
+        }
+      }
+    }
+  },
+  "coverage": {
+    "raw": {
+      "1": {
+        "targets": 42,
+        "found": 22,
+        "missed": 20,
+        "before10": 14,
+        "before20": 16,
+        "matches": [
+          {
+            "ci": 25,
+            "start": 58698,
+            "cross": 59725,
+            "minute": 58852,
+            "before": 0.6731620903454472
+          },
+          {
+            "ci": 28,
+            "start": 41418,
+            "cross": 42415,
+            "minute": 42277,
+            "before": 5.821635012386461
+          },
+          {
+            "ci": 28,
+            "start": 75978,
+            "cross": 76591,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 34,
+            "start": 19818,
+            "cross": 21106,
+            "minute": 20857,
+            "before": 40.42383234658398
+          },
+          {
+            "ci": 34,
+            "start": 22698,
+            "cross": 23330,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 69,
+            "start": 18378,
+            "cross": 19089,
+            "minute": 18497,
+            "before": 24.80719794344475
+          },
+          {
+            "ci": 78,
+            "start": 21258,
+            "cross": 21759,
+            "minute": 21437,
+            "before": 0.3597985128328096
+          },
+          {
+            "ci": 92,
+            "start": 29898,
+            "cross": 31254,
+            "minute": 30347,
+            "before": 48.34968777876896
+          },
+          {
+            "ci": 92,
+            "start": 32778,
+            "cross": 33915,
+            "minute": 32787,
+            "before": 0.278551532033422
+          },
+          {
+            "ci": 92,
+            "start": 42858,
+            "cross": 43882,
+            "minute": 43347,
+            "before": 6.96598639455781
+          },
+          {
+            "ci": 107,
+            "start": 71658,
+            "cross": 71693,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 112,
+            "start": 71658,
+            "cross": 71849,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 120,
+            "start": 16938,
+            "cross": 17616,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 161,
+            "start": 61578,
+            "cross": 62638,
+            "minute": 62352,
+            "before": 12.971698113207552
+          },
+          {
+            "ci": 200,
+            "start": 67338,
+            "cross": 68173,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 202,
+            "start": 54378,
+            "cross": 55675,
+            "minute": 54402,
+            "before": 0.22091310751104487
+          },
+          {
+            "ci": 226,
+            "start": 83178,
+            "cross": 84167,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 233,
+            "start": 75978,
+            "cross": 77386,
+            "minute": 76272,
+            "before": 1.2720156555772855
+          },
+          {
+            "ci": 258,
+            "start": 19818,
+            "cross": 20691,
+            "minute": 19922,
+            "before": 1.9855222337125111
+          },
+          {
+            "ci": 292,
+            "start": 70218,
+            "cross": 71501,
+            "minute": 70272,
+            "before": 11.656441717791433
+          },
+          {
+            "ci": 292,
+            "start": 71658,
+            "cross": 72666,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 301,
+            "start": 80298,
+            "cross": 81369,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 313,
+            "start": 70218,
+            "cross": 70856,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 315,
+            "start": 65898,
+            "cross": 66548,
+            "minute": 66147,
+            "before": 7.265388496468206
+          },
+          {
+            "ci": 315,
+            "start": 71658,
+            "cross": 72506,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 11178,
+            "cross": 12544,
+            "minute": 11192,
+            "before": 1.5783860646995995
+          },
+          {
+            "ci": 350,
+            "start": 12618,
+            "cross": 12788,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 16938,
+            "cross": 17602,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 411,
+            "start": 48618,
+            "cross": 49656,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 416,
+            "start": 18378,
+            "cross": 19724,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 416,
+            "start": 21258,
+            "cross": 22364,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 426,
+            "start": 71658,
+            "cross": 72208,
+            "minute": 71672,
+            "before": 2.605271129960607
+          },
+          {
+            "ci": 429,
+            "start": 31338,
+            "cross": 31451,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 459,
+            "start": 58698,
+            "cross": 58981,
+            "minute": 58767,
+            "before": 0.0
+          },
+          {
+            "ci": 464,
+            "start": 61578,
+            "cross": 62542,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 464,
+            "start": 74538,
+            "cross": 75690,
+            "minute": 75592,
+            "before": 50.47981296018427
+          },
+          {
+            "ci": 465,
+            "start": 32778,
+            "cross": 34153,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 483,
+            "start": 44298,
+            "cross": 45622,
+            "minute": 44392,
+            "before": 0.5499037668408091
+          },
+          {
+            "ci": 553,
+            "start": 16938,
+            "cross": 17411,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 560,
+            "start": 27018,
+            "cross": 27442,
+            "minute": 27147,
+            "before": 0.3118844386080122
+          },
+          {
+            "ci": 592,
+            "start": 50058,
+            "cross": 50832,
+            "minute": 50407,
+            "before": 20.58295686614271
+          },
+          {
+            "ci": 642,
+            "start": 58698,
+            "cross": 59818,
+            "minute": 59687,
+            "before": 74.16058394160585
+          }
+        ]
+      },
+      "7": {
+        "targets": 62,
+        "found": 53,
+        "missed": 9,
+        "before10": 40,
+        "before20": 45,
+        "matches": [
+          {
+            "ci": 6,
+            "start": 21258,
+            "cross": 26211,
+            "minute": 22322,
+            "before": 34.27561837455833
+          },
+          {
+            "ci": 25,
+            "start": 51498,
+            "cross": 61313,
+            "minute": 52077,
+            "before": 2.6476159104010577
+          },
+          {
+            "ci": 28,
+            "start": 11178,
+            "cross": 15591,
+            "minute": 11257,
+            "before": 2.3703703703703782
+          },
+          {
+            "ci": 28,
+            "start": 41418,
+            "cross": 42415,
+            "minute": 42277,
+            "before": 5.821635012386461
+          },
+          {
+            "ci": 28,
+            "start": 71658,
+            "cross": 75874,
+            "minute": 72222,
+            "before": 7.983310152990253
+          },
+          {
+            "ci": 34,
+            "start": 11178,
+            "cross": 16440,
+            "minute": 15922,
+            "before": 38.1558028616852
+          },
+          {
+            "ci": 34,
+            "start": 21258,
+            "cross": 23314,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 48,
+            "start": 71658,
+            "cross": 73427,
+            "minute": 72972,
+            "before": 43.88083735909822
+          },
+          {
+            "ci": 69,
+            "start": 11178,
+            "cross": 19082,
+            "minute": 11352,
+            "before": 3.583061889250816
+          },
+          {
+            "ci": 78,
+            "start": 21258,
+            "cross": 21759,
+            "minute": 21437,
+            "before": 0.3597985128328096
+          },
+          {
+            "ci": 92,
+            "start": 31338,
+            "cross": 35126,
+            "minute": 32277,
+            "before": 33.83132530120481
+          },
+          {
+            "ci": 92,
+            "start": 41418,
+            "cross": 43881,
+            "minute": 42447,
+            "before": 14.962251201098153
+          },
+          {
+            "ci": 107,
+            "start": 61578,
+            "cross": 71166,
+            "minute": 62507,
+            "before": 0.6164247365281428
+          },
+          {
+            "ci": 107,
+            "start": 71658,
+            "cross": 71693,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 112,
+            "start": 71658,
+            "cross": 71849,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 119,
+            "start": 21258,
+            "cross": 29999,
+            "minute": 22272,
+            "before": 7.411484131352042
+          },
+          {
+            "ci": 120,
+            "start": 11178,
+            "cross": 14668,
+            "minute": 13542,
+            "before": 19.39048368069207
+          },
+          {
+            "ci": 133,
+            "start": 21258,
+            "cross": 31042,
+            "minute": 23362,
+            "before": 23.117171396860627
+          },
+          {
+            "ci": 143,
+            "start": 11178,
+            "cross": 20266,
+            "minute": 14022,
+            "before": 50.42904742343328
+          },
+          {
+            "ci": 147,
+            "start": 21258,
+            "cross": 22828,
+            "minute": 21342,
+            "before": 0.8304195804195835
+          },
+          {
+            "ci": 160,
+            "start": 71658,
+            "cross": 74094,
+            "minute": 72607,
+            "before": 81.22489959839359
+          },
+          {
+            "ci": 161,
+            "start": 61578,
+            "cross": 62638,
+            "minute": 62352,
+            "before": 12.971698113207552
+          },
+          {
+            "ci": 181,
+            "start": 11178,
+            "cross": 13464,
+            "minute": 11252,
+            "before": 0.985452839042722
+          },
+          {
+            "ci": 200,
+            "start": 61578,
+            "cross": 67447,
+            "minute": 66462,
+            "before": 0.7122507122506949
+          },
+          {
+            "ci": 202,
+            "start": 51498,
+            "cross": 55658,
+            "minute": 51682,
+            "before": 1.4536126549807626
+          },
+          {
+            "ci": 233,
+            "start": 71658,
+            "cross": 77387,
+            "minute": 71752,
+            "before": 0.48141729250916754
+          },
+          {
+            "ci": 258,
+            "start": 11178,
+            "cross": 20307,
+            "minute": 12742,
+            "before": 2.193932827735634
+          },
+          {
+            "ci": 292,
+            "start": 71658,
+            "cross": 72666,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 301,
+            "start": 71658,
+            "cross": 78925,
+            "minute": 72157,
+            "before": 3.535353535353547
+          },
+          {
+            "ci": 310,
+            "start": 61578,
+            "cross": 68124,
+            "minute": 62312,
+            "before": 1.0341261633919352
+          },
+          {
+            "ci": 313,
+            "start": 61578,
+            "cross": 70354,
+            "minute": 62612,
+            "before": 1.1415525114155223
+          },
+          {
+            "ci": 315,
+            "start": 61578,
+            "cross": 66648,
+            "minute": 65397,
+            "before": 0.9624197983501448
+          },
+          {
+            "ci": 315,
+            "start": 71658,
+            "cross": 72506,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 11178,
+            "cross": 12544,
+            "minute": 11192,
+            "before": 1.5783860646995995
+          },
+          {
+            "ci": 352,
+            "start": 51498,
+            "cross": 53289,
+            "minute": 51912,
+            "before": 6.214827501835085
+          },
+          {
+            "ci": 355,
+            "start": 21258,
+            "cross": 30930,
+            "minute": 21487,
+            "before": 0.1394700139470073
+          },
+          {
+            "ci": 357,
+            "start": 41418,
+            "cross": 51149,
+            "minute": 41612,
+            "before": 1.0888057162300235
+          },
+          {
+            "ci": 358,
+            "start": 61578,
+            "cross": 69219,
+            "minute": 61772,
+            "before": 0.12736236647494792
+          },
+          {
+            "ci": 388,
+            "start": 31338,
+            "cross": 37649,
+            "minute": 31737,
+            "before": 0.7770713492784465
+          },
+          {
+            "ci": 390,
+            "start": 21258,
+            "cross": 26290,
+            "minute": 22032,
+            "before": 0.06103143118705301
+          },
+          {
+            "ci": 402,
+            "start": 21258,
+            "cross": 27159,
+            "minute": 21337,
+            "before": 1.6223231667748195
+          },
+          {
+            "ci": 411,
+            "start": 41418,
+            "cross": 49392,
+            "minute": 41677,
+            "before": 1.4968614196040564
+          },
+          {
+            "ci": 414,
+            "start": 71658,
+            "cross": 80826,
+            "minute": 72037,
+            "before": 6.436041834271933
+          },
+          {
+            "ci": 416,
+            "start": 11178,
+            "cross": 19248,
+            "minute": 11292,
+            "before": 1.4417969342844117
+          },
+          {
+            "ci": 416,
+            "start": 21258,
+            "cross": 22364,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 426,
+            "start": 71658,
+            "cross": 72208,
+            "minute": 71672,
+            "before": 2.605271129960607
+          },
+          {
+            "ci": 428,
+            "start": 41418,
+            "cross": 46475,
+            "minute": 41507,
+            "before": 4.8176497073390445
+          },
+          {
+            "ci": 429,
+            "start": 31338,
+            "cross": 31451,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 438,
+            "start": 21258,
+            "cross": 24796,
+            "minute": 21992,
+            "before": 5.422794117647056
+          },
+          {
+            "ci": 451,
+            "start": 11178,
+            "cross": 15718,
+            "minute": 11217,
+            "before": 1.2501407816195576
+          },
+          {
+            "ci": 458,
+            "start": 21258,
+            "cross": 24344,
+            "minute": 22202,
+            "before": 3.4731420161883797
+          },
+          {
+            "ci": 459,
+            "start": 51498,
+            "cross": 58980,
+            "minute": 54052,
+            "before": 0.761421319796951
+          },
+          {
+            "ci": 464,
+            "start": 31338,
+            "cross": 33497,
+            "minute": 31767,
+            "before": 25.71180985392425
+          },
+          {
+            "ci": 464,
+            "start": 51498,
+            "cross": 61535,
+            "minute": 52412,
+            "before": 15.303292894280762
+          },
+          {
+            "ci": 464,
+            "start": 61578,
+            "cross": 62542,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 464,
+            "start": 71658,
+            "cross": 76010,
+            "minute": 74022,
+            "before": 0.05202120312486347
+          },
+          {
+            "ci": 465,
+            "start": 31338,
+            "cross": 34040,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 483,
+            "start": 41418,
+            "cross": 45623,
+            "minute": 41772,
+            "before": 1.174586225306995
+          },
+          {
+            "ci": 496,
+            "start": 21258,
+            "cross": 27778,
+            "minute": 21912,
+            "before": 13.804173354735138
+          },
+          {
+            "ci": 553,
+            "start": 11178,
+            "cross": 17389,
+            "minute": 11677,
+            "before": 2.211302211302213
+          },
+          {
+            "ci": 560,
+            "start": 21258,
+            "cross": 27440,
+            "minute": 21317,
+            "before": 0.5930318754633124
+          },
+          {
+            "ci": 606,
+            "start": 11178,
+            "cross": 12941,
+            "minute": 11192,
+            "before": 3.00279329608939
+          }
+        ]
+      }
+    },
+    "episodes": {
+      "1": {
+        "targets": 42,
+        "found": 16,
+        "missed": 26,
+        "before10": 8,
+        "before20": 10,
+        "matches": [
+          {
+            "ci": 25,
+            "start": 58698,
+            "cross": 59725,
+            "minute": 59547,
+            "before": 1.015648066135233
+          },
+          {
+            "ci": 28,
+            "start": 41418,
+            "cross": 42415,
+            "minute": 42277,
+            "before": 5.821635012386461
+          },
+          {
+            "ci": 28,
+            "start": 75978,
+            "cross": 76591,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 34,
+            "start": 19818,
+            "cross": 21106,
+            "minute": 20857,
+            "before": 40.42383234658398
+          },
+          {
+            "ci": 34,
+            "start": 22698,
+            "cross": 23330,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 69,
+            "start": 18378,
+            "cross": 19089,
+            "minute": 18497,
+            "before": 24.80719794344475
+          },
+          {
+            "ci": 78,
+            "start": 21258,
+            "cross": 21759,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 92,
+            "start": 29898,
+            "cross": 31254,
+            "minute": 30347,
+            "before": 48.34968777876896
+          },
+          {
+            "ci": 92,
+            "start": 32778,
+            "cross": 33915,
+            "minute": 32787,
+            "before": 0.278551532033422
+          },
+          {
+            "ci": 92,
+            "start": 42858,
+            "cross": 43882,
+            "minute": 43347,
+            "before": 6.96598639455781
+          },
+          {
+            "ci": 107,
+            "start": 71658,
+            "cross": 71693,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 112,
+            "start": 71658,
+            "cross": 71849,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 120,
+            "start": 16938,
+            "cross": 17616,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 161,
+            "start": 61578,
+            "cross": 62638,
+            "minute": 62352,
+            "before": 12.971698113207552
+          },
+          {
+            "ci": 200,
+            "start": 67338,
+            "cross": 68173,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 202,
+            "start": 54378,
+            "cross": 55675,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 226,
+            "start": 83178,
+            "cross": 84167,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 233,
+            "start": 75978,
+            "cross": 77386,
+            "minute": 76272,
+            "before": 1.2720156555772855
+          },
+          {
+            "ci": 258,
+            "start": 19818,
+            "cross": 20691,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 292,
+            "start": 70218,
+            "cross": 71501,
+            "minute": 71252,
+            "before": 15.541922290388555
+          },
+          {
+            "ci": 292,
+            "start": 71658,
+            "cross": 72666,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 301,
+            "start": 80298,
+            "cross": 81369,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 313,
+            "start": 70218,
+            "cross": 70856,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 315,
+            "start": 65898,
+            "cross": 66548,
+            "minute": 66147,
+            "before": 7.265388496468206
+          },
+          {
+            "ci": 315,
+            "start": 71658,
+            "cross": 72506,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 11178,
+            "cross": 12544,
+            "minute": 11192,
+            "before": 1.5783860646995995
+          },
+          {
+            "ci": 350,
+            "start": 12618,
+            "cross": 12788,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 16938,
+            "cross": 17602,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 411,
+            "start": 48618,
+            "cross": 49656,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 416,
+            "start": 18378,
+            "cross": 19724,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 416,
+            "start": 21258,
+            "cross": 22364,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 426,
+            "start": 71658,
+            "cross": 72208,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 429,
+            "start": 31338,
+            "cross": 31451,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 459,
+            "start": 58698,
+            "cross": 58981,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 464,
+            "start": 61578,
+            "cross": 62542,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 464,
+            "start": 74538,
+            "cross": 75690,
+            "minute": 75592,
+            "before": 50.47981296018427
+          },
+          {
+            "ci": 465,
+            "start": 32778,
+            "cross": 34153,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 483,
+            "start": 44298,
+            "cross": 45622,
+            "minute": 44392,
+            "before": 0.5499037668408091
+          },
+          {
+            "ci": 553,
+            "start": 16938,
+            "cross": 17411,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 560,
+            "start": 27018,
+            "cross": 27442,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 592,
+            "start": 50058,
+            "cross": 50832,
+            "minute": 50407,
+            "before": 20.58295686614271
+          },
+          {
+            "ci": 642,
+            "start": 58698,
+            "cross": 59818,
+            "minute": 59687,
+            "before": 74.16058394160585
+          }
+        ]
+      },
+      "7": {
+        "targets": 62,
+        "found": 49,
+        "missed": 13,
+        "before10": 33,
+        "before20": 40,
+        "matches": [
+          {
+            "ci": 6,
+            "start": 21258,
+            "cross": 26211,
+            "minute": 22322,
+            "before": 34.27561837455833
+          },
+          {
+            "ci": 25,
+            "start": 51498,
+            "cross": 61313,
+            "minute": 52077,
+            "before": 2.6476159104010577
+          },
+          {
+            "ci": 28,
+            "start": 11178,
+            "cross": 15591,
+            "minute": 11257,
+            "before": 2.3703703703703782
+          },
+          {
+            "ci": 28,
+            "start": 41418,
+            "cross": 42415,
+            "minute": 42277,
+            "before": 5.821635012386461
+          },
+          {
+            "ci": 28,
+            "start": 71658,
+            "cross": 75874,
+            "minute": 72222,
+            "before": 7.983310152990253
+          },
+          {
+            "ci": 34,
+            "start": 11178,
+            "cross": 16440,
+            "minute": 15922,
+            "before": 38.1558028616852
+          },
+          {
+            "ci": 34,
+            "start": 21258,
+            "cross": 23314,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 48,
+            "start": 71658,
+            "cross": 73427,
+            "minute": 72972,
+            "before": 43.88083735909822
+          },
+          {
+            "ci": 69,
+            "start": 11178,
+            "cross": 19082,
+            "minute": 11352,
+            "before": 3.583061889250816
+          },
+          {
+            "ci": 78,
+            "start": 21258,
+            "cross": 21759,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 92,
+            "start": 31338,
+            "cross": 35126,
+            "minute": 32787,
+            "before": 33.83132530120481
+          },
+          {
+            "ci": 92,
+            "start": 41418,
+            "cross": 43881,
+            "minute": 42447,
+            "before": 14.962251201098153
+          },
+          {
+            "ci": 107,
+            "start": 61578,
+            "cross": 71166,
+            "minute": 62507,
+            "before": 0.6164247365281428
+          },
+          {
+            "ci": 107,
+            "start": 71658,
+            "cross": 71693,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 112,
+            "start": 71658,
+            "cross": 71849,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 119,
+            "start": 21258,
+            "cross": 29999,
+            "minute": 22272,
+            "before": 7.411484131352042
+          },
+          {
+            "ci": 120,
+            "start": 11178,
+            "cross": 14668,
+            "minute": 13542,
+            "before": 19.39048368069207
+          },
+          {
+            "ci": 133,
+            "start": 21258,
+            "cross": 31042,
+            "minute": 23362,
+            "before": 23.117171396860627
+          },
+          {
+            "ci": 143,
+            "start": 11178,
+            "cross": 20266,
+            "minute": 14022,
+            "before": 50.42904742343328
+          },
+          {
+            "ci": 147,
+            "start": 21258,
+            "cross": 22828,
+            "minute": 21342,
+            "before": 0.8304195804195835
+          },
+          {
+            "ci": 160,
+            "start": 71658,
+            "cross": 74094,
+            "minute": 72607,
+            "before": 81.22489959839359
+          },
+          {
+            "ci": 161,
+            "start": 61578,
+            "cross": 62638,
+            "minute": 62352,
+            "before": 12.971698113207552
+          },
+          {
+            "ci": 181,
+            "start": 11178,
+            "cross": 13464,
+            "minute": 11252,
+            "before": 0.985452839042722
+          },
+          {
+            "ci": 200,
+            "start": 61578,
+            "cross": 67447,
+            "minute": 66462,
+            "before": 0.7122507122506949
+          },
+          {
+            "ci": 202,
+            "start": 51498,
+            "cross": 55658,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 233,
+            "start": 71658,
+            "cross": 77387,
+            "minute": 75387,
+            "before": 3.9861351819757473
+          },
+          {
+            "ci": 258,
+            "start": 11178,
+            "cross": 20307,
+            "minute": 12742,
+            "before": 2.193932827735634
+          },
+          {
+            "ci": 292,
+            "start": 71658,
+            "cross": 72666,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 301,
+            "start": 71658,
+            "cross": 78925,
+            "minute": 72157,
+            "before": 3.535353535353547
+          },
+          {
+            "ci": 310,
+            "start": 61578,
+            "cross": 68124,
+            "minute": 62312,
+            "before": 1.0341261633919352
+          },
+          {
+            "ci": 313,
+            "start": 61578,
+            "cross": 70354,
+            "minute": 62612,
+            "before": 1.1415525114155223
+          },
+          {
+            "ci": 315,
+            "start": 61578,
+            "cross": 66648,
+            "minute": 65397,
+            "before": 0.9624197983501448
+          },
+          {
+            "ci": 315,
+            "start": 71658,
+            "cross": 72506,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 11178,
+            "cross": 12544,
+            "minute": 11192,
+            "before": 1.5783860646995995
+          },
+          {
+            "ci": 352,
+            "start": 51498,
+            "cross": 53289,
+            "minute": 51912,
+            "before": 6.214827501835085
+          },
+          {
+            "ci": 355,
+            "start": 21258,
+            "cross": 30930,
+            "minute": 28922,
+            "before": 24.68619246861923
+          },
+          {
+            "ci": 357,
+            "start": 41418,
+            "cross": 51149,
+            "minute": 43032,
+            "before": 3.198366791425644
+          },
+          {
+            "ci": 358,
+            "start": 61578,
+            "cross": 69219,
+            "minute": 67622,
+            "before": 19.026294165981938
+          },
+          {
+            "ci": 388,
+            "start": 31338,
+            "cross": 37649,
+            "minute": 34412,
+            "before": 10.545968311635878
+          },
+          {
+            "ci": 390,
+            "start": 21258,
+            "cross": 26290,
+            "minute": 22032,
+            "before": 0.06103143118705301
+          },
+          {
+            "ci": 402,
+            "start": 21258,
+            "cross": 27159,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 411,
+            "start": 41418,
+            "cross": 49392,
+            "minute": 41677,
+            "before": 1.4968614196040564
+          },
+          {
+            "ci": 414,
+            "start": 71658,
+            "cross": 80826,
+            "minute": 73577,
+            "before": 7.8037007240547185
+          },
+          {
+            "ci": 416,
+            "start": 11178,
+            "cross": 19248,
+            "minute": 11292,
+            "before": 1.4417969342844117
+          },
+          {
+            "ci": 416,
+            "start": 21258,
+            "cross": 22364,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 426,
+            "start": 71658,
+            "cross": 72208,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 428,
+            "start": 41418,
+            "cross": 46475,
+            "minute": 41507,
+            "before": 4.8176497073390445
+          },
+          {
+            "ci": 429,
+            "start": 31338,
+            "cross": 31451,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 438,
+            "start": 21258,
+            "cross": 24796,
+            "minute": 21992,
+            "before": 5.422794117647056
+          },
+          {
+            "ci": 451,
+            "start": 11178,
+            "cross": 15718,
+            "minute": 11217,
+            "before": 1.2501407816195576
+          },
+          {
+            "ci": 458,
+            "start": 21258,
+            "cross": 24344,
+            "minute": 22202,
+            "before": 3.4731420161883797
+          },
+          {
+            "ci": 459,
+            "start": 51498,
+            "cross": 58980,
+            "minute": 54052,
+            "before": 0.761421319796951
+          },
+          {
+            "ci": 464,
+            "start": 31338,
+            "cross": 33497,
+            "minute": 31767,
+            "before": 25.71180985392425
+          },
+          {
+            "ci": 464,
+            "start": 51498,
+            "cross": 61535,
+            "minute": 53112,
+            "before": 15.303292894280762
+          },
+          {
+            "ci": 464,
+            "start": 61578,
+            "cross": 62542,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 464,
+            "start": 71658,
+            "cross": 76010,
+            "minute": 74022,
+            "before": 0.05202120312486347
+          },
+          {
+            "ci": 465,
+            "start": 31338,
+            "cross": 34040,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 483,
+            "start": 41418,
+            "cross": 45623,
+            "minute": 41772,
+            "before": 1.174586225306995
+          },
+          {
+            "ci": 496,
+            "start": 21258,
+            "cross": 27778,
+            "minute": 21912,
+            "before": 13.804173354735138
+          },
+          {
+            "ci": 553,
+            "start": 11178,
+            "cross": 17389,
+            "minute": 11677,
+            "before": 2.211302211302213
+          },
+          {
+            "ci": 560,
+            "start": 21258,
+            "cross": 27440,
+            "minute": 23077,
+            "before": 8.895478131949597
+          },
+          {
+            "ci": 606,
+            "start": 11178,
+            "cross": 12941,
+            "minute": 11192,
+            "before": 3.00279329608939
+          }
+        ]
+      }
+    },
+    "key": {
+      "1": {
+        "targets": 42,
+        "found": 37,
+        "missed": 5,
+        "before10": 7,
+        "before20": 19,
+        "matches": [
+          {
+            "ci": 25,
+            "start": 58698,
+            "cross": 59725,
+            "minute": 59607,
+            "before": 2.2497785651018676
+          },
+          {
+            "ci": 28,
+            "start": 41418,
+            "cross": 42415,
+            "minute": 42282,
+            "before": 10.445912469033857
+          },
+          {
+            "ci": 28,
+            "start": 75978,
+            "cross": 76591,
+            "minute": 76237,
+            "before": 17.72989719757778
+          },
+          {
+            "ci": 34,
+            "start": 19818,
+            "cross": 21106,
+            "minute": 20867,
+            "before": 49.17770886194908
+          },
+          {
+            "ci": 34,
+            "start": 22698,
+            "cross": 23330,
+            "minute": 23262,
+            "before": 25.735806946575558
+          },
+          {
+            "ci": 69,
+            "start": 18378,
+            "cross": 19089,
+            "minute": 18497,
+            "before": 24.80719794344475
+          },
+          {
+            "ci": 78,
+            "start": 21258,
+            "cross": 21759,
+            "minute": 21742,
+            "before": 67.88198608779084
+          },
+          {
+            "ci": 92,
+            "start": 29898,
+            "cross": 31254,
+            "minute": 30387,
+            "before": 50.758251561106164
+          },
+          {
+            "ci": 92,
+            "start": 32778,
+            "cross": 33915,
+            "minute": 33872,
+            "before": 87.74373259052925
+          },
+          {
+            "ci": 92,
+            "start": 42858,
+            "cross": 43882,
+            "minute": 43352,
+            "before": 6.96598639455781
+          },
+          {
+            "ci": 107,
+            "start": 71658,
+            "cross": 71693,
+            "minute": 71677,
+            "before": 63.58609794628751
+          },
+          {
+            "ci": 112,
+            "start": 71658,
+            "cross": 71849,
+            "minute": 71817,
+            "before": 60.943060498220625
+          },
+          {
+            "ci": 120,
+            "start": 16938,
+            "cross": 17616,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 161,
+            "start": 61578,
+            "cross": 62638,
+            "minute": 62352,
+            "before": 12.971698113207552
+          },
+          {
+            "ci": 200,
+            "start": 67338,
+            "cross": 68173,
+            "minute": 67782,
+            "before": 26.93877551020407
+          },
+          {
+            "ci": 202,
+            "start": 54378,
+            "cross": 55675,
+            "minute": 55012,
+            "before": 8.87334315169368
+          },
+          {
+            "ci": 226,
+            "start": 83178,
+            "cross": 84167,
+            "minute": 83402,
+            "before": 14.620938628158854
+          },
+          {
+            "ci": 233,
+            "start": 75978,
+            "cross": 77386,
+            "minute": 76532,
+            "before": 6.516634050880632
+          },
+          {
+            "ci": 258,
+            "start": 19818,
+            "cross": 20691,
+            "minute": 20227,
+            "before": 21.592554291623568
+          },
+          {
+            "ci": 292,
+            "start": 70218,
+            "cross": 71501,
+            "minute": 71282,
+            "before": 16.97341513292434
+          },
+          {
+            "ci": 292,
+            "start": 71658,
+            "cross": 72666,
+            "minute": 71902,
+            "before": 56.29629629629629
+          },
+          {
+            "ci": 301,
+            "start": 80298,
+            "cross": 81369,
+            "minute": 81102,
+            "before": 24.228538698360413
+          },
+          {
+            "ci": 313,
+            "start": 70218,
+            "cross": 70856,
+            "minute": 70342,
+            "before": 15.889212827988342
+          },
+          {
+            "ci": 315,
+            "start": 65898,
+            "cross": 66548,
+            "minute": 66227,
+            "before": 12.310797174571153
+          },
+          {
+            "ci": 315,
+            "start": 71658,
+            "cross": 72506,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 11178,
+            "cross": 12544,
+            "minute": 11192,
+            "before": 1.5783860646995995
+          },
+          {
+            "ci": 350,
+            "start": 12618,
+            "cross": 12788,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 16938,
+            "cross": 17602,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 411,
+            "start": 48618,
+            "cross": 49656,
+            "minute": 49207,
+            "before": 16.381953569864205
+          },
+          {
+            "ci": 416,
+            "start": 18378,
+            "cross": 19724,
+            "minute": 18807,
+            "before": 15.098057614713344
+          },
+          {
+            "ci": 416,
+            "start": 21258,
+            "cross": 22364,
+            "minute": 21342,
+            "before": 11.961770122952853
+          },
+          {
+            "ci": 426,
+            "start": 71658,
+            "cross": 72208,
+            "minute": 71717,
+            "before": 7.119054831869143
+          },
+          {
+            "ci": 429,
+            "start": 31338,
+            "cross": 31451,
+            "minute": 31347,
+            "before": 15.858073859522094
+          },
+          {
+            "ci": 459,
+            "start": 58698,
+            "cross": 58981,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 464,
+            "start": 61578,
+            "cross": 62542,
+            "minute": 61967,
+            "before": 23.40900504859704
+          },
+          {
+            "ci": 464,
+            "start": 74538,
+            "cross": 75690,
+            "minute": 75592,
+            "before": 50.47981296018427
+          },
+          {
+            "ci": 465,
+            "start": 32778,
+            "cross": 34153,
+            "minute": 33087,
+            "before": 27.85898538263114
+          },
+          {
+            "ci": 483,
+            "start": 44298,
+            "cross": 45622,
+            "minute": 44887,
+            "before": 8.331042067638151
+          },
+          {
+            "ci": 553,
+            "start": 16938,
+            "cross": 17411,
+            "minute": 17327,
+            "before": 18.900000000000006
+          },
+          {
+            "ci": 560,
+            "start": 27018,
+            "cross": 27442,
+            "minute": 27387,
+            "before": 49.55679579776755
+          },
+          {
+            "ci": 592,
+            "start": 50058,
+            "cross": 50832,
+            "minute": 50427,
+            "before": 24.562163500216606
+          },
+          {
+            "ci": 642,
+            "start": 58698,
+            "cross": 59818,
+            "minute": 59687,
+            "before": 74.16058394160585
+          }
+        ]
+      },
+      "7": {
+        "targets": 62,
+        "found": 60,
+        "missed": 2,
+        "before10": 25,
+        "before20": 42,
+        "matches": [
+          {
+            "ci": 6,
+            "start": 21258,
+            "cross": 26211,
+            "minute": 22322,
+            "before": 34.27561837455833
+          },
+          {
+            "ci": 25,
+            "start": 51498,
+            "cross": 61313,
+            "minute": 59607,
+            "before": 2.6476159104010577
+          },
+          {
+            "ci": 28,
+            "start": 11178,
+            "cross": 15591,
+            "minute": 14382,
+            "before": 8.471380471380474
+          },
+          {
+            "ci": 28,
+            "start": 41418,
+            "cross": 42415,
+            "minute": 42282,
+            "before": 10.445912469033857
+          },
+          {
+            "ci": 28,
+            "start": 71658,
+            "cross": 75874,
+            "minute": 72327,
+            "before": 11.404728789986084
+          },
+          {
+            "ci": 34,
+            "start": 11178,
+            "cross": 16440,
+            "minute": 15987,
+            "before": 38.1558028616852
+          },
+          {
+            "ci": 34,
+            "start": 21258,
+            "cross": 23314,
+            "minute": 21612,
+            "before": 24.293103448275865
+          },
+          {
+            "ci": 48,
+            "start": 71658,
+            "cross": 73427,
+            "minute": 72972,
+            "before": 43.88083735909822
+          },
+          {
+            "ci": 69,
+            "start": 11178,
+            "cross": 19082,
+            "minute": 12272,
+            "before": 9.771986970684043
+          },
+          {
+            "ci": 78,
+            "start": 21258,
+            "cross": 21759,
+            "minute": 21742,
+            "before": 67.88198608779084
+          },
+          {
+            "ci": 92,
+            "start": 31338,
+            "cross": 35126,
+            "minute": 33872,
+            "before": 62.40963855421688
+          },
+          {
+            "ci": 92,
+            "start": 41418,
+            "cross": 43881,
+            "minute": 42582,
+            "before": 32.42964996568291
+          },
+          {
+            "ci": 107,
+            "start": 61578,
+            "cross": 71166,
+            "minute": 66847,
+            "before": 0.6164247365281428
+          },
+          {
+            "ci": 107,
+            "start": 71658,
+            "cross": 71693,
+            "minute": 71677,
+            "before": 63.58609794628751
+          },
+          {
+            "ci": 112,
+            "start": 71658,
+            "cross": 71849,
+            "minute": 71817,
+            "before": 60.943060498220625
+          },
+          {
+            "ci": 119,
+            "start": 21258,
+            "cross": 29999,
+            "minute": 23027,
+            "before": 18.547055586130966
+          },
+          {
+            "ci": 120,
+            "start": 11178,
+            "cross": 14668,
+            "minute": 14012,
+            "before": 25.690129767990566
+          },
+          {
+            "ci": 133,
+            "start": 21258,
+            "cross": 31042,
+            "minute": 24952,
+            "before": 43.80846678293959
+          },
+          {
+            "ci": 143,
+            "start": 11178,
+            "cross": 20266,
+            "minute": 14102,
+            "before": 56.32844949564107
+          },
+          {
+            "ci": 147,
+            "start": 21258,
+            "cross": 22828,
+            "minute": 21447,
+            "before": 2.229020979020979
+          },
+          {
+            "ci": 160,
+            "start": 71658,
+            "cross": 74094,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 161,
+            "start": 61578,
+            "cross": 62638,
+            "minute": 62352,
+            "before": 12.971698113207552
+          },
+          {
+            "ci": 181,
+            "start": 11178,
+            "cross": 13464,
+            "minute": 11422,
+            "before": 4.880337869544804
+          },
+          {
+            "ci": 200,
+            "start": 61578,
+            "cross": 67447,
+            "minute": 66472,
+            "before": 1.9943019943019724
+          },
+          {
+            "ci": 202,
+            "start": 51498,
+            "cross": 55658,
+            "minute": 53322,
+            "before": 12.654980761008993
+          },
+          {
+            "ci": 233,
+            "start": 71658,
+            "cross": 77387,
+            "minute": 76532,
+            "before": 4.8141729250914755
+          },
+          {
+            "ci": 258,
+            "start": 11178,
+            "cross": 20307,
+            "minute": 16577,
+            "before": 12.811484290357544
+          },
+          {
+            "ci": 292,
+            "start": 71658,
+            "cross": 72666,
+            "minute": 71902,
+            "before": 56.29629629629629
+          },
+          {
+            "ci": 301,
+            "start": 71658,
+            "cross": 78925,
+            "minute": 78547,
+            "before": 18.093434343434357
+          },
+          {
+            "ci": 310,
+            "start": 61578,
+            "cross": 68124,
+            "minute": 66547,
+            "before": 1.0341261633919352
+          },
+          {
+            "ci": 313,
+            "start": 61578,
+            "cross": 70354,
+            "minute": 67742,
+            "before": 4.185692541856922
+          },
+          {
+            "ci": 315,
+            "start": 61578,
+            "cross": 66648,
+            "minute": 66227,
+            "before": 2.0164986251145933
+          },
+          {
+            "ci": 315,
+            "start": 71658,
+            "cross": 72506,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 11178,
+            "cross": 12544,
+            "minute": 11192,
+            "before": 1.5783860646995995
+          },
+          {
+            "ci": 352,
+            "start": 51498,
+            "cross": 53289,
+            "minute": 51912,
+            "before": 6.214827501835085
+          },
+          {
+            "ci": 355,
+            "start": 21258,
+            "cross": 30930,
+            "minute": 23367,
+            "before": 1.3389121338912124
+          },
+          {
+            "ci": 357,
+            "start": 41418,
+            "cross": 51149,
+            "minute": 43732,
+            "before": 9.748213678121797
+          },
+          {
+            "ci": 358,
+            "start": 61578,
+            "cross": 69219,
+            "minute": 64757,
+            "before": 15.328677074774033
+          },
+          {
+            "ci": 388,
+            "start": 31338,
+            "cross": 37649,
+            "minute": 36812,
+            "before": 18.437783832879195
+          },
+          {
+            "ci": 390,
+            "start": 21258,
+            "cross": 26290,
+            "minute": 23797,
+            "before": 0.5797985962770813
+          },
+          {
+            "ci": 402,
+            "start": 21258,
+            "cross": 27159,
+            "minute": 21837,
+            "before": 5.386112913692398
+          },
+          {
+            "ci": 411,
+            "start": 41418,
+            "cross": 49392,
+            "minute": 45032,
+            "before": 2.4625784645099014
+          },
+          {
+            "ci": 414,
+            "start": 71658,
+            "cross": 80826,
+            "minute": 76847,
+            "before": 16.17055510860821
+          },
+          {
+            "ci": 416,
+            "start": 11178,
+            "cross": 19248,
+            "minute": 12647,
+            "before": 4.264683563514948
+          },
+          {
+            "ci": 416,
+            "start": 21258,
+            "cross": 22364,
+            "minute": 21342,
+            "before": 11.961770122952853
+          },
+          {
+            "ci": 426,
+            "start": 71658,
+            "cross": 72208,
+            "minute": 71717,
+            "before": 7.119054831869143
+          },
+          {
+            "ci": 428,
+            "start": 41418,
+            "cross": 46475,
+            "minute": 45687,
+            "before": 54.88518685276902
+          },
+          {
+            "ci": 429,
+            "start": 31338,
+            "cross": 31451,
+            "minute": 31347,
+            "before": 15.858073859522094
+          },
+          {
+            "ci": 438,
+            "start": 21258,
+            "cross": 24796,
+            "minute": 22267,
+            "before": 11.917892156862742
+          },
+          {
+            "ci": 451,
+            "start": 11178,
+            "cross": 15718,
+            "minute": 12687,
+            "before": 10.755715733753801
+          },
+          {
+            "ci": 458,
+            "start": 21258,
+            "cross": 24344,
+            "minute": 22287,
+            "before": 8.020603384841785
+          },
+          {
+            "ci": 459,
+            "start": 51498,
+            "cross": 58980,
+            "minute": 55392,
+            "before": 6.514382402707275
+          },
+          {
+            "ci": 464,
+            "start": 31338,
+            "cross": 33497,
+            "minute": 31767,
+            "before": 25.71180985392425
+          },
+          {
+            "ci": 464,
+            "start": 51498,
+            "cross": 61535,
+            "minute": 51847,
+            "before": 13.351819757365678
+          },
+          {
+            "ci": 464,
+            "start": 61578,
+            "cross": 62542,
+            "minute": 61967,
+            "before": 23.40900504859704
+          },
+          {
+            "ci": 464,
+            "start": 71658,
+            "cross": 76010,
+            "minute": 75592,
+            "before": 0.05202120312486347
+          },
+          {
+            "ci": 465,
+            "start": 31338,
+            "cross": 34040,
+            "minute": 31942,
+            "before": 11.31749898497767
+          },
+          {
+            "ci": 483,
+            "start": 41418,
+            "cross": 45623,
+            "minute": 44887,
+            "before": 5.178857447944485
+          },
+          {
+            "ci": 496,
+            "start": 21258,
+            "cross": 27778,
+            "minute": 21912,
+            "before": 13.804173354735138
+          },
+          {
+            "ci": 553,
+            "start": 11178,
+            "cross": 17389,
+            "minute": 14217,
+            "before": 2.3341523341523285
+          },
+          {
+            "ci": 560,
+            "start": 21258,
+            "cross": 27440,
+            "minute": 27387,
+            "before": 68.8472942920682
+          },
+          {
+            "ci": 606,
+            "start": 11178,
+            "cross": 12941,
+            "minute": 11502,
+            "before": 30.988128491620092
+          }
+        ]
+      }
+    }
+  },
+  "sensitivity": {
+    "quiet3h": {
+      "signals": 6089,
+      "coverage": {
+        "targets": 62,
+        "found": 59,
+        "missed": 3,
+        "before10": 30,
+        "before20": 42,
+        "matches": [
+          {
+            "ci": 6,
+            "start": 21258,
+            "cross": 26211,
+            "minute": 22322,
+            "before": 34.27561837455833
+          },
+          {
+            "ci": 25,
+            "start": 51498,
+            "cross": 61313,
+            "minute": 59607,
+            "before": 2.6476159104010577
+          },
+          {
+            "ci": 28,
+            "start": 11178,
+            "cross": 15591,
+            "minute": 14382,
+            "before": 8.471380471380474
+          },
+          {
+            "ci": 28,
+            "start": 41418,
+            "cross": 42415,
+            "minute": 42282,
+            "before": 10.445912469033857
+          },
+          {
+            "ci": 28,
+            "start": 71658,
+            "cross": 75874,
+            "minute": 72327,
+            "before": 11.404728789986084
+          },
+          {
+            "ci": 34,
+            "start": 11178,
+            "cross": 16440,
+            "minute": 15987,
+            "before": 38.1558028616852
+          },
+          {
+            "ci": 34,
+            "start": 21258,
+            "cross": 23314,
+            "minute": 21612,
+            "before": 24.293103448275865
+          },
+          {
+            "ci": 48,
+            "start": 71658,
+            "cross": 73427,
+            "minute": 72972,
+            "before": 43.88083735909822
+          },
+          {
+            "ci": 69,
+            "start": 11178,
+            "cross": 19082,
+            "minute": 12272,
+            "before": 9.771986970684043
+          },
+          {
+            "ci": 78,
+            "start": 21258,
+            "cross": 21759,
+            "minute": 21742,
+            "before": 67.88198608779084
+          },
+          {
+            "ci": 92,
+            "start": 31338,
+            "cross": 35126,
+            "minute": 33872,
+            "before": 62.40963855421688
+          },
+          {
+            "ci": 92,
+            "start": 41418,
+            "cross": 43881,
+            "minute": 42582,
+            "before": 32.42964996568291
+          },
+          {
+            "ci": 107,
+            "start": 61578,
+            "cross": 71166,
+            "minute": 66847,
+            "before": 0.6164247365281428
+          },
+          {
+            "ci": 107,
+            "start": 71658,
+            "cross": 71693,
+            "minute": 71677,
+            "before": 63.58609794628751
+          },
+          {
+            "ci": 112,
+            "start": 71658,
+            "cross": 71849,
+            "minute": 71817,
+            "before": 60.943060498220625
+          },
+          {
+            "ci": 119,
+            "start": 21258,
+            "cross": 29999,
+            "minute": 23027,
+            "before": 18.547055586130966
+          },
+          {
+            "ci": 120,
+            "start": 11178,
+            "cross": 14668,
+            "minute": 14012,
+            "before": 25.690129767990566
+          },
+          {
+            "ci": 133,
+            "start": 21258,
+            "cross": 31042,
+            "minute": 24952,
+            "before": 43.80846678293959
+          },
+          {
+            "ci": 143,
+            "start": 11178,
+            "cross": 20266,
+            "minute": 14102,
+            "before": 56.32844949564107
+          },
+          {
+            "ci": 147,
+            "start": 21258,
+            "cross": 22828,
+            "minute": 21447,
+            "before": 2.229020979020979
+          },
+          {
+            "ci": 160,
+            "start": 71658,
+            "cross": 74094,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 161,
+            "start": 61578,
+            "cross": 62638,
+            "minute": 62352,
+            "before": 12.971698113207552
+          },
+          {
+            "ci": 181,
+            "start": 11178,
+            "cross": 13464,
+            "minute": 11422,
+            "before": 4.880337869544804
+          },
+          {
+            "ci": 200,
+            "start": 61578,
+            "cross": 67447,
+            "minute": 66472,
+            "before": 1.9943019943019724
+          },
+          {
+            "ci": 202,
+            "start": 51498,
+            "cross": 55658,
+            "minute": 52487,
+            "before": 6.712270200940562
+          },
+          {
+            "ci": 233,
+            "start": 71658,
+            "cross": 77387,
+            "minute": 76532,
+            "before": 4.8141729250914755
+          },
+          {
+            "ci": 258,
+            "start": 11178,
+            "cross": 20307,
+            "minute": 16577,
+            "before": 12.811484290357544
+          },
+          {
+            "ci": 292,
+            "start": 71658,
+            "cross": 72666,
+            "minute": 71902,
+            "before": 56.29629629629629
+          },
+          {
+            "ci": 301,
+            "start": 71658,
+            "cross": 78925,
+            "minute": 78547,
+            "before": 18.093434343434357
+          },
+          {
+            "ci": 310,
+            "start": 61578,
+            "cross": 68124,
+            "minute": 66547,
+            "before": 1.0341261633919352
+          },
+          {
+            "ci": 313,
+            "start": 61578,
+            "cross": 70354,
+            "minute": 67742,
+            "before": 4.185692541856922
+          },
+          {
+            "ci": 315,
+            "start": 61578,
+            "cross": 66648,
+            "minute": 66227,
+            "before": 2.0164986251145933
+          },
+          {
+            "ci": 315,
+            "start": 71658,
+            "cross": 72506,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 11178,
+            "cross": 12544,
+            "minute": 11192,
+            "before": 1.5783860646995995
+          },
+          {
+            "ci": 352,
+            "start": 51498,
+            "cross": 53289,
+            "minute": 51912,
+            "before": 6.214827501835085
+          },
+          {
+            "ci": 355,
+            "start": 21258,
+            "cross": 30930,
+            "minute": 23362,
+            "before": 0.976290097629029
+          },
+          {
+            "ci": 357,
+            "start": 41418,
+            "cross": 51149,
+            "minute": 43732,
+            "before": 9.748213678121797
+          },
+          {
+            "ci": 358,
+            "start": 61578,
+            "cross": 69219,
+            "minute": 62632,
+            "before": 2.4774034511092946
+          },
+          {
+            "ci": 388,
+            "start": 31338,
+            "cross": 37649,
+            "minute": 31752,
+            "before": 1.1706529417701006
+          },
+          {
+            "ci": 390,
+            "start": 21258,
+            "cross": 26290,
+            "minute": 23797,
+            "before": 0.5797985962770813
+          },
+          {
+            "ci": 402,
+            "start": 21258,
+            "cross": 27159,
+            "minute": 21837,
+            "before": 5.386112913692398
+          },
+          {
+            "ci": 411,
+            "start": 41418,
+            "cross": 49392,
+            "minute": 45032,
+            "before": 2.4625784645099014
+          },
+          {
+            "ci": 414,
+            "start": 71658,
+            "cross": 80826,
+            "minute": 72052,
+            "before": 6.51649235720031
+          },
+          {
+            "ci": 416,
+            "start": 11178,
+            "cross": 19248,
+            "minute": 12647,
+            "before": 4.264683563514948
+          },
+          {
+            "ci": 416,
+            "start": 21258,
+            "cross": 22364,
+            "minute": 21342,
+            "before": 11.961770122952853
+          },
+          {
+            "ci": 426,
+            "start": 71658,
+            "cross": 72208,
+            "minute": 71717,
+            "before": 7.119054831869143
+          },
+          {
+            "ci": 428,
+            "start": 41418,
+            "cross": 46475,
+            "minute": 45687,
+            "before": 54.88518685276902
+          },
+          {
+            "ci": 429,
+            "start": 31338,
+            "cross": 31451,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 438,
+            "start": 21258,
+            "cross": 24796,
+            "minute": 22267,
+            "before": 11.917892156862742
+          },
+          {
+            "ci": 451,
+            "start": 11178,
+            "cross": 15718,
+            "minute": 12687,
+            "before": 10.755715733753801
+          },
+          {
+            "ci": 458,
+            "start": 21258,
+            "cross": 24344,
+            "minute": 22287,
+            "before": 8.020603384841785
+          },
+          {
+            "ci": 459,
+            "start": 51498,
+            "cross": 58980,
+            "minute": 55392,
+            "before": 6.514382402707275
+          },
+          {
+            "ci": 464,
+            "start": 31338,
+            "cross": 33497,
+            "minute": 31767,
+            "before": 25.71180985392425
+          },
+          {
+            "ci": 464,
+            "start": 51498,
+            "cross": 61535,
+            "minute": 51847,
+            "before": 13.351819757365678
+          },
+          {
+            "ci": 464,
+            "start": 61578,
+            "cross": 62542,
+            "minute": 61967,
+            "before": 23.40900504859704
+          },
+          {
+            "ci": 464,
+            "start": 71658,
+            "cross": 76010,
+            "minute": 75592,
+            "before": 0.05202120312486347
+          },
+          {
+            "ci": 465,
+            "start": 31338,
+            "cross": 34040,
+            "minute": 31942,
+            "before": 11.31749898497767
+          },
+          {
+            "ci": 483,
+            "start": 41418,
+            "cross": 45623,
+            "minute": 44887,
+            "before": 5.178857447944485
+          },
+          {
+            "ci": 496,
+            "start": 21258,
+            "cross": 27778,
+            "minute": 21912,
+            "before": 13.804173354735138
+          },
+          {
+            "ci": 553,
+            "start": 11178,
+            "cross": 17389,
+            "minute": 14217,
+            "before": 2.3341523341523285
+          },
+          {
+            "ci": 560,
+            "start": 21258,
+            "cross": 27440,
+            "minute": 21967,
+            "before": 8.895478131949597
+          },
+          {
+            "ci": 606,
+            "start": 11178,
+            "cross": 12941,
+            "minute": 11502,
+            "before": 30.988128491620092
+          }
+        ]
+      }
+    },
+    "quiet12h": {
+      "signals": 4491,
+      "coverage": {
+        "targets": 62,
+        "found": 60,
+        "missed": 2,
+        "before10": 23,
+        "before20": 43,
+        "matches": [
+          {
+            "ci": 6,
+            "start": 21258,
+            "cross": 26211,
+            "minute": 22322,
+            "before": 34.27561837455833
+          },
+          {
+            "ci": 25,
+            "start": 51498,
+            "cross": 61313,
+            "minute": 59607,
+            "before": 2.6476159104010577
+          },
+          {
+            "ci": 28,
+            "start": 11178,
+            "cross": 15591,
+            "minute": 14382,
+            "before": 8.471380471380474
+          },
+          {
+            "ci": 28,
+            "start": 41418,
+            "cross": 42415,
+            "minute": 42282,
+            "before": 10.445912469033857
+          },
+          {
+            "ci": 28,
+            "start": 71658,
+            "cross": 75874,
+            "minute": 72327,
+            "before": 11.404728789986084
+          },
+          {
+            "ci": 34,
+            "start": 11178,
+            "cross": 16440,
+            "minute": 15987,
+            "before": 38.1558028616852
+          },
+          {
+            "ci": 34,
+            "start": 21258,
+            "cross": 23314,
+            "minute": 21612,
+            "before": 24.293103448275865
+          },
+          {
+            "ci": 48,
+            "start": 71658,
+            "cross": 73427,
+            "minute": 72972,
+            "before": 43.88083735909822
+          },
+          {
+            "ci": 69,
+            "start": 11178,
+            "cross": 19082,
+            "minute": 12272,
+            "before": 9.771986970684043
+          },
+          {
+            "ci": 78,
+            "start": 21258,
+            "cross": 21759,
+            "minute": 21742,
+            "before": 67.88198608779084
+          },
+          {
+            "ci": 92,
+            "start": 31338,
+            "cross": 35126,
+            "minute": 33872,
+            "before": 62.40963855421688
+          },
+          {
+            "ci": 92,
+            "start": 41418,
+            "cross": 43881,
+            "minute": 42582,
+            "before": 32.42964996568291
+          },
+          {
+            "ci": 107,
+            "start": 61578,
+            "cross": 71166,
+            "minute": 66847,
+            "before": 0.6164247365281428
+          },
+          {
+            "ci": 107,
+            "start": 71658,
+            "cross": 71693,
+            "minute": 71677,
+            "before": 63.58609794628751
+          },
+          {
+            "ci": 112,
+            "start": 71658,
+            "cross": 71849,
+            "minute": 71817,
+            "before": 60.943060498220625
+          },
+          {
+            "ci": 119,
+            "start": 21258,
+            "cross": 29999,
+            "minute": 23027,
+            "before": 18.547055586130966
+          },
+          {
+            "ci": 120,
+            "start": 11178,
+            "cross": 14668,
+            "minute": 14012,
+            "before": 25.690129767990566
+          },
+          {
+            "ci": 133,
+            "start": 21258,
+            "cross": 31042,
+            "minute": 24952,
+            "before": 43.80846678293959
+          },
+          {
+            "ci": 143,
+            "start": 11178,
+            "cross": 20266,
+            "minute": 14102,
+            "before": 56.32844949564107
+          },
+          {
+            "ci": 147,
+            "start": 21258,
+            "cross": 22828,
+            "minute": 22237,
+            "before": 15.034965034965019
+          },
+          {
+            "ci": 160,
+            "start": 71658,
+            "cross": 74094,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 161,
+            "start": 61578,
+            "cross": 62638,
+            "minute": 62352,
+            "before": 12.971698113207552
+          },
+          {
+            "ci": 181,
+            "start": 11178,
+            "cross": 13464,
+            "minute": 11422,
+            "before": 4.880337869544804
+          },
+          {
+            "ci": 200,
+            "start": 61578,
+            "cross": 67447,
+            "minute": 66472,
+            "before": 1.9943019943019724
+          },
+          {
+            "ci": 202,
+            "start": 51498,
+            "cross": 55658,
+            "minute": 53322,
+            "before": 12.654980761008993
+          },
+          {
+            "ci": 233,
+            "start": 71658,
+            "cross": 77387,
+            "minute": 76532,
+            "before": 4.8141729250914755
+          },
+          {
+            "ci": 258,
+            "start": 11178,
+            "cross": 20307,
+            "minute": 16577,
+            "before": 12.811484290357544
+          },
+          {
+            "ci": 292,
+            "start": 71658,
+            "cross": 72666,
+            "minute": 71902,
+            "before": 56.29629629629629
+          },
+          {
+            "ci": 301,
+            "start": 71658,
+            "cross": 78925,
+            "minute": 78547,
+            "before": 18.093434343434357
+          },
+          {
+            "ci": 310,
+            "start": 61578,
+            "cross": 68124,
+            "minute": 66547,
+            "before": 1.0341261633919352
+          },
+          {
+            "ci": 313,
+            "start": 61578,
+            "cross": 70354,
+            "minute": 67742,
+            "before": 4.185692541856922
+          },
+          {
+            "ci": 315,
+            "start": 61578,
+            "cross": 66648,
+            "minute": 66227,
+            "before": 2.0164986251145933
+          },
+          {
+            "ci": 315,
+            "start": 71658,
+            "cross": 72506,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 11178,
+            "cross": 12544,
+            "minute": 11192,
+            "before": 1.5783860646995995
+          },
+          {
+            "ci": 352,
+            "start": 51498,
+            "cross": 53289,
+            "minute": 51912,
+            "before": 6.214827501835085
+          },
+          {
+            "ci": 355,
+            "start": 21258,
+            "cross": 30930,
+            "minute": 23367,
+            "before": 1.3389121338912124
+          },
+          {
+            "ci": 357,
+            "start": 41418,
+            "cross": 51149,
+            "minute": 46607,
+            "before": 15.6515821708064
+          },
+          {
+            "ci": 358,
+            "start": 61578,
+            "cross": 69219,
+            "minute": 64757,
+            "before": 15.328677074774033
+          },
+          {
+            "ci": 388,
+            "start": 31338,
+            "cross": 37649,
+            "minute": 36812,
+            "before": 18.437783832879195
+          },
+          {
+            "ci": 390,
+            "start": 21258,
+            "cross": 26290,
+            "minute": 23797,
+            "before": 0.5797985962770813
+          },
+          {
+            "ci": 402,
+            "start": 21258,
+            "cross": 27159,
+            "minute": 21837,
+            "before": 5.386112913692398
+          },
+          {
+            "ci": 411,
+            "start": 41418,
+            "cross": 49392,
+            "minute": 45032,
+            "before": 2.4625784645099014
+          },
+          {
+            "ci": 414,
+            "start": 71658,
+            "cross": 80826,
+            "minute": 76847,
+            "before": 16.17055510860821
+          },
+          {
+            "ci": 416,
+            "start": 11178,
+            "cross": 19248,
+            "minute": 12647,
+            "before": 4.264683563514948
+          },
+          {
+            "ci": 416,
+            "start": 21258,
+            "cross": 22364,
+            "minute": 21342,
+            "before": 11.961770122952853
+          },
+          {
+            "ci": 426,
+            "start": 71658,
+            "cross": 72208,
+            "minute": 71717,
+            "before": 7.119054831869143
+          },
+          {
+            "ci": 428,
+            "start": 41418,
+            "cross": 46475,
+            "minute": 45687,
+            "before": 54.88518685276902
+          },
+          {
+            "ci": 429,
+            "start": 31338,
+            "cross": 31451,
+            "minute": 31347,
+            "before": 15.858073859522094
+          },
+          {
+            "ci": 438,
+            "start": 21258,
+            "cross": 24796,
+            "minute": 22267,
+            "before": 11.917892156862742
+          },
+          {
+            "ci": 451,
+            "start": 11178,
+            "cross": 15718,
+            "minute": 12687,
+            "before": 10.755715733753801
+          },
+          {
+            "ci": 458,
+            "start": 21258,
+            "cross": 24344,
+            "minute": 22287,
+            "before": 8.020603384841785
+          },
+          {
+            "ci": 459,
+            "start": 51498,
+            "cross": 58980,
+            "minute": 55392,
+            "before": 6.514382402707275
+          },
+          {
+            "ci": 464,
+            "start": 31338,
+            "cross": 33497,
+            "minute": 31767,
+            "before": 25.71180985392425
+          },
+          {
+            "ci": 464,
+            "start": 51498,
+            "cross": 61535,
+            "minute": 51847,
+            "before": 13.351819757365678
+          },
+          {
+            "ci": 464,
+            "start": 61578,
+            "cross": 62542,
+            "minute": 61632,
+            "before": 14.551636501013165
+          },
+          {
+            "ci": 464,
+            "start": 71658,
+            "cross": 76010,
+            "minute": 75592,
+            "before": 0.05202120312486347
+          },
+          {
+            "ci": 465,
+            "start": 31338,
+            "cross": 34040,
+            "minute": 31942,
+            "before": 11.31749898497767
+          },
+          {
+            "ci": 483,
+            "start": 41418,
+            "cross": 45623,
+            "minute": 44887,
+            "before": 5.178857447944485
+          },
+          {
+            "ci": 496,
+            "start": 21258,
+            "cross": 27778,
+            "minute": 21912,
+            "before": 13.804173354735138
+          },
+          {
+            "ci": 553,
+            "start": 11178,
+            "cross": 17389,
+            "minute": 14217,
+            "before": 2.3341523341523285
+          },
+          {
+            "ci": 560,
+            "start": 21258,
+            "cross": 27440,
+            "minute": 27387,
+            "before": 68.8472942920682
+          },
+          {
+            "ci": 606,
+            "start": 11178,
+            "cross": 12941,
+            "minute": 11502,
+            "before": 30.988128491620092
+          }
+        ]
+      }
+    },
+    "breakout1h": {
+      "signals": 6647,
+      "coverage": {
+        "targets": 62,
+        "found": 60,
+        "missed": 2,
+        "before10": 28,
+        "before20": 43,
+        "matches": [
+          {
+            "ci": 6,
+            "start": 21258,
+            "cross": 26211,
+            "minute": 22322,
+            "before": 34.27561837455833
+          },
+          {
+            "ci": 25,
+            "start": 51498,
+            "cross": 61313,
+            "minute": 52602,
+            "before": 2.6476159104010577
+          },
+          {
+            "ci": 28,
+            "start": 11178,
+            "cross": 15591,
+            "minute": 14382,
+            "before": 8.471380471380474
+          },
+          {
+            "ci": 28,
+            "start": 41418,
+            "cross": 42415,
+            "minute": 42282,
+            "before": 10.445912469033857
+          },
+          {
+            "ci": 28,
+            "start": 71658,
+            "cross": 75874,
+            "minute": 72327,
+            "before": 11.404728789986084
+          },
+          {
+            "ci": 34,
+            "start": 11178,
+            "cross": 16440,
+            "minute": 15987,
+            "before": 38.1558028616852
+          },
+          {
+            "ci": 34,
+            "start": 21258,
+            "cross": 23314,
+            "minute": 21612,
+            "before": 24.293103448275865
+          },
+          {
+            "ci": 48,
+            "start": 71658,
+            "cross": 73427,
+            "minute": 72972,
+            "before": 43.88083735909822
+          },
+          {
+            "ci": 69,
+            "start": 11178,
+            "cross": 19082,
+            "minute": 12272,
+            "before": 9.771986970684043
+          },
+          {
+            "ci": 78,
+            "start": 21258,
+            "cross": 21759,
+            "minute": 21742,
+            "before": 67.88198608779084
+          },
+          {
+            "ci": 92,
+            "start": 31338,
+            "cross": 35126,
+            "minute": 33862,
+            "before": 62.40963855421688
+          },
+          {
+            "ci": 92,
+            "start": 41418,
+            "cross": 43881,
+            "minute": 42582,
+            "before": 32.42964996568291
+          },
+          {
+            "ci": 107,
+            "start": 61578,
+            "cross": 71166,
+            "minute": 66847,
+            "before": 0.6164247365281428
+          },
+          {
+            "ci": 107,
+            "start": 71658,
+            "cross": 71693,
+            "minute": 71677,
+            "before": 63.58609794628751
+          },
+          {
+            "ci": 112,
+            "start": 71658,
+            "cross": 71849,
+            "minute": 71817,
+            "before": 60.943060498220625
+          },
+          {
+            "ci": 119,
+            "start": 21258,
+            "cross": 29999,
+            "minute": 22807,
+            "before": 15.886993212254641
+          },
+          {
+            "ci": 120,
+            "start": 11178,
+            "cross": 14668,
+            "minute": 13992,
+            "before": 25.690129767990566
+          },
+          {
+            "ci": 133,
+            "start": 21258,
+            "cross": 31042,
+            "minute": 24952,
+            "before": 43.80846678293959
+          },
+          {
+            "ci": 143,
+            "start": 11178,
+            "cross": 20266,
+            "minute": 14102,
+            "before": 56.32844949564107
+          },
+          {
+            "ci": 147,
+            "start": 21258,
+            "cross": 22828,
+            "minute": 21447,
+            "before": 2.229020979020979
+          },
+          {
+            "ci": 160,
+            "start": 71658,
+            "cross": 74094,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 161,
+            "start": 61578,
+            "cross": 62638,
+            "minute": 62352,
+            "before": 12.971698113207552
+          },
+          {
+            "ci": 181,
+            "start": 11178,
+            "cross": 13464,
+            "minute": 11422,
+            "before": 4.880337869544804
+          },
+          {
+            "ci": 200,
+            "start": 61578,
+            "cross": 67447,
+            "minute": 66472,
+            "before": 1.9943019943019724
+          },
+          {
+            "ci": 202,
+            "start": 51498,
+            "cross": 55658,
+            "minute": 53322,
+            "before": 12.654980761008993
+          },
+          {
+            "ci": 233,
+            "start": 71658,
+            "cross": 77387,
+            "minute": 73887,
+            "before": 2.2722896206431864
+          },
+          {
+            "ci": 258,
+            "start": 11178,
+            "cross": 20307,
+            "minute": 15452,
+            "before": 5.227518959913335
+          },
+          {
+            "ci": 292,
+            "start": 71658,
+            "cross": 72666,
+            "minute": 71667,
+            "before": 8.888888888888879
+          },
+          {
+            "ci": 301,
+            "start": 71658,
+            "cross": 78925,
+            "minute": 78547,
+            "before": 18.093434343434357
+          },
+          {
+            "ci": 310,
+            "start": 61578,
+            "cross": 68124,
+            "minute": 66547,
+            "before": 1.0341261633919352
+          },
+          {
+            "ci": 313,
+            "start": 61578,
+            "cross": 70354,
+            "minute": 67742,
+            "before": 4.185692541856922
+          },
+          {
+            "ci": 315,
+            "start": 61578,
+            "cross": 66648,
+            "minute": 66227,
+            "before": 2.0164986251145933
+          },
+          {
+            "ci": 315,
+            "start": 71658,
+            "cross": 72506,
+            "minute": null,
+            "before": null
+          },
+          {
+            "ci": 350,
+            "start": 11178,
+            "cross": 12544,
+            "minute": 11192,
+            "before": 1.5783860646995995
+          },
+          {
+            "ci": 352,
+            "start": 51498,
+            "cross": 53289,
+            "minute": 51912,
+            "before": 6.214827501835085
+          },
+          {
+            "ci": 355,
+            "start": 21258,
+            "cross": 30930,
+            "minute": 23367,
+            "before": 1.3389121338912124
+          },
+          {
+            "ci": 357,
+            "start": 41418,
+            "cross": 51149,
+            "minute": 43732,
+            "before": 9.748213678121797
+          },
+          {
+            "ci": 358,
+            "start": 61578,
+            "cross": 69219,
+            "minute": 64757,
+            "before": 15.328677074774033
+          },
+          {
+            "ci": 388,
+            "start": 31338,
+            "cross": 37649,
+            "minute": 36812,
+            "before": 18.437783832879195
+          },
+          {
+            "ci": 390,
+            "start": 21258,
+            "cross": 26290,
+            "minute": 23797,
+            "before": 0.5797985962770813
+          },
+          {
+            "ci": 402,
+            "start": 21258,
+            "cross": 27159,
+            "minute": 21837,
+            "before": 5.386112913692398
+          },
+          {
+            "ci": 411,
+            "start": 41418,
+            "cross": 49392,
+            "minute": 45032,
+            "before": 2.4625784645099014
+          },
+          {
+            "ci": 414,
+            "start": 71658,
+            "cross": 80826,
+            "minute": 76847,
+            "before": 16.17055510860821
+          },
+          {
+            "ci": 416,
+            "start": 11178,
+            "cross": 19248,
+            "minute": 12647,
+            "before": 4.264683563514948
+          },
+          {
+            "ci": 416,
+            "start": 21258,
+            "cross": 22364,
+            "minute": 21592,
+            "before": 42.665140126437336
+          },
+          {
+            "ci": 426,
+            "start": 71658,
+            "cross": 72208,
+            "minute": 71717,
+            "before": 7.119054831869143
+          },
+          {
+            "ci": 428,
+            "start": 41418,
+            "cross": 46475,
+            "minute": 45687,
+            "before": 54.88518685276902
+          },
+          {
+            "ci": 429,
+            "start": 31338,
+            "cross": 31451,
+            "minute": 31347,
+            "before": 15.858073859522094
+          },
+          {
+            "ci": 438,
+            "start": 21258,
+            "cross": 24796,
+            "minute": 22267,
+            "before": 11.917892156862742
+          },
+          {
+            "ci": 451,
+            "start": 11178,
+            "cross": 15718,
+            "minute": 12687,
+            "before": 10.755715733753801
+          },
+          {
+            "ci": 458,
+            "start": 21258,
+            "cross": 24344,
+            "minute": 22287,
+            "before": 8.020603384841785
+          },
+          {
+            "ci": 459,
+            "start": 51498,
+            "cross": 58980,
+            "minute": 55377,
+            "before": 5.922165820642977
+          },
+          {
+            "ci": 464,
+            "start": 31338,
+            "cross": 33497,
+            "minute": 31767,
+            "before": 25.71180985392425
+          },
+          {
+            "ci": 464,
+            "start": 51498,
+            "cross": 61535,
+            "minute": 51847,
+            "before": 13.351819757365678
+          },
+          {
+            "ci": 464,
+            "start": 61578,
+            "cross": 62542,
+            "minute": 61962,
+            "before": 23.40900504859704
+          },
+          {
+            "ci": 464,
+            "start": 71658,
+            "cross": 76010,
+            "minute": 75592,
+            "before": 0.05202120312486347
+          },
+          {
+            "ci": 465,
+            "start": 31338,
+            "cross": 34040,
+            "minute": 31942,
+            "before": 11.31749898497767
+          },
+          {
+            "ci": 483,
+            "start": 41418,
+            "cross": 45623,
+            "minute": 44887,
+            "before": 5.178857447944485
+          },
+          {
+            "ci": 496,
+            "start": 21258,
+            "cross": 27778,
+            "minute": 21912,
+            "before": 13.804173354735138
+          },
+          {
+            "ci": 553,
+            "start": 11178,
+            "cross": 17389,
+            "minute": 14172,
+            "before": 2.3341523341523285
+          },
+          {
+            "ci": 560,
+            "start": 21258,
+            "cross": 27440,
+            "minute": 23672,
+            "before": 9.599703484062271
+          },
+          {
+            "ci": 606,
+            "start": 11178,
+            "cross": 12941,
+            "minute": 11502,
+            "before": 30.988128491620092
+          }
+        ]
+      }
+    }
+  },
+  "daily": {
+    "raw": {
+      "median": 1531.0,
+      "max": 2036
+    },
+    "episodes": {
+      "median": 375.0,
+      "max": 490
+    },
+    "key": {
+      "median": 98.0,
+      "max": 244
+    }
+  }
+}

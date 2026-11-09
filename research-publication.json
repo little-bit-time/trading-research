@@ -6855,16 +6855,28 @@
       "sha256": "2864841d9bcf487059afd5617ca9f8d11bfadc837833ab2e714da7da7d3f5551"
     },
     "state-zones/activity.css": {
-      "bytes": 7091,
-      "sha256": "c48b047a40e7ffb9e9d6172e5ef333dd0b5fc3d33da7985b599a6bfd8fb76950"
+      "bytes": 7375,
+      "sha256": "d7777f92055df89f5242245cf44976eeed062125aa5f3e723ce22e8e506225b1"
     },
     "state-zones/activity.js": {
-      "bytes": 34436,
-      "sha256": "aa8b47c3d2b28db6f980a2564978c321589f0cda4cf6401a14a536805fec0e24"
+      "bytes": 34853,
+      "sha256": "1f7ebab7160df34d186e111fe27ad9f40dfdd0e79ee399fd5ef16ce6428332c5"
     },
     "state-zones/app.js": {
       "bytes": 17585,
       "sha256": "77fc266ddd723d6f0b722b494305d6c4bf66bc2aefe5823dd500a45fbd521344"
+    },
+    "state-zones/attention-map.json.gz": {
+      "bytes": 314643,
+      "sha256": "3b47b577b1d59d43f8d50d65a2be93e31a217261b9ca869cb943c9f9d296a33e"
+    },
+    "state-zones/attention-report.html": {
+      "bytes": 23542,
+      "sha256": "d96e057f28f8e3c8afccb2f1d69028a2d631134ec6304859e85538653b17baf0"
+    },
+    "state-zones/attention-results.json": {
+      "bytes": 96261,
+      "sha256": "64b181d8d19c71f4803fdebd727958c70867fb417a2b6c2fdda3275e7e8ac2fe"
     },
     "state-zones/awakening-protocol.json": {
       "bytes": 2032,
@@ -17415,8 +17427,8 @@
       "sha256": "31561ff1185d711f96371e6758aa91aba43d8be7fc28a439fabef403bf28e61d"
     },
     "state-zones/index.html": {
-      "bytes": 21038,
-      "sha256": "7063933a7df2e11b4a7cb0ae91a7a16376b2f209608d4c393cc1e1db67a31803"
+      "bytes": 22151,
+      "sha256": "edf2ebc27245c10f6e25c63ab46e0d79df9d5364bfd99a980b0843c657568cd9"
     },
     "state-zones/legacy.html": {
       "bytes": 7536,
@@ -17643,8 +17655,8 @@
       "sha256": "e773da8988811d9ea1b398272ab6c8a6239824d81299a5b938205fe4c2cb62c5"
     },
     "state-zones/signal-map.js": {
-      "bytes": 11524,
-      "sha256": "b7049a1d4e1a96810cf6efb14ab90d8e691ca5e1a7b01c0c806b05e22b4e8bb1"
+      "bytes": 16066,
+      "sha256": "c6cc06db7a0b8c81448f8fedae3db756c4dca304ae202fa153e8f3cd003be3f0"
     },
     "state-zones/style.css": {
       "bytes": 1955,
