@@ -6855,12 +6855,12 @@
       "sha256": "2864841d9bcf487059afd5617ca9f8d11bfadc837833ab2e714da7da7d3f5551"
     },
     "state-zones/activity.css": {
-      "bytes": 4841,
-      "sha256": "cb40a956ee9ebe90a197643c73f57d022e0a919dbd5bad8184bc59092fa9e579"
+      "bytes": 7091,
+      "sha256": "c48b047a40e7ffb9e9d6172e5ef333dd0b5fc3d33da7985b599a6bfd8fb76950"
     },
     "state-zones/activity.js": {
-      "bytes": 33615,
-      "sha256": "364695037e5a1b2f21dcea9eef0ab3f639dbdb7a919cf3a77ea2b912712a8554"
+      "bytes": 34412,
+      "sha256": "de8a69bae81a09d7473b9b5d1ffa639c40d73cf541ebb2c226b7a7b045ca5f58"
     },
     "state-zones/app.js": {
       "bytes": 17585,
@@ -6879,8 +6879,8 @@
       "sha256": "226c3e39c6d1ac3dc71972939b3fe111c6c86454d04e4b16adcf243a21441874"
     },
     "state-zones/awakening.js": {
-      "bytes": 9265,
-      "sha256": "040c7d20121478e87853ef08451efb6b3973989adb4e371f874ebadad5556ede"
+      "bytes": 9291,
+      "sha256": "2feba188f67ae52d5e3156ef18a649f67fdbc80128f3309e9f7017a2993cfb68"
     },
     "state-zones/awakenings/0.json.gz": {
       "bytes": 7604,
@@ -17415,8 +17415,8 @@
       "sha256": "31561ff1185d711f96371e6758aa91aba43d8be7fc28a439fabef403bf28e61d"
     },
     "state-zones/index.html": {
-      "bytes": 13821,
-      "sha256": "d3ebe108c47779371a3cba649a3551054ba513dfcbd6a9470c0b1f8e2a9879f1"
+      "bytes": 20954,
+      "sha256": "4be608759d04d5c0cb3ca9b6ae2ba9affa7f00271e6ccdb6b7d1ba8aa8170948"
     },
     "state-zones/legacy.html": {
       "bytes": 7536,
@@ -17638,9 +17638,21 @@
       "bytes": 2973,
       "sha256": "074066507d8c8c9e45495fbce901da215f00b621a702884a3a026aa5ca103053"
     },
+    "state-zones/signal-atlas.json.gz": {
+      "bytes": 2225509,
+      "sha256": "e773da8988811d9ea1b398272ab6c8a6239824d81299a5b938205fe4c2cb62c5"
+    },
+    "state-zones/signal-map.js": {
+      "bytes": 11501,
+      "sha256": "f5ba1a1d4d8a9c0fcfc35dc8b0bf4ccceaa0ef0666a854393ab155a94b6c18ab"
+    },
     "state-zones/style.css": {
       "bytes": 1955,
       "sha256": "036b962f092c34eba9fc27486e80b27148ec1a791fdc52e8331c24aca0ebd3c7"
+    },
+    "state-zones/turnover-ranks.json.gz": {
+      "bytes": 10090,
+      "sha256": "617dd853b9da8d629e4ae38631621a8805eea4311753536efa19adc919471b86"
     },
     "state-zones/verification.json": {
       "bytes": 857,
