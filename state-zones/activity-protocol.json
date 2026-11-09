@@ -1,36 +1,318 @@
 {
-  "version": 1,
-  "source": "f395ae667c800c4757c1618aa52133bb6d532f9d67ded950ea2a72c4ef1c744a",
-  "fields": [
-    "median",
-    "q10",
-    "q90",
-    "q99",
-    "tail",
-    "zero",
-    "coverage",
-    "hour_hot",
-    "bursts_day",
-    "burst_hours",
-    "quiet_hours",
-    "longest_quiet",
-    "active_days",
-    "minute_median",
-    "nonzero",
-    "low_share"
-  ],
-  "windows": [
-    7,
-    14,
-    30
-  ],
-  "classification_window": 14,
-  "cadence": "00:00 UTC; only fully closed preceding candles, last snapshot <= observation; no future labels, no fitted whole-sample thresholds.",
-  "factor": "At each anchor, median across coins of Q90/Q50 of past 14d five-minute turnover. Hour is active when its median 5m turnover exceeds own Q50 × this factor.",
-  "eligibility": "Full 14d OHLC and nonnegative amount required; positive volume baseline; >=100 eligible peers for quartiles. Missing is not zero.",
-  "dormant": "Median turnover <= market cross-sectional median; tail Q90/Q50 and active-hour share each <= cross-sectional Q25; trailing uninterrupted quiet hours >=168. Quiet hour: all 12 valid 5m bars and hourly median <= own baseline × factor.",
-  "active": "Not dormant and either volume median or tail ratio or active-hour share >= cross-sectional Q75; moderate otherwise. These are relative exploratory quartile categories, not validated natural clusters.",
-  "count": "quote-count count is quote updates, NOT trades; not used. Nonzero amount is only a proxy for continuity, not count of trades.",
-  "limitations": "Known 60d sample, late universe, no true trades/orderbook liquidity. Dormant means sustained relative quiet in this source, not proven absence of trading. 7d provisional/30d context; no insufficient-history imputation.",
-  "sensitivity": "Predefined quiet durations 3/7/14d, calm quantile Q25/Q50; all reported, no outcome-optimized threshold selection."
+  "behavior": {
+    "version": 2,
+    "source": "1aa6b07d68788116fe09c5d68d81cdc2473bee729d07cb772ac7a5278626a31c",
+    "categories": [
+      "unknown",
+      "dormant",
+      "moderate",
+      "active",
+      "noisy"
+    ],
+    "axes": [
+      "days",
+      "quality",
+      "spikes_day",
+      "spikes",
+      "active_share",
+      "quiet_hours",
+      "longest_quiet",
+      "active_run",
+      "active_duration",
+      "returns",
+      "trend7",
+      "trend14",
+      "trend30",
+      "fading",
+      "reviving",
+      "high_floor",
+      "noisy",
+      "quiet_share",
+      "q25",
+      "q75"
+    ],
+    "history": "Contiguous complete trailing days, up to14 for primary; 1–6 limited,7–13 provisional,14 full. Diagnostics7/14/30/available60. Daily anchors strictly prior to observation, lag<24h. Zero is valid; missing breaks runs.",
+    "episodes": "5m volume / previous daily primary median / F. F is past-only cross-sectional median Q90/Q50. Major spike is consecutive 5m exceedance of B=market median past Q99/Q50; hour active if median12 ratios>1 with all valid. Unknown hours break quiet. First left-boundary episode may be censored.",
+    "categories_rule": "Persistent high: Q10>market median usual volume ×F. Noisy: >=1 5m spike episode/day, unless high-floor (separate noisy flag retained). Dormant: >=7 quiet days, <1 spike/day, usual volume<=market reference×F. Moderate otherwise. Requires>=7d; no names or future returns. Descriptive units, not natural clusters.",
+    "fading": "Recent half-window Q75 < older half Q25. Trend7/14/30 = median newer half / older half. Reviving = six closed5m candles above their causal threshold. Quiet_share is observed quiet hour fraction, not a weighted or calibrated dormancy score.",
+    "limitations": "Daily state can lag<24h; turnover not orderbook depth/trade count. No universal0–100 composite: axes depend on history and are correlated. Later period is temporal check on already-known data, not independent validation."
+  },
+  "evaluation": {
+    "source": "ef3213239c88d5848abec9a40b52272589de6b390449bd342ba97966e6e74b72",
+    "source_rows": "adb200452dfae5d6751a826cf353cd9a06452ef55c7e1ea30a318ab3e16d1d9a",
+    "history": "ab3f2ff37dd2156c2e8c3307c4cfc7eabd8cda22bfda576c12ba1d5f1d094e96",
+    "early": "5/15/30/60m; window=min(elapsed,30) closed minutes strictly after detection. Mean minuteUSDT divided by prior median minuteUSDT; market median same ratios over all >=7d eligible peers, excluding own. Q25 and share>priorQ90 describe persistence. Graph raw5m differs in duration, explicitly labelled.",
+    "novelty": "Empirical upper-tail rank of current window mean among nonoverlapping equal-duration prior blocks. Similar episodes/day counts consecutive blocks>=current mean; (1+tailcount)/(N+1) avoids100% certainty. No inference of independence of blocks.",
+    "confirm": ">=7d history; >=24h prior quiet; similar episodes<=1/7day; currentQ25>prior minuteQ90; own/market>1; positive price and BTCETH excess; never previously close>=+20%. First checkpoint only for signal counts.",
+    "outcome": "Unchanged original labels retained. At each early checkpoint compute additional full24h/7d from actual confirmation close, max minuteclose, time_to_max, min return and peak-to-trough drawdown. Incomplete horizons/gaps censored, never failures.",
+    "split": "First30d includes only outcomes ending before boundary; later starts>=day30. Features use trailing past including early period. Data already explored: temporal diagnostic, not independent holdout. No threshold search by returns."
+  },
+  "diagnostics": {
+    "early": {
+      "n": 8804,
+      "quantiles": {
+        "median": [
+          348.390225,
+          353.6901375,
+          368.6466975,
+          739.4667000000001,
+          8018.510353499995,
+          656321.8482679989
+        ],
+        "tail": [
+          1.4349246885018316,
+          2.3967364430772937,
+          4.283422348779228,
+          7.394766239737036,
+          11.464008352351446,
+          26.541103045533255
+        ],
+        "spikes_day": [
+          0.14285714285714285,
+          0.6359890109890111,
+          2.142857142857143,
+          6.0,
+          11.642857142857142,
+          23.854999999999954
+        ],
+        "active_share": [
+          0.0,
+          0.005952380952380952,
+          0.026785714285714284,
+          0.08035714285714286,
+          0.16071428571428573,
+          0.39285714285714285
+        ],
+        "quiet_hours": [
+          4.0,
+          12.0,
+          75.0,
+          218.0,
+          384.0,
+          624.0
+        ],
+        "trend14": [
+          0.6768106989343209,
+          0.9632127369646308,
+          1.0010609165675413,
+          1.0513038069993672,
+          1.668478355678792,
+          6.932120735783651
+        ],
+        "quiet_share": [
+          0.8363095238095238,
+          0.9107142857142857,
+          0.9702380952380952,
+          0.9940476190476191,
+          1.0,
+          1.0
+        ]
+      },
+      "spearman": [
+        [
+          1.0,
+          0.6980111806632964,
+          0.39732827987506847,
+          0.6774645138389828,
+          -0.5163129261060293,
+          0.03238075885505511,
+          -0.636090951862829
+        ],
+        [
+          0.6980111806632964,
+          1.0,
+          0.7762706781481824,
+          0.855478065228557,
+          -0.6522518941468618,
+          0.07223018867546233,
+          -0.8096984266170483
+        ],
+        [
+          0.39732827987506847,
+          0.7762706781481824,
+          1.0,
+          0.753367876956601,
+          -0.5760224095318701,
+          0.1758317657515448,
+          -0.7257142743038512
+        ],
+        [
+          0.6774645138389828,
+          0.8554780652285571,
+          0.753367876956601,
+          1.0,
+          -0.6899463839524672,
+          0.1836864186222847,
+          -0.9487421336957944
+        ],
+        [
+          -0.5163129261060292,
+          -0.6522518941468618,
+          -0.5760224095318701,
+          -0.6899463839524672,
+          0.9999999999999998,
+          -0.33250198217552834,
+          0.6508618428900013
+        ],
+        [
+          0.03238075885505511,
+          0.07223018867546233,
+          0.1758317657515448,
+          0.1836864186222847,
+          -0.33250198217552834,
+          1.0,
+          -0.1581172688156435
+        ],
+        [
+          -0.636090951862829,
+          -0.8096984266170482,
+          -0.7257142743038512,
+          -0.9487421336957944,
+          0.6508618428900014,
+          -0.1581172688156435,
+          1.0
+        ]
+      ]
+    },
+    "later": {
+      "n": 16699,
+      "quantiles": {
+        "median": [
+          346.11585599999995,
+          349.966595,
+          362.11544,
+          572.0243499999999,
+          6456.692664000003,
+          466046.79366000084
+        ],
+        "tail": [
+          1.1876020754191723,
+          1.546162131561708,
+          3.2468438783058784,
+          6.161493374544395,
+          10.604715969833302,
+          26.120255170526857
+        ],
+        "spikes_day": [
+          0.07142857142857142,
+          0.2857142857142857,
+          1.3571428571428572,
+          5.285714285714286,
+          11.857142857142858,
+          23.5
+        ],
+        "active_share": [
+          0.0,
+          0.002976190476190476,
+          0.017857142857142856,
+          0.06845238095238096,
+          0.15476190476190477,
+          0.43452380952380953
+        ],
+        "quiet_hours": [
+          4.0,
+          16.0,
+          84.0,
+          320.0,
+          672.0,
+          1200.0
+        ],
+        "trend14": [
+          0.6292689409349227,
+          0.9318115430669631,
+          0.9915229858243196,
+          1.006978238145238,
+          1.1186058738925235,
+          5.652322140257558
+        ],
+        "quiet_share": [
+          0.8452380952380952,
+          0.9315476190476191,
+          0.9821428571428571,
+          0.9970238095238095,
+          1.0,
+          1.0
+        ]
+      },
+      "spearman": [
+        [
+          0.9999999999999998,
+          0.7866233547924676,
+          0.5414234440340289,
+          0.7146170108801791,
+          -0.6115400609584648,
+          -0.30067635139072313,
+          -0.7148784430399133
+        ],
+        [
+          0.7866233547924677,
+          0.9999999999999998,
+          0.8046266261298738,
+          0.8625788924303531,
+          -0.7187269046184507,
+          -0.2355282357863422,
+          -0.8617490377890623
+        ],
+        [
+          0.541423444034029,
+          0.8046266261298738,
+          1.0,
+          0.8101639681874314,
+          -0.6515842576173233,
+          -0.07112539566681282,
+          -0.8085639100687652
+        ],
+        [
+          0.7146170108801791,
+          0.862578892430353,
+          0.8101639681874314,
+          0.9999999999999998,
+          -0.7727385177674343,
+          -0.0715780355353455,
+          -0.9989502669596196
+        ],
+        [
+          -0.6115400609584648,
+          -0.7187269046184507,
+          -0.6515842576173234,
+          -0.7727385177674342,
+          0.9999999999999998,
+          -0.03961979237301053,
+          0.7718179488956766
+        ],
+        [
+          -0.30067635139072313,
+          -0.2355282357863422,
+          -0.07112539566681282,
+          -0.07157803553534552,
+          -0.03961979237301053,
+          1.0,
+          0.07246740206941797
+        ],
+        [
+          -0.7148784430399133,
+          -0.8617490377890623,
+          -0.8085639100687653,
+          -0.9989502669596197,
+          0.7718179488956765,
+          0.07246740206941797,
+          1.0
+        ]
+      ]
+    },
+    "labels": [
+      "median",
+      "tail",
+      "spikes_day",
+      "active_share",
+      "quiet_hours",
+      "trend14",
+      "quiet_share"
+    ],
+    "adjacent_category_agreement": 0.954507018433959,
+    "window_agreement": {
+      "14": 0.5818139042465592,
+      "30": 0.503717698683569
+    }
+  }
 }

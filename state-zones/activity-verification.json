@@ -1,10 +1,13 @@
 {
   "passed": true,
-  "scalar_checks": 994,
-  "market_checks": 40,
-  "market_window_checks": 40,
-  "event_checks": 42426,
-  "prefix_adversarial": true,
-  "source": "49cbed5f9b41e3443aa8f192c48119b610def93d15218858969d210b4e0a67b3",
-  "history_sha": "bba269b88ba30f8e60eedffef5be3fe620c716a305daeee23e15c5cf804579b6"
+  "scalar_checks": 456,
+  "complete_zones": 41449,
+  "post_outcome_checks": 98,
+  "all_original_zones": 42426,
+  "category_partitions": true,
+  "history_strata": true,
+  "prefix_test": true,
+  "source": "206f2c57d593040b551c1a3947a9019630e5bcf08e1ef85277923391a3d20553",
+  "history": "ab3f2ff37dd2156c2e8c3307c4cfc7eabd8cda22bfda576c12ba1d5f1d094e96",
+  "results": "23d9bd96972e3a6b477a69d7fdbc0f9146fc5368bbba496c1e336ab901997e78"
 }
