@@ -14,7 +14,7 @@ const SignalMap={rows:null,shown:[],cells:new Map(),matches:[],limit:50,token:0,
   for(const id of ['mapFrom','mapTo']){$(id).min=date(catalog.first);$(id).max=date(catalog.last);$(id).onchange=()=>this.render()}
   this.recent();for(const id of ['mapMethod','mapStage'])$(id).onchange=()=>this.render();$('mapSearch').oninput=()=>this.render();document.querySelectorAll('[data-strength]').forEach(x=>x.onchange=()=>this.render());
   $('mapLastDay').onclick=()=>{$('mapFrom').value=$('mapTo').value=date(catalog.last);this.render()};$('mapWhole').onclick=()=>{$('mapFrom').value=date(catalog.first);$('mapTo').value=date(catalog.last);this.render()};$('mapRecent').onclick=()=>{this.recent();this.render()};$('mapClose').onclick=()=>{$('mapSelection').hidden=true};$('mapMore').onclick=()=>{this.limit+=50;this.list()};
-  const packet=await gz('signal-atlas.json.gz?v=shelves0-20261109');this.rows=packet.rows.filter(r=>[0,2,4,5].includes(r[1]));this.render();new ResizeObserver(()=>this.paint()).observe($('mapDays'));
+  const packet=await gz('signal-atlas.json.gz?v=shelves1-20261110');this.rows=packet.rows.filter(r=>[0,2,4,5].includes(r[1]));this.render();new ResizeObserver(()=>this.paint()).observe($('mapDays'));
  },
  recent(){$('mapTo').value=date(catalog.last);$('mapFrom').value=date(Math.max(catalog.first,catalog.last-13*86400))},
  source(){return this.rows},
@@ -39,7 +39,7 @@ const SignalMap={rows:null,shown:[],cells:new Map(),matches:[],limit:50,token:0,
  link(r){return '#'+new URLSearchParams(r[1]>=4?{coin:r[0],zone:`${r[0]}-${r[1]===4?'fast':'long'}-${r[3]}`}:{coin:r[0],signal:r[3],early:'volume3',focus:r[2]})},
  list(){const rows=this.matches.slice(0,this.limit);$('mapMatches').innerHTML='<table><thead><tr><th>Инструмент / оборот</th><th>Момент UTC</th><th>Событие</th><th>Необычность объёма</th><th>Оборот / своя база</th><th></th></tr></thead><tbody>'+rows.map((r,i)=>`<tr><td><b>${catalog.coins[r[0]]}</b><br>${Turnover.badge(r[0],r[2])}</td><td>${utc(stamp(r[2]))}</td><td>${this.kinds[r[1]]}</td><td><i class="signal-color" style="background:${this.colors[r[4]]}"></i>${this.strengths[r[4]]}</td><td>${fmt(r[5],2)}×<br><small>${r[1]===2?'Медиана 3–4 последующих закрытых свечей':'Последняя закрытая 5м свеча'}</small></td><td><a data-event="${i}" href="${this.link(r)}">Открыть график →</a></td></tr>`).join('')+'</tbody></table>';$('mapMore').hidden=this.limit>=this.matches.length;$('mapMatches').querySelectorAll('a').forEach(a=>a.onclick=e=>{e.preventDefault();this.open(this.matches[Number(a.dataset.event)])})},
  describeView(){
-  $('attentionNote').textContent='Объёмные события и прежние зоны изменения объёма/размаха. Это исходные наблюдения, не сигналы пробоя ценовой полки. Детектор полок пока не внедрён; новая методика описана по ссылке ниже.';
+  $('attentionNote').textContent='Объёмные события и прежние зоны изменения объёма/размаха. Это исходные наблюдения, не сигналы пробоя ценовой полки. Ценовые полки и первые пробои доступны отдельным слоем в карточке каждой монеты.';
   $('attentionStats').textContent=`Вся история: ${fmt(this.rows.length,0)} событий; прежняя очередь ключевых моментов снята.`;
  },
  activeFocus:null,

@@ -6819,8 +6819,8 @@
       "sha256": "1eb461e0ff0dec2971136807a417016cd48fba81cf21701acafd73c8505bf706"
     },
     "state-zones/AWAKENING.md": {
-      "bytes": 749,
-      "sha256": "3f33450957d68e8719388213d4dcfa268ba22a73e6dcbe9c6723aa2ee77aa1de"
+      "bytes": 912,
+      "sha256": "86a06787662456c1f3f23d77314825ed5d08601083c331ed66493d4a10559d39"
     },
     "state-zones/COMPARISON.md": {
       "bytes": 18681,
@@ -6835,8 +6835,8 @@
       "sha256": "2776633892345b0a4e10c9ad7239cbac5ffea97f1e6f202e900538177e6735db"
     },
     "state-zones/PRICE-SHELVES.md": {
-      "bytes": 15436,
-      "sha256": "26a5f98f0ac9c0d7f121fd7d4b244315699435eea76f65ab1f149f1c28daaeb2"
+      "bytes": 19707,
+      "sha256": "885e109a0cc210702b094ce81af0c902bb852d3cc3dd2d88b40f67c1f015779f"
     },
     "state-zones/activity-catalog.json.gz": {
       "bytes": 1377455,
@@ -6859,12 +6859,12 @@
       "sha256": "2864841d9bcf487059afd5617ca9f8d11bfadc837833ab2e714da7da7d3f5551"
     },
     "state-zones/activity.css": {
-      "bytes": 7375,
-      "sha256": "d7777f92055df89f5242245cf44976eeed062125aa5f3e723ce22e8e506225b1"
+      "bytes": 7675,
+      "sha256": "d315550c9112c69eca2d753ad2e99ca74827480c405848f9fcdb3a9f6113de46"
     },
     "state-zones/activity.js": {
-      "bytes": 36009,
-      "sha256": "fb42bd6687b8eb1dcb22cf5fdf1b969deb671f407c6d9345af517790d21b275f"
+      "bytes": 36194,
+      "sha256": "c257cda60ac5c8d2aa03b374ca98c74bf0384ab7e5d17ad5038ab092ef36c34f"
     },
     "state-zones/app.js": {
       "bytes": 17585,
@@ -6872,7 +6872,7 @@
     },
     "state-zones/attention-report.html": {
       "bytes": 723,
-      "sha256": "9e095104af619c4226e75a5f9ba52f4b217e12504767f3142e0a7e098d33cf8b"
+      "sha256": "37f184bb41a1e33470372e046e335579aad675021a87fbdae94d6fc61c40eeca"
     },
     "state-zones/awakening-protocol.json": {
       "bytes": 1528,
@@ -6880,7 +6880,7 @@
     },
     "state-zones/awakening-report.html": {
       "bytes": 723,
-      "sha256": "9e095104af619c4226e75a5f9ba52f4b217e12504767f3142e0a7e098d33cf8b"
+      "sha256": "37f184bb41a1e33470372e046e335579aad675021a87fbdae94d6fc61c40eeca"
     },
     "state-zones/awakening-verification.json": {
       "bytes": 229,
@@ -17423,8 +17423,8 @@
       "sha256": "31561ff1185d711f96371e6758aa91aba43d8be7fc28a439fabef403bf28e61d"
     },
     "state-zones/index.html": {
-      "bytes": 21288,
-      "sha256": "612f6dfe32d1fbaf1b1c202fa0206c5290e480b6e8d6aa4b7ee2044d8b5e713e"
+      "bytes": 23949,
+      "sha256": "937fd2328b47c453ff36b8a722f07a26903f59df5b22062e30d887d186420104"
     },
     "state-zones/legacy.html": {
       "bytes": 7536,
@@ -17643,20 +17643,28 @@
       "sha256": "87c5a11f58ed734adca8af0d0d1a60d7e7a45ff189b34e2fd88627fe9b0b01ac"
     },
     "state-zones/price-shelves.html": {
-      "bytes": 18174,
-      "sha256": "cb69a373c3d8805ab06468c07008a53154a89c8e274346e171e1d4006783662f"
+      "bytes": 18562,
+      "sha256": "e5861d8274fb2adfbb200551f3ce214fde6d8d2e3c8a466838e305b20948b18a"
+    },
+    "state-zones/price-shelves.js": {
+      "bytes": 3697,
+      "sha256": "3d8a26d4457f225bc638f6b947abd1e30d6ae102c740eeccd6699364bc268dfb"
     },
     "state-zones/protocol.json": {
       "bytes": 2973,
       "sha256": "074066507d8c8c9e45495fbce901da215f00b621a702884a3a026aa5ca103053"
+    },
+    "state-zones/shelves-ui.js": {
+      "bytes": 7795,
+      "sha256": "c38fc304882459acf1ea0126518d7de547a97d71d4f90c25d883bc292a4658ae"
     },
     "state-zones/signal-atlas.json.gz": {
       "bytes": 1654109,
       "sha256": "712531295172de5e18a8fb4c19243f0f34c434c6666126a26ed6d3473b98eb4b"
     },
     "state-zones/signal-map.js": {
-      "bytes": 12417,
-      "sha256": "f5dabd0a6fef0064cbc2618de228e8d76e57202f3c6033c02bdf325ce830e728"
+      "bytes": 12437,
+      "sha256": "7f49f5f845f4705a541abd5749002e131b2f987c09c9011b0ea752b1a68f34d3"
     },
     "state-zones/style.css": {
       "bytes": 1955,
