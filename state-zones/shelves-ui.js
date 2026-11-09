@@ -4,7 +4,7 @@ const Shelves={
  price(p){return p==null?'—':Number(p.toPrecision(6)).toLocaleString('ru-RU',{maximumFractionDigits:12})},
  load(){
   this.worker?.terminate();this.rows=[];this.signals=[];this.selected=null;this.signal=null;this.ready=false;this.hits=[];this.pending=null;$('shelfStatus').textContent='Восстанавливаем память уровней и минутные серии объёмов…';
-  const worker=this.worker=new Worker('global-levels.js?v=levels2-20261110');
+  const worker=this.worker=new Worker('global-levels.js?v=levels2b-20261110');
   worker.onmessage=async e=>{if(worker!==this.worker)return;if(e.data.error){$('shelfStatus').textContent='Ошибка: '+e.data.error;worker.terminate();return}this.rows=e.data.levels;this.signals=e.data.signals;this.ready=true;worker.terminate();if(this.pending){const p=this.pending;this.pending=null;await this.focus(p.level,p.minute);return}this.refresh();drawChart()};
   worker.onerror=e=>{$('shelfStatus').textContent='Ошибка загрузки уровней: '+e.message;worker.terminate()};
   worker.postMessage({data,n:oldcat.minutes,first:catalog.first});

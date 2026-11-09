@@ -33,7 +33,7 @@ function drawCatalog(){
 }
 async function loadCoin(next,wanted=null,collapse=false){
  const token=++request;$('error').textContent='';$('instrument').hidden=false;$('coinTitle').textContent=catalog.coins[next]+' · загрузка…';
- try{const loaded=await Promise.all([gz(`history/${next}.json.gz`),gz(`coins/${next}.json.gz`),gz(`classifications/${next}.json.gz`),gz(`../minute-replay/coins/${next}.f32.gz`,true),gz(`awakenings/${next}.json.gz?v=levels2-20261110`)]);if(token!==request)return;
+ try{const loaded=await Promise.all([gz(`history/${next}.json.gz`),gz(`coins/${next}.json.gz`),gz(`classifications/${next}.json.gz`),gz(`../minute-replay/coins/${next}.f32.gz`,true),gz(`awakenings/${next}.json.gz?v=levels2b-20261110`)]);if(token!==request)return;
  [states,zones]=loaded;classes=Object.fromEntries(loaded[2].map(z=>[z.id,z]));data=loaded[3];ci=next;Awake.load(loaded[4]);Shelves.load();
  if(wanted?.includes('-fast-'))$('mode').value='fast';
  let z=zones.find(z=>z.id===wanted);if(z)$('zoneCategory').value='all';

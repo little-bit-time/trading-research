@@ -1,7 +1,7 @@
 'use strict';
 // Shared causal replay: browser Worker and complete offline catalogue.
 const GlobalLevels = (() => {
- const protocol={version:'levels2-20261110',bar:15,pivotRadii:[4,24,96],minSpan:360,volumeDays:7,minHistory:1440,volumeMultiple:2,consecutive:3,activeOfFive:4,resetMinutes:30};
+ const protocol={version:'levels2b-20261110',bar:15,pivotRadii:[4,24,96],minSpan:360,volumeDays:7,minHistory:1440,volumeMultiple:2,consecutive:3,activeOfFive:4,resetMinutes:30};
  const quant=(sorted,q)=>sorted.length?sorted[Math.floor((sorted.length-1)*q)]:null;
  const median=a=>quant(a.sort((a,b)=>a-b),.5);
  function scan(data,n,first,limit=n){
@@ -14,7 +14,7 @@ const GlobalLevels = (() => {
   function pivot(price,minute,known,scale,kind){
    // Centres and widths never move. New evidence appends to the same identity.
    let s=neighbourhood(price/(1+.03),price/(1-.03)).filter(s=>Math.abs(s.center-price)<=s.radius+price*tolerance).sort((a,b)=>Math.abs(a.center-price)-Math.abs(b.center-price))[0];
-   if(!s){const radius=price*tolerance;s={id:levels.length,center:price,radius,bottom:price-radius,top:price+radius,start:minute,known,qualified:null,localQualified:null,pivots:[],major:[],stays:[],transitions:[]};levels.push(s);sorted.splice(lower(price),0,s);runtime.set(s.id,{approach:false,exit:false,away:null,cycle:0,attempt:null,lastSide:relation(s,get(3,known)),armed:get(3,known)<s.bottom});for(let k=minute;k<=known;k++)if(valid(k))visit(s,k,get(3,k));}
+   if(!s){const radius=price*tolerance;s={id:levels.length,center:price,radius,bottom:price-radius,top:price+radius,start:minute,pivotStart:minute,known,qualified:null,localQualified:null,pivots:[],major:[],stays:[],transitions:[]};levels.push(s);sorted.splice(lower(price),0,s);runtime.set(s.id,{approach:false,exit:false,away:null,cycle:0,attempt:null,lastSide:relation(s,get(3,known)),armed:get(3,known)<s.bottom});let start=0;while(start<known&&(!valid(start)||relation(s,get(3,start))!==0))start++;s.start=start;for(let k=start;k<=known;k++)if(valid(k))visit(s,k,get(3,k));}
    const old=s.pivots.at(-1);
    if(scale>=360){const prior=s.major.at(-1);let independent=!prior;if(prior&&minute-prior.minute>=protocol.minSpan){for(let k=prior.minute+1;k<minute;k++)if(valid(k)&&Math.abs(get(3,k)-s.center)>2*s.radius){independent=true;break}}if(independent){s.major.push({minute,known,scale,kind});if(s.qualified===null&&s.major.length>=2)s.qualified=known;}}
    if(s.pivots.some(p=>p.minute===minute))return;

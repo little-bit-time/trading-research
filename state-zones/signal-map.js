@@ -14,7 +14,7 @@ const SignalMap={rows:null,shown:[],cells:new Map(),matches:[],limit:50,token:0,
   for(const id of ['mapFrom','mapTo']){$(id).min=date(catalog.first);$(id).max=date(catalog.last);$(id).onchange=()=>this.render()}
   this.recent();for(const id of ['mapMethod','mapStage','mapContinuations'])$(id).onchange=()=>this.render();$('mapSearch').oninput=()=>this.render();document.querySelectorAll('[data-strength]').forEach(x=>x.onchange=()=>this.render());
   $('mapLastDay').onclick=()=>{$('mapFrom').value=$('mapTo').value=date(catalog.last);this.render()};$('mapWhole').onclick=()=>{$('mapFrom').value=date(catalog.first);$('mapTo').value=date(catalog.last);this.render()};$('mapRecent').onclick=()=>{this.recent();this.render()};$('mapClose').onclick=()=>{$('mapSelection').hidden=true};$('mapMore').onclick=()=>{this.limit+=50;this.list()};
-  const [packet,levels]=await Promise.all([gz('signal-atlas.json.gz?v=levels2-20261110'),gz('level-atlas.json.gz?v=levels2-20261110')]);this.rows=packet.rows.filter(r=>[0,2,4,5].includes(r[1])).concat(levels.rows);this.levelSummary=levels.summary;this.render();new ResizeObserver(()=>this.paint()).observe($('mapDays'));
+  const [packet,levels]=await Promise.all([gz('signal-atlas.json.gz?v=levels2b-20261110'),gz('level-atlas.json.gz?v=levels2b-20261110')]);this.rows=packet.rows.filter(r=>[0,2,4,5].includes(r[1])).concat(levels.rows);this.levelSummary=levels.summary;this.render();new ResizeObserver(()=>this.paint()).observe($('mapDays'));
  },
  recent(){$('mapTo').value=date(catalog.last);$('mapFrom').value=date(Math.max(catalog.first,catalog.last-13*86400))},
  source(){return this.rows},
