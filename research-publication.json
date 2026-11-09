@@ -6830,13 +6830,17 @@
       "bytes": 24261,
       "sha256": "2a7dfea04ec9c0ba1bcd5919e742604be897d62108990a348fa869bed730f6b1"
     },
+    "state-zones/GLOBAL-LEVELS.md": {
+      "bytes": 12762,
+      "sha256": "61932d77c7fe7831883f4963a45bcb68d33ee6f67e55ea20e7162dd6581d6d2a"
+    },
     "state-zones/METHOD.md": {
       "bytes": 14040,
       "sha256": "2776633892345b0a4e10c9ad7239cbac5ffea97f1e6f202e900538177e6735db"
     },
     "state-zones/PRICE-SHELVES.md": {
-      "bytes": 19707,
-      "sha256": "885e109a0cc210702b094ce81af0c902bb852d3cc3dd2d88b40f67c1f015779f"
+      "bytes": 19376,
+      "sha256": "c71cca72337b42d9747687e956a2afd250c365ce466c1a6b1153e878ed3f2f6a"
     },
     "state-zones/activity-catalog.json.gz": {
       "bytes": 1377455,
@@ -6863,24 +6867,24 @@
       "sha256": "d315550c9112c69eca2d753ad2e99ca74827480c405848f9fcdb3a9f6113de46"
     },
     "state-zones/activity.js": {
-      "bytes": 36194,
-      "sha256": "c257cda60ac5c8d2aa03b374ca98c74bf0384ab7e5d17ad5038ab092ef36c34f"
+      "bytes": 36390,
+      "sha256": "58eeb4b1370e7cdfd9798233e0791338929d14abc3f9a7aac1c664b2478aca0b"
     },
     "state-zones/app.js": {
       "bytes": 17585,
       "sha256": "77fc266ddd723d6f0b722b494305d6c4bf66bc2aefe5823dd500a45fbd521344"
     },
     "state-zones/attention-report.html": {
-      "bytes": 723,
-      "sha256": "37f184bb41a1e33470372e046e335579aad675021a87fbdae94d6fc61c40eeca"
+      "bytes": 722,
+      "sha256": "740ca8a170ca237637089447b2ba5f3883dc192395811456aa6e2e2684c276cf"
     },
     "state-zones/awakening-protocol.json": {
       "bytes": 1528,
       "sha256": "e8e464c9b7b1d62102e4639660fa554e983f6016fc296c159d8948780d17b069"
     },
     "state-zones/awakening-report.html": {
-      "bytes": 723,
-      "sha256": "37f184bb41a1e33470372e046e335579aad675021a87fbdae94d6fc61c40eeca"
+      "bytes": 722,
+      "sha256": "740ca8a170ca237637089447b2ba5f3883dc192395811456aa6e2e2684c276cf"
     },
     "state-zones/awakening-verification.json": {
       "bytes": 229,
@@ -14794,6 +14798,10 @@
       "bytes": 57151,
       "sha256": "55f7598a63cea775d2f442bff1c5a516d566666cf2438436c5144aa45b4ab3ff"
     },
+    "state-zones/global-levels.js": {
+      "bytes": 8220,
+      "sha256": "5ac0602d232285cad399cc305c6cd855d24517ddf04c5a3c3980a818d1b72321"
+    },
     "state-zones/history/0.json.gz": {
       "bytes": 11882,
       "sha256": "ab196a119ce0c69146958627f868a2dab1f0e23c32564c8d552331bb514a11a1"
@@ -17423,12 +17431,16 @@
       "sha256": "31561ff1185d711f96371e6758aa91aba43d8be7fc28a439fabef403bf28e61d"
     },
     "state-zones/index.html": {
-      "bytes": 23949,
-      "sha256": "937fd2328b47c453ff36b8a722f07a26903f59df5b22062e30d887d186420104"
+      "bytes": 25505,
+      "sha256": "93b03c7221139114b78d04f73c7a3bd3ab058efe96bd9f329484e9c6046149d2"
     },
     "state-zones/legacy.html": {
       "bytes": 7536,
       "sha256": "f05852cda5313b77e8eeaebe9a380d0c572485cbf4605d82202e53e7bb3be78b"
+    },
+    "state-zones/level-atlas.json.gz": {
+      "bytes": 459428,
+      "sha256": "2f39c260545997cf4d27746b19556466bf0ef779b8ff4057ada7f5a2b003029b"
     },
     "state-zones/market/10.json.gz": {
       "bytes": 140552,
@@ -17643,8 +17655,8 @@
       "sha256": "87c5a11f58ed734adca8af0d0d1a60d7e7a45ff189b34e2fd88627fe9b0b01ac"
     },
     "state-zones/price-shelves.html": {
-      "bytes": 18562,
-      "sha256": "e5861d8274fb2adfbb200551f3ce214fde6d8d2e3c8a466838e305b20948b18a"
+      "bytes": 18962,
+      "sha256": "3898e0e1307fb9291ae01eeca85c0c54d885150e70cee2e493a60ae2e2d67328"
     },
     "state-zones/price-shelves.js": {
       "bytes": 3697,
@@ -17655,16 +17667,16 @@
       "sha256": "074066507d8c8c9e45495fbce901da215f00b621a702884a3a026aa5ca103053"
     },
     "state-zones/shelves-ui.js": {
-      "bytes": 7795,
-      "sha256": "c38fc304882459acf1ea0126518d7de547a97d71d4f90c25d883bc292a4658ae"
+      "bytes": 12590,
+      "sha256": "1084ad5c976367bc3d1ba7351098304f5c7d6a2dfea7aa7e744843d2e3c55f54"
     },
     "state-zones/signal-atlas.json.gz": {
       "bytes": 1654109,
       "sha256": "712531295172de5e18a8fb4c19243f0f34c434c6666126a26ed6d3473b98eb4b"
     },
     "state-zones/signal-map.js": {
-      "bytes": 12437,
-      "sha256": "7f49f5f845f4705a541abd5749002e131b2f987c09c9011b0ea752b1a68f34d3"
+      "bytes": 13375,
+      "sha256": "3491defb6d909c69db8b1b6599a1db0004dd96f3fdc56f822e3e4aca695f7bd0"
     },
     "state-zones/style.css": {
       "bytes": 1955,
