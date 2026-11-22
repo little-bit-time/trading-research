@@ -1,10 +1,11 @@
 (() => {
   const events = window.PUMP_ATLAS_DATA.events;
+  const universe = window.PUMP_ATLAS_DATA.universe;
+  const latestGroups = universe.latestGroups;
   const sectionOrder = ['≤1 млн','1–5 млн','5–10 млн','10–25 млн','25–50 млн','50–100 млн','>100 млн'];
   const colors = ['#5cdeed','#87f1c2','#c2eb72','#ffcf66','#ff9c5c','#ff6b77','#c49aff'];
   const colorOf = section => colors[sectionOrder.indexOf(section)] ?? '#fff';
   const exchanges = ['Binance','Bybit','Gate','KuCoin','MEXC'];
-  const exchangeColors = {Binance:'#f5c84c',Bybit:'#f4a64f',Gate:'#54d7a3',KuCoin:'#6ea8ff',MEXC:'#9a87ff'};
   const $ = id => document.getElementById(id);
   const esc = value => String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
   const fmtMoney = value => value >= 1e9 ? `${(value/1e9).toFixed(2)} млрд` : value >= 1e6 ? `${(value/1e6).toFixed(2)} млн` : value >= 1e3 ? `${Math.round(value/1e3)} тыс.` : `${Math.round(value)}`;
@@ -14,36 +15,52 @@
   const fmtDate = value => new Intl.DateTimeFormat('ru-RU',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'UTC'}).format(new Date(value)).replace(',',' ·')+' UTC';
   const quantile = (values,q) => { const a=[...values].filter(Number.isFinite).sort((x,y)=>x-y); if(!a.length)return null; const p=(a.length-1)*q,l=Math.floor(p),h=Math.ceil(p); return a[l]+(a[h]-a[l])*(p-l); };
 
-  $('section').insertAdjacentHTML('beforeend', sectionOrder.map(x=>`<option>${x}</option>`).join(''));
-  $('exchange').insertAdjacentHTML('beforeend', exchanges.map(x=>`<option>${x}</option>`).join(''));
+  $('exchangeChecks').innerHTML = exchanges.map(x=>`<label class="exchange-chip"><input type="checkbox" value="${x}"><span>${x}</span></label>`).join('');
   $('legend').innerHTML = sectionOrder.map((x,i)=>`<span class="legend-item"><i class="dot" style="background:${colors[i]}"></i>${x}</span>`).join('');
   $('heroFacts').innerHTML = [
     ['163','подтверждённых x2'],['145','production-групп'],['2,36x','медиана max 14d'],['23,5%','групп дали x2 за период']
   ].map(([v,l])=>`<div class="fact"><strong>${v}</strong><span>${l}</span></div>`).join('');
 
-  const state = {search:'',section:'',exchange:'',strength:2,horizon:14,sort:'volume'};
+  const state = {search:'',minVolume:0,maxVolume:Infinity,exchanges:new Set(),exchangeMode:'all',strength:2,horizon:14,sort:'volume'};
+  const volumeMatches = value => value >= state.minVolume && value <= state.maxVolume;
+  const exchangesMatch = values => {
+    if (!state.exchanges.size) return true;
+    const present = values instanceof Array ? new Set(values) : new Set(Object.keys(values));
+    const selected = [...state.exchanges];
+    return state.exchangeMode === 'all' ? selected.every(x => present.has(x)) : selected.some(x => present.has(x));
+  };
   function value(event){ return state.horizon===30 ? event.max30 : event.max14; }
   function duration(event){ return state.horizon===30 ? event.hoursToHigh30 : event.hoursToHigh14; }
   function filtered(){
     let rows=events.filter(e => (!state.search || e.coin.toLowerCase().includes(state.search))
-      && (!state.section || e.section===state.section)
-      && (!state.exchange || Object.hasOwn(e.byExchange,state.exchange))
+      && volumeMatches(e.totalVolume)
+      && exchangesMatch(e.byExchange)
       && value(e)>=state.strength
       && (state.horizon!==30 || e.followupComplete));
     const compare={volume:(a,b)=>a.totalVolume-b.totalVolume,strength:(a,b)=>value(b)-value(a),duration:(a,b)=>duration(a)-duration(b),date:(a,b)=>Date.parse(b.baseTime)-Date.parse(a.baseTime)}[state.sort];
     return rows.sort(compare);
   }
 
-  function renderSummary(rows){
+  function filteredPool(){
+    return latestGroups.filter(group => (!state.search || group.coin.toLowerCase().includes(state.search))
+      && volumeMatches(group.totalVolume)
+      && exchangesMatch(group.exchanges));
+  }
+
+  function renderSummary(rows, pool){
     const complete=rows.filter(x=>x.followupComplete);
-  const byGroup = new Set(rows.map(x => x.id.split('-').slice(0, -1).join('-')));
+    const byGroup = new Set(rows.map(x => x.id.split('-').slice(0, -1).join('-')));
     const values=rows.map(value);
-    const total=rows.reduce((s,x)=>s+x.totalVolume,0);
     $('summaryStrip').innerHTML=[
-      [rows.length,'событий в фильтре'],[byGroup.size,'уникальных групп'],[values.length?fmtX(quantile(values,.5)):'—',`медиана max ${state.horizon}d`],
-      [rows.length?fmtMoney(total/rows.length):'—','средний предпамповый оборот'],[complete.length,'полных 30d окон']
+      [rows.length,'памп-событий в фильтре'],[byGroup.size,'групп с пампами'],[`${pool.length} / ${universe.latestEligibleGroupCount}`,`групп на срезе ${universe.latestDate.slice(5).split('-').reverse().join('.')}`],
+      [fmtPct(rows.length/events.length),'сохранено всех пампов'],[values.length?fmtX(quantile(values,.5)):'—',`медиана max ${state.horizon}d`],[complete.length,'полных 30d окон']
     ].map(([v,l])=>`<div class="metric"><strong>${v}</strong><span>${l}</span></div>`).join('');
     $('tableTitle').textContent=`${rows.length} ${rows.length===1?'памп':'пампов'}`;
+    const selected=[...state.exchanges];
+    const exchangeText=!selected.length?'без ограничения по биржам':selected.length===1?`присутствует ${selected[0]}`:state.exchangeMode==='all'?`присутствуют все: ${selected.join(', ')}`:`присутствует хотя бы одна: ${selected.join(', ')}`;
+    const min=fmtMoney(state.minVolume),max=Number.isFinite(state.maxVolume)?fmtMoney(state.maxVolume):'∞';
+    const missing=universe.groupCount-universe.latestEligibleGroupCount;
+    $('poolNote').innerHTML=`<strong>Знаменатель:</strong> ${pool.length} production-групп на срезе ${universe.latestDate}, оборот ${min}–${max} USDT/сутки, ${exchangeText}. Сила и горизонт пампа на этот счётчик не влияют. Из ${universe.groupCount} production-групп сопоставимый latest-профиль spot+futures есть у ${universe.latestEligibleGroupCount}; ещё ${missing} не вошли из-за неполных данных на эту дату. Это размер пула на одну дату, а не вероятность: пампы собраны за весь трёхмесячный период.`;
   }
 
   function renderScatter(rows){
@@ -88,9 +105,11 @@
     $('detail').showModal(); history.replaceState(null,'',`#event=${encodeURIComponent(e.id)}`);
   }
 
-  function render(){const rows=filtered();renderSummary(rows);renderScatter(rows);renderCards(rows)}
-  [['search','search'],['section','section'],['exchange','exchange'],['strength','strength'],['horizon','horizon'],['sort','sort']].forEach(([id,key])=>$(id).addEventListener(id==='search'?'input':'change',ev=>{state[key]=['strength','horizon'].includes(key)?Number(ev.target.value):(key==='search'?ev.target.value.toLowerCase():ev.target.value);render()}));
-  $('reset').addEventListener('click',()=>{Object.assign(state,{search:'',section:'',exchange:'',strength:2,horizon:14,sort:'volume'});['search','section','exchange'].forEach(id=>$(id).value='');$('strength').value='2';$('horizon').value='14';$('sort').value='volume';render()});
+  function render(){const rows=filtered(),pool=filteredPool();renderSummary(rows,pool);renderScatter(rows);renderCards(rows)}
+  [['search','search'],['strength','strength'],['horizon','horizon'],['sort','sort'],['exchangeMode','exchangeMode']].forEach(([id,key])=>$(id).addEventListener(id==='search'?'input':'change',ev=>{state[key]=['strength','horizon'].includes(key)?Number(ev.target.value):(key==='search'?ev.target.value.toLowerCase():ev.target.value);render()}));
+  [['minVolume','minVolume',0],['maxVolume','maxVolume',Infinity]].forEach(([id,key,fallback])=>$(id).addEventListener('input',ev=>{const value=ev.target.value.trim()===''?fallback:Number(ev.target.value)*1e6;state[key]=Number.isFinite(value)?value:fallback;render()}));
+  $('exchangeChecks').addEventListener('change',ev=>{if(!ev.target.matches('input[type=checkbox]'))return;ev.target.checked?state.exchanges.add(ev.target.value):state.exchanges.delete(ev.target.value);render()});
+  $('reset').addEventListener('click',()=>{Object.assign(state,{search:'',minVolume:0,maxVolume:Infinity,exchanges:new Set(),exchangeMode:'all',strength:2,horizon:14,sort:'volume'});['search','minVolume','maxVolume'].forEach(id=>$(id).value='');$('exchangeChecks').querySelectorAll('input').forEach(x=>x.checked=false);$('exchangeMode').value='all';$('strength').value='2';$('horizon').value='14';$('sort').value='volume';render()});
   $('closeDetail').addEventListener('click',()=>{$('detail').close();history.replaceState(null,'',location.pathname)});$('detail').addEventListener('click',ev=>{if(ev.target===$('detail'))$('closeDetail').click()});
   render();
   const hash=new URLSearchParams(location.hash.slice(1)); if(hash.get('event'))openDetail(hash.get('event'));

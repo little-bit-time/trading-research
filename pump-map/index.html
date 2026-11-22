@@ -22,14 +22,15 @@
   <main>
     <section class="controls" aria-label="Фильтры">
       <label class="search"><span>Поиск</span><input id="search" type="search" placeholder="LSK, AKE, IRYS…" autocomplete="off"></label>
-      <label><span>Предпамповый оборот</span><select id="section"><option value="">Все секции</option></select></label>
-      <label><span>Биржа присутствует</span><select id="exchange"><option value="">Все биржи</option></select></label>
+      <div class="range-filter"><span>Оборот группы, млн USDT/сутки</span><div><input id="minVolume" type="number" min="0" step="0.1" placeholder="от 0" aria-label="Минимальный оборот, млн USDT в сутки"><b>—</b><input id="maxVolume" type="number" min="0" step="0.1" placeholder="до ∞" aria-label="Максимальный оборот, млн USDT в сутки"></div></div>
+      <fieldset class="exchange-filter"><legend>Биржи присутствуют</legend><div class="exchange-checks" id="exchangeChecks"></div><select id="exchangeMode" aria-label="Правило совпадения бирж"><option value="all">все выбранные</option><option value="any">хотя бы одна</option></select></fieldset>
       <label><span>Сила минимум</span><select id="strength"><option value="2">от 2x</option><option value="3">от 3x</option><option value="5">от 5x</option><option value="10">от 10x</option></select></label>
       <label><span>Горизонт</span><select id="horizon"><option value="14">max 14 дней</option><option value="30">max 30 дней · полные окна</option></select></label>
       <button id="reset" type="button">Сбросить</button>
     </section>
 
     <section class="summary-strip" id="summaryStrip" aria-live="polite"></section>
+    <aside class="pool-note" id="poolNote"></aside>
 
     <section class="panel chart-panel">
       <div class="panel-head">
