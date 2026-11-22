@@ -6811,16 +6811,16 @@
       "sha256": "52e95eb36971d56875d5adb8b019b298ebdd2d0099b05c1f8e4e496912bdd0e7"
     },
     "pump-map/app.js": {
-      "bytes": 15430,
-      "sha256": "aa070ef678af713d0359bfd91f66c59a1c611cac518c67cf71c16c16a76d7c35"
+      "bytes": 16266,
+      "sha256": "41cffb3957bdda66a138487522634ea3977ea163288be2372ebfb3e143fe00b0"
     },
     "pump-map/data.js": {
       "bytes": 795423,
-      "sha256": "b529226427a6e29e9ddd103fa75408d91815d5c6b3ba8c5145d590794d316113"
+      "sha256": "114f39051f1cd25bda5cec45c6f9ed2bd22ed38a5eabbaf52c0efb66d43c7ffb"
     },
     "pump-map/index.html": {
-      "bytes": 4420,
-      "sha256": "cc3b6060c15fc9b5ed06cc066bd22d97fc59212e107e7b767345b814e72b785e"
+      "bytes": 4521,
+      "sha256": "26e8c6ce475bdbb253d3a853ef907785765f8d19d3bdc2c0b5f155440000deea"
     },
     "pump-map/styles.css": {
       "bytes": 7985,

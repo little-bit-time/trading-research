@@ -24,8 +24,9 @@
   const state = {search:'',minVolume:0,maxVolume:Infinity,exchanges:new Set(),exchangeMode:'all',strength:2,horizon:14,sort:'volume'};
   const volumeMatches = value => value >= state.minVolume && value <= state.maxVolume;
   const exchangesMatch = values => {
-    if (!state.exchanges.size) return true;
     const present = values instanceof Array ? new Set(values) : new Set(Object.keys(values));
+    if (state.exchangeMode === 'binance-plus-other') return present.has('Binance') && [...present].some(x => x !== 'Binance');
+    if (!state.exchanges.size) return true;
     const selected = [...state.exchanges];
     return state.exchangeMode === 'all' ? selected.every(x => present.has(x)) : selected.some(x => present.has(x));
   };
@@ -35,8 +36,7 @@
     let rows=events.filter(e => (!state.search || e.coin.toLowerCase().includes(state.search))
       && volumeMatches(e.totalVolume)
       && exchangesMatch(e.byExchange)
-      && value(e)>=state.strength
-      && (state.horizon!==30 || e.followupComplete));
+      && value(e)>=state.strength);
     const compare={volume:(a,b)=>a.totalVolume-b.totalVolume,strength:(a,b)=>value(b)-value(a),duration:(a,b)=>duration(a)-duration(b),date:(a,b)=>Date.parse(b.baseTime)-Date.parse(a.baseTime)}[state.sort];
     return rows.sort(compare);
   }
@@ -57,10 +57,11 @@
     ].map(([v,l])=>`<div class="metric"><strong>${v}</strong><span>${l}</span></div>`).join('');
     $('tableTitle').textContent=`${rows.length} ${rows.length===1?'памп':'пампов'}`;
     const selected=[...state.exchanges];
-    const exchangeText=!selected.length?'без ограничения по биржам':selected.length===1?`присутствует ${selected[0]}`:state.exchangeMode==='all'?`присутствуют все: ${selected.join(', ')}`:`присутствует хотя бы одна: ${selected.join(', ')}`;
+    const exchangeText=state.exchangeMode==='binance-plus-other'?'присутствуют Binance и хотя бы одна другая биржа':!selected.length?'без ограничения по биржам':selected.length===1?`присутствует ${selected[0]}`:state.exchangeMode==='all'?`присутствуют все: ${selected.join(', ')}`:`присутствует хотя бы одна: ${selected.join(', ')}`;
     const min=fmtMoney(state.minVolume),max=Number.isFinite(state.maxVolume)?fmtMoney(state.maxVolume):'∞';
     const missing=universe.groupCount-universe.latestEligibleGroupCount;
-    $('poolNote').innerHTML=`<strong>Знаменатель:</strong> ${pool.length} production-групп на срезе ${universe.latestDate}, оборот ${min}–${max} USDT/сутки, ${exchangeText}. Сила и горизонт пампа на этот счётчик не влияют. Из ${universe.groupCount} production-групп сопоставимый latest-профиль spot+futures есть у ${universe.latestEligibleGroupCount}; ещё ${missing} не вошли из-за неполных данных на эту дату. Это размер пула на одну дату, а не вероятность: пампы собраны за весь трёхмесячный период.`;
+    const horizonText=state.horizon===30?` Для ${complete.length} событий окно 30d полное; для ${rows.length-complete.length} показан максимум доступной части окна, поэтому они не исчезают из выборки только из-за конца архива.`:'';
+    $('poolNote').innerHTML=`<strong>Знаменатель:</strong> ${pool.length} production-групп на срезе ${universe.latestDate}, оборот ${min}–${max} USDT/сутки, ${exchangeText}. Сила и горизонт пампа на этот счётчик не влияют. Из ${universe.groupCount} production-групп сопоставимый latest-профиль spot+futures есть у ${universe.latestEligibleGroupCount}; ещё ${missing} не вошли из-за неполных данных на эту дату. Это размер пула на одну дату, а не вероятность: пампы собраны за весь трёхмесячный период.${horizonText}`;
   }
 
   function renderScatter(rows){
@@ -106,10 +107,11 @@
   }
 
   function render(){const rows=filtered(),pool=filteredPool();renderSummary(rows,pool);renderScatter(rows);renderCards(rows)}
-  [['search','search'],['strength','strength'],['horizon','horizon'],['sort','sort'],['exchangeMode','exchangeMode']].forEach(([id,key])=>$(id).addEventListener(id==='search'?'input':'change',ev=>{state[key]=['strength','horizon'].includes(key)?Number(ev.target.value):(key==='search'?ev.target.value.toLowerCase():ev.target.value);render()}));
+  [['search','search'],['strength','strength'],['horizon','horizon'],['sort','sort']].forEach(([id,key])=>$(id).addEventListener(id==='search'?'input':'change',ev=>{state[key]=['strength','horizon'].includes(key)?Number(ev.target.value):(key==='search'?ev.target.value.toLowerCase():ev.target.value);render()}));
   [['minVolume','minVolume',0],['maxVolume','maxVolume',Infinity]].forEach(([id,key,fallback])=>$(id).addEventListener('input',ev=>{const value=ev.target.value.trim()===''?fallback:Number(ev.target.value)*1e6;state[key]=Number.isFinite(value)?value:fallback;render()}));
   $('exchangeChecks').addEventListener('change',ev=>{if(!ev.target.matches('input[type=checkbox]'))return;ev.target.checked?state.exchanges.add(ev.target.value):state.exchanges.delete(ev.target.value);render()});
-  $('reset').addEventListener('click',()=>{Object.assign(state,{search:'',minVolume:0,maxVolume:Infinity,exchanges:new Set(),exchangeMode:'all',strength:2,horizon:14,sort:'volume'});['search','minVolume','maxVolume'].forEach(id=>$(id).value='');$('exchangeChecks').querySelectorAll('input').forEach(x=>x.checked=false);$('exchangeMode').value='all';$('strength').value='2';$('horizon').value='14';$('sort').value='volume';render()});
+  $('exchangeMode').addEventListener('change',ev=>{state.exchangeMode=ev.target.value;const special=state.exchangeMode==='binance-plus-other';$('exchangeChecks').querySelectorAll('input').forEach(x=>{x.disabled=special;if(special)x.checked=false});if(special)state.exchanges.clear();render()});
+  $('reset').addEventListener('click',()=>{Object.assign(state,{search:'',minVolume:0,maxVolume:Infinity,exchanges:new Set(),exchangeMode:'all',strength:2,horizon:14,sort:'volume'});['search','minVolume','maxVolume'].forEach(id=>$(id).value='');$('exchangeChecks').querySelectorAll('input').forEach(x=>{x.checked=false;x.disabled=false});$('exchangeMode').value='all';$('strength').value='2';$('horizon').value='14';$('sort').value='volume';render()});
   $('closeDetail').addEventListener('click',()=>{$('detail').close();history.replaceState(null,'',location.pathname)});$('detail').addEventListener('click',ev=>{if(ev.target===$('detail'))$('closeDetail').click()});
   render();
   const hash=new URLSearchParams(location.hash.slice(1)); if(hash.get('event'))openDetail(hash.get('event'));
