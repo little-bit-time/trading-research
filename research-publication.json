@@ -1251,8 +1251,8 @@
       "sha256": "740ba7ff033416966f3375ec6017a7b47781b98d8d0ddde6254ff9a21e5e0ebc"
     },
     "index.html": {
-      "bytes": 4814,
-      "sha256": "1bdf57169c962df2beefd01d562171227edd9059a87a562ffd3fddfe34d2be27"
+      "bytes": 4956,
+      "sha256": "c5165fe2de56bb1c8c6d19b3d0c23fb122adc8dfed83d318e94707be3637f6fe"
     },
     "minute-replay/all-spikes.json.gz": {
       "bytes": 55489376,
