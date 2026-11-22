@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Интерактивный атлас x2-пампов production-групп: сила, длительность и предпамповый оборот по биржам.">
+  <title>Атлас x2-пампов · AbnormalTrading</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="eyebrow">ABNORMALTRADING · 15 AUG — 15 NOV 2026</div>
+    <div class="hero-grid">
+      <div>
+        <h1>Атлас <span>x2-пампов</span></h1>
+        <p class="lede">163 подтверждённые волны. Оборот до старта — отдельно по каждой бирже и рынку. Нажмите любую точку или строку.</p>
+      </div>
+      <div class="hero-facts" id="heroFacts"></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Фильтры">
+      <label class="search"><span>Поиск</span><input id="search" type="search" placeholder="LSK, AKE, IRYS…" autocomplete="off"></label>
+      <label><span>Предпамповый оборот</span><select id="section"><option value="">Все секции</option></select></label>
+      <label><span>Биржа присутствует</span><select id="exchange"><option value="">Все биржи</option></select></label>
+      <label><span>Сила минимум</span><select id="strength"><option value="2">от 2x</option><option value="3">от 3x</option><option value="5">от 5x</option><option value="10">от 10x</option></select></label>
+      <label><span>Горизонт</span><select id="horizon"><option value="14">max 14 дней</option><option value="30">max 30 дней · полные окна</option></select></label>
+      <button id="reset" type="button">Сбросить</button>
+    </section>
+
+    <section class="summary-strip" id="summaryStrip" aria-live="polite"></section>
+
+    <section class="panel chart-panel">
+      <div class="panel-head">
+        <div><div class="eyebrow">КАРТА СОБЫТИЙ</div><h2>Ликвидность → сила движения</h2></div>
+        <div class="legend" id="legend"></div>
+      </div>
+      <div class="chart-wrap"><svg id="scatter" role="img" aria-label="Диаграмма силы пампов по предпамповому обороту"></svg></div>
+      <div class="chart-note">Ось оборота логарифмическая. Размер точки — длительность до high: крупнее означает дольше. Цвет — секция предпампового оборота.</div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head table-head">
+        <div><div class="eyebrow">ВСЕ СОБЫТИЯ</div><h2 id="tableTitle">163 пампа</h2></div>
+        <label><span>Сортировка</span><select id="sort"><option value="volume">Оборот ↑</option><option value="strength">Сила ↓</option><option value="duration">До high ↑</option><option value="date">Дата ↓</option></select></label>
+      </div>
+      <div class="event-grid" id="eventGrid"></div>
+    </section>
+  </main>
+
+  <dialog id="detail">
+    <button class="close" id="closeDetail" aria-label="Закрыть">×</button>
+    <div id="detailContent"></div>
+  </dialog>
+
+  <footer>Ретроспективная карта исходов, не торговый сигнал. Цена группы — медиана multiplier-нормализованных OHLC; quote volume складывается после отдельного расчёта каждого рынка.</footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
